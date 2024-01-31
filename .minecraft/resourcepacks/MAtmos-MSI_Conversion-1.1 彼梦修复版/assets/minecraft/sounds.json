@@ -422,33 +422,6 @@
       "matmos_msi/diamondoredetectedreverb"
     ]
   },
-  "matmos_msi.end.dragon": {
-    "category": "ambient",
-    "sounds": [
-      "matmos_msi/end/dragon1",
-      "matmos_msi/end/dragon2",
-      "matmos_msi/end/dragon3",
-      "matmos_msi/end/dragon4",
-      "matmos_msi/end/dragon5",
-      "matmos_msi/end/dragon6",
-      "matmos_msi/end/dragon7",
-      "matmos_msi/end/dragon8",
-      "matmos_msi/end/dragon9"
-    ]
-  },
-  "matmos_msi.end.loop": {
-    "category": "ambient",
-    "sounds": [
-      "matmos_msi/end/loop1",
-      "matmos_msi/end/loop2",
-      "matmos_msi/end/loop3",
-      "matmos_msi/end/loop4",
-      "matmos_msi/end/loop5",
-      "matmos_msi/end/loop6",
-      "matmos_msi/end/loop7",
-      "matmos_msi/end/loop8"
-    ]
-  },
   "matmos_msi.eremaldoredetected": {
     "category": "ambient",
     "sounds": [
@@ -1023,12 +996,6 @@
       "matmos_msi/jungle/junglele"
     ]
   },
-  "matmos_msi.jungle.junglelf": {
-    "category": "ambient",
-    "sounds": [
-      "matmos_msi/jungle/junglelf"
-    ]
-  },
   "matmos_msi.jungle.junglelg": {
     "category": "ambient",
     "sounds": [
@@ -1047,40 +1014,16 @@
       "matmos_msi/jungle/junglesa"
     ]
   },
-  "matmos_msi.jungle.junglesb": {
-    "category": "ambient",
-    "sounds": [
-      "matmos_msi/jungle/junglesb"
-    ]
-  },
   "matmos_msi.jungle.junglesc": {
     "category": "ambient",
     "sounds": [
       "matmos_msi/jungle/junglesc"
     ]
   },
-  "matmos_msi.jungle.junglesd": {
-    "category": "ambient",
-    "sounds": [
-      "matmos_msi/jungle/junglesd"
-    ]
-  },
-  "matmos_msi.jungle.junglese": {
-    "category": "ambient",
-    "sounds": [
-      "matmos_msi/jungle/junglese"
-    ]
-  },
   "matmos_msi.jungle.junglesf": {
     "category": "ambient",
     "sounds": [
       "matmos_msi/jungle/junglesf"
-    ]
-  },
-  "matmos_msi.jungle.junglesg": {
-    "category": "ambient",
-    "sounds": [
-      "matmos_msi/jungle/junglesg"
     ]
   },
   "matmos_msi.jungle.junglesh": {
@@ -1135,7 +1078,6 @@
   "matmos_msi.jungle.unnight": {
     "category": "ambient",
     "sounds": [
-      "matmos_msi/jungle/unnight1",
       "matmos_msi/jungle/unnight2",
       "matmos_msi/jungle/unnight3",
       "matmos_msi/jungle/unnight4",
@@ -1144,12 +1086,6 @@
       "matmos_msi/jungle/unnight7",
       "matmos_msi/jungle/unnight8",
       "matmos_msi/jungle/unnight9"
-    ]
-  },
-  "matmos_msi.jungle.unnighta": {
-    "category": "ambient",
-    "sounds": [
-      "matmos_msi/jungle/unnighta"
     ]
   },
   "matmos_msi.jungle.unnightb": {
@@ -1335,14 +1271,6 @@
       "matmos_msi/marais/jour-marais6",
       "matmos_msi/marais/jour-marais7",
       "matmos_msi/marais/jour-marais8"
-    ]
-  },
-  "matmos_msi.marais.mosquito": {
-    "category": "ambient",
-    "sounds": [
-      "matmos_msi/marais/mosquito1",
-      "matmos_msi/marais/mosquito2",
-      "matmos_msi/marais/mosquito3"
     ]
   },
   "matmos_msi.marais.nuit-marais": {
@@ -1687,31 +1615,6 @@
     "category": "ambient",
     "sounds": [
       "matmos_msi/sharedonce/etourneau1"
-    ]
-  },
-  "matmos_msi.sharedonce.flies": {
-    "category": "ambient",
-    "sounds": [
-      "matmos_msi/sharedonce/flies1",
-      "matmos_msi/sharedonce/flies2",
-      "matmos_msi/sharedonce/flies3",
-      "matmos_msi/sharedonce/flies4",
-      "matmos_msi/sharedonce/flies5"
-    ]
-  },
-  "matmos_msi.sharedonce.flyc": {
-    "category": "ambient",
-    "sounds": [
-      "matmos_msi/sharedonce/flyc1",
-      "matmos_msi/sharedonce/flyc2",
-      "matmos_msi/sharedonce/flyc3"
-    ]
-  },
-  "matmos_msi.sharedonce.flyin": {
-    "category": "ambient",
-    "sounds": [
-      "matmos_msi/sharedonce/flyin1",
-      "matmos_msi/sharedonce/flyin2"
     ]
   },
   "matmos_msi.sharedonce.moino": {
