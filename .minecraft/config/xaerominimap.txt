@@ -25,7 +25,7 @@ oldDeathpoints:true
 distance:1
 showCoords:true
 lockNorth:false
-zoom:1
+zoom:3
 minimapSize:0
 entityAmount:1
 chunkGrid:-1
@@ -104,7 +104,7 @@ playerArrowOpacity:100
 ignoreHeightmaps:false
 waypointsBottom:false
 minimapShape:0
-lightOverlayType:0
+lightOverlayType:-1
 lightOverlayMaxLight:7
 lightOverlayMinLight:0
 lightOverlayColor:13
@@ -116,9 +116,9 @@ minimapFrameColor:9
 compassColor:9
 itemFramesOnRadar:false
 showDimensionName:false
-interface:dummy:0:36:true:false:false:false
+interface:dummy:0:50:true:false:false:false
 interface:dummy:0:10000:true:false:false:false
 interface:dummy:0:0:false:false:true:false
 interface:dummy:0:36:true:false:false:false
-interface:gui.xaero_minimap:101:0:false:false:true:false
+interface:gui.xaero_minimap:0:0:false:false:true:false
 #WAYPOINTS HAVE BEEN MOVED TO /XaeroWaypoints
