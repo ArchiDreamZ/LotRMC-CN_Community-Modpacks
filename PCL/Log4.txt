@@ -1,0 +1,144 @@
+[00:22:33.973] [Start] 程序版本：Release 2.4.9（281）
+[00:22:33.974] [Start] 识别码：7B14-80BC-DDDE-12DA
+[00:22:33.974] [Start] 程序路径：G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\[Win启动器]PCL2  2.4.9.exe
+[00:22:33.978] [Start] 第一阶段加载用时：93 ms
+[00:22:34.106] [Loader] 加载器 Minecraft Folder List 状态改变：Loading
+[00:22:34.107] [Start] 第二阶段加载用时：125 ms
+[00:22:34.115] [Loader] 加载器 Minecraft Folder List 状态改变：Finished
+[00:22:34.405] [System] 窗口已置顶，位置：(52.8, 101.6), 1430.4 x 620.8
+[00:22:34.410] [Start] 第三阶段加载用时：47 ms
+[00:22:34.410] [Animation] 动画线程开始
+[00:22:34.411] [Start] 加载 DLL：Json
+[00:22:34.411] [System] 获取资源：Json
+[00:22:34.417] [Launch] Minecraft 文件夹：G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\
+[00:22:34.462] [Loader] 加载器 Loader Skin Legacy 状态改变：Loading
+[00:22:34.466] [Loader] 加载器 Loader Skin Legacy 状态改变：Finished
+[00:22:34.475] [Java] 缓存中有 6 个可用的 Java
+[00:22:34.499] [Skin] 载入头像成功：Loader Skin Legacy
+[00:22:34.501] [Minecraft] 启动按钮：Minecraft 版本：G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\versions\ArdaFantasy\
+[00:22:34.504] [Loader] 加载器 登录 状态改变：Loading
+[00:22:34.507] [Launch] 登录加载已开始
+[00:22:34.511] [Loader] 加载器 Loader Login Legacy 状态改变：Loading
+[00:22:34.511] [Launch] 登录方式：离线（Archi）
+[00:22:34.513] [Loader] 加载器 Loader Login Legacy 状态改变：Finished
+[00:22:34.533] [Launch] 登录加载已结束
+[00:22:34.533] [Loader] 加载器 登录 状态改变：Finished
+[00:22:34.690] [Loader] 加载器 DlClientList Mojang 状态改变：Loading
+[00:22:34.691] [Loader] 加载器 PCL2 服务 状态改变：Loading
+[00:22:34.692] [Server] 正在连接到 PCL2 服务器
+[00:22:34.695] [Net] 获取网络结果：https://launchermeta.mojang.com/mc/game/version_manifest.json，最大超时 10000
+[00:22:34.699] [Net] 获取网络结果：http://pcl2-server-1253424809.file.myqcloud.com/notice.cfg?sign=1689870155-0ecdbb2e-0-cf8520a0bc6af833f59d22b0ddc07940，最大超时 10000
+[00:22:34.810] [Server] 服务器公告：112|298|296|5，无需更新
+[00:22:34.815] [Loader] 加载器 PCL2 服务 状态改变：Finished
+[00:22:35.139] [System] DPI：120，系统版本：10.0.19044.0，PCL 位置：G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\[Win启动器]PCL2  2.4.9.exe
+[00:22:35.759] [Control] 按下单选按钮：下载
+[00:22:35.815] [Loader] 加载器 DlClientList Main 状态改变：Loading
+[00:22:35.820] [Loader] 加载器 DlClientList Bmclapi 状态改变：Loading
+[00:22:35.820] [Loader] 加载器 DlClientList Mojang 状态改变：Waiting
+[00:22:35.820] [Net] 获取网络结果：https://bmclapi2.bangbang93.com/mc/game/version_manifest.json，最大超时 10000
+[00:22:35.821] [Control] 切换主要页面：Download, -1
+[00:22:35.908] [Loader] 加载器 DlOptiFineList Main 状态改变：Loading
+[00:22:35.910] [Loader] 加载器 DlLiteLoaderList Main 状态改变：Loading
+[00:22:35.911] [Loader] 加载器 DlFabricList Main 状态改变：Loading
+[00:22:35.912] [Loader] 加载器 DlOptiFineList Bmclapi 状态改变：Loading
+[00:22:35.914] [Loader] 加载器 DlLiteLoaderList Bmclapi 状态改变：Loading
+[00:22:35.914] [Net] 获取网络结果：https://bmclapi2.bangbang93.com/optifine/versionList，最大超时 10000
+[00:22:35.915] [Loader] 加载器 DlFabricList Bmclapi 状态改变：Loading
+[00:22:35.915] [Net] 获取网络结果：https://bmclapi2.bangbang93.com/maven/com/mumfrey/liteloader/versions.json，最大超时 10000
+[00:22:35.916] [Net] 获取网络结果：https://bmclapi2.bangbang93.com/fabric-meta/v2/versions，最大超时 10000
+[00:22:35.918] [Download] 刷新 Forge 推荐版本缓存开始
+[00:22:35.921] [Loader] 加载器 源码获取 157# 状态改变：Loading
+[00:22:35.940] [Download] -1798645995_156 167#：开始，起始点 0，https://bmclapi2.bangbang93.com/forge/promos
+[00:22:35.978] [Loader] 加载器 DlClientList Mojang 状态改变：Finished
+[00:22:35.995] [Loader] 加载器 DlClientList Bmclapi 状态改变：Aborted
+[00:22:36.048] [Loader] 加载器 DlLiteLoaderList Bmclapi 状态改变：Finished
+[00:22:36.072] [Loader] 加载线程 DlClientList Bmclapi (22) 已中断但线程正常运行至结束，输出被弃用（最新线程：-1）
+[00:22:36.072] [Loader] 加载器 DlClientList Main 状态改变：Finished
+[00:22:36.072] [Loader] 加载器 DlLiteLoaderList Main 状态改变：Finished
+[00:22:36.109] [Download] -1798645995_156：文件大小 47243 B（46.1 K）
+[00:22:36.130] [Download] -1798645995_156：已完成，剩余文件 0
+[00:22:36.130] [Loader] 加载器 源码获取 157# 状态改变：Finished
+[00:22:36.136] [Download] 刷新 Forge 推荐版本缓存成功
+[00:22:36.175] [Loader] 加载器 DlOptiFineList Bmclapi 状态改变：Finished
+[00:22:36.180] [Loader] 加载器 DlOptiFineList Main 状态改变：Finished
+[00:22:36.272] [Loader] 加载器 DlFabricList Bmclapi 状态改变：Finished
+[00:22:36.274] [Loader] 加载器 DlFabricList Main 状态改变：Finished
+[00:22:37.074] [Control] 展开卡片：正式版 (90)
+[00:22:37.917] [Loader] 加载器 DlForgeVersion 1.20.1 状态改变：Loading
+[00:22:37.918] [Loader] 加载器 Fabric API List Loader 状态改变：Loading
+[00:22:37.919] [Loader] 加载器 OptiFabric List Loader 状态改变：Loading
+[00:22:37.919] [Control] 按下单击列表项：1.20.1
+[00:22:37.921] [Loader] 加载器 DlForgeVersion Bmclapi 状态改变：Loading
+[00:22:37.921] [Net] 获取网络结果：https://api.curseforge.com/v1/mods/306612，最大超时 10000
+[00:22:37.921] [Net] 获取网络结果：https://api.curseforge.com/v1/mods/322385，最大超时 10000
+[00:22:37.922] [Net] 获取网络结果：https://bmclapi2.bangbang93.com/forge/minecraft/1.20.1，最大超时 10000
+[00:22:38.000] [Loader] 加载器 DlForgeVersion Bmclapi 状态改变：Finished
+[00:22:38.012] [Loader] 加载器 DlForgeVersion 1.20.1 状态改变：Finished
+[00:22:38.720] [Download] 开始获取 CurseForge 工程 ID 为 306612 的文件列表
+[00:22:38.722] [Net] 发起网络请求（POST，https://api.curseforge.com/v1/mods/files），最大超时 15000
+[00:22:38.804] [Download] 开始获取 CurseForge 工程 ID 为 322385 的文件列表
+[00:22:38.804] [Net] 发起网络请求（POST，https://api.curseforge.com/v1/mods/files），最大超时 15000
+[00:22:40.108] [Loader] 加载器 Fabric API List Loader 状态改变：Finished
+[00:22:41.054] [Loader] 加载器 OptiFabric List Loader 状态改变：Finished
+[00:23:19.192] [Control] 按下单选列表项：整合包
+[00:23:19.201] [Loader] 加载器 DlCfProject ModPack 状态改变：Loading
+[00:23:19.218] [Download] CurseForge 工程列表搜索原始文本：
+[00:23:19.218] [Download] CurseForge 工程列表搜索最终文本：
+[00:23:19.219] [Download] 开始获取 CurseForge 工程列表：https://api.curseforge.com/v1/mods/search?gameId=432&sortField=Featured&sortOrder=desc&pageSize=50&categoryId=0&classId=4471
+[00:23:19.219] [Net] 获取网络结果：https://api.curseforge.com/v1/mods/search?gameId=432&sortField=Featured&sortOrder=desc&pageSize=50&categoryId=0&classId=4471，最大超时 10000
+[00:23:21.313] [Control] 按下单选列表项：自动安装
+[00:23:22.090] [System] 获取资源：ModData
+[00:23:22.131] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/611/496/64/64/637995823847751059.png
+[00:23:22.131] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/298/994/64/64/637351626050046394.png
+[00:23:22.132] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/628/232/64/64/638024585348557149.png
+[00:23:22.132] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/279/234/64/64/637276853291457748.png
+[00:23:22.132] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/632/815/64/64/638033379562195656.png
+[00:23:22.133] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/780/552/64/64/638125961291118791_animated.gif
+[00:23:22.134] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/468/243/64/64/637751369169569212.png
+[00:23:22.134] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/592/944/64/64/637965415571102225.png
+[00:23:22.135] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/651/140/64/64/638051446127306822.png
+[00:23:22.135] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/485/618/64/64/637786105420601729.png
+[00:23:22.136] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/356/341/64/64/637516501018536427.png
+[00:23:22.137] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/199/573/64/64/636907930795697123.png
+[00:23:22.137] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/837/548/64/64/638230775645420326.png
+[00:23:22.148] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/595/284/64/64/637969851390579025.png
+[00:23:22.148] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/286/772/64/64/637305737753885398.png
+[00:23:22.149] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/594/10/64/64/637967185605583019.png
+[00:23:22.150] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/494/814/64/64/637807169632525273.png
+[00:23:22.150] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/342/120/64/64/637485779500419856.jpeg
+[00:23:22.151] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/342/91/64/64/637485703554418199.png
+[00:23:22.152] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/585/168/64/64/637951766687771704.png
+[00:23:22.152] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/793/485/64/64/638151398889720549.png
+[00:23:22.153] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/481/121/64/64/637780327883756539.png
+[00:23:22.153] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/842/674/64/64/638238379857998846.png
+[00:23:22.154] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/147/482/64/64/636576924791375629.png
+[00:23:22.155] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/597/359/64/64/637974123292958177.png
+[00:23:22.155] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/450/731/64/64/637712078711696255.png
+[00:23:22.156] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/412/464/64/64/637631922993692518.png
+[00:23:22.157] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/624/61/64/64/638019077256631063.png
+[00:23:22.160] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/786/571/64/64/638137997057123045.png
+[00:23:22.161] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/593/71/64/64/637965640919658046.png
+[00:23:22.161] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/431/487/64/64/637667061539266129_animated.gif
+[00:23:22.162] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/768/269/64/64/638104922297531668.png
+[00:23:22.162] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/144/220/64/64/636554450588038771.png
+[00:23:22.163] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/796/819/64/64/638157258334276459.png
+[00:23:22.164] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/184/286/64/64/636820598450762928.png
+[00:23:22.164] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/388/926/64/64/637581040113975390.png
+[00:23:22.165] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/147/67/64/64/636574428512291945.png
+[00:23:22.166] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/53/277/64/64/636123179703547229.jpeg
+[00:23:22.166] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/542/751/64/64/637871751703729159.png
+[00:23:22.167] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/141/791/64/64/636544733395786830.png
+[00:23:22.167] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/652/614/64/64/638054490832291850.png
+[00:23:22.168] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/596/62/64/64/637971545078749929_animated.gif
+[00:23:22.168] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/390/512/64/64/637582347684237630.png
+[00:23:22.169] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/653/380/64/64/638056195061150658.jpeg
+[00:23:22.170] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/614/500/64/64/637998216126755132.png
+[00:23:22.170] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/172/175/64/64/636734768210805980.jpeg
+[00:23:22.171] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/371/737/64/64/637541833950548019.jpeg
+[00:23:22.171] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/630/292/64/64/638029267991555056.png
+[00:23:22.172] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/818/920/64/64/638198258817539212.png
+[00:23:22.172] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/27/883/64/64/635818079923323584.png
+[00:23:22.201] [Loader] 加载器 DlCfProject ModPack 状态改变：Finished
+[00:24:08.770] [Control] 按下图标按钮：BtnTitleClose
+[00:24:08.772] [System] 收到关闭指令
+[00:24:09.022] [System] 程序已退出，返回值：Success

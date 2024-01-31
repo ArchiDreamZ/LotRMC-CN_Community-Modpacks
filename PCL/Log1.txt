@@ -1,0 +1,38 @@
+[14:37:06.065] [Start] 程序版本：Release 2.4.9（281）
+[14:37:06.080] [Start] 识别码：7B14-80BC-DDDE-12DA
+[14:37:06.080] [Start] 程序路径：G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\[Win启动器]PCL2  2.4.9.exe
+[14:37:06.092] [Start] 第一阶段加载用时：281 ms
+[14:37:06.560] [Loader] 加载器 Minecraft Folder List 状态改变：Loading
+[14:37:06.569] [Start] 第二阶段加载用时：454 ms
+[14:37:06.617] [Loader] 加载器 Minecraft Folder List 状态改变：Finished
+[14:37:07.917] [System] 窗口已置顶，位置：(52.8, 101.6), 1430.4 x 620.8
+[14:37:07.944] [Animation] 动画线程开始
+[14:37:07.944] [Start] 第三阶段加载用时：422 ms
+[14:37:07.969] [Start] 加载 DLL：Json
+[14:37:07.969] [System] 获取资源：Json
+[14:37:08.020] [Launch] Minecraft 文件夹：G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\
+[14:37:08.188] [Loader] 加载器 Loader Skin Legacy 状态改变：Loading
+[14:37:08.201] [Loader] 加载器 Loader Skin Legacy 状态改变：Finished
+[14:37:08.363] [Animation] 两个动画帧间隔 375 ms
+[14:37:08.442] [Skin] 载入头像成功：Loader Skin Legacy
+[14:37:08.465] [Java] 缓存中有 6 个可用的 Java
+[14:37:08.535] [Minecraft] 启动按钮：Minecraft 版本：G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\versions\ArdaFantasy\
+[14:37:08.545] [Loader] 加载器 登录 状态改变：Loading
+[14:37:08.554] [Launch] 登录加载已开始
+[14:37:08.565] [Loader] 加载器 Loader Login Legacy 状态改变：Loading
+[14:37:08.569] [Launch] 登录方式：离线（Archi）
+[14:37:08.573] [Loader] 加载器 Loader Login Legacy 状态改变：Finished
+[14:37:08.585] [Launch] 登录加载已结束
+[14:37:08.585] [Loader] 加载器 登录 状态改变：Finished
+[14:37:08.650] [System] DPI：120，系统版本：10.0.19044.0，PCL 位置：G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\[Win启动器]PCL2  2.4.9.exe
+[14:37:08.695] [Loader] 加载器 DlClientList Mojang 状态改变：Loading
+[14:37:08.708] [Loader] 加载器 PCL2 服务 状态改变：Loading
+[14:37:08.709] [Server] 正在连接到 PCL2 服务器
+[14:37:08.718] [Net] 获取网络结果：https://launchermeta.mojang.com/mc/game/version_manifest.json，最大超时 10000
+[14:37:08.763] [Net] 获取网络结果：http://pcl2-server-1253424809.file.myqcloud.com/notice.cfg?sign=1690699029-51d95809-0-254751d310f3d405b17760de6d969005，最大超时 10000
+[14:37:08.888] [Server] 服务器公告：112|298|296|5，无需更新
+[14:37:08.904] [Loader] 加载器 PCL2 服务 状态改变：Finished
+[14:37:09.262] [Loader] 加载器 DlClientList Mojang 状态改变：Finished
+[14:37:10.492] [Control] 按下图标按钮：BtnTitleClose
+[14:37:10.502] [System] 收到关闭指令
+[14:37:10.799] [System] 程序已退出，返回值：Success

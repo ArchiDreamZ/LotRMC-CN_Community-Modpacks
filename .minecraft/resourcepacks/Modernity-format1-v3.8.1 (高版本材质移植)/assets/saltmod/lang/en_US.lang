@@ -1,0 +1,18 @@
+﻿tile.saltBlock.name=Salt Block
+tile.saltBlockPillar.name=Salt Pillar
+tile.saltBrick.name=Salt Bricks
+tile.saltBrickCracked.name=Cracked Salt Bricks
+tile.saltBrickChiseled.name=Chiseled Salt Bricks
+tile.saltSlab.Pillar.name=Short Salt Pillar
+tile.saltDirtLake.name=Dirt Salt Lake Block
+tile.saltGrass.name=Grassy Semi-Saline Soil
+tile.saltPot.name=Salty Flower Pot
+
+item.saltFishCod.name=Salty Cod
+item.saltFishCodCooked.name=Salty Cooked Cod
+item.saltFishClownfish.name=Salty Clownfish
+item.fishSoup.name=Cod Soup
+item.saltFishSoup.name=Salty Cod Soup
+item.saltWortPie.name=Saltwort Pie
+
+achievement.fizzyDrink.desc=Extinguish yourself with Fizzy Drink

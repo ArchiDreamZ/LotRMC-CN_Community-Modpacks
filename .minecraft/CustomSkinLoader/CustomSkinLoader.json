@@ -1,0 +1,42 @@
+{
+  "version": "14.6",
+  "enable": true,
+  "loadlist": [
+    {
+      "name": "Mojang",
+      "type": "MojangAPI"
+    },
+    {
+      "name": "BlessingSkin",
+      "type": "CustomSkinAPI",
+      "root": "http://skin.prinzeugen.net/"
+    },
+    {
+      "name": "OneSkin",
+      "type": "CustomSkinAPI",
+      "root": "http://fleey.org/skin/skin_user/skin_json.php/"
+    },
+    {
+      "name": "SkinMe",
+      "type": "UniSkinAPI",
+      "root": "http://www.skinme.cc/uniskin/"
+    },
+    {
+      "name": "LocalSkin",
+      "type": "Legacy",
+      "checkPNG": false,
+      "skin": "LocalSkin/skins/{USERNAME}.png",
+      "model": "default",
+      "cape": "LocalSkin/capes/{USERNAME}.png",
+      "elytra": "LocalSkin/elytras/{USERNAME}.png"
+    }
+  ],
+  "enableSkull": true,
+  "enableDynamicSkull": true,
+  "enableTransparentSkin": true,
+  "ignoreHttpsCertificate": false,
+  "cacheExpiry": 10,
+  "enableUpdateSkull": false,
+  "enableLocalProfileCache": false,
+  "enableCacheAutoClean": false
+}

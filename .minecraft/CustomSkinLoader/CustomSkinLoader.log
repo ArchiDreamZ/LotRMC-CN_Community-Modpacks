@@ -1,0 +1,15 @@
+[2023-08-04 12:36:15] [pool-3-thread-1 INFO] CustomSkinLoader 14.6a
+[2023-08-04 12:36:15] [pool-3-thread-1 INFO] DataDir: G:\【minecraft专区】\JAVA各版本客户端合集\魔戒重制版-手机端（1.7.10）\.魔戒重制版简单整合包（1.7.10） - 手机版测试\.minecraft\CustomSkinLoader
+[2023-08-04 12:36:15] [pool-3-thread-1 INFO] Minecraft: 1.7.10(LotR-ReWorked-1.7.10)
+[2023-08-04 12:36:15] [pool-3-thread-1 INFO] Config File: G:\【minecraft专区】\JAVA各版本客户端合集\魔戒重制版-手机端（1.7.10）\.魔戒重制版简单整合包（1.7.10） - 手机版测试\.minecraft\CustomSkinLoader\CustomSkinLoader.json
+[2023-08-04 12:36:15] [pool-3-thread-1 INFO] Try to load config.
+[2023-08-04 12:36:15] [pool-3-thread-1 INFO] Successfully load config.
+[2023-08-04 12:36:15] [pool-3-thread-1 INFO] Enable:true, EnableSkull:true, EnableDynamicSkull:true, EnableTranSkin:true, IgnoreHttpsCertificate:false, CacheExpiry:10, EnableUpdateSkull:false, EnableLocalProfileCache:false, EnableCacheAutoClean:false, LoadList:5
+[2023-08-04 12:36:15] [Archi INFO] Loading Archi's profile.
+[2023-08-04 12:36:15] [Archi INFO] 1/5 Try to load profile from 'Mojang'.
+[2023-08-04 12:36:15] [Archi INFO] Try to request 'https://api.mojang.com/users/profiles/minecraft/Archi'.
+[2023-08-04 12:36:15] [Archi INFO] Cache file found (Length: 67 , Path: 'G:\【minecraft专区】\JAVA各版本客户端合集\魔戒重制版-手机端（1.7.10）\.魔戒重制版简单整合包（1.7.10） - 手机版测试\.minecraft\CustomSkinLoader\caches\95687c2809675ebb0c02dac2611cda347fc6849a')
+[2023-08-04 12:36:15] [Archi INFO] Try to load from cache 'G:\【minecraft专区】\JAVA各版本客户端合集\魔戒重制版-手机端（1.7.10）\.魔戒重制版简单整合包（1.7.10） - 手机版测试\.minecraft\CustomSkinLoader\caches\95687c2809675ebb0c02dac2611cda347fc6849a'.
+[2023-08-04 12:36:15] [Archi INFO] Successfully to load from cache
+[2023-08-04 12:36:15] [Archi INFO] Archi's profile loaded.
+[2023-08-04 12:36:15] [Archi INFO] (SkinUrl: http://textures.minecraft.net/texture/7d13b25b4d134e71ca17139cec8229083bfbdfcdc6bc6920f433869a97d55017 , Model: default , CapeUrl: null , ElytraUrl: null , Expiry: 1691123786)

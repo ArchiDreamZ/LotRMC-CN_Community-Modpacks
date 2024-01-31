@@ -1,0 +1,14 @@
+{
+  "breath": {
+    "category": "player",
+    "sounds": [
+      "breath"
+    ]
+  },
+  "bat": {
+    "category": "player",
+    "sounds": [
+      "bat"
+    ]
+  }
+}
