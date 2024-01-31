@@ -3,8 +3,8 @@ mouseSensitivity:0.5
 fov:0.0
 gamma:1.0
 saturation:0.0
-renderDistance:12
-guiScale:0
+renderDistance:16
+guiScale:3
 particles:1
 bobView:true
 anaglyph3d:false
@@ -15,7 +15,7 @@ difficulty:3
 fancyGraphics:true
 ao:2
 clouds:true
-resourcePacks:["Modernity-format1-v3.8.1 (高版本材质移植).zip","MAtmos-MSI_Conversion-1.1 彼梦修复版.zip","MAtmos-2020-Zen-35-1.2.2.zip","魔戒主题音乐包-LotR Themed Music Pack-彼梦制作.zip","魔戒风格GUI与字体-LotR Mod Themed Resource Pack.zip"]
+resourcePacks:["MAtmos-2020-Zen-35-1.2.2.zip","MAtmos-MSI_Conversion-1.1 彼梦修复版.zip","Modernity-format1-v3.8.1 (高版本材质移植).zip","魔戒主题音乐包-LotR Themed Music Pack-彼梦制作.zip","魔戒风格GUI与字体-LotR Mod Themed Resource Pack.zip"]
 lastServer:e1.getmc.cn:41203
 lang:zh_CN
 chatVisibility:0
@@ -53,7 +53,7 @@ streamChatEnabled:0
 streamChatUserFilter:0
 streamMicToggleBehavior:0
 forceUnicodeFont:true
-key_key.attack:-100
+key_key.attack:0
 key_key.use:-99
 key_key.forward:17
 key_key.left:30
@@ -85,7 +85,7 @@ key_key.hotbar.6:7
 key_key.hotbar.7:8
 key_key.hotbar.8:9
 key_key.hotbar.9:10
-key_of.key.zoom:211
+key_of.key.zoom:47
 key_Menu:38
 key_Map Teleport:50
 key_Fast Travel:33
@@ -93,63 +93,13 @@ key_Alignment Cycle Left:203
 key_Alignment Cycle Right:205
 key_Alignment Group Prev:200
 key_Alignment Group Next:208
-key_Cart:0
-key_schematica.key.load:181
-key_schematica.key.save:55
-key_schematica.key.control:74
-key_schematica.key.layerInc:0
-key_schematica.key.layerDec:0
-key_Toggle Raw Input:0
-key_Rescan Key:0
-key_Reload Default Sound:65:SHIFT
-key_itemscroller.desc.toggledisable:0
-key_itemscroller.desc.recipe:0
-key_Toggle Perspective:62
-key_smoothfont.key.guiOpen:68:CONTROL
-key_WorldEdit Reference:0
-key_com.github.hexosse.wecuife.keys.toggle:13
-key_com.github.hexosse.wecuife.keys.clear:14
-key_背包物品编辑器:21
-key_Camera left:203:CONTROL
-key_Camera right:205:CONTROL
-key_Camera closer:200:CONTROL
-key_Camera farther:208:CONTROL
-key_Swap shoulder:0
-key_gui.xaero_open_map:50
-key_gui.xaero_open_settings:50:CONTROL
-key_gui.xaero_map_zoom_in:0
-key_gui.xaero_map_zoom_out:0
-key_gui.xaero_quick_confirm:0
-key_gui.xaero_switch_waypoint_set:0
-key_gui.xaero_instant_waypoint:0
-key_gui.xaero_toggle_slime:0
-key_gui.xaero_toggle_grid:0
-key_gui.xaero_toggle_waypoints:0
-key_gui.xaero_toggle_map_waypoints:0
-key_gui.xaero_toggle_map:0
-key_gui.xaero_enlarge_map:0
-key_gui.xaero_waypoints_key:48
-key_gui.xaero_zoom_in:49
-key_gui.xaero_zoom_out:0
-key_gui.xaero_new_waypoint:0
-key_gui.xaero_display_all_sets:0
-key_gui.xaero_toggle_light_overlay:0
-key_gui.xaero_minimap_settings:49:CONTROL
-key_key.betterHud.open:66:CONTROL
-key_waila.keybind.wailaconfig:82
-key_waila.keybind.wailadisplay:79
-key_waila.keybind.liquid:80
-key_waila.keybind.recipe:81
-key_waila.keybind.usage:75
-key_MAtmos:65:CONTROL
-key_Open GUI:34:CONTROL
-key_BetterFps:199
-soundCategory_master:0.70198673
-soundCategory_music:0.5
-soundCategory_record:0.5
-soundCategory_weather:0.70422536
+key_Cart:19
+soundCategory_master:1.0
+soundCategory_music:0.5070422
+soundCategory_record:1.0
+soundCategory_weather:1.0
 soundCategory_block:1.0
-soundCategory_hostile:0.70422536
-soundCategory_neutral:0.70422536
+soundCategory_hostile:1.0
+soundCategory_neutral:1.0
 soundCategory_player:1.0
 soundCategory_ambient:1.0
