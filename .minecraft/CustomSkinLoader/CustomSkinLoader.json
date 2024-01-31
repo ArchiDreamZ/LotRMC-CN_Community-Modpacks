@@ -7,19 +7,29 @@
       "type": "MojangAPI"
     },
     {
+      "name": "LittleSkin China",
+      "type": "CustomSkinAPI",
+      "root": "https://littleskin.cn/csl/"
+    },	
+    {
+      "name": "SkinMe",
+      "type": "UniSkinAPI",
+      "root": "http://www.skinme.cc/uniskin/"
+    },
+    {
       "name": "BlessingSkin",
       "type": "CustomSkinAPI",
       "root": "http://skin.prinzeugen.net/"
     },
     {
+      "name": "McSkin",
+      "type": "CustomSkinAPI",
+      "root": "http://www.mcskin.cc/"
+    },
+    {
       "name": "OneSkin",
       "type": "CustomSkinAPI",
       "root": "http://fleey.org/skin/skin_user/skin_json.php/"
-    },
-    {
-      "name": "SkinMe",
-      "type": "UniSkinAPI",
-      "root": "http://www.skinme.cc/uniskin/"
     },
     {
       "name": "LocalSkin",

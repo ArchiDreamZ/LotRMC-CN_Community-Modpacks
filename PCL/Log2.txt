@@ -1,84 +1,38 @@
-[16:41:56.727] [Start] 程序版本：Release 2.4.9（281）
-[16:41:56.728] [Start] 识别码：7B14-80BC-DDDE-12DA
-[16:41:56.728] [Start] 程序路径：G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\[Win启动器]PCL2  2.4.9.exe
-[16:41:56.732] [Start] 第一阶段加载用时：93 ms
-[16:41:56.855] [Loader] 加载器 Minecraft Folder List 状态改变：Loading
-[16:41:56.855] [Start] 第二阶段加载用时：125 ms
-[16:41:56.868] [Loader] 加载器 Minecraft Folder List 状态改变：Finished
-[16:41:57.156] [System] 窗口已置顶，位置：(52.8, 101.6), 1430.4 x 620.8
-[16:41:57.161] [Animation] 动画线程开始
-[16:41:57.162] [Start] 第三阶段加载用时：63 ms
-[16:41:57.163] [Start] 加载 DLL：Json
-[16:41:57.163] [System] 获取资源：Json
-[16:41:57.174] [Launch] Minecraft 文件夹：G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\
-[16:41:57.231] [Java] 缓存中有 6 个可用的 Java
-[16:41:57.249] [Loader] 加载器 Loader Skin Legacy 状态改变：Loading
-[16:41:57.253] [Loader] 加载器 Loader Skin Legacy 状态改变：Finished
-[16:41:57.304] [Skin] 载入头像成功：Loader Skin Legacy
-[16:41:57.315] [Minecraft] 启动按钮：Minecraft 版本：G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\versions\ArdaFantasy\
-[16:41:57.319] [Loader] 加载器 登录 状态改变：Loading
-[16:41:57.321] [Launch] 登录加载已开始
-[16:41:57.324] [Loader] 加载器 Loader Login Legacy 状态改变：Loading
-[16:41:57.324] [Launch] 登录方式：离线（Archi）
-[16:41:57.325] [Loader] 加载器 Loader Login Legacy 状态改变：Finished
-[16:41:57.347] [Launch] 登录加载已结束
-[16:41:57.347] [Loader] 加载器 登录 状态改变：Finished
-[16:41:57.441] [Loader] 加载器 DlClientList Mojang 状态改变：Loading
-[16:41:57.442] [Loader] 加载器 PCL2 服务 状态改变：Loading
-[16:41:57.444] [Server] 正在连接到 PCL2 服务器
-[16:41:57.450] [Net] 获取网络结果：https://launchermeta.mojang.com/mc/game/version_manifest.json，最大超时 10000
-[16:41:57.461] [Net] 获取网络结果：http://pcl2-server-1253424809.file.myqcloud.com/notice.cfg?sign=1690101717-4c38ea7b-0-350549e4ca326775f7d15e9cd5594e3d，最大超时 10000
-[16:41:57.570] [Server] 服务器公告：112|298|296|5，无需更新
-[16:41:57.576] [Loader] 加载器 PCL2 服务 状态改变：Finished
-[16:41:57.879] [System] DPI：120，系统版本：10.0.19044.0，PCL 位置：G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\[Win启动器]PCL2  2.4.9.exe
-[16:41:58.109] [Loader] 加载器 DlClientList Mojang 状态改变：Finished
-[16:41:58.856] [Control] 按下单选按钮：设置
-[16:41:58.940] [Control] 切换主要页面：Setup, -1
-[16:42:00.228] [Control] 按下单选按钮：下载
-[16:42:00.285] [Loader] 加载器 DlClientList Main 状态改变：Loading
-[16:42:00.286] [Control] 切换主要页面：Download, -1
-[16:42:00.290] [Loader] 加载器 DlClientList Bmclapi 状态改变：Loading
-[16:42:00.290] [Loader] 加载器 DlClientList Mojang 状态改变：Waiting
-[16:42:00.291] [Net] 获取网络结果：https://bmclapi2.bangbang93.com/mc/game/version_manifest.json，最大超时 10000
-[16:42:00.380] [Loader] 加载器 DlClientList Bmclapi 状态改变：Finished
-[16:42:00.430] [Loader] 加载器 DlOptiFineList Main 状态改变：Loading
-[16:42:00.431] [Loader] 加载器 DlLiteLoaderList Main 状态改变：Loading
-[16:42:00.433] [Loader] 加载器 DlFabricList Main 状态改变：Loading
-[16:42:00.434] [Loader] 加载器 DlOptiFineList Bmclapi 状态改变：Loading
-[16:42:00.435] [Loader] 加载器 DlLiteLoaderList Bmclapi 状态改变：Loading
-[16:42:00.436] [Net] 获取网络结果：https://bmclapi2.bangbang93.com/optifine/versionList，最大超时 10000
-[16:42:00.437] [Loader] 加载器 DlFabricList Bmclapi 状态改变：Loading
-[16:42:00.437] [Net] 获取网络结果：https://bmclapi2.bangbang93.com/maven/com/mumfrey/liteloader/versions.json，最大超时 10000
-[16:42:00.437] [Net] 获取网络结果：https://bmclapi2.bangbang93.com/fabric-meta/v2/versions，最大超时 10000
-[16:42:00.440] [Download] 刷新 Forge 推荐版本缓存开始
-[16:42:00.443] [Loader] 加载器 源码获取 289# 状态改变：Loading
-[16:42:00.459] [Loader] 加载器 DlClientList Main 状态改变：Finished
-[16:42:00.477] [Loader] 加载器 DlLiteLoaderList Bmclapi 状态改变：Finished
-[16:42:00.489] [Loader] 加载器 DlLiteLoaderList Main 状态改变：Finished
-[16:42:00.581] [Download] -1798645995_288 322#：开始，起始点 0，https://bmclapi2.bangbang93.com/forge/promos
-[16:42:00.608] [Loader] 加载器 DlOptiFineList Bmclapi 状态改变：Finished
-[16:42:00.616] [Loader] 加载器 DlOptiFineList Main 状态改变：Finished
-[16:42:00.779] [Download] -1798645995_288：文件大小 47243 B（46.1 K）
-[16:42:00.789] [Loader] 加载器 DlFabricList Bmclapi 状态改变：Finished
-[16:42:00.791] [Download] -1798645995_288：已完成，剩余文件 0
-[16:42:00.791] [Loader] 加载器 源码获取 289# 状态改变：Finished
-[16:42:00.802] [Loader] 加载器 DlFabricList Main 状态改变：Finished
-[16:42:00.805] [Download] 刷新 Forge 推荐版本缓存成功
-[16:42:01.223] [Report] FPS 0, 动画 7, 下载中 0（63.4 K/s）
-[16:42:01.583] [Control] 展开卡片：正式版 (90)
-[16:42:02.170] [Control] 折叠卡片：正式版 (90)
-[16:42:02.743] [Control] 按下单选按钮：启动
-[16:42:02.743] [Control] 切换主要页面：Launch, -1
-[16:42:04.209] [Control] 按下按钮：版本选择
-[16:42:04.214] [Control] 切换主要页面：VersionSelect, 0
-[16:42:04.382] [Minecraft] 有效的 Minecraft 文件夹：当前文件夹 > G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\
-[16:42:04.383] [Minecraft] 有效的 Minecraft 文件夹：官方启动器文件夹 > C:\Users\Admin\AppData\Roaming\.minecraft\
-[16:42:04.389] [Loader] 加载器 Minecraft Version List 状态改变：Loading
-[16:42:04.400] [Setup] 当前选择的 Minecraft 版本：ArdaFantasy
-[16:42:04.400] [Minecraft] 选择该文件夹储存的 Minecraft 版本：G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\versions\ArdaFantasy\
-[16:42:04.442] [Loader] 加载器 Minecraft Version List 状态改变：Finished
-[16:42:13.328] [Control] 按下图标按钮：BtnTitleInner
-[16:42:13.328] [Control] 切换主要页面：Launch, -1
-[16:42:14.909] [Control] 按下图标按钮：BtnTitleClose
-[16:42:14.913] [System] 收到关闭指令
-[16:42:15.150] [System] 程序已退出，返回值：Success
+[21:43:55.911] [Start] 程序版本：Release 2.4.9（281）
+[21:43:55.913] [Start] 识别码：7B14-80BC-DDDE-12DA
+[21:43:55.913] [Start] 程序路径：G:\【minecraft专区】\JAVA各版本客户端合集\魔戒重制版精制整合包（1.7.10）\PCL2  2.4.9.exe
+[21:43:55.916] [Start] 第一阶段加载用时：156 ms
+[21:43:56.011] [Loader] 加载器 Minecraft Folder List 状态改变：Loading
+[21:43:56.011] [Start] 第二阶段加载用时：94 ms
+[21:43:56.021] [Loader] 加载器 Minecraft Folder List 状态改变：Finished
+[21:43:56.227] [UI] 加载背景图片：G:\【minecraft专区】\JAVA各版本客户端合集\魔戒重制版精制整合包（1.7.10）\PCL\Pictures\袋底洞 Bag End - 1800x1080 模糊处理.jpg
+[21:43:56.351] [System] 窗口已置顶，位置：(48.8, 102.4), 1437.6 x 618.4
+[21:43:56.359] [Start] 第三阶段加载用时：140 ms
+[21:43:56.359] [Animation] 动画线程开始
+[21:43:56.360] [Start] 加载 DLL：Json
+[21:43:56.360] [System] 获取资源：Json
+[21:43:56.366] [Launch] Minecraft 文件夹：G:\【minecraft专区】\JAVA各版本客户端合集\魔戒重制版精制整合包（1.7.10）\.minecraft\
+[21:43:56.414] [Loader] 加载器 Loader Skin Legacy 状态改变：Loading
+[21:43:56.422] [Loader] 加载器 Loader Skin Legacy 状态改变：Finished
+[21:43:56.457] [Java] 缓存中有 6 个可用的 Java
+[21:43:56.463] [Skin] 载入头像成功：Loader Skin Legacy
+[21:43:56.493] [Minecraft] 启动按钮：Minecraft 版本：G:\【minecraft专区】\JAVA各版本客户端合集\魔戒重制版精制整合包（1.7.10）\.minecraft\versions\重制版精制整合包（1.7.10）\
+[21:43:56.496] [Loader] 加载器 登录 状态改变：Loading
+[21:43:56.499] [Launch] 登录加载已开始
+[21:43:56.502] [Loader] 加载器 Loader Login Legacy 状态改变：Loading
+[21:43:56.503] [Launch] 登录方式：离线（Archi）
+[21:43:56.504] [Loader] 加载器 Loader Login Legacy 状态改变：Finished
+[21:43:56.514] [Launch] 登录加载已结束
+[21:43:56.514] [Loader] 加载器 登录 状态改变：Finished
+[21:43:56.662] [Loader] 加载器 DlClientList Mojang 状态改变：Loading
+[21:43:56.663] [Loader] 加载器 PCL2 服务 状态改变：Loading
+[21:43:56.664] [Server] 正在连接到 PCL2 服务器
+[21:43:56.669] [Net] 获取网络结果：https://launchermeta.mojang.com/mc/game/version_manifest.json，最大超时 10000
+[21:43:56.684] [Net] 获取网络结果：http://pcl2-server-1253424809.file.myqcloud.com/notice.cfg?sign=1695563037-50208f6f-0-1b64a01894ee4c7d38bd00f677d624f6，最大超时 10000
+[21:43:56.770] [Server] 服务器公告：118|305|302|5，无需更新
+[21:43:56.776] [Loader] 加载器 PCL2 服务 状态改变：Finished
+[21:43:57.077] [System] DPI：120，系统版本：10.0.19044.0，PCL 位置：G:\【minecraft专区】\JAVA各版本客户端合集\魔戒重制版精制整合包（1.7.10）\PCL2  2.4.9.exe
+[21:43:57.381] [Loader] 加载器 DlClientList Mojang 状态改变：Finished
+[21:43:58.790] [Control] 按下图标按钮：BtnTitleClose
+[21:43:58.795] [System] 收到关闭指令
+[21:43:59.027] [System] 程序已退出，返回值：Success

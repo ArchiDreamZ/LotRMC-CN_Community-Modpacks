@@ -1,337 +1,50 @@
-[12:55:25.982] [Start] 程序版本：Release 2.4.9（281）
-[12:55:25.983] [Start] 识别码：7B14-80BC-DDDE-12DA
-[12:55:25.983] [Start] 程序路径：G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\[Win启动器]PCL2  2.4.9.exe
-[12:55:25.988] [Start] 第一阶段加载用时：140 ms
-[12:55:26.209] [Loader] 加载器 Minecraft Folder List 状态改变：Loading
-[12:55:26.210] [Start] 第二阶段加载用时：203 ms
-[12:55:26.223] [Loader] 加载器 Minecraft Folder List 状态改变：Finished
-[12:55:26.616] [System] 窗口已置顶，位置：(52, 101.6), 1431.2 x 620.8
-[12:55:26.620] [Animation] 动画线程开始
-[12:55:26.621] [Start] 加载 DLL：Json
-[12:55:26.621] [System] 获取资源：Json
-[12:55:26.629] [Launch] Minecraft 文件夹：G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\
-[12:55:26.686] [Loader] 加载器 Loader Skin Legacy 状态改变：Loading
-[12:55:26.687] [Java] 缓存中有 6 个可用的 Java
-[12:55:26.691] [Loader] 加载器 Loader Skin Legacy 状态改变：Finished
-[12:55:26.737] [Skin] 载入头像成功：Loader Skin Legacy
-[12:55:26.746] [Minecraft] 启动按钮：Minecraft 版本：G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\versions\ArdaFantasy\
-[12:55:26.749] [Loader] 加载器 登录 状态改变：Loading
-[12:55:26.755] [Launch] 登录加载已开始
-[12:55:26.758] [Loader] 加载器 Loader Login Legacy 状态改变：Loading
-[12:55:26.758] [Launch] 登录方式：离线（Archi）
-[12:55:26.760] [Loader] 加载器 Loader Login Legacy 状态改变：Finished
-[12:55:26.769] [Launch] 登录加载已结束
-[12:55:26.769] [Loader] 加载器 登录 状态改变：Finished
-[12:55:26.891] [Loader] 加载器 DlClientList Mojang 状态改变：Loading
-[12:55:26.892] [Loader] 加载器 PCL2 服务 状态改变：Loading
-[12:55:26.892] [Server] 正在连接到 PCL2 服务器
-[12:55:26.897] [Net] 获取网络结果：https://launchermeta.mojang.com/mc/game/version_manifest.json，最大超时 10000
-[12:55:26.899] [Net] 获取网络结果：http://pcl2-server-1253424809.file.myqcloud.com/notice.cfg?sign=1686977727-4053fdf5-0-0fc8d403b50ec8d3c1d10955e9fb5260，最大超时 10000
-[12:55:26.959] [Server] 服务器公告：108|294|293|5，无需更新
-[12:55:26.964] [Loader] 加载器 PCL2 服务 状态改变：Finished
-[12:55:27.338] [System] DPI：120，系统版本：10.0.19044.0，PCL 位置：G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\[Win启动器]PCL2  2.4.9.exe
-[12:55:27.708] [Control] 按下按钮：启动游戏
-[12:55:27.709] [Loader] 加载器 Loader Launch 状态改变：Loading
-[12:55:27.717] [System] 欲读取的文件不存在，已返回空字符串：G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\PCL\hints.txt
-[12:55:27.729] [Launch] 预检测已通过
-[12:55:27.731] [Download] 已跳过 Assets 下载
-[12:55:27.731] [Loader] 加载器 登录 状态改变：Waiting
-[12:55:27.732] [Loader] 加载器 Minecraft 启动 状态改变：Loading
-[12:55:27.733] [Loader] 加载器 Java 处理 状态改变：Loading
-[12:55:27.736] [Loader] 加载器 Java 验证 状态改变：Loading
-[12:55:27.737] [Loader] 加载器 登录 状态改变：Loading
-[12:55:27.737] [Loader] 加载器 补全文件 状态改变：Loading
-[12:55:27.737] [Launch] 登录加载已开始
-[12:55:27.737] [Loader] 加载器 下载支持库文件（主加载器） 状态改变：Loading
-[12:55:27.737] [Loader] 加载器 分析缺失支持库文件 状态改变：Loading
-[12:55:27.737] [Launch] 登录加载已结束
-[12:55:27.737] [Loader] 加载器 登录 状态改变：Finished
-[12:55:27.740] [Launch] Java 版本需求：最低 0.0.0.0，最高 1.8.999.999
-[12:55:27.741] [Minecraft] 获取支持库列表：ArdaFantasy
-[12:55:27.745] [Java] 开始完全遍历查找：G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\
-[12:55:27.756] [Java] 开始完全遍历查找：G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\
-[12:55:27.759] [Loader] 加载器 DlClientList Mojang 状态改变：Finished
-[12:55:27.772] [Loader] 加载器 分析缺失支持库文件 状态改变：Finished
-[12:55:27.773] [Loader] 加载器 下载支持库文件 状态改变：Loading
-[12:55:27.775] [Loader] 加载器 下载支持库文件 状态改变：Finished
-[12:55:27.776] [Loader] 加载器 下载支持库文件（主加载器） 状态改变：Finished
-[12:55:27.776] [Loader] 加载器 补全文件 状态改变：Finished
-[12:55:27.803] [Java] 开始完全遍历查找：G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\versions\ArdaFantasy\
-[12:55:27.804] [Java] 使用用户指定的 Java：D:\Java\jdk1.8.0_321\jre\bin\
-[12:55:27.807] [System] 执行外部命令并等待返回结果：D:\Java\jdk1.8.0_321\jre\bin\java.exe -version
-[12:55:27.986] [Java] 选定的 Java：JRE 8 (8.0.321)，64 位：D:\Java\jdk1.8.0_321\jre\bin\
-[12:55:27.986] [Launch] 选择的 Java：JRE 8 (8.0.321)，64 位：D:\Java\jdk1.8.0_321\jre\bin\
-[12:55:27.986] [Loader] 加载器 Java 验证 状态改变：Finished
-[12:55:27.986] [Loader] 加载器 Java 处理 状态改变：Finished
-[12:55:27.989] [Loader] 加载器 获取启动参数 状态改变：Loading
-[12:55:27.990] [Launch] 开始获取 Minecraft 启动参数
-[12:55:27.990] [Launch] 获取旧版 JVM 参数
-[12:55:27.995] [System] 获取资源：JavaWrapper
-[12:55:27.996] [Java] 已释放 Java Wrapper：C:\Users\Admin\AppData\Roaming\PCL\JavaWrapper.jar
-[12:55:27.996] [Launch] 旧版 JVM 参数获取成功：
-[12:55:27.996] [Launch] -Doolloo.jlw.tmpdir="C:\Users\Admin\AppData\Roaming\PCL" -d64 -XX:+AggressiveOpts -XX:+UseConcMarkSweepGC -XX:+UseParNewGC -XX:+CMSConcurrentMTEnabled -XX:ParallelGCThreads=8 -Dsun.rmi.dgc.server.gcInterval=3600000 -XX:+UnlockExperimentalVMOptions -XX:+ExplicitGCInvokesConcurrent -XX:MaxGCPauseMillis=50 -XX:+AlwaysPreTouch -XX:+UseStringDeduplication -Dfml.ignorePatchDiscrepancies=true -Dfml.ignoreInvalidMinecraftCertificates=true -XX:-OmitStackTraceInFastThrow -XX:+OptimizeStringConcat -XX:+UseAdaptiveGCBoundary -XX:NewRatio=3 -Dfml.readTimeout=90 -XX:+UseFastAccessorMethods -Dlog4j2.formatMsgNoLookups=true -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Xmn256m -Xmx4812m "-Djava.library.path=G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\versions\ArdaFantasy\ArdaFantasy-natives" -cp ${classpath} -jar "C:\Users\Admin\AppData\Roaming\PCL\JavaWrapper.jar" net.minecraft.launchwrapper.Launch
-[12:55:27.996] [Launch] 获取旧版 Game 参数
-[12:55:27.996] [Launch] 旧版 Game 参数获取成功
-[12:55:28.004] [Minecraft] 获取支持库列表：ArdaFantasy
-[12:55:28.010] [Launch] Minecraft 启动参数：
-[12:55:28.011] [Launch] -Doolloo.jlw.tmpdir="C:\Users\Admin\AppData\Roaming\PCL" -d64 -XX:+AggressiveOpts -XX:+UseConcMarkSweepGC -XX:+UseParNewGC -XX:+CMSConcurrentMTEnabled -XX:ParallelGCThreads=8 -Dsun.rmi.dgc.server.gcInterval=3600000 -XX:+UnlockExperimentalVMOptions -XX:+ExplicitGCInvokesConcurrent -XX:MaxGCPauseMillis=50 -XX:+AlwaysPreTouch -XX:+UseStringDeduplication -Dfml.ignorePatchDiscrepancies=true -Dfml.ignoreInvalidMinecraftCertificates=true -XX:-OmitStackTraceInFastThrow -XX:+OptimizeStringConcat -XX:+UseAdaptiveGCBoundary -XX:NewRatio=3 -Dfml.readTimeout=90 -XX:+UseFastAccessorMethods -Dlog4j2.formatMsgNoLookups=true -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Xmn256m -Xmx4812m "-Djava.library.path=G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\versions\ArdaFantasy\ArdaFantasy-natives" -cp "G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\libraries\com\mojang\netty\1.8.8\netty-1.8.8.jar;G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\libraries\com\mojang\realms\1.3.5\realms-1.3.5.jar;G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\libraries\org\apache\commons\commons-compress\1.8.1\commons-compress-1.8.1.jar;G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\libraries\org\apache\httpcomponents\httpclient\4.3.3\httpclient-4.3.3.jar;G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\libraries\commons-logging\commons-logging\1.1.3\commons-logging-1.1.3.jar;G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\libraries\org\apache\httpcomponents\httpcore\4.3.2\httpcore-4.3.2.jar;G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\libraries\java3d\vecmath\1.3.1\vecmath-1.3.1.jar;G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\libraries\net\sf\trove4j\trove4j\3.0.3\trove4j-3.0.3.jar;G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\libraries\com\ibm\icu\icu4j-core-mojang\51.2\icu4j-core-mojang-51.2.jar;G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\libraries\net\sf\jopt-simple\jopt-simple\4.5\jopt-simple-4.5.jar;G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\libraries\com\paulscode\codecjorbis\20101023\codecjorbis-20101023.jar;G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\libraries\com\paulscode\codecwav\20101023\codecwav-20101023.jar;G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\libraries\com\paulscode\libraryjavasound\20101123\libraryjavasound-20101123.jar;G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\libraries\com\paulscode\librarylwjglopenal\20100824\librarylwjglopenal-20100824.jar;G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\libraries\com\paulscode\soundsystem\20120107\soundsystem-20120107.jar;G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\libraries\io\netty\netty-all\4.0.10.Final\netty-all-4.0.10.Final.jar;G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\libraries\com\google\guava\guava\17.0\guava-17.0.jar;G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\libraries\org\apache\commons\commons-lang3\3.3.2\commons-lang3-3.3.2.jar;G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\libraries\commons-io\commons-io\2.4\commons-io-2.4.jar;G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\libraries\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar;G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\libraries\net\java\jutils\jutils\1.0.0\jutils-1.0.0.jar;G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\libraries\com\google\code\gson\gson\2.2.4\gson-2.2.4.jar;G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\libraries\com\mojang\authlib\1.5.21\authlib-1.5.21.jar;G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\libraries\org\apache\logging\log4j\log4j-api\2.0-beta9\log4j-api-2.0-beta9.jar;G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\libraries\org\apache\logging\log4j\log4j-core\2.0-beta9\log4j-core-2.0-beta9.jar;G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\libraries\org\lwjgl\lwjgl\lwjgl\2.9.1\lwjgl-2.9.1.jar;G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\libraries\org\lwjgl\lwjgl\lwjgl_util\2.9.1\lwjgl_util-2.9.1.jar;G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\libraries\tv\twitch\twitch\5.16\twitch-5.16.jar;G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\libraries\net\minecraftforge\forge\1.7.10-10.13.4.1614-1.7.10\forge-1.7.10-10.13.4.1614-1.7.10.jar;G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\libraries\net\minecraft\launchwrapper\1.12\launchwrapper-1.12.jar;G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\libraries\org\ow2\asm\asm-all\5.0.3\asm-all-5.0.3.jar;G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\libraries\com\typesafe\akka\akka-actor_2.11\2.3.3\akka-actor_2.11-2.3.3.jar;G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\libraries\com\typesafe\config\1.2.1\config-1.2.1.jar;G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\libraries\org\scala-lang\scala-actors-migration_2.11\1.1.0\scala-actors-migration_2.11-1.1.0.jar;G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\libraries\org\scala-lang\scala-compiler\2.11.1\scala-compiler-2.11.1.jar;G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\libraries\org\scala-lang\plugins\scala-continuations-library_2.11\1.0.2\scala-continuations-library_2.11-1.0.2.jar;G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\libraries\org\scala-lang\plugins\scala-continuations-plugin_2.11.1\1.0.2\scala-continuations-plugin_2.11.1-1.0.2.jar;G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\libraries\org\scala-lang\scala-library\2.11.1\scala-library-2.11.1.jar;G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\libraries\org\scala-lang\scala-parser-combinators_2.11\1.0.1\scala-parser-combinators_2.11-1.0.1.jar;G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\libraries\org\scala-lang\scala-reflect\2.11.1\scala-reflect-2.11.1.jar;G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\libraries\org\scala-lang\scala-swing_2.11\1.0.1\scala-swing_2.11-1.0.1.jar;G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\libraries\org\scala-lang\scala-xml_2.11\1.0.2\scala-xml_2.11-1.0.2.jar;G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\libraries\lzma\lzma\0.0.1\lzma-0.0.1.jar;G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\versions\ArdaFantasy\ArdaFantasy.jar" -jar "C:\Users\Admin\AppData\Roaming\PCL\JavaWrapper.jar" net.minecraft.launchwrapper.Launch --username Archi --version ArdaFantasy --gameDir "G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft" --assetsDir "G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\assets" --assetIndex 1.7.10 --uuid 00000XXXXXXXXXXXXXXXXXXXXXXFF19B --accessToken 00000XXXXXXXXXXXXXXXXXXXXXXFF19B --userProperties {} --userType Legacy --tweakClass cpw.mods.fml.common.launcher.FMLTweaker --height 693 --width 1744 
-[12:55:28.011] [Loader] 加载器 获取启动参数 状态改变：Finished
-[12:55:28.014] [Loader] 加载器 解压文件 状态改变：Loading
-[12:55:28.020] [Launch] 正在解压 Natives 文件
-[12:55:28.035] [Loader] 加载器 解压文件 状态改变：Finished
-[12:55:28.053] [Loader] 加载器 预启动处理 状态改变：Loading
-[12:55:28.061] [Launch] 并非首次启动，不修改语言
-[12:55:28.063] [Loader] 加载器 预启动处理 状态改变：Finished
-[12:55:28.094] [Loader] 加载器 执行自定义命令 状态改变：Loading
-[12:55:28.097] [Loader] 加载器 执行自定义命令 状态改变：Finished
-[12:55:28.131] [Loader] 加载器 启动进程 状态改变：Loading
-[12:55:28.141] [Launch] 已启动游戏进程：D:\Java\jdk1.8.0_321\jre\bin\javaw.exe
-[12:55:28.142] [Loader] 加载器 启动进程 状态改变：Finished
-[12:55:28.178] [Loader] 加载器 等待游戏窗口出现 状态改变：Loading
-[12:55:28.179] [Launch] 
-[12:55:28.179] [Launch] ~ 基础参数 ~
-[12:55:28.179] [Launch] PCL2 版本：Release 2.4.9 (281)
-[12:55:28.179] [Launch] 游戏版本：1.7.10, Forge 10.13.4.1614（7.10）
-[12:55:28.179] [Launch] 资源版本：1.7.10
-[12:55:28.179] [Launch] 版本继承：无
-[12:55:28.180] [Launch] 分配的内存：4.7 GB（4813 MB）
-[12:55:28.180] [Launch] MC 文件夹：G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\
-[12:55:28.180] [Launch] 版本文件夹：G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\versions\ArdaFantasy\
-[12:55:28.180] [Launch] 版本隔离：False
-[12:55:28.180] [Launch] HMCL 格式：False
-[12:55:28.180] [Launch] Java 信息：JRE 8 (8.0.321)，64 位：D:\Java\jdk1.8.0_321\jre\bin\
-[12:55:28.180] [Launch] 环境变量：已设置
-[12:55:28.180] [Launch] 
-[12:55:28.180] [Launch] ~ 登录参数 ~
-[12:55:28.180] [Launch] 玩家用户名：Archi
-[12:55:28.180] [Launch] AccessToken：00000XXXXXXXXXXXXXXXXXXXXXXFF19B
-[12:55:28.180] [Launch] ClientToken：00000XXXXXXXXXXXXXXXXXXXXXXFF19B
-[12:55:28.180] [Launch] UUID：00000XXXXXXXXXXXXXXXXXXXXXXFF19B
-[12:55:28.180] [Launch] 登录方式：Legacy
-[12:55:28.180] [Launch] 
-[12:55:28.182] [Launch] [3500] 开始 Minecraft 日志监控
-[12:55:28.182] [Launch] [3500] 要求窗口标题：阿尔达文明幻想   当前时间：{time}
-[12:55:28.183] [Launch] [全局] 出现运行中的 Minecraft
-[12:55:28.971] [Launch] [3500] 日志 1/5：已出现日志输出
-[12:55:33.062] [Launch] [3500] 日志 2/5：游戏用户已设置
-[12:55:34.427] [Launch] [3500] Minecraft 窗口已加载：（263682）
-[12:55:34.427] [Launch] [3500] 日志 3/5：LWJGL 版本已确认
-[12:55:34.427] [Launch] [3500] Minecraft 加载已完成
-[12:55:34.520] [Loader] 加载器 等待游戏窗口出现 状态改变：Finished
-[12:55:34.520] [Loader] 加载器 结束处理 状态改变：Loading
-[12:55:34.521] [Launch] 开始启动结束处理
-[12:55:34.521] [Launch] 启动器可见性：5
-[12:55:34.521] [Loader] 加载器 结束处理 状态改变：Finished
-[12:55:34.565] [Loader] 加载器 Minecraft 启动 状态改变：Finished
-[12:55:34.672] [Loader] 加载器 Loader Launch 状态改变：Finished
-[12:55:34.720] [UI] 弹出提示：ArdaFantasy 启动成功！
-[12:55:41.878] [Launch] [3500] 日志 4/5：OpenAL 已加载
-[12:55:42.794] [Launch] [3500] 日志 5/5：材质已加载
-[12:56:00.792] [Launch] [3500] Minecraft 已退出，返回值：0
-[12:56:00.792] [Launch] [全局] 已无运行中的 Minecraft
-[12:56:00.916] [Control] 按下图标按钮：BtnTitleMin
-[12:56:00.987] [Launch] [3500] Minecraft 日志监控已退出
-[13:00:29.684] [Control] 按下按钮：启动游戏
-[13:00:29.684] [Loader] 加载器 Loader Launch 状态改变：Loading
-[13:00:29.684] [System] 欲读取的文件不存在，已返回空字符串：G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\PCL\hints.txt
-[13:00:29.686] [Launch] 预检测已通过
-[13:00:29.686] [Download] 已跳过 Assets 下载
-[13:00:29.686] [Loader] 加载器 登录 状态改变：Waiting
-[13:00:29.686] [Loader] 加载器 Minecraft 启动 状态改变：Loading
-[13:00:29.686] [Loader] 加载器 Java 处理 状态改变：Loading
-[13:00:29.686] [Loader] 加载器 Java 验证 状态改变：Loading
-[13:00:29.687] [Launch] Java 版本需求：最低 0.0.0.0，最高 1.8.999.999
-[13:00:29.687] [Java] 开始完全遍历查找：G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\
-[13:00:29.687] [Loader] 加载器 登录 状态改变：Loading
-[13:00:29.687] [Loader] 加载器 补全文件 状态改变：Loading
-[13:00:29.687] [Loader] 加载器 下载支持库文件（主加载器） 状态改变：Loading
-[13:00:29.687] [Loader] 加载器 分析缺失支持库文件 状态改变：Loading
-[13:00:29.687] [Launch] 登录加载已开始
-[13:00:29.687] [Launch] 登录加载已结束
-[13:00:29.687] [Loader] 加载器 登录 状态改变：Finished
-[13:00:29.687] [Minecraft] 获取支持库列表：ArdaFantasy
-[13:00:29.688] [Java] 开始完全遍历查找：G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\
-[13:00:29.688] [Loader] 加载器 分析缺失支持库文件 状态改变：Finished
-[13:00:29.688] [Loader] 加载器 下载支持库文件 状态改变：Loading
-[13:00:29.688] [Loader] 加载器 下载支持库文件 状态改变：Finished
-[13:00:29.688] [Loader] 加载器 下载支持库文件（主加载器） 状态改变：Finished
-[13:00:29.688] [Loader] 加载器 补全文件 状态改变：Finished
-[13:00:29.692] [Java] 开始完全遍历查找：G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\versions\ArdaFantasy\
-[13:00:29.692] [Java] 使用用户指定的 Java：D:\Java\jdk1.8.0_321\jre\bin\
-[13:00:29.692] [System] 执行外部命令并等待返回结果：D:\Java\jdk1.8.0_321\jre\bin\java.exe -version
-[13:00:29.791] [Java] 选定的 Java：JRE 8 (8.0.321)，64 位：D:\Java\jdk1.8.0_321\jre\bin\
-[13:00:29.791] [Launch] 选择的 Java：JRE 8 (8.0.321)，64 位：D:\Java\jdk1.8.0_321\jre\bin\
-[13:00:29.791] [Loader] 加载器 Java 验证 状态改变：Finished
-[13:00:29.791] [Loader] 加载器 Java 处理 状态改变：Finished
-[13:00:29.792] [Loader] 加载器 获取启动参数 状态改变：Loading
-[13:00:29.792] [Launch] 开始获取 Minecraft 启动参数
-[13:00:29.792] [Launch] 获取旧版 JVM 参数
-[13:00:29.792] [System] 获取资源：JavaWrapper
-[13:00:29.793] [Java] 已释放 Java Wrapper：C:\Users\Admin\AppData\Roaming\PCL\JavaWrapper.jar
-[13:00:29.793] [Launch] 旧版 JVM 参数获取成功：
-[13:00:29.793] [Launch] -Doolloo.jlw.tmpdir="C:\Users\Admin\AppData\Roaming\PCL" -d64 -XX:+AggressiveOpts -XX:+UseConcMarkSweepGC -XX:+UseParNewGC -XX:+CMSConcurrentMTEnabled -XX:ParallelGCThreads=8 -Dsun.rmi.dgc.server.gcInterval=3600000 -XX:+UnlockExperimentalVMOptions -XX:+ExplicitGCInvokesConcurrent -XX:MaxGCPauseMillis=50 -XX:+AlwaysPreTouch -XX:+UseStringDeduplication -Dfml.ignorePatchDiscrepancies=true -Dfml.ignoreInvalidMinecraftCertificates=true -XX:-OmitStackTraceInFastThrow -XX:+OptimizeStringConcat -XX:+UseAdaptiveGCBoundary -XX:NewRatio=3 -Dfml.readTimeout=90 -XX:+UseFastAccessorMethods -Dlog4j2.formatMsgNoLookups=true -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Xmn256m -Xmx5120m "-Djava.library.path=G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\versions\ArdaFantasy\ArdaFantasy-natives" -cp ${classpath} -jar "C:\Users\Admin\AppData\Roaming\PCL\JavaWrapper.jar" net.minecraft.launchwrapper.Launch
-[13:00:29.793] [Launch] 获取旧版 Game 参数
-[13:00:29.793] [Launch] 旧版 Game 参数获取成功
-[13:00:29.793] [Minecraft] 获取支持库列表：ArdaFantasy
-[13:00:29.795] [Launch] Minecraft 启动参数：
-[13:00:29.796] [Launch] -Doolloo.jlw.tmpdir="C:\Users\Admin\AppData\Roaming\PCL" -d64 -XX:+AggressiveOpts -XX:+UseConcMarkSweepGC -XX:+UseParNewGC -XX:+CMSConcurrentMTEnabled -XX:ParallelGCThreads=8 -Dsun.rmi.dgc.server.gcInterval=3600000 -XX:+UnlockExperimentalVMOptions -XX:+ExplicitGCInvokesConcurrent -XX:MaxGCPauseMillis=50 -XX:+AlwaysPreTouch -XX:+UseStringDeduplication -Dfml.ignorePatchDiscrepancies=true -Dfml.ignoreInvalidMinecraftCertificates=true -XX:-OmitStackTraceInFastThrow -XX:+OptimizeStringConcat -XX:+UseAdaptiveGCBoundary -XX:NewRatio=3 -Dfml.readTimeout=90 -XX:+UseFastAccessorMethods -Dlog4j2.formatMsgNoLookups=true -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Xmn256m -Xmx5120m "-Djava.library.path=G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\versions\ArdaFantasy\ArdaFantasy-natives" -cp "G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\libraries\com\mojang\netty\1.8.8\netty-1.8.8.jar;G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\libraries\com\mojang\realms\1.3.5\realms-1.3.5.jar;G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\libraries\org\apache\commons\commons-compress\1.8.1\commons-compress-1.8.1.jar;G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\libraries\org\apache\httpcomponents\httpclient\4.3.3\httpclient-4.3.3.jar;G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\libraries\commons-logging\commons-logging\1.1.3\commons-logging-1.1.3.jar;G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\libraries\org\apache\httpcomponents\httpcore\4.3.2\httpcore-4.3.2.jar;G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\libraries\java3d\vecmath\1.3.1\vecmath-1.3.1.jar;G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\libraries\net\sf\trove4j\trove4j\3.0.3\trove4j-3.0.3.jar;G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\libraries\com\ibm\icu\icu4j-core-mojang\51.2\icu4j-core-mojang-51.2.jar;G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\libraries\net\sf\jopt-simple\jopt-simple\4.5\jopt-simple-4.5.jar;G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\libraries\com\paulscode\codecjorbis\20101023\codecjorbis-20101023.jar;G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\libraries\com\paulscode\codecwav\20101023\codecwav-20101023.jar;G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\libraries\com\paulscode\libraryjavasound\20101123\libraryjavasound-20101123.jar;G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\libraries\com\paulscode\librarylwjglopenal\20100824\librarylwjglopenal-20100824.jar;G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\libraries\com\paulscode\soundsystem\20120107\soundsystem-20120107.jar;G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\libraries\io\netty\netty-all\4.0.10.Final\netty-all-4.0.10.Final.jar;G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\libraries\com\google\guava\guava\17.0\guava-17.0.jar;G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\libraries\org\apache\commons\commons-lang3\3.3.2\commons-lang3-3.3.2.jar;G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\libraries\commons-io\commons-io\2.4\commons-io-2.4.jar;G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\libraries\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar;G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\libraries\net\java\jutils\jutils\1.0.0\jutils-1.0.0.jar;G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\libraries\com\google\code\gson\gson\2.2.4\gson-2.2.4.jar;G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\libraries\com\mojang\authlib\1.5.21\authlib-1.5.21.jar;G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\libraries\org\apache\logging\log4j\log4j-api\2.0-beta9\log4j-api-2.0-beta9.jar;G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\libraries\org\apache\logging\log4j\log4j-core\2.0-beta9\log4j-core-2.0-beta9.jar;G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\libraries\org\lwjgl\lwjgl\lwjgl\2.9.1\lwjgl-2.9.1.jar;G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\libraries\org\lwjgl\lwjgl\lwjgl_util\2.9.1\lwjgl_util-2.9.1.jar;G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\libraries\tv\twitch\twitch\5.16\twitch-5.16.jar;G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\libraries\net\minecraftforge\forge\1.7.10-10.13.4.1614-1.7.10\forge-1.7.10-10.13.4.1614-1.7.10.jar;G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\libraries\net\minecraft\launchwrapper\1.12\launchwrapper-1.12.jar;G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\libraries\org\ow2\asm\asm-all\5.0.3\asm-all-5.0.3.jar;G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\libraries\com\typesafe\akka\akka-actor_2.11\2.3.3\akka-actor_2.11-2.3.3.jar;G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\libraries\com\typesafe\config\1.2.1\config-1.2.1.jar;G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\libraries\org\scala-lang\scala-actors-migration_2.11\1.1.0\scala-actors-migration_2.11-1.1.0.jar;G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\libraries\org\scala-lang\scala-compiler\2.11.1\scala-compiler-2.11.1.jar;G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\libraries\org\scala-lang\plugins\scala-continuations-library_2.11\1.0.2\scala-continuations-library_2.11-1.0.2.jar;G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\libraries\org\scala-lang\plugins\scala-continuations-plugin_2.11.1\1.0.2\scala-continuations-plugin_2.11.1-1.0.2.jar;G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\libraries\org\scala-lang\scala-library\2.11.1\scala-library-2.11.1.jar;G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\libraries\org\scala-lang\scala-parser-combinators_2.11\1.0.1\scala-parser-combinators_2.11-1.0.1.jar;G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\libraries\org\scala-lang\scala-reflect\2.11.1\scala-reflect-2.11.1.jar;G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\libraries\org\scala-lang\scala-swing_2.11\1.0.1\scala-swing_2.11-1.0.1.jar;G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\libraries\org\scala-lang\scala-xml_2.11\1.0.2\scala-xml_2.11-1.0.2.jar;G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\libraries\lzma\lzma\0.0.1\lzma-0.0.1.jar;G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\versions\ArdaFantasy\ArdaFantasy.jar" -jar "C:\Users\Admin\AppData\Roaming\PCL\JavaWrapper.jar" net.minecraft.launchwrapper.Launch --username Archi --version ArdaFantasy --gameDir "G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft" --assetsDir "G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\assets" --assetIndex 1.7.10 --uuid 00000XXXXXXXXXXXXXXXXXXXXXXFF19B --accessToken 00000XXXXXXXXXXXXXXXXXXXXXXFF19B --userProperties {} --userType Legacy --tweakClass cpw.mods.fml.common.launcher.FMLTweaker --height 693 --width 1744 
-[13:00:29.796] [Loader] 加载器 获取启动参数 状态改变：Finished
-[13:00:29.798] [Loader] 加载器 解压文件 状态改变：Loading
-[13:00:29.798] [Launch] 正在解压 Natives 文件
-[13:00:29.799] [Loader] 加载器 解压文件 状态改变：Finished
-[13:00:29.832] [Loader] 加载器 预启动处理 状态改变：Loading
-[13:00:29.832] [Launch] 并非首次启动，不修改语言
-[13:00:29.832] [Loader] 加载器 预启动处理 状态改变：Finished
-[13:00:29.833] [Loader] 加载器 执行自定义命令 状态改变：Loading
-[13:00:29.837] [Loader] 加载器 执行自定义命令 状态改变：Finished
-[13:00:29.871] [Loader] 加载器 启动进程 状态改变：Loading
-[13:00:29.874] [Launch] 已启动游戏进程：D:\Java\jdk1.8.0_321\jre\bin\javaw.exe
-[13:00:29.874] [Loader] 加载器 启动进程 状态改变：Finished
-[13:00:29.913] [Loader] 加载器 等待游戏窗口出现 状态改变：Loading
-[13:00:29.913] [Launch] 
-[13:00:29.913] [Launch] ~ 基础参数 ~
-[13:00:29.913] [Launch] PCL2 版本：Release 2.4.9 (281)
-[13:00:29.913] [Launch] 游戏版本：1.7.10, Forge 10.13.4.1614（7.10）
-[13:00:29.913] [Launch] 资源版本：1.7.10
-[13:00:29.913] [Launch] 版本继承：无
-[13:00:29.913] [Launch] 分配的内存：5 GB（5120 MB）
-[13:00:29.913] [Launch] MC 文件夹：G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\
-[13:00:29.913] [Launch] 版本文件夹：G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\versions\ArdaFantasy\
-[13:00:29.913] [Launch] 版本隔离：False
-[13:00:29.913] [Launch] HMCL 格式：False
-[13:00:29.913] [Launch] Java 信息：JRE 8 (8.0.321)，64 位：D:\Java\jdk1.8.0_321\jre\bin\
-[13:00:29.913] [Launch] 环境变量：已设置
-[13:00:29.913] [Launch] 
-[13:00:29.913] [Launch] ~ 登录参数 ~
-[13:00:29.913] [Launch] 玩家用户名：Archi
-[13:00:29.913] [Launch] AccessToken：00000XXXXXXXXXXXXXXXXXXXXXXFF19B
-[13:00:29.913] [Launch] ClientToken：00000XXXXXXXXXXXXXXXXXXXXXXFF19B
-[13:00:29.913] [Launch] UUID：00000XXXXXXXXXXXXXXXXXXXXXXFF19B
-[13:00:29.913] [Launch] 登录方式：Legacy
-[13:00:29.913] [Launch] 
-[13:00:29.913] [Launch] [6088] 开始 Minecraft 日志监控
-[13:00:29.913] [Launch] [6088] 要求窗口标题：阿尔达文明幻想   当前时间：{time}
-[13:00:29.913] [Launch] [全局] 出现运行中的 Minecraft
-[13:00:30.306] [Launch] [6088] 日志 1/5：已出现日志输出
-[13:00:33.415] [Launch] [6088] 日志 2/5：游戏用户已设置
-[13:00:34.781] [Launch] [6088] Minecraft 窗口已加载：（132916）
-[13:00:34.781] [Launch] [6088] 日志 3/5：LWJGL 版本已确认
-[13:00:34.781] [Launch] [6088] Minecraft 加载已完成
-[13:00:34.844] [Loader] 加载器 等待游戏窗口出现 状态改变：Finished
-[13:00:34.844] [Loader] 加载器 结束处理 状态改变：Loading
-[13:00:34.844] [Launch] 开始启动结束处理
-[13:00:34.844] [Launch] 启动器可见性：5
-[13:00:34.844] [Loader] 加载器 结束处理 状态改变：Finished
-[13:00:34.894] [Loader] 加载器 Minecraft 启动 状态改变：Finished
-[13:00:34.968] [Loader] 加载器 Loader Launch 状态改变：Finished
-[13:00:34.993] [UI] 弹出提示：ArdaFantasy 启动成功！
-[13:01:36.406] [Launch] [6088] 日志 4/5：OpenAL 已加载
-[13:01:41.389] [Launch] [6088] 日志 5/5：材质已加载
-[13:35:42.858] [Launch] [6088] Minecraft 已退出，返回值：0
-[13:35:42.858] [Launch] [全局] 已无运行中的 Minecraft
-[13:35:43.052] [Launch] [6088] Minecraft 日志监控已退出
-[13:35:44.858] [System] 收到置顶信息：67106
-[13:35:44.884] [System] 窗口已置顶，位置：(52, 101.6), 1431.2 x 620.8
-[13:35:45.753] [Control] 按下按钮：启动游戏
-[13:35:45.753] [Loader] 加载器 Loader Launch 状态改变：Loading
-[13:35:45.754] [System] 欲读取的文件不存在，已返回空字符串：G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\PCL\hints.txt
-[13:35:45.756] [Launch] 预检测已通过
-[13:35:45.756] [Download] 已跳过 Assets 下载
-[13:35:45.756] [Loader] 加载器 登录 状态改变：Waiting
-[13:35:45.756] [Loader] 加载器 Minecraft 启动 状态改变：Loading
-[13:35:45.756] [Loader] 加载器 Java 处理 状态改变：Loading
-[13:35:45.756] [Loader] 加载器 Java 验证 状态改变：Loading
-[13:35:45.757] [Launch] Java 版本需求：最低 0.0.0.0，最高 1.8.999.999
-[13:35:45.757] [Java] 开始完全遍历查找：G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\
-[13:35:45.757] [Loader] 加载器 登录 状态改变：Loading
-[13:35:45.757] [Loader] 加载器 补全文件 状态改变：Loading
-[13:35:45.757] [Loader] 加载器 下载支持库文件（主加载器） 状态改变：Loading
-[13:35:45.757] [Loader] 加载器 分析缺失支持库文件 状态改变：Loading
-[13:35:45.757] [Launch] 登录加载已开始
-[13:35:45.757] [Launch] 登录加载已结束
-[13:35:45.757] [Loader] 加载器 登录 状态改变：Finished
-[13:35:45.760] [Minecraft] 获取支持库列表：ArdaFantasy
-[13:35:45.761] [Java] 开始完全遍历查找：G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\
-[13:35:45.761] [Loader] 加载器 分析缺失支持库文件 状态改变：Finished
-[13:35:45.761] [Loader] 加载器 下载支持库文件 状态改变：Loading
-[13:35:45.761] [Loader] 加载器 下载支持库文件 状态改变：Finished
-[13:35:45.761] [Loader] 加载器 下载支持库文件（主加载器） 状态改变：Finished
-[13:35:45.761] [Loader] 加载器 补全文件 状态改变：Finished
-[13:35:45.765] [Java] 开始完全遍历查找：G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\versions\ArdaFantasy\
-[13:35:45.765] [Java] 使用用户指定的 Java：D:\Java\jdk1.8.0_321\jre\bin\
-[13:35:45.765] [System] 执行外部命令并等待返回结果：D:\Java\jdk1.8.0_321\jre\bin\java.exe -version
-[13:35:45.847] [Java] 选定的 Java：JRE 8 (8.0.321)，64 位：D:\Java\jdk1.8.0_321\jre\bin\
-[13:35:45.847] [Launch] 选择的 Java：JRE 8 (8.0.321)，64 位：D:\Java\jdk1.8.0_321\jre\bin\
-[13:35:45.847] [Loader] 加载器 Java 验证 状态改变：Finished
-[13:35:45.847] [Loader] 加载器 Java 处理 状态改变：Finished
-[13:35:45.849] [Loader] 加载器 获取启动参数 状态改变：Loading
-[13:35:45.849] [Launch] 开始获取 Minecraft 启动参数
-[13:35:45.849] [Launch] 获取旧版 JVM 参数
-[13:35:45.849] [System] 获取资源：JavaWrapper
-[13:35:45.849] [Java] 已释放 Java Wrapper：C:\Users\Admin\AppData\Roaming\PCL\JavaWrapper.jar
-[13:35:45.850] [Launch] 旧版 JVM 参数获取成功：
-[13:35:45.850] [Launch] -Doolloo.jlw.tmpdir="C:\Users\Admin\AppData\Roaming\PCL" -d64 -XX:+AggressiveOpts -XX:+UseConcMarkSweepGC -XX:+UseParNewGC -XX:+CMSConcurrentMTEnabled -XX:ParallelGCThreads=8 -Dsun.rmi.dgc.server.gcInterval=3600000 -XX:+UnlockExperimentalVMOptions -XX:+ExplicitGCInvokesConcurrent -XX:MaxGCPauseMillis=50 -XX:+AlwaysPreTouch -XX:+UseStringDeduplication -Dfml.ignorePatchDiscrepancies=true -Dfml.ignoreInvalidMinecraftCertificates=true -XX:-OmitStackTraceInFastThrow -XX:+OptimizeStringConcat -XX:+UseAdaptiveGCBoundary -XX:NewRatio=3 -Dfml.readTimeout=90 -XX:+UseFastAccessorMethods -Dlog4j2.formatMsgNoLookups=true -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Xmn256m -Xmx6041m "-Djava.library.path=G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\versions\ArdaFantasy\ArdaFantasy-natives" -cp ${classpath} -jar "C:\Users\Admin\AppData\Roaming\PCL\JavaWrapper.jar" net.minecraft.launchwrapper.Launch
-[13:35:45.850] [Launch] 获取旧版 Game 参数
-[13:35:45.850] [Launch] 旧版 Game 参数获取成功
-[13:35:45.851] [Minecraft] 获取支持库列表：ArdaFantasy
-[13:35:45.853] [Launch] Minecraft 启动参数：
-[13:35:45.854] [Launch] -Doolloo.jlw.tmpdir="C:\Users\Admin\AppData\Roaming\PCL" -d64 -XX:+AggressiveOpts -XX:+UseConcMarkSweepGC -XX:+UseParNewGC -XX:+CMSConcurrentMTEnabled -XX:ParallelGCThreads=8 -Dsun.rmi.dgc.server.gcInterval=3600000 -XX:+UnlockExperimentalVMOptions -XX:+ExplicitGCInvokesConcurrent -XX:MaxGCPauseMillis=50 -XX:+AlwaysPreTouch -XX:+UseStringDeduplication -Dfml.ignorePatchDiscrepancies=true -Dfml.ignoreInvalidMinecraftCertificates=true -XX:-OmitStackTraceInFastThrow -XX:+OptimizeStringConcat -XX:+UseAdaptiveGCBoundary -XX:NewRatio=3 -Dfml.readTimeout=90 -XX:+UseFastAccessorMethods -Dlog4j2.formatMsgNoLookups=true -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Xmn256m -Xmx6041m "-Djava.library.path=G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\versions\ArdaFantasy\ArdaFantasy-natives" -cp "G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\libraries\com\mojang\netty\1.8.8\netty-1.8.8.jar;G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\libraries\com\mojang\realms\1.3.5\realms-1.3.5.jar;G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\libraries\org\apache\commons\commons-compress\1.8.1\commons-compress-1.8.1.jar;G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\libraries\org\apache\httpcomponents\httpclient\4.3.3\httpclient-4.3.3.jar;G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\libraries\commons-logging\commons-logging\1.1.3\commons-logging-1.1.3.jar;G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\libraries\org\apache\httpcomponents\httpcore\4.3.2\httpcore-4.3.2.jar;G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\libraries\java3d\vecmath\1.3.1\vecmath-1.3.1.jar;G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\libraries\net\sf\trove4j\trove4j\3.0.3\trove4j-3.0.3.jar;G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\libraries\com\ibm\icu\icu4j-core-mojang\51.2\icu4j-core-mojang-51.2.jar;G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\libraries\net\sf\jopt-simple\jopt-simple\4.5\jopt-simple-4.5.jar;G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\libraries\com\paulscode\codecjorbis\20101023\codecjorbis-20101023.jar;G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\libraries\com\paulscode\codecwav\20101023\codecwav-20101023.jar;G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\libraries\com\paulscode\libraryjavasound\20101123\libraryjavasound-20101123.jar;G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\libraries\com\paulscode\librarylwjglopenal\20100824\librarylwjglopenal-20100824.jar;G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\libraries\com\paulscode\soundsystem\20120107\soundsystem-20120107.jar;G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\libraries\io\netty\netty-all\4.0.10.Final\netty-all-4.0.10.Final.jar;G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\libraries\com\google\guava\guava\17.0\guava-17.0.jar;G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\libraries\org\apache\commons\commons-lang3\3.3.2\commons-lang3-3.3.2.jar;G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\libraries\commons-io\commons-io\2.4\commons-io-2.4.jar;G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\libraries\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar;G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\libraries\net\java\jutils\jutils\1.0.0\jutils-1.0.0.jar;G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\libraries\com\google\code\gson\gson\2.2.4\gson-2.2.4.jar;G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\libraries\com\mojang\authlib\1.5.21\authlib-1.5.21.jar;G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\libraries\org\apache\logging\log4j\log4j-api\2.0-beta9\log4j-api-2.0-beta9.jar;G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\libraries\org\apache\logging\log4j\log4j-core\2.0-beta9\log4j-core-2.0-beta9.jar;G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\libraries\org\lwjgl\lwjgl\lwjgl\2.9.1\lwjgl-2.9.1.jar;G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\libraries\org\lwjgl\lwjgl\lwjgl_util\2.9.1\lwjgl_util-2.9.1.jar;G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\libraries\tv\twitch\twitch\5.16\twitch-5.16.jar;G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\libraries\net\minecraftforge\forge\1.7.10-10.13.4.1614-1.7.10\forge-1.7.10-10.13.4.1614-1.7.10.jar;G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\libraries\net\minecraft\launchwrapper\1.12\launchwrapper-1.12.jar;G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\libraries\org\ow2\asm\asm-all\5.0.3\asm-all-5.0.3.jar;G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\libraries\com\typesafe\akka\akka-actor_2.11\2.3.3\akka-actor_2.11-2.3.3.jar;G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\libraries\com\typesafe\config\1.2.1\config-1.2.1.jar;G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\libraries\org\scala-lang\scala-actors-migration_2.11\1.1.0\scala-actors-migration_2.11-1.1.0.jar;G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\libraries\org\scala-lang\scala-compiler\2.11.1\scala-compiler-2.11.1.jar;G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\libraries\org\scala-lang\plugins\scala-continuations-library_2.11\1.0.2\scala-continuations-library_2.11-1.0.2.jar;G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\libraries\org\scala-lang\plugins\scala-continuations-plugin_2.11.1\1.0.2\scala-continuations-plugin_2.11.1-1.0.2.jar;G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\libraries\org\scala-lang\scala-library\2.11.1\scala-library-2.11.1.jar;G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\libraries\org\scala-lang\scala-parser-combinators_2.11\1.0.1\scala-parser-combinators_2.11-1.0.1.jar;G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\libraries\org\scala-lang\scala-reflect\2.11.1\scala-reflect-2.11.1.jar;G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\libraries\org\scala-lang\scala-swing_2.11\1.0.1\scala-swing_2.11-1.0.1.jar;G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\libraries\org\scala-lang\scala-xml_2.11\1.0.2\scala-xml_2.11-1.0.2.jar;G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\libraries\lzma\lzma\0.0.1\lzma-0.0.1.jar;G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\versions\ArdaFantasy\ArdaFantasy.jar" -jar "C:\Users\Admin\AppData\Roaming\PCL\JavaWrapper.jar" net.minecraft.launchwrapper.Launch --username Archi --version ArdaFantasy --gameDir "G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft" --assetsDir "G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\assets" --assetIndex 1.7.10 --uuid 00000XXXXXXXXXXXXXXXXXXXXXXFF19B --accessToken 00000XXXXXXXXXXXXXXXXXXXXXXFF19B --userProperties {} --userType Legacy --tweakClass cpw.mods.fml.common.launcher.FMLTweaker --height 693 --width 1744 
-[13:35:45.854] [Loader] 加载器 获取启动参数 状态改变：Finished
-[13:35:45.857] [Loader] 加载器 解压文件 状态改变：Loading
-[13:35:45.857] [Launch] 正在解压 Natives 文件
-[13:35:45.858] [Loader] 加载器 解压文件 状态改变：Finished
-[13:35:45.898] [Loader] 加载器 预启动处理 状态改变：Loading
-[13:35:45.898] [Launch] 并非首次启动，不修改语言
-[13:35:45.898] [Loader] 加载器 预启动处理 状态改变：Finished
-[13:35:45.941] [Loader] 加载器 执行自定义命令 状态改变：Loading
-[13:35:45.942] [Loader] 加载器 执行自定义命令 状态改变：Finished
-[13:35:45.943] [Loader] 加载器 启动进程 状态改变：Loading
-[13:35:45.946] [Launch] 已启动游戏进程：D:\Java\jdk1.8.0_321\jre\bin\javaw.exe
-[13:35:45.946] [Loader] 加载器 启动进程 状态改变：Finished
-[13:35:45.946] [Loader] 加载器 等待游戏窗口出现 状态改变：Loading
-[13:35:45.946] [Launch] 
-[13:35:45.946] [Launch] ~ 基础参数 ~
-[13:35:45.946] [Launch] PCL2 版本：Release 2.4.9 (281)
-[13:35:45.946] [Launch] 游戏版本：1.7.10, Forge 10.13.4.1614（7.10）
-[13:35:45.946] [Launch] 资源版本：1.7.10
-[13:35:45.946] [Launch] 版本继承：无
-[13:35:45.947] [Launch] 分配的内存：5.9 GB（6042 MB）
-[13:35:45.947] [Launch] MC 文件夹：G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\
-[13:35:45.947] [Launch] 版本文件夹：G:\【minecraft专区】\JAVA各版本客户端合集\阿尔达传说 - 单人整合包\.minecraft\versions\ArdaFantasy\
-[13:35:45.947] [Launch] 版本隔离：False
-[13:35:45.947] [Launch] HMCL 格式：False
-[13:35:45.947] [Launch] Java 信息：JRE 8 (8.0.321)，64 位：D:\Java\jdk1.8.0_321\jre\bin\
-[13:35:45.947] [Launch] 环境变量：已设置
-[13:35:45.947] [Launch] 
-[13:35:45.947] [Launch] ~ 登录参数 ~
-[13:35:45.947] [Launch] 玩家用户名：Archi
-[13:35:45.947] [Launch] AccessToken：00000XXXXXXXXXXXXXXXXXXXXXXFF19B
-[13:35:45.947] [Launch] ClientToken：00000XXXXXXXXXXXXXXXXXXXXXXFF19B
-[13:35:45.947] [Launch] UUID：00000XXXXXXXXXXXXXXXXXXXXXXFF19B
-[13:35:45.947] [Launch] 登录方式：Legacy
-[13:35:45.947] [Launch] 
-[13:35:45.947] [Launch] [15576] 开始 Minecraft 日志监控
-[13:35:45.947] [Launch] [15576] 要求窗口标题：阿尔达文明幻想   当前时间：{time}
-[13:35:45.947] [Launch] [全局] 出现运行中的 Minecraft
-[13:35:46.537] [Launch] [15576] 日志 1/5：已出现日志输出
-[13:35:52.014] [Launch] [15576] 日志 2/5：游戏用户已设置
-[13:35:54.381] [Launch] [15576] Minecraft 窗口已加载：（264132）
-[13:35:54.382] [Launch] [15576] 日志 3/5：LWJGL 版本已确认
-[13:35:54.382] [Launch] [15576] Minecraft 加载已完成
-[13:35:54.398] [Loader] 加载器 等待游戏窗口出现 状态改变：Finished
-[13:35:54.487] [Loader] 加载器 结束处理 状态改变：Loading
-[13:35:54.487] [Launch] 开始启动结束处理
-[13:35:54.487] [Launch] 启动器可见性：5
-[13:35:54.488] [Loader] 加载器 结束处理 状态改变：Finished
-[13:35:54.591] [Loader] 加载器 Minecraft 启动 状态改变：Finished
-[13:35:54.793] [Loader] 加载器 Loader Launch 状态改变：Finished
-[13:35:54.798] [UI] 弹出提示：ArdaFantasy 启动成功！
-[13:36:26.994] [Launch] [15576] 日志 4/5：OpenAL 已加载
-[13:36:30.939] [Launch] [15576] 日志 5/5：材质已加载
-[13:43:54.882] [Control] 按下图标按钮：BtnTitleMin
-[13:52:49.054] [Launch] [15576] Minecraft 已退出，返回值：0
-[13:52:49.054] [Launch] [全局] 已无运行中的 Minecraft
-[13:52:49.248] [Launch] [15576] Minecraft 日志监控已退出
-[13:53:56.616] [Control] 按下图标按钮：BtnTitleClose
-[13:53:56.632] [System] 收到关闭指令
-[13:53:56.848] [System] 程序已退出，返回值：Success
+[21:20:47.307] [Start] 程序版本：Release 2.4.9（281）
+[21:20:47.309] [Start] 识别码：7B14-80BC-DDDE-12DA
+[21:20:47.309] [Start] 程序路径：G:\【minecraft专区】\JAVA各版本客户端合集\魔戒重制版精制整合包（1.7.10）\PCL2  2.4.9.exe
+[21:20:47.313] [Start] 第一阶段加载用时：156 ms
+[21:20:47.423] [Loader] 加载器 Minecraft Folder List 状态改变：Loading
+[21:20:47.424] [Start] 第二阶段加载用时：110 ms
+[21:20:47.439] [Loader] 加载器 Minecraft Folder List 状态改变：Finished
+[21:20:47.635] [UI] 加载背景图片：G:\【minecraft专区】\JAVA各版本客户端合集\魔戒重制版精制整合包（1.7.10）\PCL\Pictures\瑞文戴尔 埃尔隆德召开会议和魔戒远征队成立的庭院 The courtyard where the Council of Elrond was held, and the Fellowship of the Ring was formed.webp
+[21:20:47.663] 加载位图失败（G:\【minecraft专区】\JAVA各版本客户端合集\魔戒重制版精制整合包（1.7.10）\PCL\Pictures\瑞文戴尔 埃尔隆德召开会议和魔戒远征队成立的庭院 The courtyard where the Council of Elrond was held, and the Fellowship of the Ring was formed.webp）：参数无效。
+   在 System.Drawing.Bitmap..ctor(Stream stream)
+   在 PCL.MyBitmap..ctor(String FilePathOrResourceName)
+错误类型：System.ArgumentException
+[21:20:47.664] 刷新背景图片失败，该图片文件可能并非标准格式。
+你可以尝试使用画图打开该文件并重新保存，这会让图片变为标准格式。
+文件：G:\【minecraft专区】\JAVA各版本客户端合集\魔戒重制版精制整合包（1.7.10）\PCL\Pictures\瑞文戴尔 埃尔隆德召开会议和魔戒远征队成立的庭院 The courtyard where the Council of Elrond was held, and the Fellowship of the Ring was formed.webp
+[21:20:47.702] [Control] 普通弹窗：出现错误
+刷新背景图片失败，该图片文件可能并非标准格式。
+你可以尝试使用画图打开该文件并重新保存，这会让图片变为标准格式。
+文件：G:\【minecraft专区】\JAVA各版本客户端合集\魔戒重制版精制整合包（1.7.10）\PCL\Pictures\瑞文戴尔 埃尔隆德召开会议和魔戒远征队成立的庭院 The courtyard where the Council of Elrond was held, and the Fellowship of the Ring was formed.webp
+[21:20:47.765] [System] 窗口已置顶，位置：(48.8, 102.4), 1437.6 x 618.4
+[21:20:47.767] [Start] 第三阶段加载用时：141 ms
+[21:20:47.767] [Animation] 动画线程开始
+[21:20:47.769] [Start] 加载 DLL：Json
+[21:20:47.770] [System] 获取资源：Json
+[21:20:47.776] [Launch] Minecraft 文件夹：G:\【minecraft专区】\JAVA各版本客户端合集\魔戒重制版精制整合包（1.7.10）\.minecraft\
+[21:20:47.825] [Loader] 加载器 Loader Skin Legacy 状态改变：Loading
+[21:20:47.831] [Loader] 加载器 Loader Skin Legacy 状态改变：Finished
+[21:20:47.839] [Java] 缓存中有 6 个可用的 Java
+[21:20:47.886] [Skin] 载入头像成功：Loader Skin Legacy
+[21:20:47.893] [Minecraft] 启动按钮：Minecraft 版本：G:\【minecraft专区】\JAVA各版本客户端合集\魔戒重制版精制整合包（1.7.10）\.minecraft\versions\重制版精制整合包（1.7.10）\
+[21:20:47.896] [Loader] 加载器 登录 状态改变：Loading
+[21:20:47.903] [Launch] 登录加载已开始
+[21:20:47.911] [Loader] 加载器 Loader Login Legacy 状态改变：Loading
+[21:20:47.913] [Launch] 登录方式：离线（Archi）
+[21:20:47.915] [Loader] 加载器 Loader Login Legacy 状态改变：Finished
+[21:20:47.923] [Launch] 登录加载已结束
+[21:20:47.923] [Loader] 加载器 登录 状态改变：Finished
+[21:20:48.044] [Loader] 加载器 DlClientList Mojang 状态改变：Loading
+[21:20:48.045] [Loader] 加载器 PCL2 服务 状态改变：Loading
+[21:20:48.047] [Server] 正在连接到 PCL2 服务器
+[21:20:48.051] [Net] 获取网络结果：https://launchermeta.mojang.com/mc/game/version_manifest.json，最大超时 10000
+[21:20:48.058] [Net] 获取网络结果：http://pcl2-server-1253424809.file.myqcloud.com/notice.cfg?sign=1695561648-4f0780ff-0-e815c5bf7287fa0235b76990bd17045a，最大超时 10000
+[21:20:48.116] [Server] 服务器公告：118|305|302|5，无需更新
+[21:20:48.120] [Loader] 加载器 PCL2 服务 状态改变：Finished
+[21:20:48.483] [System] DPI：120，系统版本：10.0.19044.0，PCL 位置：G:\【minecraft专区】\JAVA各版本客户端合集\魔戒重制版精制整合包（1.7.10）\PCL2  2.4.9.exe
+[21:20:48.772] [Loader] 加载器 DlClientList Mojang 状态改变：Finished
+[21:20:49.708] [Control] 按下按钮：确定
+[21:20:51.341] [Control] 按下图标按钮：BtnTitleClose
+[21:20:51.346] [System] 收到关闭指令
+[21:20:51.577] [System] 程序已退出，返回值：Success

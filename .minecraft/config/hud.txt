@@ -1,6 +1,6 @@
 # Better HUD configuration file
 # Any removed or corrupted properties will be reverted to default.
-# 2023-07-25 16:53:27.701
+# 2023-06-05 20:49:26.848
 armorBars:
 	enabled:false
 	posMode:0
@@ -42,8 +42,8 @@ bloodSplatters:
 	density:1
 breedIndicator:
 	enabled:true
-	position:middleRight
-	distance:5.0
+	position:middleLeft
+	distance:10.078124878928065
 clock:
 	enabled:false
 	posMode:0
@@ -143,7 +143,7 @@ horseInfo:
 	enabled:true
 	jump:true
 	speed:true
-	distance:5.0
+	distance:100.0
 foodIndicator:
 	enabled:false
 	posMode:0

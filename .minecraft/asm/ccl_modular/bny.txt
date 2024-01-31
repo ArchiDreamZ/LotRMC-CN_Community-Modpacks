@@ -3191,7 +3191,7 @@ public class bny extends bno  {
     DLOAD 6
     FLOAD 8
     FLOAD 9
-    INVOKEVIRTUAL bny.a (Lxk;DDDFF)V
+    INVOKESTATIC com/creativemd/itemphysic/physics/ClientPhysic.doRender (Lsa;DDDFF)V
    L1
     LINENUMBER 747 L1
     RETURN

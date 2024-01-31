@@ -1,4 +1,4 @@
-ofRenderDistanceChunks:6
+ofRenderDistanceChunks:12
 ofFogType:1
 ofFogStart:0.8
 ofMipmapType:0
@@ -60,7 +60,7 @@ ofCustomSky:true
 ofShowCapes:true
 ofNaturalTextures:false
 ofLazyChunkLoading:true
-ofDynamicFov:true
+ofDynamicFov:false
 ofDynamicLights:1
 ofFullscreenMode:Default
 ofFastMath:false

@@ -1,0 +1,38 @@
+# Custom Crosshair Mod v0.8.4
+# Crosshair Config File
+# Made By Sparkless101
+# ------------------------------------
+# This config file contains the properties for the crosshair and settings for the mod.
+# Feel free to edit the file.
+# Colours should be formatted as such: "property_name:r/g/b/a"
+#
+# Visit the official project pages for more info and preset crosshairs.
+# https://www.curseforge.com/projects/242995/
+# http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2637819/
+# ------------------------------------
+mod_enabled:false
+keybind_gui:DIVIDE
+crosshair_colour:255/255/255/100
+crosshair_type:0
+crosshair_width:1
+crosshair_height:1
+crosshair_gap:3
+crosshair_thickness:2
+crosshair_rotation:0
+visible_default:true
+visible_hiddenGui:false
+visible_debug:true
+visible_thirdperson:true
+outline_enabled:false
+outline_colour:0/0/0/255
+dot_enabled:false
+dot_colour:0/0/0/255
+dynamic_bow_enabled:true
+highlight_hostile_enabled:false
+highlight_hostile_colour:255/0/0/255
+highlight_passive_enabled:false
+highlight_passive_colour:0/255/0/255
+highlight_players_enabled:false
+highlight_players_colour:0/0/255/255
+rainbow_enabled:false
+rainbow_speed:500
