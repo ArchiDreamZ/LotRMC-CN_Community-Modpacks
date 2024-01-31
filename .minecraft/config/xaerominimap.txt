@@ -25,7 +25,7 @@ oldDeathpoints:true
 distance:1
 showCoords:true
 lockNorth:false
-zoom:0
+zoom:1
 minimapSize:0
 entityAmount:1
 chunkGrid:-1
@@ -76,13 +76,13 @@ waypointOpacityMap:90
 hideWorldNames:1
 openSlimeSettings:true
 alwaysShowDistance:false
-playerNames:2
-otherTeamsNames:3
-friendlyMobNames:0
-hostileMobNames:0
-itemNames:0
-otherNames:0
-tamedMobNames:3
+playerNames:1
+otherTeamsNames:1
+friendlyMobNames:1
+hostileMobNames:1
+itemNames:1
+otherNames:1
+tamedMobNames:1
 showLightLevel:0
 renderLayerIndex:1
 showTime:0
@@ -116,9 +116,9 @@ minimapFrameColor:9
 compassColor:9
 itemFramesOnRadar:false
 showDimensionName:false
+interface:dummy:0:36:true:false:false:false
+interface:dummy:0:10000:true:false:false:false
 interface:dummy:0:0:false:false:true:false
-interface:dummy:0:135:false:false:false:false
-interface:dummy:120:0:true:false:false:false
-interface:dummy:0:50:true:false:false:false
-interface:gui.xaero_minimap:0:0:false:false:true:false
+interface:dummy:0:36:true:false:false:false
+interface:gui.xaero_minimap:101:0:false:false:true:false
 #WAYPOINTS HAVE BEEN MOVED TO /XaeroWaypoints
