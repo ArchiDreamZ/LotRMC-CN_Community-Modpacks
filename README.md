@@ -21,6 +21,7 @@
 可以在中文社区群文件中下载稳定版本，也可以在本Github页面下载最新版本。
 
 点击图中按钮下载：
+
 ![301752342-a6334d2f-fa23-437f-bb9d-9b45cf2933ab](https://github.com/ArchiDreamZ/LotRMC-CN_Community-Modpacks/assets/89504984/01285f66-534b-41f5-89d1-aa397c380515)
 
 
