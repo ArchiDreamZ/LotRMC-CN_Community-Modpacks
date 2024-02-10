@@ -1,6 +1,5 @@
-
+PCL/*.txt
 .minecraft/NBTEdit.log
 
 .minecraft/CustomSkinLoader/Tweaker.log
 .minecraft/CustomSkinLoader/CustomSkinLoader.log
-*.log

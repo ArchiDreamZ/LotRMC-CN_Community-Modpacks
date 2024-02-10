@@ -1,50 +1,37 @@
-[21:20:47.307] [Start] 程序版本：Release 2.4.9（281）
-[21:20:47.309] [Start] 识别码：7B14-80BC-DDDE-12DA
-[21:20:47.309] [Start] 程序路径：G:\【minecraft专区】\JAVA各版本客户端合集\魔戒重制版精制整合包（1.7.10）\PCL2  2.4.9.exe
-[21:20:47.313] [Start] 第一阶段加载用时：156 ms
-[21:20:47.423] [Loader] 加载器 Minecraft Folder List 状态改变：Loading
-[21:20:47.424] [Start] 第二阶段加载用时：110 ms
-[21:20:47.439] [Loader] 加载器 Minecraft Folder List 状态改变：Finished
-[21:20:47.635] [UI] 加载背景图片：G:\【minecraft专区】\JAVA各版本客户端合集\魔戒重制版精制整合包（1.7.10）\PCL\Pictures\瑞文戴尔 埃尔隆德召开会议和魔戒远征队成立的庭院 The courtyard where the Council of Elrond was held, and the Fellowship of the Ring was formed.webp
-[21:20:47.663] 加载位图失败（G:\【minecraft专区】\JAVA各版本客户端合集\魔戒重制版精制整合包（1.7.10）\PCL\Pictures\瑞文戴尔 埃尔隆德召开会议和魔戒远征队成立的庭院 The courtyard where the Council of Elrond was held, and the Fellowship of the Ring was formed.webp）：参数无效。
-   在 System.Drawing.Bitmap..ctor(Stream stream)
-   在 PCL.MyBitmap..ctor(String FilePathOrResourceName)
-错误类型：System.ArgumentException
-[21:20:47.664] 刷新背景图片失败，该图片文件可能并非标准格式。
-你可以尝试使用画图打开该文件并重新保存，这会让图片变为标准格式。
-文件：G:\【minecraft专区】\JAVA各版本客户端合集\魔戒重制版精制整合包（1.7.10）\PCL\Pictures\瑞文戴尔 埃尔隆德召开会议和魔戒远征队成立的庭院 The courtyard where the Council of Elrond was held, and the Fellowship of the Ring was formed.webp
-[21:20:47.702] [Control] 普通弹窗：出现错误
-刷新背景图片失败，该图片文件可能并非标准格式。
-你可以尝试使用画图打开该文件并重新保存，这会让图片变为标准格式。
-文件：G:\【minecraft专区】\JAVA各版本客户端合集\魔戒重制版精制整合包（1.7.10）\PCL\Pictures\瑞文戴尔 埃尔隆德召开会议和魔戒远征队成立的庭院 The courtyard where the Council of Elrond was held, and the Fellowship of the Ring was formed.webp
-[21:20:47.765] [System] 窗口已置顶，位置：(48.8, 102.4), 1437.6 x 618.4
-[21:20:47.767] [Start] 第三阶段加载用时：141 ms
-[21:20:47.767] [Animation] 动画线程开始
-[21:20:47.769] [Start] 加载 DLL：Json
-[21:20:47.770] [System] 获取资源：Json
-[21:20:47.776] [Launch] Minecraft 文件夹：G:\【minecraft专区】\JAVA各版本客户端合集\魔戒重制版精制整合包（1.7.10）\.minecraft\
-[21:20:47.825] [Loader] 加载器 Loader Skin Legacy 状态改变：Loading
-[21:20:47.831] [Loader] 加载器 Loader Skin Legacy 状态改变：Finished
-[21:20:47.839] [Java] 缓存中有 6 个可用的 Java
-[21:20:47.886] [Skin] 载入头像成功：Loader Skin Legacy
-[21:20:47.893] [Minecraft] 启动按钮：Minecraft 版本：G:\【minecraft专区】\JAVA各版本客户端合集\魔戒重制版精制整合包（1.7.10）\.minecraft\versions\重制版精制整合包（1.7.10）\
-[21:20:47.896] [Loader] 加载器 登录 状态改变：Loading
-[21:20:47.903] [Launch] 登录加载已开始
-[21:20:47.911] [Loader] 加载器 Loader Login Legacy 状态改变：Loading
-[21:20:47.913] [Launch] 登录方式：离线（Archi）
-[21:20:47.915] [Loader] 加载器 Loader Login Legacy 状态改变：Finished
-[21:20:47.923] [Launch] 登录加载已结束
-[21:20:47.923] [Loader] 加载器 登录 状态改变：Finished
-[21:20:48.044] [Loader] 加载器 DlClientList Mojang 状态改变：Loading
-[21:20:48.045] [Loader] 加载器 PCL2 服务 状态改变：Loading
-[21:20:48.047] [Server] 正在连接到 PCL2 服务器
-[21:20:48.051] [Net] 获取网络结果：https://launchermeta.mojang.com/mc/game/version_manifest.json，最大超时 10000
-[21:20:48.058] [Net] 获取网络结果：http://pcl2-server-1253424809.file.myqcloud.com/notice.cfg?sign=1695561648-4f0780ff-0-e815c5bf7287fa0235b76990bd17045a，最大超时 10000
-[21:20:48.116] [Server] 服务器公告：118|305|302|5，无需更新
-[21:20:48.120] [Loader] 加载器 PCL2 服务 状态改变：Finished
-[21:20:48.483] [System] DPI：120，系统版本：10.0.19044.0，PCL 位置：G:\【minecraft专区】\JAVA各版本客户端合集\魔戒重制版精制整合包（1.7.10）\PCL2  2.4.9.exe
-[21:20:48.772] [Loader] 加载器 DlClientList Mojang 状态改变：Finished
-[21:20:49.708] [Control] 按下按钮：确定
-[21:20:51.341] [Control] 按下图标按钮：BtnTitleClose
-[21:20:51.346] [System] 收到关闭指令
-[21:20:51.577] [System] 程序已退出，返回值：Success
+[21:22:22.871] [Start] 程序版本：Release 2.4.9（281）
+[21:22:22.874] [Start] 识别码：7B14-80BC-DDDE-12DA
+[21:22:22.874] [Start] 程序路径：G:\【minecraft专区】\JAVA各版本客户端合集\魔戒重制版精制整合包（1.7.10）\PCL2  2.4.9.exe
+[21:22:22.880] [Start] 第一阶段加载用时：156 ms
+[21:22:22.985] [Loader] 加载器 Minecraft Folder List 状态改变：Loading
+[21:22:22.985] [Start] 第二阶段加载用时：109 ms
+[21:22:22.996] [Loader] 加载器 Minecraft Folder List 状态改变：Finished
+[21:22:23.266] [System] 窗口已置顶，位置：(48.8, 102.4), 1437.6 x 618.4
+[21:22:23.270] [Start] 第三阶段加载用时：94 ms
+[21:22:23.271] [Animation] 动画线程开始
+[21:22:23.272] [Start] 加载 DLL：Json
+[21:22:23.272] [System] 获取资源：Json
+[21:22:23.280] [Launch] Minecraft 文件夹：G:\【minecraft专区】\JAVA各版本客户端合集\魔戒重制版精制整合包（1.7.10）\.minecraft\
+[21:22:23.329] [Loader] 加载器 Loader Skin Legacy 状态改变：Loading
+[21:22:23.334] [Loader] 加载器 Loader Skin Legacy 状态改变：Finished
+[21:22:23.338] [Java] 缓存中有 6 个可用的 Java
+[21:22:23.374] [Skin] 载入头像成功：Loader Skin Legacy
+[21:22:23.384] [Minecraft] 启动按钮：Minecraft 版本：G:\【minecraft专区】\JAVA各版本客户端合集\魔戒重制版精制整合包（1.7.10）\.minecraft\versions\重制版精制整合包（1.7.10）\
+[21:22:23.388] [Loader] 加载器 登录 状态改变：Loading
+[21:22:23.396] [Launch] 登录加载已开始
+[21:22:23.402] [Loader] 加载器 Loader Login Legacy 状态改变：Loading
+[21:22:23.407] [Launch] 登录方式：离线（Archi）
+[21:22:23.410] [Loader] 加载器 Loader Login Legacy 状态改变：Finished
+[21:22:23.419] [Launch] 登录加载已结束
+[21:22:23.419] [Loader] 加载器 登录 状态改变：Finished
+[21:22:23.545] [Loader] 加载器 DlClientList Mojang 状态改变：Loading
+[21:22:23.548] [Loader] 加载器 PCL2 服务 状态改变：Loading
+[21:22:23.549] [Server] 正在连接到 PCL2 服务器
+[21:22:23.553] [Net] 获取网络结果：https://launchermeta.mojang.com/mc/game/version_manifest.json，最大超时 10000
+[21:22:23.563] [Net] 获取网络结果：http://pcl2-server-1253424809.file.myqcloud.com/notice.cfg?sign=1695561744-5a9a23f4-0-3ac04135347d1d47b0c031f20d747a4b，最大超时 10000
+[21:22:23.660] [Server] 服务器公告：118|305|302|5，无需更新
+[21:22:23.666] [Loader] 加载器 PCL2 服务 状态改变：Finished
+[21:22:23.986] [System] DPI：120，系统版本：10.0.19044.0，PCL 位置：G:\【minecraft专区】\JAVA各版本客户端合集\魔戒重制版精制整合包（1.7.10）\PCL2  2.4.9.exe
+[21:22:24.569] [Loader] 加载器 DlClientList Mojang 状态改变：Finished
+[21:22:24.613] [Control] 按下图标按钮：BtnTitleClose
+[21:22:24.617] [System] 收到关闭指令
+[21:22:24.865] [System] 程序已退出，返回值：Success

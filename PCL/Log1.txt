@@ -1,237 +1,39 @@
-[21:44:10.653] [Start] 程序版本：Release 2.4.9（281）
-[21:44:10.655] [Start] 识别码：7B14-80BC-DDDE-12DA
-[21:44:10.655] [Start] 程序路径：G:\【minecraft专区】\JAVA各版本客户端合集\魔戒重制版精制整合包（1.7.10）\PCL2  2.4.9.exe
-[21:44:10.660] [Start] 第一阶段加载用时：140 ms
-[21:44:10.767] [Loader] 加载器 Minecraft Folder List 状态改变：Loading
-[21:44:10.767] [Start] 第二阶段加载用时：110 ms
-[21:44:10.776] [Loader] 加载器 Minecraft Folder List 状态改变：Finished
-[21:44:11.001] [UI] 加载背景图片：G:\【minecraft专区】\JAVA各版本客户端合集\魔戒重制版精制整合包（1.7.10）\PCL\Pictures\袋底洞 Bag End - 1800x1080 模糊处理.jpg
-[21:44:11.127] [System] 窗口已置顶，位置：(48.8, 102.4), 1437.6 x 618.4
-[21:44:11.131] [Start] 第三阶段加载用时：141 ms
-[21:44:11.131] [Animation] 动画线程开始
-[21:44:11.132] [Start] 加载 DLL：Json
-[21:44:11.132] [System] 获取资源：Json
-[21:44:11.140] [Launch] Minecraft 文件夹：G:\【minecraft专区】\JAVA各版本客户端合集\魔戒重制版精制整合包（1.7.10）\.minecraft\
-[21:44:11.191] [Loader] 加载器 Loader Skin Legacy 状态改变：Loading
-[21:44:11.196] [Loader] 加载器 Loader Skin Legacy 状态改变：Finished
-[21:44:11.207] [Java] 缓存中有 6 个可用的 Java
-[21:44:11.241] [Skin] 载入头像成功：Loader Skin Legacy
-[21:44:11.251] [Minecraft] 启动按钮：Minecraft 版本：G:\【minecraft专区】\JAVA各版本客户端合集\魔戒重制版精制整合包（1.7.10）\.minecraft\versions\重制版精制整合包（1.7.10）\
-[21:44:11.255] [Loader] 加载器 登录 状态改变：Loading
-[21:44:11.259] [Launch] 登录加载已开始
-[21:44:11.265] [Loader] 加载器 Loader Login Legacy 状态改变：Loading
-[21:44:11.268] [Launch] 登录方式：离线（Archi）
-[21:44:11.270] [Loader] 加载器 Loader Login Legacy 状态改变：Finished
-[21:44:11.277] [Launch] 登录加载已结束
-[21:44:11.277] [Loader] 加载器 登录 状态改变：Finished
-[21:44:11.412] [Loader] 加载器 DlClientList Mojang 状态改变：Loading
-[21:44:11.414] [Loader] 加载器 PCL2 服务 状态改变：Loading
-[21:44:11.417] [Server] 正在连接到 PCL2 服务器
-[21:44:11.421] [Net] 获取网络结果：https://launchermeta.mojang.com/mc/game/version_manifest.json，最大超时 10000
-[21:44:11.433] [Net] 获取网络结果：http://pcl2-server-1253424809.file.myqcloud.com/notice.cfg?sign=1695563051-5479c30f-0-3da2706d0aa4e023ec9022b8d04e89d8，最大超时 10000
-[21:44:11.488] [Server] 服务器公告：118|305|302|5，无需更新
-[21:44:11.496] [Loader] 加载器 PCL2 服务 状态改变：Finished
-[21:44:11.847] [System] DPI：120，系统版本：10.0.19044.0，PCL 位置：G:\【minecraft专区】\JAVA各版本客户端合集\魔戒重制版精制整合包（1.7.10）\PCL2  2.4.9.exe
-[21:44:11.957] [Control] 按下按钮：启动游戏
-[21:44:11.959] [Loader] 加载器 Loader Launch 状态改变：Loading
-[21:44:11.968] [System] 欲读取的文件不存在，已返回空字符串：G:\【minecraft专区】\JAVA各版本客户端合集\魔戒重制版精制整合包（1.7.10）\PCL\hints.txt
-[21:44:11.975] [Launch] 预检测已通过
-[21:44:11.977] [Download] 已跳过 Assets 下载
-[21:44:11.977] [Loader] 加载器 登录 状态改变：Waiting
-[21:44:11.979] [Loader] 加载器 Minecraft 启动 状态改变：Loading
-[21:44:11.982] [Loader] 加载器 Java 处理 状态改变：Loading
-[21:44:11.987] [Loader] 加载器 Java 验证 状态改变：Loading
-[21:44:11.988] [Loader] 加载器 登录 状态改变：Loading
-[21:44:11.989] [Loader] 加载器 补全文件 状态改变：Loading
-[21:44:11.989] [Launch] 登录加载已开始
-[21:44:11.989] [Loader] 加载器 下载支持库文件（主加载器） 状态改变：Loading
-[21:44:11.989] [Loader] 加载器 分析缺失支持库文件 状态改变：Loading
-[21:44:11.989] [Launch] 登录加载已结束
-[21:44:11.989] [Loader] 加载器 登录 状态改变：Finished
-[21:44:11.992] [Launch] Java 版本需求：最低 0.0.0.0，最高 1.8.999.999
-[21:44:11.993] [Minecraft] 获取支持库列表：重制版精制整合包（1.7.10）
-[21:44:12.004] [Java] 开始完全遍历查找：G:\【minecraft专区】\JAVA各版本客户端合集\魔戒重制版精制整合包（1.7.10）\
-[21:44:12.008] [Java] 开始完全遍历查找：G:\【minecraft专区】\JAVA各版本客户端合集\魔戒重制版精制整合包（1.7.10）\.minecraft\
-[21:44:12.011] [Loader] 加载器 分析缺失支持库文件 状态改变：Finished
-[21:44:12.014] [Loader] 加载器 下载支持库文件 状态改变：Loading
-[21:44:12.014] [Java] 开始完全遍历查找：G:\【minecraft专区】\JAVA各版本客户端合集\魔戒重制版精制整合包（1.7.10）\.minecraft\versions\重制版精制整合包（1.7.10）\
-[21:44:12.015] [Java] 使用用户指定的 Java：D:\Java\jdk1.8.0_321\jre\bin\
-[21:44:12.020] [System] 执行外部命令并等待返回结果：D:\Java\jdk1.8.0_321\jre\bin\java.exe -version
-[21:44:12.020] [Loader] 加载器 下载支持库文件 状态改变：Finished
-[21:44:12.020] [Loader] 加载器 下载支持库文件（主加载器） 状态改变：Finished
-[21:44:12.020] [Loader] 加载器 补全文件 状态改变：Finished
-[21:44:12.106] [Loader] 加载器 DlClientList Mojang 状态改变：Finished
-[21:44:12.171] [Java] 选定的 Java：JRE 8 (8.0.321)，64 位：D:\Java\jdk1.8.0_321\jre\bin\
-[21:44:12.171] [Launch] 选择的 Java：JRE 8 (8.0.321)，64 位：D:\Java\jdk1.8.0_321\jre\bin\
-[21:44:12.171] [Loader] 加载器 Java 验证 状态改变：Finished
-[21:44:12.172] [Loader] 加载器 Java 处理 状态改变：Finished
-[21:44:12.172] [Loader] 加载器 获取启动参数 状态改变：Loading
-[21:44:12.174] [Launch] 开始获取 Minecraft 启动参数
-[21:44:12.174] [Launch] 获取旧版 JVM 参数
-[21:44:12.180] [System] 获取资源：JavaWrapper
-[21:44:12.181] [Java] 已释放 Java Wrapper：C:\Users\Admin\AppData\Roaming\PCL\JavaWrapper.jar
-[21:44:12.181] [Launch] 旧版 JVM 参数获取成功：
-[21:44:12.181] [Launch] -Doolloo.jlw.tmpdir="C:\Users\Admin\AppData\Roaming\PCL" -d64 -XX:+AggressiveOpts -XX:+UseConcMarkSweepGC -XX:+UseParNewGC -XX:+CMSConcurrentMTEnabled -XX:ParallelGCThreads=8 -Dsun.rmi.dgc.server.gcInterval=3600000 -XX:+UnlockExperimentalVMOptions -XX:+ExplicitGCInvokesConcurrent -XX:MaxGCPauseMillis=50 -XX:+AlwaysPreTouch -XX:+UseStringDeduplication -Dfml.ignorePatchDiscrepancies=true -Dfml.ignoreInvalidMinecraftCertificates=true -XX:-OmitStackTraceInFastThrow -XX:+OptimizeStringConcat -XX:+UseAdaptiveGCBoundary -XX:NewRatio=3 -Dfml.readTimeout=90 -XX:+UseFastAccessorMethods -Dlog4j2.formatMsgNoLookups=true -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Xmn256m -Xmx6144m "-Djava.library.path=G:\【minecraft专区】\JAVA各版本客户端合集\魔戒重制版精制整合包（1.7.10）\.minecraft\versions\重制版精制整合包（1.7.10）\重制版精制整合包（1.7.10）-natives" -cp ${classpath} -jar "C:\Users\Admin\AppData\Roaming\PCL\JavaWrapper.jar" net.minecraft.launchwrapper.Launch
-[21:44:12.181] [Launch] 获取旧版 Game 参数
-[21:44:12.181] [Launch] 旧版 Game 参数获取成功
-[21:44:12.191] [Minecraft] 获取支持库列表：重制版精制整合包（1.7.10）
-[21:44:12.199] [Launch] Minecraft 启动参数：
-[21:44:12.200] [Launch] -Doolloo.jlw.tmpdir="C:\Users\Admin\AppData\Roaming\PCL" -d64 -XX:+AggressiveOpts -XX:+UseConcMarkSweepGC -XX:+UseParNewGC -XX:+CMSConcurrentMTEnabled -XX:ParallelGCThreads=8 -Dsun.rmi.dgc.server.gcInterval=3600000 -XX:+UnlockExperimentalVMOptions -XX:+ExplicitGCInvokesConcurrent -XX:MaxGCPauseMillis=50 -XX:+AlwaysPreTouch -XX:+UseStringDeduplication -Dfml.ignorePatchDiscrepancies=true -Dfml.ignoreInvalidMinecraftCertificates=true -XX:-OmitStackTraceInFastThrow -XX:+OptimizeStringConcat -XX:+UseAdaptiveGCBoundary -XX:NewRatio=3 -Dfml.readTimeout=90 -XX:+UseFastAccessorMethods -Dlog4j2.formatMsgNoLookups=true -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Xmn256m -Xmx6144m "-Djava.library.path=G:\【minecraft专区】\JAVA各版本客户端合集\魔戒重制版精制整合包（1.7.10）\.minecraft\versions\重制版精制整合包（1.7.10）\重制版精制整合包（1.7.10）-natives" -cp "G:\【minecraft专区】\JAVA各版本客户端合集\魔戒重制版精制整合包（1.7.10）\.minecraft\libraries\com\mojang\netty\1.8.8\netty-1.8.8.jar;G:\【minecraft专区】\JAVA各版本客户端合集\魔戒重制版精制整合包（1.7.10）\.minecraft\libraries\com\mojang\realms\1.3.5\realms-1.3.5.jar;G:\【minecraft专区】\JAVA各版本客户端合集\魔戒重制版精制整合包（1.7.10）\.minecraft\libraries\org\apache\commons\commons-compress\1.8.1\commons-compress-1.8.1.jar;G:\【minecraft专区】\JAVA各版本客户端合集\魔戒重制版精制整合包（1.7.10）\.minecraft\libraries\org\apache\httpcomponents\httpclient\4.3.3\httpclient-4.3.3.jar;G:\【minecraft专区】\JAVA各版本客户端合集\魔戒重制版精制整合包（1.7.10）\.minecraft\libraries\commons-logging\commons-logging\1.1.3\commons-logging-1.1.3.jar;G:\【minecraft专区】\JAVA各版本客户端合集\魔戒重制版精制整合包（1.7.10）\.minecraft\libraries\org\apache\httpcomponents\httpcore\4.3.2\httpcore-4.3.2.jar;G:\【minecraft专区】\JAVA各版本客户端合集\魔戒重制版精制整合包（1.7.10）\.minecraft\libraries\java3d\vecmath\1.3.1\vecmath-1.3.1.jar;G:\【minecraft专区】\JAVA各版本客户端合集\魔戒重制版精制整合包（1.7.10）\.minecraft\libraries\net\sf\trove4j\trove4j\3.0.3\trove4j-3.0.3.jar;G:\【minecraft专区】\JAVA各版本客户端合集\魔戒重制版精制整合包（1.7.10）\.minecraft\libraries\com\ibm\icu\icu4j-core-mojang\51.2\icu4j-core-mojang-51.2.jar;G:\【minecraft专区】\JAVA各版本客户端合集\魔戒重制版精制整合包（1.7.10）\.minecraft\libraries\net\sf\jopt-simple\jopt-simple\4.5\jopt-simple-4.5.jar;G:\【minecraft专区】\JAVA各版本客户端合集\魔戒重制版精制整合包（1.7.10）\.minecraft\libraries\com\paulscode\codecjorbis\20101023\codecjorbis-20101023.jar;G:\【minecraft专区】\JAVA各版本客户端合集\魔戒重制版精制整合包（1.7.10）\.minecraft\libraries\com\paulscode\codecwav\20101023\codecwav-20101023.jar;G:\【minecraft专区】\JAVA各版本客户端合集\魔戒重制版精制整合包（1.7.10）\.minecraft\libraries\com\paulscode\libraryjavasound\20101123\libraryjavasound-20101123.jar;G:\【minecraft专区】\JAVA各版本客户端合集\魔戒重制版精制整合包（1.7.10）\.minecraft\libraries\com\paulscode\librarylwjglopenal\20100824\librarylwjglopenal-20100824.jar;G:\【minecraft专区】\JAVA各版本客户端合集\魔戒重制版精制整合包（1.7.10）\.minecraft\libraries\com\paulscode\soundsystem\20120107\soundsystem-20120107.jar;G:\【minecraft专区】\JAVA各版本客户端合集\魔戒重制版精制整合包（1.7.10）\.minecraft\libraries\io\netty\netty-all\4.0.10.Final\netty-all-4.0.10.Final.jar;G:\【minecraft专区】\JAVA各版本客户端合集\魔戒重制版精制整合包（1.7.10）\.minecraft\libraries\com\google\guava\guava\17.0\guava-17.0.jar;G:\【minecraft专区】\JAVA各版本客户端合集\魔戒重制版精制整合包（1.7.10）\.minecraft\libraries\org\apache\commons\commons-lang3\3.3.2\commons-lang3-3.3.2.jar;G:\【minecraft专区】\JAVA各版本客户端合集\魔戒重制版精制整合包（1.7.10）\.minecraft\libraries\commons-io\commons-io\2.4\commons-io-2.4.jar;G:\【minecraft专区】\JAVA各版本客户端合集\魔戒重制版精制整合包（1.7.10）\.minecraft\libraries\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;G:\【minecraft专区】\JAVA各版本客户端合集\魔戒重制版精制整合包（1.7.10）\.minecraft\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar;G:\【minecraft专区】\JAVA各版本客户端合集\魔戒重制版精制整合包（1.7.10）\.minecraft\libraries\net\java\jutils\jutils\1.0.0\jutils-1.0.0.jar;G:\【minecraft专区】\JAVA各版本客户端合集\魔戒重制版精制整合包（1.7.10）\.minecraft\libraries\com\google\code\gson\gson\2.2.4\gson-2.2.4.jar;G:\【minecraft专区】\JAVA各版本客户端合集\魔戒重制版精制整合包（1.7.10）\.minecraft\libraries\com\mojang\authlib\1.5.21\authlib-1.5.21.jar;G:\【minecraft专区】\JAVA各版本客户端合集\魔戒重制版精制整合包（1.7.10）\.minecraft\libraries\org\apache\logging\log4j\log4j-api\2.0-beta9\log4j-api-2.0-beta9.jar;G:\【minecraft专区】\JAVA各版本客户端合集\魔戒重制版精制整合包（1.7.10）\.minecraft\libraries\org\apache\logging\log4j\log4j-core\2.0-beta9\log4j-core-2.0-beta9.jar;G:\【minecraft专区】\JAVA各版本客户端合集\魔戒重制版精制整合包（1.7.10）\.minecraft\libraries\org\lwjgl\lwjgl\lwjgl\2.9.1\lwjgl-2.9.1.jar;G:\【minecraft专区】\JAVA各版本客户端合集\魔戒重制版精制整合包（1.7.10）\.minecraft\libraries\org\lwjgl\lwjgl\lwjgl_util\2.9.1\lwjgl_util-2.9.1.jar;G:\【minecraft专区】\JAVA各版本客户端合集\魔戒重制版精制整合包（1.7.10）\.minecraft\libraries\tv\twitch\twitch\5.16\twitch-5.16.jar;G:\【minecraft专区】\JAVA各版本客户端合集\魔戒重制版精制整合包（1.7.10）\.minecraft\libraries\net\minecraftforge\forge\1.7.10-10.13.4.1614-1.7.10\forge-1.7.10-10.13.4.1614-1.7.10.jar;G:\【minecraft专区】\JAVA各版本客户端合集\魔戒重制版精制整合包（1.7.10）\.minecraft\libraries\net\minecraft\launchwrapper\1.12\launchwrapper-1.12.jar;G:\【minecraft专区】\JAVA各版本客户端合集\魔戒重制版精制整合包（1.7.10）\.minecraft\libraries\org\ow2\asm\asm-all\5.0.3\asm-all-5.0.3.jar;G:\【minecraft专区】\JAVA各版本客户端合集\魔戒重制版精制整合包（1.7.10）\.minecraft\libraries\com\typesafe\akka\akka-actor_2.11\2.3.3\akka-actor_2.11-2.3.3.jar;G:\【minecraft专区】\JAVA各版本客户端合集\魔戒重制版精制整合包（1.7.10）\.minecraft\libraries\com\typesafe\config\1.2.1\config-1.2.1.jar;G:\【minecraft专区】\JAVA各版本客户端合集\魔戒重制版精制整合包（1.7.10）\.minecraft\libraries\org\scala-lang\scala-actors-migration_2.11\1.1.0\scala-actors-migration_2.11-1.1.0.jar;G:\【minecraft专区】\JAVA各版本客户端合集\魔戒重制版精制整合包（1.7.10）\.minecraft\libraries\org\scala-lang\scala-compiler\2.11.1\scala-compiler-2.11.1.jar;G:\【minecraft专区】\JAVA各版本客户端合集\魔戒重制版精制整合包（1.7.10）\.minecraft\libraries\org\scala-lang\plugins\scala-continuations-library_2.11\1.0.2\scala-continuations-library_2.11-1.0.2.jar;G:\【minecraft专区】\JAVA各版本客户端合集\魔戒重制版精制整合包（1.7.10）\.minecraft\libraries\org\scala-lang\plugins\scala-continuations-plugin_2.11.1\1.0.2\scala-continuations-plugin_2.11.1-1.0.2.jar;G:\【minecraft专区】\JAVA各版本客户端合集\魔戒重制版精制整合包（1.7.10）\.minecraft\libraries\org\scala-lang\scala-library\2.11.1\scala-library-2.11.1.jar;G:\【minecraft专区】\JAVA各版本客户端合集\魔戒重制版精制整合包（1.7.10）\.minecraft\libraries\org\scala-lang\scala-parser-combinators_2.11\1.0.1\scala-parser-combinators_2.11-1.0.1.jar;G:\【minecraft专区】\JAVA各版本客户端合集\魔戒重制版精制整合包（1.7.10）\.minecraft\libraries\org\scala-lang\scala-reflect\2.11.1\scala-reflect-2.11.1.jar;G:\【minecraft专区】\JAVA各版本客户端合集\魔戒重制版精制整合包（1.7.10）\.minecraft\libraries\org\scala-lang\scala-swing_2.11\1.0.1\scala-swing_2.11-1.0.1.jar;G:\【minecraft专区】\JAVA各版本客户端合集\魔戒重制版精制整合包（1.7.10）\.minecraft\libraries\org\scala-lang\scala-xml_2.11\1.0.2\scala-xml_2.11-1.0.2.jar;G:\【minecraft专区】\JAVA各版本客户端合集\魔戒重制版精制整合包（1.7.10）\.minecraft\libraries\lzma\lzma\0.0.1\lzma-0.0.1.jar;G:\【minecraft专区】\JAVA各版本客户端合集\魔戒重制版精制整合包（1.7.10）\.minecraft\versions\重制版精制整合包（1.7.10）\重制版精制整合包（1.7.10）.jar" -jar "C:\Users\Admin\AppData\Roaming\PCL\JavaWrapper.jar" net.minecraft.launchwrapper.Launch --username Archi --version 重制版精制整合包（1.7.10） --gameDir "G:\【minecraft专区】\JAVA各版本客户端合集\魔戒重制版精制整合包（1.7.10）\.minecraft" --assetsDir "G:\【minecraft专区】\JAVA各版本客户端合集\魔戒重制版精制整合包（1.7.10）\.minecraft\assets" --assetIndex 1.7.10 --uuid 00000XXXXXXXXXXXXXXXXXXXXXXFF19B --accessToken 00000XXXXXXXXXXXXXXXXXXXXXXFF19B --userProperties {} --userType Legacy --tweakClass cpw.mods.fml.common.launcher.FMLTweaker --height 690 --width 1752 
-[21:44:12.200] [Loader] 加载器 获取启动参数 状态改变：Finished
-[21:44:12.213] [Loader] 加载器 解压文件 状态改变：Loading
-[21:44:12.219] [Launch] 正在解压 Natives 文件
-[21:44:12.232] [Loader] 加载器 解压文件 状态改变：Finished
-[21:44:12.266] [Loader] 加载器 预启动处理 状态改变：Loading
-[21:44:12.275] [Launch] 并非首次启动，不修改语言
-[21:44:12.276] [Loader] 加载器 预启动处理 状态改变：Finished
-[21:44:12.318] [Loader] 加载器 执行自定义命令 状态改变：Loading
-[21:44:12.321] [Loader] 加载器 执行自定义命令 状态改变：Finished
-[21:44:12.364] [Loader] 加载器 启动进程 状态改变：Loading
-[21:44:12.369] [Launch] 已启动游戏进程：D:\Java\jdk1.8.0_321\jre\bin\javaw.exe
-[21:44:12.369] [Loader] 加载器 启动进程 状态改变：Finished
-[21:44:12.417] [Loader] 加载器 等待游戏窗口出现 状态改变：Loading
-[21:44:12.423] [Launch] 
-[21:44:12.423] [Launch] ~ 基础参数 ~
-[21:44:12.423] [Launch] PCL2 版本：Release 2.4.9 (281)
-[21:44:12.423] [Launch] 游戏版本：1.7.10, Forge 10.13.4.1614（7.10）
-[21:44:12.423] [Launch] 资源版本：1.7.10
-[21:44:12.423] [Launch] 版本继承：无
-[21:44:12.424] [Launch] 分配的内存：6 GB（6144 MB）
-[21:44:12.424] [Launch] MC 文件夹：G:\【minecraft专区】\JAVA各版本客户端合集\魔戒重制版精制整合包（1.7.10）\.minecraft\
-[21:44:12.424] [Launch] 版本文件夹：G:\【minecraft专区】\JAVA各版本客户端合集\魔戒重制版精制整合包（1.7.10）\.minecraft\versions\重制版精制整合包（1.7.10）\
-[21:44:12.424] [Launch] 版本隔离：False
-[21:44:12.424] [Launch] HMCL 格式：False
-[21:44:12.424] [Launch] Java 信息：JRE 8 (8.0.321)，64 位：D:\Java\jdk1.8.0_321\jre\bin\
-[21:44:12.426] [Launch] 环境变量：已设置
-[21:44:12.426] [Launch] 
-[21:44:12.426] [Launch] ~ 登录参数 ~
-[21:44:12.426] [Launch] 玩家用户名：Archi
-[21:44:12.426] [Launch] AccessToken：00000XXXXXXXXXXXXXXXXXXXXXXFF19B
-[21:44:12.426] [Launch] ClientToken：00000XXXXXXXXXXXXXXXXXXXXXXFF19B
-[21:44:12.426] [Launch] UUID：00000XXXXXXXXXXXXXXXXXXXXXXFF19B
-[21:44:12.426] [Launch] 登录方式：Legacy
-[21:44:12.426] [Launch] 
-[21:44:12.429] [Launch] [11536] 开始 Minecraft 日志监控
-[21:44:12.429] [Launch] [11536] 要求窗口标题：重制版简单整合包 1.7.10   当前时间：{time}
-[21:44:12.430] [Launch] [全局] 出现运行中的 Minecraft
-[21:44:13.035] [Launch] [11536] 日志 1/5：已出现日志输出
-[21:44:16.546] [Launch] [11536] 日志 2/5：游戏用户已设置
-[21:44:18.318] [Launch] [11536] Minecraft 窗口已加载：（7014496）
-[21:44:18.318] [Launch] [11536] 日志 3/5：LWJGL 版本已确认
-[21:44:18.318] [Launch] [11536] Minecraft 加载已完成
-[21:44:18.365] [Loader] 加载器 等待游戏窗口出现 状态改变：Finished
-[21:44:18.368] [Loader] 加载器 结束处理 状态改变：Loading
-[21:44:18.369] [Launch] 开始启动结束处理
-[21:44:18.369] [Launch] 启动器可见性：5
-[21:44:18.369] [Loader] 加载器 结束处理 状态改变：Finished
-[21:44:18.421] [Loader] 加载器 Minecraft 启动 状态改变：Finished
-[21:44:18.474] [Loader] 加载器 Loader Launch 状态改变：Finished
-[21:44:18.521] [UI] 弹出提示：重制版精制整合包（1.7.10） 启动成功！
-[21:44:40.786] [Launch] [11536] 日志 4/5：OpenAL 已加载
-[21:44:43.970] [Launch] [11536] 日志 5/5：材质已加载
-[21:45:15.771] [Control] 按下图标按钮：BtnTitleMin
-[22:58:07.348] [Launch] [11536] Minecraft 已退出，返回值：0
-[22:58:07.349] [Launch] [全局] 已无运行中的 Minecraft
-[22:58:07.544] [Launch] [11536] Minecraft 日志监控已退出
-[22:58:13.752] [Control] 按下按钮：启动游戏
-[22:58:13.753] [Loader] 加载器 Loader Launch 状态改变：Loading
-[22:58:13.753] [System] 欲读取的文件不存在，已返回空字符串：G:\【minecraft专区】\JAVA各版本客户端合集\魔戒重制版精制整合包（1.7.10）\PCL\hints.txt
-[22:58:13.756] [Launch] 预检测已通过
-[22:58:13.756] [Download] 已跳过 Assets 下载
-[22:58:13.756] [Loader] 加载器 登录 状态改变：Waiting
-[22:58:13.756] [Loader] 加载器 Minecraft 启动 状态改变：Loading
-[22:58:13.756] [Loader] 加载器 Java 处理 状态改变：Loading
-[22:58:13.757] [Loader] 加载器 Java 验证 状态改变：Loading
-[22:58:13.757] [Launch] Java 版本需求：最低 0.0.0.0，最高 1.8.999.999
-[22:58:13.757] [Loader] 加载器 登录 状态改变：Loading
-[22:58:13.757] [Java] 开始完全遍历查找：G:\【minecraft专区】\JAVA各版本客户端合集\魔戒重制版精制整合包（1.7.10）\
-[22:58:13.757] [Loader] 加载器 补全文件 状态改变：Loading
-[22:58:13.757] [Loader] 加载器 下载支持库文件（主加载器） 状态改变：Loading
-[22:58:13.757] [Loader] 加载器 分析缺失支持库文件 状态改变：Loading
-[22:58:13.757] [Launch] 登录加载已开始
-[22:58:13.757] [Launch] 登录加载已结束
-[22:58:13.757] [Loader] 加载器 登录 状态改变：Finished
-[22:58:13.758] [Minecraft] 获取支持库列表：重制版精制整合包（1.7.10）
-[22:58:13.762] [Java] 开始完全遍历查找：G:\【minecraft专区】\JAVA各版本客户端合集\魔戒重制版精制整合包（1.7.10）\.minecraft\
-[22:58:13.762] [Loader] 加载器 分析缺失支持库文件 状态改变：Finished
-[22:58:13.762] [Loader] 加载器 下载支持库文件 状态改变：Loading
-[22:58:13.763] [Loader] 加载器 下载支持库文件 状态改变：Finished
-[22:58:13.763] [Loader] 加载器 下载支持库文件（主加载器） 状态改变：Finished
-[22:58:13.763] [Loader] 加载器 补全文件 状态改变：Finished
-[22:58:13.768] [Java] 开始完全遍历查找：G:\【minecraft专区】\JAVA各版本客户端合集\魔戒重制版精制整合包（1.7.10）\.minecraft\versions\重制版精制整合包（1.7.10）\
-[22:58:13.769] [Java] 使用用户指定的 Java：D:\Java\jdk1.8.0_321\jre\bin\
-[22:58:13.769] [System] 执行外部命令并等待返回结果：D:\Java\jdk1.8.0_321\jre\bin\java.exe -version
-[22:58:13.901] [Java] 选定的 Java：JRE 8 (8.0.321)，64 位：D:\Java\jdk1.8.0_321\jre\bin\
-[22:58:13.902] [Launch] 选择的 Java：JRE 8 (8.0.321)，64 位：D:\Java\jdk1.8.0_321\jre\bin\
-[22:58:13.902] [Loader] 加载器 Java 验证 状态改变：Finished
-[22:58:13.902] [Loader] 加载器 Java 处理 状态改变：Finished
-[22:58:13.910] [Loader] 加载器 获取启动参数 状态改变：Loading
-[22:58:13.912] [Launch] 开始获取 Minecraft 启动参数
-[22:58:13.912] [Launch] 获取旧版 JVM 参数
-[22:58:13.912] [System] 获取资源：JavaWrapper
-[22:58:13.912] [Java] 已释放 Java Wrapper：C:\Users\Admin\AppData\Roaming\PCL\JavaWrapper.jar
-[22:58:13.912] [Launch] 旧版 JVM 参数获取成功：
-[22:58:13.912] [Launch] -Doolloo.jlw.tmpdir="C:\Users\Admin\AppData\Roaming\PCL" -d64 -XX:+AggressiveOpts -XX:+UseConcMarkSweepGC -XX:+UseParNewGC -XX:+CMSConcurrentMTEnabled -XX:ParallelGCThreads=8 -Dsun.rmi.dgc.server.gcInterval=3600000 -XX:+UnlockExperimentalVMOptions -XX:+ExplicitGCInvokesConcurrent -XX:MaxGCPauseMillis=50 -XX:+AlwaysPreTouch -XX:+UseStringDeduplication -Dfml.ignorePatchDiscrepancies=true -Dfml.ignoreInvalidMinecraftCertificates=true -XX:-OmitStackTraceInFastThrow -XX:+OptimizeStringConcat -XX:+UseAdaptiveGCBoundary -XX:NewRatio=3 -Dfml.readTimeout=90 -XX:+UseFastAccessorMethods -Dlog4j2.formatMsgNoLookups=true -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Xmn256m -Xmx6144m "-Djava.library.path=G:\【minecraft专区】\JAVA各版本客户端合集\魔戒重制版精制整合包（1.7.10）\.minecraft\versions\重制版精制整合包（1.7.10）\重制版精制整合包（1.7.10）-natives" -cp ${classpath} -jar "C:\Users\Admin\AppData\Roaming\PCL\JavaWrapper.jar" net.minecraft.launchwrapper.Launch
-[22:58:13.912] [Launch] 获取旧版 Game 参数
-[22:58:13.912] [Launch] 旧版 Game 参数获取成功
-[22:58:13.913] [Minecraft] 获取支持库列表：重制版精制整合包（1.7.10）
-[22:58:13.915] [Launch] Minecraft 启动参数：
-[22:58:13.916] [Launch] -Doolloo.jlw.tmpdir="C:\Users\Admin\AppData\Roaming\PCL" -d64 -XX:+AggressiveOpts -XX:+UseConcMarkSweepGC -XX:+UseParNewGC -XX:+CMSConcurrentMTEnabled -XX:ParallelGCThreads=8 -Dsun.rmi.dgc.server.gcInterval=3600000 -XX:+UnlockExperimentalVMOptions -XX:+ExplicitGCInvokesConcurrent -XX:MaxGCPauseMillis=50 -XX:+AlwaysPreTouch -XX:+UseStringDeduplication -Dfml.ignorePatchDiscrepancies=true -Dfml.ignoreInvalidMinecraftCertificates=true -XX:-OmitStackTraceInFastThrow -XX:+OptimizeStringConcat -XX:+UseAdaptiveGCBoundary -XX:NewRatio=3 -Dfml.readTimeout=90 -XX:+UseFastAccessorMethods -Dlog4j2.formatMsgNoLookups=true -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Xmn256m -Xmx6144m "-Djava.library.path=G:\【minecraft专区】\JAVA各版本客户端合集\魔戒重制版精制整合包（1.7.10）\.minecraft\versions\重制版精制整合包（1.7.10）\重制版精制整合包（1.7.10）-natives" -cp "G:\【minecraft专区】\JAVA各版本客户端合集\魔戒重制版精制整合包（1.7.10）\.minecraft\libraries\com\mojang\netty\1.8.8\netty-1.8.8.jar;G:\【minecraft专区】\JAVA各版本客户端合集\魔戒重制版精制整合包（1.7.10）\.minecraft\libraries\com\mojang\realms\1.3.5\realms-1.3.5.jar;G:\【minecraft专区】\JAVA各版本客户端合集\魔戒重制版精制整合包（1.7.10）\.minecraft\libraries\org\apache\commons\commons-compress\1.8.1\commons-compress-1.8.1.jar;G:\【minecraft专区】\JAVA各版本客户端合集\魔戒重制版精制整合包（1.7.10）\.minecraft\libraries\org\apache\httpcomponents\httpclient\4.3.3\httpclient-4.3.3.jar;G:\【minecraft专区】\JAVA各版本客户端合集\魔戒重制版精制整合包（1.7.10）\.minecraft\libraries\commons-logging\commons-logging\1.1.3\commons-logging-1.1.3.jar;G:\【minecraft专区】\JAVA各版本客户端合集\魔戒重制版精制整合包（1.7.10）\.minecraft\libraries\org\apache\httpcomponents\httpcore\4.3.2\httpcore-4.3.2.jar;G:\【minecraft专区】\JAVA各版本客户端合集\魔戒重制版精制整合包（1.7.10）\.minecraft\libraries\java3d\vecmath\1.3.1\vecmath-1.3.1.jar;G:\【minecraft专区】\JAVA各版本客户端合集\魔戒重制版精制整合包（1.7.10）\.minecraft\libraries\net\sf\trove4j\trove4j\3.0.3\trove4j-3.0.3.jar;G:\【minecraft专区】\JAVA各版本客户端合集\魔戒重制版精制整合包（1.7.10）\.minecraft\libraries\com\ibm\icu\icu4j-core-mojang\51.2\icu4j-core-mojang-51.2.jar;G:\【minecraft专区】\JAVA各版本客户端合集\魔戒重制版精制整合包（1.7.10）\.minecraft\libraries\net\sf\jopt-simple\jopt-simple\4.5\jopt-simple-4.5.jar;G:\【minecraft专区】\JAVA各版本客户端合集\魔戒重制版精制整合包（1.7.10）\.minecraft\libraries\com\paulscode\codecjorbis\20101023\codecjorbis-20101023.jar;G:\【minecraft专区】\JAVA各版本客户端合集\魔戒重制版精制整合包（1.7.10）\.minecraft\libraries\com\paulscode\codecwav\20101023\codecwav-20101023.jar;G:\【minecraft专区】\JAVA各版本客户端合集\魔戒重制版精制整合包（1.7.10）\.minecraft\libraries\com\paulscode\libraryjavasound\20101123\libraryjavasound-20101123.jar;G:\【minecraft专区】\JAVA各版本客户端合集\魔戒重制版精制整合包（1.7.10）\.minecraft\libraries\com\paulscode\librarylwjglopenal\20100824\librarylwjglopenal-20100824.jar;G:\【minecraft专区】\JAVA各版本客户端合集\魔戒重制版精制整合包（1.7.10）\.minecraft\libraries\com\paulscode\soundsystem\20120107\soundsystem-20120107.jar;G:\【minecraft专区】\JAVA各版本客户端合集\魔戒重制版精制整合包（1.7.10）\.minecraft\libraries\io\netty\netty-all\4.0.10.Final\netty-all-4.0.10.Final.jar;G:\【minecraft专区】\JAVA各版本客户端合集\魔戒重制版精制整合包（1.7.10）\.minecraft\libraries\com\google\guava\guava\17.0\guava-17.0.jar;G:\【minecraft专区】\JAVA各版本客户端合集\魔戒重制版精制整合包（1.7.10）\.minecraft\libraries\org\apache\commons\commons-lang3\3.3.2\commons-lang3-3.3.2.jar;G:\【minecraft专区】\JAVA各版本客户端合集\魔戒重制版精制整合包（1.7.10）\.minecraft\libraries\commons-io\commons-io\2.4\commons-io-2.4.jar;G:\【minecraft专区】\JAVA各版本客户端合集\魔戒重制版精制整合包（1.7.10）\.minecraft\libraries\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;G:\【minecraft专区】\JAVA各版本客户端合集\魔戒重制版精制整合包（1.7.10）\.minecraft\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar;G:\【minecraft专区】\JAVA各版本客户端合集\魔戒重制版精制整合包（1.7.10）\.minecraft\libraries\net\java\jutils\jutils\1.0.0\jutils-1.0.0.jar;G:\【minecraft专区】\JAVA各版本客户端合集\魔戒重制版精制整合包（1.7.10）\.minecraft\libraries\com\google\code\gson\gson\2.2.4\gson-2.2.4.jar;G:\【minecraft专区】\JAVA各版本客户端合集\魔戒重制版精制整合包（1.7.10）\.minecraft\libraries\com\mojang\authlib\1.5.21\authlib-1.5.21.jar;G:\【minecraft专区】\JAVA各版本客户端合集\魔戒重制版精制整合包（1.7.10）\.minecraft\libraries\org\apache\logging\log4j\log4j-api\2.0-beta9\log4j-api-2.0-beta9.jar;G:\【minecraft专区】\JAVA各版本客户端合集\魔戒重制版精制整合包（1.7.10）\.minecraft\libraries\org\apache\logging\log4j\log4j-core\2.0-beta9\log4j-core-2.0-beta9.jar;G:\【minecraft专区】\JAVA各版本客户端合集\魔戒重制版精制整合包（1.7.10）\.minecraft\libraries\org\lwjgl\lwjgl\lwjgl\2.9.1\lwjgl-2.9.1.jar;G:\【minecraft专区】\JAVA各版本客户端合集\魔戒重制版精制整合包（1.7.10）\.minecraft\libraries\org\lwjgl\lwjgl\lwjgl_util\2.9.1\lwjgl_util-2.9.1.jar;G:\【minecraft专区】\JAVA各版本客户端合集\魔戒重制版精制整合包（1.7.10）\.minecraft\libraries\tv\twitch\twitch\5.16\twitch-5.16.jar;G:\【minecraft专区】\JAVA各版本客户端合集\魔戒重制版精制整合包（1.7.10）\.minecraft\libraries\net\minecraftforge\forge\1.7.10-10.13.4.1614-1.7.10\forge-1.7.10-10.13.4.1614-1.7.10.jar;G:\【minecraft专区】\JAVA各版本客户端合集\魔戒重制版精制整合包（1.7.10）\.minecraft\libraries\net\minecraft\launchwrapper\1.12\launchwrapper-1.12.jar;G:\【minecraft专区】\JAVA各版本客户端合集\魔戒重制版精制整合包（1.7.10）\.minecraft\libraries\org\ow2\asm\asm-all\5.0.3\asm-all-5.0.3.jar;G:\【minecraft专区】\JAVA各版本客户端合集\魔戒重制版精制整合包（1.7.10）\.minecraft\libraries\com\typesafe\akka\akka-actor_2.11\2.3.3\akka-actor_2.11-2.3.3.jar;G:\【minecraft专区】\JAVA各版本客户端合集\魔戒重制版精制整合包（1.7.10）\.minecraft\libraries\com\typesafe\config\1.2.1\config-1.2.1.jar;G:\【minecraft专区】\JAVA各版本客户端合集\魔戒重制版精制整合包（1.7.10）\.minecraft\libraries\org\scala-lang\scala-actors-migration_2.11\1.1.0\scala-actors-migration_2.11-1.1.0.jar;G:\【minecraft专区】\JAVA各版本客户端合集\魔戒重制版精制整合包（1.7.10）\.minecraft\libraries\org\scala-lang\scala-compiler\2.11.1\scala-compiler-2.11.1.jar;G:\【minecraft专区】\JAVA各版本客户端合集\魔戒重制版精制整合包（1.7.10）\.minecraft\libraries\org\scala-lang\plugins\scala-continuations-library_2.11\1.0.2\scala-continuations-library_2.11-1.0.2.jar;G:\【minecraft专区】\JAVA各版本客户端合集\魔戒重制版精制整合包（1.7.10）\.minecraft\libraries\org\scala-lang\plugins\scala-continuations-plugin_2.11.1\1.0.2\scala-continuations-plugin_2.11.1-1.0.2.jar;G:\【minecraft专区】\JAVA各版本客户端合集\魔戒重制版精制整合包（1.7.10）\.minecraft\libraries\org\scala-lang\scala-library\2.11.1\scala-library-2.11.1.jar;G:\【minecraft专区】\JAVA各版本客户端合集\魔戒重制版精制整合包（1.7.10）\.minecraft\libraries\org\scala-lang\scala-parser-combinators_2.11\1.0.1\scala-parser-combinators_2.11-1.0.1.jar;G:\【minecraft专区】\JAVA各版本客户端合集\魔戒重制版精制整合包（1.7.10）\.minecraft\libraries\org\scala-lang\scala-reflect\2.11.1\scala-reflect-2.11.1.jar;G:\【minecraft专区】\JAVA各版本客户端合集\魔戒重制版精制整合包（1.7.10）\.minecraft\libraries\org\scala-lang\scala-swing_2.11\1.0.1\scala-swing_2.11-1.0.1.jar;G:\【minecraft专区】\JAVA各版本客户端合集\魔戒重制版精制整合包（1.7.10）\.minecraft\libraries\org\scala-lang\scala-xml_2.11\1.0.2\scala-xml_2.11-1.0.2.jar;G:\【minecraft专区】\JAVA各版本客户端合集\魔戒重制版精制整合包（1.7.10）\.minecraft\libraries\lzma\lzma\0.0.1\lzma-0.0.1.jar;G:\【minecraft专区】\JAVA各版本客户端合集\魔戒重制版精制整合包（1.7.10）\.minecraft\versions\重制版精制整合包（1.7.10）\重制版精制整合包（1.7.10）.jar" -jar "C:\Users\Admin\AppData\Roaming\PCL\JavaWrapper.jar" net.minecraft.launchwrapper.Launch --username Archi --version 重制版精制整合包（1.7.10） --gameDir "G:\【minecraft专区】\JAVA各版本客户端合集\魔戒重制版精制整合包（1.7.10）\.minecraft" --assetsDir "G:\【minecraft专区】\JAVA各版本客户端合集\魔戒重制版精制整合包（1.7.10）\.minecraft\assets" --assetIndex 1.7.10 --uuid 00000XXXXXXXXXXXXXXXXXXXXXXFF19B --accessToken 00000XXXXXXXXXXXXXXXXXXXXXXFF19B --userProperties {} --userType Legacy --tweakClass cpw.mods.fml.common.launcher.FMLTweaker --height 690 --width 1752 
-[22:58:13.916] [Loader] 加载器 获取启动参数 状态改变：Finished
-[22:58:13.921] [Loader] 加载器 解压文件 状态改变：Loading
-[22:58:13.921] [Launch] 正在解压 Natives 文件
-[22:58:13.922] [Loader] 加载器 解压文件 状态改变：Finished
-[22:58:13.963] [Loader] 加载器 预启动处理 状态改变：Loading
-[22:58:13.965] [Launch] 并非首次启动，不修改语言
-[22:58:13.965] [Loader] 加载器 预启动处理 状态改变：Finished
-[22:58:13.967] [Loader] 加载器 执行自定义命令 状态改变：Loading
-[22:58:13.969] [Loader] 加载器 执行自定义命令 状态改变：Finished
-[22:58:14.018] [Loader] 加载器 启动进程 状态改变：Loading
-[22:58:14.023] [Launch] 已启动游戏进程：D:\Java\jdk1.8.0_321\jre\bin\javaw.exe
-[22:58:14.023] [Loader] 加载器 启动进程 状态改变：Finished
-[22:58:14.073] [Loader] 加载器 等待游戏窗口出现 状态改变：Loading
-[22:58:14.073] [Launch] 
-[22:58:14.073] [Launch] ~ 基础参数 ~
-[22:58:14.073] [Launch] PCL2 版本：Release 2.4.9 (281)
-[22:58:14.073] [Launch] 游戏版本：1.7.10, Forge 10.13.4.1614（7.10）
-[22:58:14.073] [Launch] 资源版本：1.7.10
-[22:58:14.073] [Launch] 版本继承：无
-[22:58:14.074] [Launch] 分配的内存：5.9 GB（6042 MB）
-[22:58:14.074] [Launch] MC 文件夹：G:\【minecraft专区】\JAVA各版本客户端合集\魔戒重制版精制整合包（1.7.10）\.minecraft\
-[22:58:14.074] [Launch] 版本文件夹：G:\【minecraft专区】\JAVA各版本客户端合集\魔戒重制版精制整合包（1.7.10）\.minecraft\versions\重制版精制整合包（1.7.10）\
-[22:58:14.074] [Launch] 版本隔离：False
-[22:58:14.074] [Launch] HMCL 格式：False
-[22:58:14.074] [Launch] Java 信息：JRE 8 (8.0.321)，64 位：D:\Java\jdk1.8.0_321\jre\bin\
-[22:58:14.074] [Launch] 环境变量：已设置
-[22:58:14.074] [Launch] 
-[22:58:14.074] [Launch] ~ 登录参数 ~
-[22:58:14.074] [Launch] 玩家用户名：Archi
-[22:58:14.074] [Launch] AccessToken：00000XXXXXXXXXXXXXXXXXXXXXXFF19B
-[22:58:14.074] [Launch] ClientToken：00000XXXXXXXXXXXXXXXXXXXXXXFF19B
-[22:58:14.074] [Launch] UUID：00000XXXXXXXXXXXXXXXXXXXXXXFF19B
-[22:58:14.074] [Launch] 登录方式：Legacy
-[22:58:14.074] [Launch] 
-[22:58:14.075] [Launch] [868] 开始 Minecraft 日志监控
-[22:58:14.075] [Launch] [868] 要求窗口标题：重制版简单整合包 1.7.10   当前时间：{time}
-[22:58:14.075] [Launch] [全局] 出现运行中的 Minecraft
-[22:58:14.669] [Launch] [868] 日志 1/5：已出现日志输出
-[22:58:18.572] [Launch] [868] 日志 2/5：游戏用户已设置
-[22:58:20.147] [Launch] [868] Minecraft 窗口已加载：（4655512）
-[22:58:20.147] [Launch] [868] 日志 3/5：LWJGL 版本已确认
-[22:58:20.147] [Launch] [868] Minecraft 加载已完成
-[22:58:20.209] [Loader] 加载器 等待游戏窗口出现 状态改变：Finished
-[22:58:20.211] [Loader] 加载器 结束处理 状态改变：Loading
-[22:58:20.211] [Launch] 开始启动结束处理
-[22:58:20.211] [Launch] 启动器可见性：5
-[22:58:20.212] [Loader] 加载器 结束处理 状态改变：Finished
-[22:58:20.212] [Loader] 加载器 Minecraft 启动 状态改变：Finished
-[22:58:20.267] [Loader] 加载器 Loader Launch 状态改变：Finished
-[22:58:20.316] [UI] 弹出提示：重制版精制整合包（1.7.10） 启动成功！
-[22:58:45.092] [Launch] [868] 日志 4/5：OpenAL 已加载
-[22:58:48.271] [Launch] [868] 日志 5/5：材质已加载
-[23:00:55.395] [Launch] [868] Minecraft 已退出，返回值：0
-[23:00:55.395] [Launch] [全局] 已无运行中的 Minecraft
-[23:00:55.589] [Launch] [868] Minecraft 日志监控已退出
-[23:00:57.924] [Control] 按下图标按钮：BtnTitleClose
-[23:00:57.928] [System] 收到关闭指令
-[23:00:58.183] [System] 程序已退出，返回值：Success
+[11:07:37.069] [Start] 程序版本：Release 2.4.9（281）
+[11:07:37.071] [Start] 识别码：7B14-80BC-DDDE-12DA
+[11:07:37.071] [Start] 程序路径：G:\【minecraft专区】\JAVA各版本客户端合集\魔戒社区精制整合包（1.7.10）\LotRMC-CN_Community-Modpacks\PCL2  2.4.9.exe
+[11:07:37.077] [Start] 第一阶段加载用时：156 ms
+[11:07:37.176] [Start] 版本号从 313 降低到 281
+[11:07:37.227] [Loader] 加载器 Minecraft Folder List 状态改变：Loading
+[11:07:37.227] [Start] 第二阶段加载用时：141 ms
+[11:07:37.236] [Loader] 加载器 Minecraft Folder List 状态改变：Finished
+[11:07:37.381] [UI] 加载背景图片：G:\【minecraft专区】\JAVA各版本客户端合集\魔戒社区精制整合包（1.7.10）\LotRMC-CN_Community-Modpacks\PCL\Pictures\袋底洞 Bag End - 1800x1080 模糊处理.jpg
+[11:07:37.465] [System] 窗口已置顶，位置：(46.4, 100.8), 1442.4 x 621.6
+[11:07:37.469] [Start] 第三阶段加载用时：110 ms
+[11:07:37.469] [Animation] 动画线程开始
+[11:07:37.470] [Start] 加载 DLL：Json
+[11:07:37.471] [System] 获取资源：Json
+[11:07:37.478] [Launch] Minecraft 文件夹：G:\【minecraft专区】\JAVA各版本客户端合集\魔戒社区精制整合包（1.7.10）\LotRMC-CN_Community-Modpacks\.minecraft\
+[11:07:37.531] [Java] 缓存中有 5 个可用的 Java
+[11:07:37.535] [Loader] 加载器 Loader Skin Legacy 状态改变：Loading
+[11:07:37.540] [Loader] 加载器 Loader Skin Legacy 状态改变：Finished
+[11:07:37.579] [Skin] 载入头像成功：Loader Skin Legacy
+[11:07:37.588] [Minecraft] 启动按钮：Minecraft 版本：G:\【minecraft专区】\JAVA各版本客户端合集\魔戒社区精制整合包（1.7.10）\LotRMC-CN_Community-Modpacks\.minecraft\versions\重制版精制整合包（1.7.10）\
+[11:07:37.591] [Loader] 加载器 登录 状态改变：Loading
+[11:07:37.596] [Launch] 登录加载已开始
+[11:07:37.598] [Loader] 加载器 Loader Login Legacy 状态改变：Loading
+[11:07:37.600] [Launch] 登录方式：离线（Archi）
+[11:07:37.601] [Loader] 加载器 Loader Login Legacy 状态改变：Finished
+[11:07:37.622] [Launch] 登录加载已结束
+[11:07:37.622] [Loader] 加载器 登录 状态改变：Finished
+[11:07:37.750] [Loader] 加载器 DlClientList Mojang 状态改变：Loading
+[11:07:37.750] [Loader] 加载器 PCL2 服务 状态改变：Loading
+[11:07:37.751] [Server] 正在连接到 PCL2 服务器
+[11:07:37.755] [Net] 获取网络结果：https://launchermeta.mojang.com/mc/game/version_manifest.json，最大超时 10000
+[11:07:37.757] [Net] 获取网络结果：http://pcl2-server-1253424809.file.myqcloud.com/notice.cfg?sign=1707534458-054cedcf-0-4589cfebd91e2730fcc92b1ae6b8b8f1，最大超时 10000
+[11:07:37.871] [Server] 服务器公告：126|312|313|5，无需更新
+[11:07:37.876] [Loader] 加载器 PCL2 服务 状态改变：Finished
+[11:07:38.186] [System] DPI：120，系统版本：10.0.19045.0，PCL 位置：G:\【minecraft专区】\JAVA各版本客户端合集\魔戒社区精制整合包（1.7.10）\LotRMC-CN_Community-Modpacks\PCL2  2.4.9.exe
+[11:07:38.329] [Loader] 加载器 DlClientList Mojang 状态改变：Finished
+[11:08:17.247] [Control] 按下图标按钮：BtnTitleClose
+[11:08:17.251] [System] 收到关闭指令
+[11:08:17.484] [System] 程序已退出，返回值：Success
