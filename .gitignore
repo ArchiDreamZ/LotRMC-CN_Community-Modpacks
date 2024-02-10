@@ -1,8 +1,12 @@
 .minecraft/NBTEdit.log
 .minecraft/CustomSkinLoader/Tweaker.log
 .minecraft/CustomSkinLoader/CustomSkinLoader.log
+.minecraft/CustomSkinLoader/caches/:
+.minecraft/logs/:
+.minecraft/crash-reports/:
 PCL/Log1.txt
 PCL/Log2.txt
 PCL/Log3.txt
 PCL/Log4.txt
 PCL/Log5.txt
+.minecraft/config/time.history
