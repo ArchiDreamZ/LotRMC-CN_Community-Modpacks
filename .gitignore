@@ -10,3 +10,6 @@ PCL/Log3.txt
 PCL/Log4.txt
 PCL/Log5.txt
 .minecraft/config/time.history
+.minecraft/XaeroWorldMap/:
+.minecraft/XaeroWaypoints/:
+.minecraft/logs/falsepattern_tmp/:
