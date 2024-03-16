@@ -1,0 +1,93 @@
+key.attack
+key.use
+key.forward
+key.left
+key.back
+key.right
+key.jump
+key.sneak
+key.drop
+key.inventory
+key.chat
+key.playerlist
+key.pickItem
+key.command
+key.screenshot
+key.togglePerspective
+key.smoothCamera
+key.sprint
+key.streamStartStop
+key.streamPauseUnpause
+key.streamCommercial
+key.streamToggleMic
+key.fullscreen
+key.hotbar.1
+key.hotbar.2
+key.hotbar.3
+key.hotbar.4
+key.hotbar.5
+key.hotbar.6
+key.hotbar.7
+key.hotbar.8
+key.hotbar.9
+of.key.zoom
+Menu
+Map Teleport
+Fast Travel
+Alignment Cycle Left
+Alignment Cycle Right
+Alignment Group Prev
+Alignment Group Next
+Cart
+schematica.key.load
+schematica.key.save
+schematica.key.control
+schematica.key.layerInc
+schematica.key.layerDec
+Toggle Raw Input
+Rescan Key
+Reload Default Sound
+itemscroller.desc.toggledisable
+itemscroller.desc.recipe
+Toggle Perspective
+smoothfont.key.guiOpen
+FpsReducer.key.guiOpen
+WorldEdit Reference
+com.github.hexosse.wecuife.keys.toggle
+com.github.hexosse.wecuife.keys.clear
+±³°üÎïÆ·±à¼­Æ÷
+Camera left
+Camera right
+Camera closer
+Camera farther
+Swap shoulder
+gui.xaero_open_map
+gui.xaero_open_settings
+gui.xaero_map_zoom_in
+gui.xaero_map_zoom_out
+gui.xaero_quick_confirm
+gui.xaero_switch_waypoint_set
+gui.xaero_instant_waypoint
+gui.xaero_toggle_slime
+gui.xaero_toggle_grid
+gui.xaero_toggle_waypoints
+gui.xaero_toggle_map_waypoints
+gui.xaero_toggle_map
+gui.xaero_enlarge_map
+gui.xaero_waypoints_key
+gui.xaero_zoom_in
+gui.xaero_zoom_out
+gui.xaero_new_waypoint
+gui.xaero_display_all_sets
+gui.xaero_toggle_light_overlay
+gui.xaero_minimap_settings
+key.betterHud.open
+waila.keybind.wailaconfig
+waila.keybind.wailadisplay
+waila.keybind.liquid
+waila.keybind.recipe
+waila.keybind.usage
+MAtmos
+key.betterfoliage.gui
+Open GUI
+BetterFps
