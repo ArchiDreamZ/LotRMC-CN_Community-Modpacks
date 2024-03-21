@@ -25,7 +25,7 @@
       "url": "https://launcher.mojang.com/v1/objects/a79b91ef69b9b4af63d1c7007f60259106869b21/windows_server.exe"
     }
   },
-  "id": "重制版精制整合包（1.7.10）",
+  "id": "魔戒MC社区整合包（1.7.10）",
   "javaVersion": {
     "component": "jre-legacy",
     "majorVersion": 8
