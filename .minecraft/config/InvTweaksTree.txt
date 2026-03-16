@@ -1,0 +1,2547 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+|==============================================================|
+| INVENTORY TWEAKS Mod - By Jimeo Wan (jimeo.wan at gmail.com) |
+| Tree configuration                                           |
+|==============================================================|
+
+# Q: WHAT IS THIS?
+# A: This file is used to store all the keywords you can use to create item rules, but also to define the items order.
+# You can move/change all that you want, but it's recommended not to delete any default item.
+
+# Q: MY CUSTOM FILE WAS REPLACED =(
+# A: Since a new major version of Minecraft appeared, I silently updated the tree... BUT!
+# I kept a backup of your version in the same directory. Sorry for the trouble, feel free to import your changes in the new file.
+
+# Q: THE FILE IS BROKEN AND I DON'T KNOW WHAT TO DO =(
+# A: Just delete this file, the default tree will be reloaded next time you sort something!
+
+# FULL DOCUMENTATION
+# http://modding.kalam-alami.net/invtweaks
+
+# CREDITS
+# Thanks to Larandar & Lunaqua for their contributions.
+-->
+<!-- Note: 'stuff' matches everything, even items that don't appear here -->
+<stuff treeVersion="1.7.0">
+    <block>
+        <manufacturedBlock>
+            <beaconGondor id="lotr:tile.beacon"/>
+            <bookShelf id="bookshelf"/>
+            <carpet>
+                <blackCarpet damage="15" id="carpet"/>
+                <blueCarpet damage="11" id="carpet"/>
+                <brownCarpet damage="12" id="carpet"/>
+                <cyanCarpet damage="9" id="carpet"/>
+                <darkGreenCarpet damage="13" id="carpet"/>
+                <grayCarpet damage="7" id="carpet"/>
+                <greenCarpet damage="13" id="carpet"/>
+                <lightBlueCarpet damage="3" id="carpet"/>
+                <lightGrayCarpet damage="8" id="carpet"/>
+                <lightGreenCarpet damage="5" id="carpet"/>
+                <limeCarpet damage="5" id="carpet"/>
+                <magentaCarpet damage="2" id="carpet"/>
+                <orangeCarpet damage="1" id="carpet"/>
+                <pinkCarpet damage="6" id="carpet"/>
+                <purpleCarpet damage="10" id="carpet"/>
+                <redCarpet damage="14" id="carpet"/>
+                <whiteCarpet damage="0" id="carpet"/>
+                <yellowCarpet damage="4" id="carpet"/>
+            </carpet>
+            <ceramicPlate id="lotr:item.ceramicPlate"/>
+            <ceramicPlate id="lotr:tile.ceramicPlate"/>
+            <chandelier id="lotr:tile.chandelier"/>
+            <clayPlate id="lotr:item.clayPlate"/>
+            <constructionBlock>
+                <bars>
+                    <blueDwarfBars id="lotr:tile.blueDwarfBars"/>
+                    <bronzeBars id="lotr:tile.bronzeBars"/>
+                    <dwarfBars id="lotr:tile.dwarfBars"/>
+                    <galadhrimBars id="lotr:tile.galadhrimBars"/>
+                    <galadhrimWoodBars id="lotr:tile.galadhrimWoodBars"/>
+                    <goldBars id="lotr:tile.goldBars"/>
+                    <highElfBars id="lotr:tile.highElfBars"/>
+                    <highElfWoodBars id="lotr:tile.highElfWoodBars"/>
+                    <ironBars id="iron_bars"/>
+                    <mithrilBars id="lotr:tile.mithrilBars"/>
+                    <orcSteelBars id="lotr:tile.orcSteelBars"/>
+                    <reedBars id="lotr:tile.reedBars"/>
+                    <silverBars id="lotr:tile.silverBars"/>
+                    <urukBars id="lotr:tile.urukBars"/>
+                    <woodElfBars id="lotr:tile.woodElfBars"/>
+                    <woodElfWoodBars id="lotr:tile.woodElfWoodBars"/>
+                </bars>
+                <beam>
+                    <woodBeam1 id="lotr:tile.woodBeam1"/>
+                    <woodBeam2 id="lotr:tile.woodBeam2"/>
+                    <woodBeam3 id="lotr:tile.woodBeam3"/>
+                    <woodBeam4 id="lotr:tile.woodBeam4"/>
+                    <woodBeam5 id="lotr:tile.woodBeam5"/>
+                    <woodBeam5 id="lotr:tile.woodBeam6"/>
+                    <woodBeam7 id="lotr:tile.woodBeam7"/>
+                    <woodBeam8 id="lotr:tile.woodBeam8"/>
+                    <woodBeam9 id="lotr:tile.woodBeam9"/>
+                    <woodBeamFruit id="lotr:tile.woodBeamFruit"/>
+                    <woodBeamRotten id="lotr:tile.woodBeamRotten"/>
+                    <woodBeamS id="lotr:tile.woodBeamS"/>
+                    <woodBeamV1 id="lotr:tile.woodBeamV1"/>
+                    <woodBeamV2 id="lotr:tile.woodBeamV2"/>
+                </beam>
+                <bed>
+                    <bed id="bed"/>
+                    <dwarvenBed id="lotr:item.dwarvenBed"/>
+                    <dwarvenBed id="lotr:tile.dwarvenBed"/>
+                    <elvenBed id="lotr:item.elvenBed"/>
+                    <elvenBed id="lotr:tile.elvenBed"/>
+                    <highElvenBed id="lotr:item.highElvenBed"/>
+                    <highElvenBed id="lotr:tile.highElvenBed"/>
+                    <lionBed id="lotr:item.lionBed"/>
+                    <lionBed id="lotr:tile.lionBed"/>
+                    <orcBed id="lotr:item.orcBed"/>
+                    <orcBed id="lotr:tile.orcBed"/>
+                    <strawBed id="lotr:item.strawBed"/>
+                    <strawBed id="lotr:tile.strawBed"/>
+                    <wargFurBed id="lotr:item.wargFurBed"/>
+                    <woodElvenBed id="lotr:tile.woodElvenBed"/>
+                </bed>
+                <bricks>
+                    <Mcobblebrick id="lotr:tile.cobblebrick"/>
+                    <brick1 id="lotr:tile.brick"/>
+                    <brick2 id="lotr:tile.brick2"/>
+                    <brick3 id="lotr:tile.brick3"/>
+                    <brick4 id="lotr:tile.brick4"/>
+                    <brick5 id="lotr:tile.brick5"/>
+                    <brick6 id="lotr:tile.brick6"/>
+                    <brickBlock id="brick_block"/>
+                    <guldurilBrick id="lotr:tile.guldurilBrick"/>
+                    <netherBrick id="nether_brick"/>
+                    <redBrick id="lotr:tile.redBrick"/>
+                    <stoneBricks>
+                        <chiseledStoneBrick damage="3" id="stonebrick"/>
+                        <circleStoneBrick damage="3" id="stonebrick"/>
+                        <crackedStoneBrick damage="2" id="stonebrick"/>
+                        <mossyStoneBrick damage="1" id="stonebrick"/>
+                        <normalStoneBrick damage="0" id="stonebrick"/>
+                    </stoneBricks>
+                    <utumnoBrick id="lotr:tile.utumnoBrick"/>
+                    <utumnoBrickEntrance id="lotr:tile.utumnoBrickEntrance"/>
+                </bricks>
+                <clayTile>
+                    <clayTile id="lotr:tile.clayTile"/>
+                    <clayTileDyed id="lotr:tile.clayTileDyed"/>
+                </clayTile>
+                <daub id="lotr:tile.daub"/>
+                <glass>
+                    <glass id="lotr:tile.glass"/>
+                    <glassBlock id="glass"/>
+                    <glassPane id="glass_pane"/>
+                    <glassPane id="lotr:tile.glassPane"/>
+                    <stainedGlass id="lotr:tile.stainedGlass"/>
+                    <stainedGlassPane id="lotr:tile.stainedGlassPane"/>
+                </glass>
+                <hardenedClay id="hardened_clay"/>
+                <hayBale id="hay_block"/>
+                <ladderMallorn id="lotr:tile.mallornLadder"/>
+                <orcPlating id="lotr:tile.orcPlating"/>
+                <oreBlock>
+                    <blockGem id="lotr:tile.blockGem"/>
+                    <coalBlock id="coal_block"/>
+                    <diamondBlock id="diamond_block"/>
+                    <emeraldBlock id="emerald_block"/>
+                    <goldBlock id="gold_block"/>
+                    <ironBlock id="iron_block"/>
+                    <lapisLazuliBlock id="lapis_block"/>
+                    <oreStorage id="lotr:tile.oreStorage"/>
+                    <oreStorage2 id="lotr:tile.oreStorage2"/>
+                    <quartzBlock id="quartz_block"/>
+                    <redstoneBlock id="redstone_block"/>
+                </oreBlock>
+                <pillar id="lotr:tile.pillar"/>
+                <pillar2 id="lotr:tile.pillar2"/>
+                <pillar3 id="lotr:tile.pillar3"/>
+                <rope id="lotr:tile.rope"/>
+                <slabs>
+                    <brickSlab damage="4" id="stone_slab"/>
+                    <clayTileSlab>
+                        <slabClayTileDyedSingle id="lotr:tile.slabClayTileDyedSingle"/>
+                        <slabClayTileDyedSingle2 id="lotr:tile.slabClayTileDyedSingle2"/>
+                        <slabClayTileSingle id="lotr:tile.slabClayTileSingle"/>
+                    </clayTileSlab>
+                    <cobblestoneSlab damage="3" id="stone_slab"/>
+                    <doubleSlab>
+                        <brickDoubleSlab damage="4" id="double_stone_slab"/>
+                        <cobblestoneDoubleSlab damage="3" id="double_stone_slab"/>
+                        <doubleClaySlab>
+                            <slabClayTileDouble id="lotr:tile.slabClayTileDouble"/>
+                            <slabClayTileDyedDouble id="lotr:tile.slabClayTileDyedDouble"/>
+                            <slabClayTileDyedDouble2 id="lotr:tile.slabClayTileDyedDouble2"/>
+                        </doubleClaySlab>
+                        <netherBrickDoubleSlab damage="6" id="double_stone_slab"/>
+                        <quartzDoubleSlab damage="7" id="double_stone_slab"/>
+                        <quartzTileDoubleSlab damage="10" id="double_stone_slab"/>
+                        <sandstoneDoubleSlab damage="1" id="double_stone_slab"/>
+                        <scorchedSlabDouble id="lotr:tile.scorchedSlabDouble"/>
+                        <slabBoneDouble id="lotr:tile.slabBoneDouble"/>
+                        <slabDouble id="lotr:tile.slabDouble"/>
+                        <slabDouble10 id="lotr:tile.slabDouble10"/>
+                        <slabDouble11 id="lotr:tile.slabDouble11"/>
+                        <slabDouble12 id="lotr:tile.slabDouble12"/>
+                        <slabDouble13 id="lotr:tile.slabDouble13"/>
+                        <slabDouble14 id="lotr:tile.slabDouble14"/>
+                        <slabDouble2 id="lotr:tile.slabDouble2"/>
+                        <slabDouble3 id="lotr:tile.slabDouble3"/>
+                        <slabDouble4 id="lotr:tile.slabDouble4"/>
+                        <slabDouble5 id="lotr:tile.slabDouble5"/>
+                        <slabDouble6 id="lotr:tile.slabDouble6"/>
+                        <slabDouble7 id="lotr:tile.slabDouble7"/>
+                        <slabDouble8 id="lotr:tile.slabDouble8"/>
+                        <slabDouble9 id="lotr:tile.slabDouble9"/>
+                        <slabDoubleDirt id="lotr:tile.slabDoubleDirt"/>
+                        <slabDoubleGravel id="lotr:tile.slabDoubleGravel"/>
+                        <slabDoubleSand id="lotr:tile.slabDoubleSand"/>
+                        <slabDoubleThatch id="lotr:tile.slabDoubleThatch"/>
+                        <slabDoubleV id="lotr:tile.slabDoubleV"/>
+                        <slabUtumnoDouble id="lotr:tile.slabUtumnoDouble"/>
+                        <slabUtumnoDouble2 id="lotr:tile.slabUtumnoDouble2"/>
+                        <smoothSandstoneDoubleSlab damage="9" id="double_stone_slab"/>
+                        <smoothStoneDoubleSlab damage="8" id="double_stone_slab"/>
+                        <stoneBrickDoubleSlab damage="5" id="double_stone_slab"/>
+                        <stoneDoubleSlab damage="0" id="double_stone_slab"/>
+                        <woodenDoubleSlabs>
+                            <birchWoodDoubleSlab damage="2" id="double_wooden_slab"/>
+                            <jungleWoodDoubleSlab damage="3" id="double_wooden_slab"/>
+                            <oakWoodDoubleSlab damage="0" id="double_wooden_slab"/>
+                            <rottenSlabDouble id="lotr:tile.rottenSlabDouble"/>
+                            <spruceWoodDoubleSlab damage="1" id="double_wooden_slab"/>
+                            <woodSlabDouble id="lotr:tile.woodSlabDouble"/>
+                            <woodSlabDouble2 id="lotr:tile.woodSlabDouble2"/>
+                            <woodSlabDouble3 id="lotr:tile.woodSlabDouble3"/>
+                            <woodSlabDouble4 id="lotr:tile.woodSlabDouble4"/>
+                            <woodSlabDouble5 id="lotr:tile.woodSlabDouble5"/>
+                            <woodenStoneDoubleSlab damage="2" id="double_stone_slab"/>
+                        </woodenDoubleSlabs>
+                    </doubleSlab>
+                    <netherBrickSlab damage="6" id="stone_slab"/>
+                    <quartzSlab damage="7" id="stone_slab"/>
+                    <sandstoneSlab damage="1" id="stone_slab"/>
+                    <scorchedStoneSlab id="lotr:tile.scorchedSlabSingle"/>
+                    <slabBoneSingle id="lotr:tile.slabBoneSingle"/>
+                    <slabSingle id="lotr:tile.slabSingle"/>
+                    <slabSingle10 id="lotr:tile.slabSingle10"/>
+                    <slabSingle11 id="lotr:tile.slabSingle11"/>
+                    <slabSingle12 id="lotr:tile.slabSingle12"/>
+                    <slabSingle13 id="lotr:tile.slabSingle13"/>
+                    <slabSingle14 id="lotr:tile.slabSingle14"/>
+                    <slabSingle2 id="lotr:tile.slabSingle2"/>
+                    <slabSingle3 id="lotr:tile.slabSingle3"/>
+                    <slabSingle4 id="lotr:tile.slabSingle4"/>
+                    <slabSingle5 id="lotr:tile.slabSingle5"/>
+                    <slabSingle6 id="lotr:tile.slabSingle6"/>
+                    <slabSingle7 id="lotr:tile.slabSingle7"/>
+                    <slabSingle8 id="lotr:tile.slabSingle8"/>
+                    <slabSingle9 id="lotr:tile:slabSingle9"/>
+                    <slabSingleDirt id="lotr:tile.slabSingleDirt"/>
+                    <slabSingleGravel id="lotr:tile.slabSingleGravel"/>
+                    <slabSingleSand id="lotr:tile.slabSingleSand"/>
+                    <slabSingleThatch id="lotr:tile.slabSingleThatch"/>
+                    <slabSingleV id="lotr:tile.slabSingleV"/>
+                    <slabUtumnoSingle id="lotr:tile.slabUtumnoSingle"/>
+                    <slabUtumnoSingle2 id="lotr:tile.slabUtumnoSingle2"/>
+                    <stoneBrickSlab damage="5" id="stone_slab"/>
+                    <stoneSlab damage="0" id="stone_slab"/>
+                    <woodenSlabs>
+                        <birchWoodSlab damage="2" id="wooden_slab"/>
+                        <jungleWoodSlab damage="3" id="wooden_slab"/>
+                        <oakWoodSlab damage="0" id="wooden_slab"/>
+                        <rottenSlabSingle id="lotr:tile.rottenSlabSingle"/>
+                        <spruceWoodSlab damage="1" id="wooden_slab"/>
+                        <woodSlabSingle id="lotr:tile.woodSlabSingle"/>
+                        <woodSlabSingle2 id="lotr:tile.woodSlabSingle2"/>
+                        <woodSlabSingle3 id="lotr:tile.woodSlabSingle3"/>
+                        <woodSlabSingle4 id="lotr:tile.woodSlabSingle4"/>
+                        <woodSlabSingle5 id="lotr:tile.woodSlabSingle5"/>
+                        <woodenSlabsOreDict oreDictName="slabWood"/>
+                        <woodenStoneSlab damage="2" id="stone_slab"/>
+                    </woodenSlabs>
+                </slabs>
+                <smoothStone>
+                    <smoothStone id="lotr:tile.smoothStone"/>
+                    <smoothStoneV id="lotr:tile.smoothStoneV"/>
+                </smoothStone>
+                <stainedClay>
+                    <blackStainedClay damage="15" id="stained_hardened_clay"/>
+                    <blueStainedClay damage="11" id="stained_hardened_clay"/>
+                    <brownStainedClay damage="12" id="stained_hardened_clay"/>
+                    <cyanStainedClay damage="9" id="stained_hardened_clay"/>
+                    <darkGreenStainedClay damage="13" id="stained_hardened_clay"/>
+                    <grayStainedClay damage="7" id="stained_hardened_clay"/>
+                    <greenStainedClay damage="13" id="stained_hardened_clay"/>
+                    <lightBlueStainedClay damage="3" id="stained_hardened_clay"/>
+                    <lightGrayStainedClay damage="8" id="stained_hardened_clay"/>
+                    <lightGreenStainedClay damage="5" id="stained_hardened_clay"/>
+                    <limeStainedClay damage="5" id="stained_hardened_clay"/>
+                    <magentaStainedClay damage="2" id="stained_hardened_clay"/>
+                    <orangeStainedClay damage="1" id="stained_hardened_clay"/>
+                    <pinkStainedClay damage="6" id="stained_hardened_clay"/>
+                    <purpleStainedClay damage="10" id="stained_hardened_clay"/>
+                    <redStainedClay damage="14" id="stained_hardened_clay"/>
+                    <whiteStainedClay damage="0" id="stained_hardened_clay"/>
+                    <yellowStainedClay damage="4" id="stained_hardened_clay"/>
+                </stainedClay>
+                <stainedGlass>
+                    <stainedGlassBlock id="stained_glass">
+                        <blackStainedGlassBlock damage="15" id="stained_glass"/>
+                        <blueStainedGlassBlock damage="11" id="stained_glass"/>
+                        <brownStainedGlassBlock damage="12" id="stained_glass"/>
+                        <cyanStainedGlassBlock damage="9" id="stained_glass"/>
+                        <darkGreenStainedGlassBlock damage="13" id="stained_glass"/>
+                        <grayStainedGlassBlock damage="7" id="stained_glass"/>
+                        <greenStainedGlassBlock damage="13" id="stained_glass"/>
+                        <lightBlueStainedGlassBlock damage="3" id="stained_glass"/>
+                        <lightGrayStainedGlassBlock damage="8" id="stained_glass"/>
+                        <lightGreenStainedGlassBlock damage="5" id="stained_glass"/>
+                        <limeStainedGlassBlock damage="5" id="stained_glass"/>
+                        <magentaStainedGlassBlock damage="2" id="stained_glass"/>
+                        <orangeStainedGlassBlock damage="1" id="stained_glass"/>
+                        <pinkStainedGlassBlock damage="6" id="stained_glass"/>
+                        <purpleStainedGlassBlock damage="10" id="stained_glass"/>
+                        <redStainedGlassBlock damage="14" id="stained_glass"/>
+                        <whiteStainedGlassBlock damage="0" id="stained_glass"/>
+                        <yellowStainedGlassBlock damage="4" id="stained_glass"/>
+                    </stainedGlassBlock>
+                    <stainedGlassPane id="stained_glass_pane">
+                        <blackStainedGlassPane damage="15" id="stained_glass_pane"/>
+                        <blueStainedGlassPane damage="11" id="stained_glass_pane"/>
+                        <brownStainedGlassPane damage="12" id="stained_glass_pane"/>
+                        <cyanStainedGlassPane damage="9" id="stained_glass_pane"/>
+                        <darkGreenStainedGlassPane damage="13" id="stained_glass_pane"/>
+                        <grayStainedGlassPane damage="7" id="stained_glass_pane"/>
+                        <greenStainedGlassPane damage="13" id="stained_glass_pane"/>
+                        <lightBlueStainedGlassPane damage="3" id="stained_glass_pane"/>
+                        <lightGrayStainedGlassPane damage="8" id="stained_glass_pane"/>
+                        <lightGreenStainedGlassPane damage="5" id="stained_glass_pane"/>
+                        <limeStainedGlassPane damage="5" id="stained_glass_pane"/>
+                        <magentaStainedGlassPane damage="2" id="stained_glass_pane"/>
+                        <orangeStainedGlassPane damage="1" id="stained_glass_pane"/>
+                        <pinkStainedGlassPane damage="6" id="stained_glass_pane"/>
+                        <purpleStainedGlassPane damage="10" id="stained_glass_pane"/>
+                        <redStainedGlassPane damage="14" id="stained_glass_pane"/>
+                        <whiteStainedGlassPane damage="0" id="stained_glass_pane"/>
+                        <yellowStainedGlassPane damage="4" id="stained_glass_pane"/>
+                    </stainedGlassPane>
+                </stainedGlass>
+                <stairs>
+                    <brickStairs id="brick_stairs"/>
+                    <cobblestoneStairs id="stone_stairs"/>
+                    <netherBrickStairs id="nether_brick_stairs"/>
+                    <netherStairs id="nether_brick_stairs"/>
+                    <quartzStairs id="quartz_stairs"/>
+                    <sandstoneStairs id="sandstone_stairs"/>
+                    <stairsAngmarBrick id="lotr:tile.stairsAngmarBrick"/>
+                    <stairsAngmarBrickCracked id="lotr:tile.stairsAngmarBrickCracked"/>
+                    <stairsAngmarBrickSnow id="lotr:tile.stairsAngmarBrickSnow"/>
+                    <stairsArnorBrick id="lotr:tile.stairsArnorBrick"/>
+                    <stairsArnorBrickCracked id="lotr:tile.stairsArnorBrickCracked"/>
+                    <stairsArnorBrickMossy id="lotr:tile.stairsArnorBrickMossy"/>
+                    <stairsBlackGondorBrick id="lotr:tile.stairsBlackGondorBrick"/>
+                    <stairsBlueRock id="lotr:tile.stairsBlueRock"/>
+                    <stairsBlueRockBrick id="lotr:tile.stairsBlueRockBrick"/>
+                    <stairsBone id="lotr:tile.stairsBone"/>
+                    <stairsBrickCracked id="lotr:tile.stairsBrickCracked"/>
+                    <stairsBrickMossy id="lotr:tile.stairsBrickMossy"/>
+                    <stairsChalk id="lotr:tile.stairsChalk"/>
+                    <stairsChalkBrick id="lotr:tile.stairsChalkBrick"/>
+                    <stairsClayTile id="lotr:tile.stairsClayTile"/>
+                    <stairsClayTileDyedBlack id="lotr:tile.stairsClayTileDyedBlack"/>
+                    <stairsClayTileDyedBlue id="lotr:tile.stairsClayTileDyedBlue"/>
+                    <stairsClayTileDyedBrown id="lotr:tile.stairsClayTileDyedBrown"/>
+                    <stairsClayTileDyedCyan id="lotr:tile.stairsClayTileDyedCyan"/>
+                    <stairsClayTileDyedGray id="lotr:tile.stairsClayTileDyedGray"/>
+                    <stairsClayTileDyedGreen id="lotr:tile.stairsClayTileDyedGreen"/>
+                    <stairsClayTileDyedLightBlue id="lotr:tile.stairsClayTileDyedLightBlue"/>
+                    <stairsClayTileDyedLightGray id="lotr:tile.stairsClayTileDyedLightGray"/>
+                    <stairsClayTileDyedLime id="lotr:tile.stairsClayTileDyedLime"/>
+                    <stairsClayTileDyedMagenta id="lotr:tile.stairsClayTileDyedMagenta"/>
+                    <stairsClayTileDyedOrange id="lotr:tile.stairsClayTileDyedOrange"/>
+                    <stairsClayTileDyedPink id="lotr:tile.stairsClayTileDyedPink"/>
+                    <stairsClayTileDyedPurple id="lotr:tile.stairsClayTileDyedPurple"/>
+                    <stairsClayTileDyedRed id="lotr:tile.stairsClayTileDyedRed"/>
+                    <stairsClayTileDyedWhite id="lotr:tile.stairsClayTileDyedWhite"/>
+                    <stairsClayTileDyedYellow id="lotr:tile.stairsClayTileDyedYellow"/>
+                    <stairsCobblestoneMossy id="lotr:tile.stairsCobblestoneMossy"/>
+                    <stairsDaleBrick id="lotr:tile.stairsDaleBrick"/>
+                    <stairsDaleBrickCracked id="lotr:tile.stairsDaleBrickCracked"/>
+                    <stairsDaleBrickMossy id="lotr:tile.stairsDaleBrickMossy"/>
+                    <stairsDolAmrothBrick id="lotr:tile.stairsDolAmrothBrick"/>
+                    <stairsDolGuldurBrick id="lotr:tile.stairsDolGuldurBrick"/>
+                    <stairsDolGuldurBrickCracked id="lotr:tile.stairsDolGuldurBrickCracked"/>
+                    <stairsDolGuldurBrickMossy id="lotr:tile.stairsDolGuldurBrickMossy"/>
+                    <stairsDorwinionBrick id="lotr:tile.stairsDorwinionBrick"/>
+                    <stairsDorwinionBrickCracked id="lotr:tile.stairsDorwinionBrickCracked"/>
+                    <stairsDorwinionBrickFlowers id="lotr:tile.stairsDorwinionBrickFlowers"/>
+                    <stairsDorwinionBrickMossy id="lotr:tile.stairsDorwinionBrickMossy"/>
+                    <stairsDwarvenBrick id="lotr:tile.stairsDwarvenBrick"/>
+                    <stairsDwarvenBrickCracked id="lotr:tile.stairsDwarvenBrickCracked"/>
+                    <stairsDwarvenBrickObsidian id="lotr:tile.stairsDwarvenBrickObsidian"/>
+                    <stairsElvenBrick id="lotr:tile.stairsElvenBrick"/>
+                    <stairsElvenBrickCracked id="lotr:tile.stairsElvenBrickCracked"/>
+                    <stairsElvenBrickMossy id="lotr:tile.stairsElvenBrickMossy"/>
+                    <stairsGondorBrick id="lotr:tile.stairsGondorBrick"/>
+                    <stairsGondorBrickCracked id="lotr:tile.stairsGondorBrickCracked"/>
+                    <stairsGondorBrickMossy id="lotr:tile.stairsGondorBrickMossy"/>
+                    <stairsGondorBrickRustic id="lotr:tile.stairsGondorBrickRustic"/>
+                    <stairsGondorBrickRusticCracked id="lotr:tile.stairsGondorBrickRusticCracked"/>
+                    <stairsGondorBrickRusticMossy id="lotr:tile.stairsGondorBrickRusticMossy"/>
+                    <stairsGondorRock id="lotr:tile.stairsGondorRock"/>
+                    <stairsHighElvenBrick id="lotr:tile.stairsHighElvenBrick"/>
+                    <stairsHighElvenBrickCracked id="lotr:tile.stairsHighElvenBrickCracked"/>
+                    <stairsHighElvenBrickMossy id="lotr:tile.stairsHighElvenBrickMossy"/>
+                    <stairsMordorBrick id="lotr:tile.stairsMordorBrick"/>
+                    <stairsMordorBrickCracked id="lotr:tile.stairsMordorBrickCracked"/>
+                    <stairsMordorRock id="lotr:tile.stairsMordorRock"/>
+                    <stairsMoredainBrick id="lotr:tile.stairsMoredainBrick"/>
+                    <stairsMorwaithBrickCracked id="lotr:tile.stairsMorwaithBrickCracked"/>
+                    <stairsMudBrick id="lotr:tile.stairsMudBrick"/>
+                    <stairsNearHaradBrick id="lotr:tile.stairsNearHaradBrick"/>
+                    <stairsNearHaradBrickCracked id="lotr:tile.stairsNearHaradBrickCracked"/>
+                    <stairsNearHaradBrickRed id="lotr:tile.stairsNearHaradBrickRed"/>
+                    <stairsNearHaradBrickRedCracked id="lotr:tile.stairsNearHaradBrickRedCracked"/>
+                    <stairsRedRock id="lotr:tile.stairsRedRock"/>
+                    <stairsRedRockBrick id="lotr:tile.stairsRedRockBrick"/>
+                    <stairsRedSandstone id="lotr:tile.stairsRedSandstone"/>
+                    <stairsReed id="lotr:tile.stairsReed"/>
+                    <stairsRhunBrick id="lotr:tile.stairsRhunBrick"/>
+                    <stairsRhunBrickCracked id="lotr:tile.stairsRhunBrickCracked"/>
+                    <stairsRhunBrickFlowers id="lotr:tile.stairsRhunBrickFlowers"/>
+                    <stairsRhunBrickMossy id="lotr:tile.stairsRhunBrickMossy"/>
+                    <stairsRhunBrickRed id="lotr:tile.stairsRhunBrickRed"/>
+                    <stairsRohanBrick id="lotr:tile.stairsRohanBrick"/>
+                    <stairsRohanRock id="lotr:tile.stairsRohanRock"/>
+                    <stairsScorchedStone id="lotr:tile.stairsScorchedStone"/>
+                    <stairsStone id="lotr:tile.stairsStone"/>
+                    <stairsStoneBrickCracked id="lotr:tile.stairsStoneBrickCracked"/>
+                    <stairsStoneBrickMossy id="lotr:tile.stairsStoneBrickMossy"/>
+                    <stairsTauredainBrick id="lotr:tile.stairsTauredainBrick"/>
+                    <stairsTauredainBrickCracked id="lotr:tile.stairsTauredainBrickCracked"/>
+                    <stairsTauredainBrickGold id="lotr:tile.stairsTauredainBrickGold"/>
+                    <stairsTauredainBrickMossy id="lotr:tile.stairsTauredainBrickMossy"/>
+                    <stairsTauredainBrickObsidian id="lotr:tile.stairsTauredainBrickObsidian"/>
+                    <stairsThatch id="lotr:tile.stairsThatch"/>
+                    <stairsUmbarBrick id="lotr:tile.stairsUmbarBrick"/>
+                    <stairsUmbarBrickCracked id="lotr:tile.stairsUmbarBrickCracked"/>
+                    <stairsUrukBrick id="lotr:tile.stairsUrukBrick"/>
+                    <stairsUtumnoBrickFire id="lotr:tile.stairsUtumnoBrickFire"/>
+                    <stairsUtumnoBrickIce id="lotr:tile.stairsUtumnoBrickIce"/>
+                    <stairsUtumnoBrickObsidian id="lotr:tile.stairsUtumnoBrickObsidian"/>
+                    <stairsUtumnoTileFire id="lotr:tile.stairsUtumnoTileFire"/>
+                    <stairsUtumnoTileIce id="lotr:tile.stairsUtumnoTileIce"/>
+                    <stairsUtumnoTileObsidian id="lotr:tile.stairsUtumnoTileObsidian"/>
+                    <stairsWhiteSandstone id="lotr:tile.stairsWhiteSandstone"/>
+                    <stairsWoodElvenBrick id="lotr:tile.stairsWoodElvenBrick"/>
+                    <stairsWoodElvenBrickCracked id="lotr:tile.stairsWoodElvenBrickCracked"/>
+                    <stairsWoodElvenBrickMossy id="lotr:tile.stairsWoodElvenBrickMossy"/>
+                    <stoneStairs id="stone_brick_stairs"/>
+                    <woodenStairs>
+                        <stairsAcacia id="acacia_stairs"/>
+                        <stairsAlmond id="lotr:tile.stairsAlmond"/>
+                        <stairsApple id="lotr:tile.stairsApple"/>
+                        <stairsAspen id="lotr:tile.stairsAspen"/>
+                        <stairsBanana id="lotr:tile.stairsBanana"/>
+                        <stairsBaobab id="lotr:tile.stairsBaobab"/>
+                        <stairsBeech id="lotr:tile.stairsBeech"/>
+                        <stairsBirch id="birch_stairs"/>
+                        <stairsCedar id="lotr:tile.stairsCedar"/>
+                        <stairsCharred id="lotr:tile.stairsCharred"/>
+                        <stairsCherry id="lotr:tile.stairsCherry"/>
+                        <stairsChestnut id="lotr:tile.stairsChestnut"/>
+                        <stairsCypress id="lotr:tile.stairsCypress"/>
+                        <stairsDarkOak id="dark_oak_stairs"/>
+                        <stairsDatePalm id="lotr:tile.stairsDatePalm"/>
+                        <stairsDragon id="lotr:tile.stairsDragon"/>
+                        <stairsFir id="lotr:tile.stairsFir"/>
+                        <stairsGreenOak id="lotr:tile.stairsGreenOak"/>
+                        <stairsHolly id="lotr:tile.stairsHolly"/>
+                        <stairsJungle id="jungle_stairs"/>
+                        <stairsKanuka id="lotr:tile.stairsKanuka"/>
+                        <stairsLairelosse id="lotr:tile.stairsLairelosse"/>
+                        <stairsLarch id="lotr:tile.stairsLarch"/>
+                        <stairsLebethron id="lotr:tile.stairsLebethron"/>
+                        <stairsLemon id="lotr:tile.stairsLemon"/>
+                        <stairsLime id="lotr:tile.stairsLime"/>
+                        <stairsMahogany id="lotr:tile.stairsMahogany"/>
+                        <stairsMallorn id="lotr:tile.stairsMallorn"/>
+                        <stairsMango id="lotr:tile.stairsMango"/>
+                        <stairsMangrove id="lotr:tile.stairsMangrove"/>
+                        <stairsMaple id="lotr:tile.stairsMaple"/>
+                        <stairsMirkOak id="lotr:tile.stairsMirkOak"/>
+                        <stairsOak id="oak_stairs"/>
+                        <stairsOlive id="lotr:tile.stairsOlive"/>
+                        <stairsOrange id="lotr:tile.stairsOrange"/>
+                        <stairsPalm id="lotr:tile.stairsPalm"/>
+                        <stairsPear id="lotr:tile.stairsPear"/>
+                        <stairsPine id="lotr:tile.stairsPine"/>
+                        <stairsPinePine id="lotr:tile.stairsPinePine"/>
+                        <stairsPlum id="lotr:tile.stairsPlum"/>
+                        <stairsPomegranate id="lotr:tile.stairsPomegranate"/>
+                        <stairsRedwood id="lotr:tile.stairsRedwood"/>
+                        <stairsRotten id="lotr:tile.stairsRotten"/>
+                        <stairsSpruce id="spruce_stairs"/>
+                        <stairsWillow id="lotr:tile.stairsWillow"/>
+                        <woodenStairsOreDict oreDictName="stairWood"/>
+                    </woodenStairs>
+                </stairs>
+                <thatch id="lotr:tile.thatch"/>
+                <thatchFloor id="lotr:tile.thatchFloor"/>
+                <treasure>
+                    <treasureCopper id="lotr:tile.treasureCopper"/>
+                    <treasureGold id="lotr:tile.treasureGold"/>
+                    <treasureSilver id="lotr:tile.treasureSilver"/>
+                </treasure>
+                <woodenPlank>
+                    <plankAcacia damage="4" id="planks"/>
+                    <plankBirch damage="2" id="planks"/>
+                    <plankDarkOak damage="5" id="planks"/>
+                    <plankJungle damage="3" id="planks"/>
+                    <plankOak damage="0" id="planks"/>
+                    <planks id="lotr:tile.planks"/>
+                    <planks2 id="lotr:tile.planks2"/>
+                    <planks3 id="lotr:tile.planks3"/>
+                    <planksRotten id="lotr:tile.planksRotten"/>
+                    <sprucePlank damage="1" id="planks"/>
+                    <woodenPlankOreDict oreDictName="plankWood"/>
+                </woodenPlank>
+            </constructionBlock>
+            <fence>
+                <fence1 id="lotr:tile.fence"/>
+                <fence2 id="lotr:tile.fence2"/>
+                <fence3 id="lotr:tile.fence3"/>
+                <fenceRotten id="lotr:tile.fenceRotten"/>
+                <netherBrickFence id="nether_brick_fence"/>
+                <netherFence id="nether_brick_fence"/>
+                <woodenFence id="fence"/>
+            </fence>
+            <flowerPot id="flower_pot"/>
+            <flowerPot1 id="lotr:tile.flowerPot"/>
+            <flowerPotBlock id="flower_pot"/>
+            <head id="skull"/>
+            <headBlock id="skull"/>
+            <hithlainLadder id="lotr:tile.hithlainLadder"/>
+            <itemBlock>
+                <brewingStandBlock id="brewing_stand"/>
+            </itemBlock>
+            <jackOLantern id="lit_pumpkin"/>
+            <kebabStand id="lotr:tile.kebabStand"/>
+            <kebabStandSand id="lotr:tile.kebabStandSand"/>
+            <ladder id="ladder"/>
+            <orcChain id="lotr:tile.orcChain"/>
+            <sign id="sign"/>
+            <sign id="standing_sign"/>
+            <wall>
+                <cobblestoneWall damage="0" id="cobblestone_wall"/>
+                <mossyCobblestoneWall damage="1" id="cobblestone_wall"/>
+                <wallBone id="lotr:tile.wallBone"/>
+                <wallClayTile id="lotr:tile.wallClayTile"/>
+                <wallClayTileDyed id="lotr:tile.wallClayTileDyed"/>
+                <wallStone id="lotr:tile.wallStone"/>
+                <wallStone2 id="lotr:tile.wallStone2"/>
+                <wallStone3 id="lotr:tile.wallStone3"/>
+                <wallStone4 id="lotr:tile.wallStone4"/>
+                <wallStone5 id="lotr:tile.wallStone5"/>
+                <wallStoneV id="lotr:tile.wallStoneV"/>
+                <wallUtumno id="lotr:tile.wallUtumno"/>
+            </wall>
+            <wasteBlock id="lotr:tile.wasteBlock"/>
+            <woodPlate id="lotr:item.woodPlate"/>
+            <woodPlate id="lotr:tile.woodPlate"/>
+        </manufacturedBlock>
+        <mechanism>
+            <barrel id="lotr:tile.barrel"/>
+            <buttons>
+                <buttonBlueRock id="lotr:tile.buttonBlueRock"/>
+                <buttonChalk id="lotr:tile.buttonChalk"/>
+                <buttonGondorRock id="lotr:tile.buttonGondorRock"/>
+                <buttonMordorRock id="lotr:tile.buttonMordorRock"/>
+                <buttonRedRock id="lotr:tile.buttonRedRock"/>
+                <buttonRohanRock id="lotr:tile.buttonRohanRock"/>
+                <stoneButton id="stone_button"/>
+                <woodenButton id="wooden_button"/>
+            </buttons>
+            <commandBlock id="command_block"/>
+            <daylightSensor id="daylight_detector"/>
+            <dispenser id="dispenser"/>
+            <door>
+                <doorIron id="iron_door"/>
+                <doorWood id="wooden_door"/>
+                <dwarvenDoor id="lotr:item.dwarvenDoor"/>
+                <dwarvenDoor id="lotr:tile.dwarvenDoor"/>
+            </door>
+            <doors>
+                <doorAcacia id="lotr:tile.doorAcacia"/>
+                <doorAlmond id="lotr:tile.doorAlmond"/>
+                <doorApple id="lotr:tile.doorApple"/>
+                <doorAspen id="lotr:tile.doorAspen"/>
+                <doorBanana id="lotr:tile.doorBanana"/>
+                <doorBaobab id="lotr:tile.doorBaobab"/>
+                <doorBeech id="lotr:tile.doorBeech"/>
+                <doorBirch id="lotr:tile.doorBirch"/>
+                <doorCedar id="lotr:tile.doorCedar"/>
+                <doorCharred id="lotr:tile.doorCharred"/>
+                <doorCherry id="lotr:tile.doorCherry"/>
+                <doorChestnut id="lotr:tile.doorChestnut"/>
+                <doorCypress id="lotr:tile.doorCypress"/>
+                <doorDarkOak id="lotr:tile.doorDarkOak"/>
+                <doorDatePalm id="lotr:tile.doorDatePalm"/>
+                <doorDragon id="lotr:tile.doorDragon"/>
+                <doorFir id="lotr:tile.doorFir"/>
+                <doorGreenOak id="lotr:tile.doorGreenOak"/>
+                <doorHolly id="lotr:tile.doorHolly"/>
+                <doorJungle id="lotr:tile.doorJungle"/>
+                <doorKanuka id="lotr:tile.doorKanuka"/>
+                <doorLairelosse id="lotr:tile.doorLairelosse"/>
+                <doorLarch id="lotr:tile.doorLarch"/>
+                <doorLebethron id="lotr:tile.doorLebethron"/>
+                <doorLemon id="lotr:tile.doorLemon"/>
+                <doorLime id="lotr:tile.doorLime"/>
+                <doorMahogany id="lotr:tile.doorMahogany"/>
+                <doorMallorn id="lotr:tile.doorMallorn"/>
+                <doorMango id="lotr:tile.doorMango"/>
+                <doorMangrove id="lotr:tile.doorMangrove"/>
+                <doorMaple id="lotr:tile.doorMaple"/>
+                <doorMirkOak id="lotr:tile.doorMirkOak"/>
+                <doorOlive id="lotr:tile.doorOlive"/>
+                <doorOrange id="lotr:tile.doorOrange"/>
+                <doorPalm id="lotr:tile.doorPalm"/>
+                <doorPear id="lotr:tile.doorPear"/>
+                <doorPine id="lotr:tile.doorPine"/>
+                <doorPlum id="lotr:tile.doorPlum"/>
+                <doorPomegranate id="lotr:tile.doorPomegranate"/>
+                <doorRedwood id="lotr:tile.doorRedwood"/>
+                <doorRotten id="lotr:tile.doorRotten"/>
+                <doorShirePine id="lotr:tile.doorShirePine"/>
+                <doorSpruce id="lotr:tile.doorSpruce"/>
+                <doorWillow id="lotr:tile.doorWillow"/>
+                <doorWood id="wooden_door"/>
+                <dwarvenDoor id="lotr:item.dwarvenDoor"/>
+                <dwarvenDoor id="lotr:tile.dwarvenDoor"/>
+                <dwarvenDoorIthildin id="lotr:tile.dwarvenDoorIthildin"/>
+                <ironDoor id="iron_door"/>
+                <ironDoorBlock id="wooden_door"/>
+                <trapdoors>
+                    <trapdoorAcacia id="lotr:tile.trapdoorAcacia"/>
+                    <trapdoorAlmond id="lotr:tile.trapdoorAlmond"/>
+                    <trapdoorApple id="lotr:tile.trapdoorApple"/>
+                    <trapdoorAspen id="lotr:tile.trapdoorAspen"/>
+                    <trapdoorBanana id="lotr:tile.trapdoorBanana"/>
+                    <trapdoorBaobab id="lotr:tile.trapdoorBaobab"/>
+                    <trapdoorBeech id="lotr:tile.trapdoorBeech"/>
+                    <trapdoorBirch id="lotr:tile.trapdoorBirch"/>
+                    <trapdoorCedar id="lotr:tile.trapdoorCedar"/>
+                    <trapdoorCharred id="lotr:tile.trapdoorCharred"/>
+                    <trapdoorCherry id="lotr:tile.trapdoorCherry"/>
+                    <trapdoorChestnut id="lotr:tile.trapdoorChestnut"/>
+                    <trapdoorCypress id="lotr:tile.trapdoorCypress"/>
+                    <trapdoorDarkOak id="lotr:tile.trapdoorDarkOak"/>
+                    <trapdoorDatePalm id="lotr:tile.trapdoorDatePalm"/>
+                    <trapdoorDragon id="lotr:tile.trapdoorDragon"/>
+                    <trapdoorFir id="lotr:tile.trapdoorFir"/>
+                    <trapdoorGreenOak id="lotr:tile.trapdoorGreenOak"/>
+                    <trapdoorHolly id="lotr:tile.trapdoorHolly"/>
+                    <trapdoorJungle id="lotr:tile.trapdoorJungle"/>
+                    <trapdoorKanuka id="lotr:tile.trapdoorKanuka"/>
+                    <trapdoorLairelosse id="lotr:tile.trapdoorLairelosse"/>
+                    <trapdoorLarch id="lotr:tile.trapdoorLarch"/>
+                    <trapdoorLebethron id="lotr:tile.trapdoorLebethron"/>
+                    <trapdoorLemon id="lotr:tile.trapdoorLemon"/>
+                    <trapdoorLime id="lotr:tile.trapdoorLime"/>
+                    <trapdoorMahogany id="lotr:tile.trapdoorMahogany"/>
+                    <trapdoorMallorn id="lotr:tile.trapdoorMallorn"/>
+                    <trapdoorMango id="lotr:tile.trapdoorMango"/>
+                    <trapdoorMangrove id="lotr:tile.trapdoorMangrove"/>
+                    <trapdoorMaple id="lotr:tile.trapdoorMaple"/>
+                    <trapdoorMirkOak id="lotr:tile.trapdoorMirkOak"/>
+                    <trapdoorOak id="trapdoor"/>
+                    <trapdoorOlive id="lotr:tile.trapdoorOlive"/>
+                    <trapdoorOrange id="lotr:tile.trapdoorOrange"/>
+                    <trapdoorPalm id="lotr:tile.trapdoorPalm"/>
+                    <trapdoorPear id="lotr:tile.trapdoorPear"/>
+                    <trapdoorPine id="lotr:tile.trapdoorPine"/>
+                    <trapdoorPlum id="lotr:tile.trapdoorPlum"/>
+                    <trapdoorPomegranate id="lotr:tile.trapdoorPomegranate"/>
+                    <trapdoorRedwood id="lotr:tile.trapdoorRedwood"/>
+                    <trapdoorRotten id="lotr:tile.trapdoorRotten"/>
+                    <trapdoorShirePine id="lotr:tile.trapdoorShirePine"/>
+                    <trapdoorSpruce id="lotr:tile.trapdoorSpruce"/>
+                    <trapdoorWillow id="lotr:tile.trapdoorWillow"/>
+                </trapdoors>
+                <woodenDoor id="wooden_door"/>
+                <woodenDoorBlock id="wooden_door"/>
+            </doors>
+            <dropper id="dropper"/>
+            <fenceGates>
+                <fenceGateAcacia id="lotr:tile.fenceGateAcacia"/>
+                <fenceGateAlmond id="lotr:tile.fenceGateAlmond"/>
+                <fenceGateApple id="lotr:tile.fenceGateApple"/>
+                <fenceGateAspen id="lotr:tile.fenceGateAspen"/>
+                <fenceGateBanana id="lotr:tile.fenceGateBanana"/>
+                <fenceGateBaobab id="lotr:tile.fenceGateBaobab"/>
+                <fenceGateBeech id="lotr:tile.fenceGateBeech"/>
+                <fenceGateBirch id="lotr:tile.fenceGateBirch"/>
+                <fenceGateCedar id="lotr:tile.fenceGateCedar"/>
+                <fenceGateCharred id="lotr:tile.fenceGateCharred"/>
+                <fenceGateCherry id="lotr:tile.fenceGateCherry"/>
+                <fenceGateChestnut id="lotr:tile.fenceGateChestnut"/>
+                <fenceGateCypress id="lotr:tile.fenceGateCypress"/>
+                <fenceGateDarkOak id="lotr:tile.fenceGateDarkOak"/>
+                <fenceGateDatePalm id="lotr:tile.fenceGateDatePalm"/>
+                <fenceGateDragon id="lotr:tile.fenceGateDragon"/>
+                <fenceGateFenceGateWillow id="lotr:tile.fenceGateWillow"/>
+                <fenceGateFir id="lotr:tile.fenceGateFir"/>
+                <fenceGateGreenOak id="lotr:tile.fenceGateGreenOak"/>
+                <fenceGateHolly id="lotr:tile.fenceGateHolly"/>
+                <fenceGateJungle id="lotr:tile.fenceGateJungle"/>
+                <fenceGateKanuka id="lotr:tile.fenceGateKanuka"/>
+                <fenceGateLairelosse id="lotr:tile.fenceGateLairelosse"/>
+                <fenceGateLarch id="lotr:tile.fenceGateLarch"/>
+                <fenceGateLebethron id="lotr:tile.fenceGateLebethron"/>
+                <fenceGateLemon id="lotr:tile.fenceGateLemon"/>
+                <fenceGateLime id="lotr:tile.fenceGateLime"/>
+                <fenceGateMahogany id="lotr:tile.fenceGateMahogany"/>
+                <fenceGateMallorn id="lotr:tile.fenceGateMallorn"/>
+                <fenceGateMango id="lotr:tile.fenceGateMango"/>
+                <fenceGateMangrove id="lotr:tile.fenceGateMangrove"/>
+                <fenceGateMaple id="lotr:tile.fenceGateMaple"/>
+                <fenceGateMirkOak id="lotr:tile.fenceGateMirkOak"/>
+                <fenceGateOak id="fence_gate"/>
+                <fenceGateOlive id="lotr:tile.fenceGateOlive"/>
+                <fenceGateOrange id="lotr:tile.fenceGateOrange"/>
+                <fenceGatePalm id="lotr:tile.fenceGatePalm"/>
+                <fenceGatePear id="lotr:tile.fenceGatePear"/>
+                <fenceGatePine id="lotr:tile.fenceGatePine"/>
+                <fenceGatePlum id="lotr:tile.fenceGatePlum"/>
+                <fenceGatePomegranite id="lotr:tile.fenceGatePomegranate"/>
+                <fenceGateRedwood id="lotr:tile.fenceGateRedwood"/>
+                <fenceGateRotten id="lotr:tile.fenceGateRotten"/>
+                <fenceGateSHirePine id="lotr:tile.fenceGateShirePine"/>
+                <fenceGateSpruce id="lotr:tile.fenceGateSpruce"/>
+            </fenceGates>
+            <gate>
+                <gateBronzeBars id="lotr:tile.gateBronzeBars"/>
+                <gateDolAmroth id="lotr:tile.gateDolAmroth"/>
+                <gateDwarven id="lotr:tile.gateDwarven"/>
+                <gateElven id="lotr:tile.gateElven"/>
+                <gateGold id="lotr:tile.gateGold"/>
+                <gateGondor id="lotr:tile.gateGondor"/>
+                <gateHighElven id="lotr:tile.gateHighElven"/>
+                <gateHobbitBlue id="lotr:tile.gateHobbitBlue"/>
+                <gateHobbitGreen id="lotr:tile.gateHobbitGreen"/>
+                <gateHobbitRed id="lotr:tile.gateHobbitRed"/>
+                <gateHobbitYellow id="lotr:tile.gateHobbitYellow"/>
+                <gateIronBars id="lotr:tile.gateIronBars"/>
+                <gateMithril id="lotr:tile.gateMithril"/>
+                <gateNearHarad id="lotr:tile.gateNearHarad"/>
+                <gateOrc id="lotr:tile.gateOrc"/>
+                <gateRhun id="lotr:tile.gateRhun"/>
+                <gateRohan id="lotr:tile.gateRohan"/>
+                <gateSilver id="lotr:tile.gateSilver"/>
+                <gateTauredain id="lotr:tile.gateTauredain"/>
+                <gateUruk id="lotr:tile.gateUruk"/>
+                <gateWoodElven id="lotr:tile.gateWoodElven"/>
+                <gateWooden id="lotr:tile.gateWooden"/>
+                <gateWoodenCross id="lotr:tile.gateWoodenCross"/>
+            </gate>
+            <hopper id="hopper"/>
+            <lever id="lever"/>
+            <lighting>
+                <highElvenTorch id="lotr:tile.highElvenTorch"/>
+                <lamp id="redstone_lamp"/>
+                <mallornTorch id="lotr:tile.mallornTorch"/>
+                <mallornTorchBlue id="lotr:tile.mallornTorchBlue"/>
+                <mallornTorchGold id="lotr:tile.mallornTorchGold"/>
+                <mallornTorchGreen id="lotr:tile.mallornTorchGreen"/>
+                <morgulTorch id="lotr:tile.morgulTorch"/>
+                <orcTorch id="lotr:item.orcTorch"/>
+                <orcTorch id="lotr:tile.orcTorch"/>
+                <redstoneLamp id="lit_redstone_lamp"/>
+                <redstoneLamp id="redstone_lamp"/>
+                <tauredainDoubleTorch id="lotr:item.tauredainDoubleTorch"/>
+                <tauredainDoubleTorch id="lotr:tile.tauredainDoubleTorch"/>
+                <torch id="torch"/>
+                <woodElvenTorch id="lotr:tile.woodElvenTorch"/>
+            </lighting>
+            <noteBlock id="noteblock"/>
+            <pistons>
+                <piston id="piston"/>
+                <pistonHead id="piston_head"/>
+                <stickyPiston id="sticky_piston"/>
+            </pistons>
+            <pressurePlates>
+                <pressurePlateBlueRock id="lotr:tile.pressurePlateBlueRock"/>
+                <pressurePlateChalk id="lotr:tile.pressurePlateChalk"/>
+                <pressurePlateGondorRock id="lotr:tile.pressurePlateGondorRock"/>
+                <pressurePlateMordorRock id="lotr:tile.pressurePlateMordorRock"/>
+                <pressurePlateRedRock id="lotr:tile.pressurePlateRedRock"/>
+                <pressurePlateRohanRock id="lotr:tile.pressurePlateRohanRock"/>
+                <pressurePlateStone id="stone_pressure_plate"/>
+                <pressurePlateWood id="wooden_pressure_plate"/>
+                <weightedPressurePlates>
+                    <weightedPressurePlateHeavy id="heavy_weighted_pressure_plate"/>
+                    <weightedPressurePlateLight id="light_weighted_pressure_plate"/>
+                </weightedPressurePlates>
+            </pressurePlates>
+            <rails>
+                <activatorRails id="activator_rail"/>
+                <detectorRails id="detector_rail"/>
+                <mechanisedRailOff id="lotr:tile.mechanisedRailOff"/>
+                <mechanisedRailOn id="lotr:tile.mechanisedRailOn"/>
+                <poweredRails id="golden_rail"/>
+                <rails id="rail"/>
+            </rails>
+            <redstoneBlock id="redstone_block"/>
+            <redstoneComparator id="comparator"/>
+            <redstoneComparator id="powered_comparator"/>
+            <redstoneComparator id="unpowered_comparator"/>
+            <redstoneRepeater id="powered_repeater"/>
+            <redstoneRepeater id="repeater"/>
+            <redstoneRepeater id="unpowered_repeater"/>
+            <redstoneTorch id="redstone_torch"/>
+            <redstoneTorch id="unlit_redstone_torch"/>
+            <redstoneWire id="redstone_wire"/>
+            <tauredainDartTrap id="lotr:tile.tauredainDartTrap"/>
+            <tauredainDartTrapGold id="lotr:tile.tauredainDartTrapGold"/>
+            <tauredainDartTrapObsidian id="lotr:tile.tauredainDartTrapObsidian"/>
+        </mechanism>
+        <naturalBlock>
+            <air id="air"/>
+            <ancient id="lotr:item.ancient"/>
+            <ancientParts id="lotr:item.ancientParts"/>
+            <bedrock id="bedrock"/>
+            <clayBlock id="clay"/>
+            <cobweb id="web"/>
+            <dirts>
+                <dirt damage="0" id="dirt"/>
+                <dirtPath id="lotr:tile.dirtPath"/>
+                <grasslessDirt damage="1" id="dirt"/>
+                <mordorDirt id="lotr:tile.mordorDirt"/>
+                <mud id="lotr:tile.mud"/>
+                <podzol damage="2" id="dirt"/>
+            </dirts>
+            <dragonEgg id="dragon_egg"/>
+            <elvenPortal id="lotr:tile.elvenPortal"/>
+            <endPortal id="end_portal"/>
+            <endPortalFrame id="end_portal_frame"/>
+            <farmland id="farmland"/>
+            <fire id="fire"/>
+            <grass id="grass"/>
+            <gravel id="gravel"/>
+            <hearth id="lotr:tile.hearth"/>
+            <hiddenSilverfish id="monster_egg"/>
+            <ice id="ice"/>
+            <liquid>
+                <lava id="flowing_lava"/>
+                <lava id="lava"/>
+                <water id="flowing_water"/>
+                <water id="water"/>
+            </liquid>
+            <marshLights id="lotr:tile.marshLights"/>
+            <mobSpawner id="lotr:tile.mobSpawner"/>
+            <monsterSpawner id="mob_spawner"/>
+            <mordorGrass id="lotr:tile.mordorGrass"/>
+            <mordorGravel id="lotr:tile.mordorGravel"/>
+            <morgulPortal id="lotr:tile.morgulPortal"/>
+            <mudFarmland id="lotr:tile.mudFarmland"/>
+            <mudGrass id="lotr:tile.mudGrass"/>
+            <mushroomBlock>
+                <hugeBrownMushroom id="brown_mushroom_block"/>
+                <hugeRedMushroom id="red_mushroom_block"/>
+            </mushroomBlock>
+            <mushroomGrass id="mycelium"/>
+            <mycelium id="mycelium"/>
+            <mysteryWeb id="lotr:item.mysteryWeb"/>
+            <netherBlock>
+                <glowstoneBlock id="glowstone"/>
+                <netherrack id="netherrack"/>
+                <quartzOreBlock id="quartz_ore"/>
+                <soulSand id="soul_sand"/>
+            </netherBlock>
+            <obsidian id="obsidian"/>
+            <obsidianGravel id="lotr:tile.obsidianGravel"/>
+            <oreBlock>
+                <coalOreBlock id="coal_ore"/>
+                <diamondOreBlock id="diamond_ore"/>
+                <emeraldOreBlock id="emerald_ore"/>
+                <lapisLazuliOreBlock id="lapis_ore"/>
+                <oreCopper id="lotr:tile.oreCopper"/>
+                <oreGem id="lotr:tile.oreGem"/>
+                <oreGlowstone id="lotr:tile.oreGlowstone"/>
+                <oreGulduril id="lotr:tile.oreGulduril"/>
+                <oreMithril id="lotr:tile.oreMithril"/>
+                <oreMorgulIron id="lotr:tile.oreMorgulIron"/>
+                <oreNaurite id="lotr:tile.oreNaurite"/>
+                <oreQuendite id="lotr:tile.oreQuendite"/>
+                <oreSalt id="lotr:tile.oreSalt"/>
+                <oreSaltpeter id="lotr:tile.oreSaltpeter"/>
+                <oreSilver id="lotr:tile.oreSilver"/>
+                <oreSulfur id="lotr:tile.oreSulfur"/>
+                <oreTin id="lotr:tile.oreTin"/>
+                <redstoneOreBlock>
+                    <litRedstoneOreBlock id="lit_redstone_ore"/>
+                    <unlitRedstoneOreBlock id="redstone_ore"/>
+                </redstoneOreBlock>
+            </oreBlock>
+            <packedIce id="packed_ice"/>
+            <portal id="portal"/>
+            <quagmire id="lotr:tile.quagmire"/>
+            <quenditeGrass id="lotr:tile.quenditeGrass"/>
+            <redClayBlock id="lotr:tile.redClay"/>
+            <remains id="lotr:tile.remains"/>
+            <sands>
+                <redSandstone id="lotr:tile.redSandstone"/>
+                <sand id="sand">
+                    <plainSand damage="0" id="sand"/>
+                    <redSand damage="1" id="sand"/>
+                    <whiteSand id="lotr:tile.whiteSand"/>
+                </sand>
+                <sandstone>
+                    <classicSandstone damage="0" id="sandstone"/>
+                    <creeperSandstone damage="1" id="sandstone"/>
+                    <smoothSandstone damage="2" id="sandstone"/>
+                </sandstone>
+                <whiteSandstone id="lotr:tile.whiteSandstone"/>
+            </sands>
+            <snow id="snow"/>
+            <sponge id="sponge"/>
+            <stalactite id="lotr:tile.stalactite"/>
+            <stalactiteIce id="lotr:tile.stalactiteIce"/>
+            <stalactiteObsidian id="lotr:tile.stalactiteObsidian"/>
+            <stones>
+                <cobblestone id="cobblestone"/>
+                <endStone id="end_stone"/>
+                <goran id="lotr:tile.goran"/>
+                <mossStone id="mossy_cobblestone"/>
+                <rock id="lotr:tile.rock"/>
+                <scorchedStone id="lotr:tile.scorchedStone"/>
+                <stone id="stone"/>
+            </stones>
+            <termiteMound id="lotr:tile.termiteMound"/>
+            <utumnoPillar id="lotr:tile.utumnoPillar"/>
+            <utumnoPortal id="lotr:tile.utumnoPortal"/>
+            <utumnoReturnLight id="lotr:tile.utumnoReturnLight"/>
+            <utumnoReturnPortal id="lotr:tile.utumnoReturnPortal"/>
+            <utumnoReturnPortalBase id="lotr:tile.utumnoReturnPortalBase"/>
+            <web id="web"/>
+            <webUngoliant id="lotr:tile.webUngoliant"/>
+            <wood>
+                <acaciaWood damage="0" id="log2"/>
+                <birchWood damage="1" id="log"/>
+                <darkOakWood damage="1" id="log2"/>
+                <fruitWood id="lotr:tile.fruitWood"/>
+                <jungleWood damage="3" id="log"/>
+                <oakWood damage="0" id="log"/>
+                <rottenLog id="lotr:tile.rottenLog"/>
+                <spruceWood damage="2" id="log"/>
+                <wood id="lotr:tile.wood"/>
+                <wood2 id="lotr:tile.wood2"/>
+                <wood3 id="lotr:tile.wood3"/>
+                <wood4 id="lotr:tile.wood4"/>
+                <wood5 id="lotr:tile.wood5"/>
+                <wood6 id="lotr:tile.wood6"/>
+                <wood7 id="lotr:tile.wood7"/>
+                <wood8 id="lotr:tile.wood8"/>
+                <wood9 id="lotr:tile.wood9"/>
+                <woodOreDict oreDictName="logWood"/>
+            </wood>
+        </naturalBlock>
+        <wool>
+            <blackWool damage="15" id="wool"/>
+            <blueWool damage="11" id="wool"/>
+            <brownWool damage="12" id="wool"/>
+            <cyanWool damage="9" id="wool"/>
+            <darkGreenWool damage="13" id="wool"/>
+            <grayWool damage="7" id="wool"/>
+            <greenWool damage="13" id="wool"/>
+            <lightBlueWool damage="3" id="wool"/>
+            <lightGrayWool damage="8" id="wool"/>
+            <lightGreenWool damage="5" id="wool"/>
+            <limeWool damage="5" id="wool"/>
+            <magentaWool damage="2" id="wool"/>
+            <orangeWool damage="1" id="wool"/>
+            <pinkWool damage="6" id="wool"/>
+            <purpleWool damage="10" id="wool"/>
+            <redWool damage="14" id="wool"/>
+            <whiteWool damage="0" id="wool"/>
+            <yellowWool damage="4" id="wool"/>
+        </wool>
+    </block>
+    <equipment>
+        <armor>
+            <boots>
+                <bootsAngmar id="lotr:item.bootsAngmar"/>
+                <bootsArnor id="lotr:item.bootsArnor"/>
+                <bootsBlackNumenorean id="lotr:item.bootsBlackNumenorean"/>
+                <bootsBlackUruk id="lotr:item.bootsBlackUruk"/>
+                <bootsBlackroot id="lotr:item.bootsBlackroot"/>
+                <bootsBlueDwarven id="lotr:item.bootsBlueDwarven"/>
+                <bootsBone id="lotr:item.bootsBone"/>
+                <bootsBronze id="lotr:item.bootsBronze"/>
+                <bootsChain id="chainmail_boots"/>
+                <bootsCorsair id="lotr:item.bootsCorsair"/>
+                <bootsDale id="lotr:item.bootsDale"/>
+                <bootsDiamon id="diamond_boots"/>
+                <bootsDolAmroth id="lotr:item.bootsDolAmroth"/>
+                <bootsDolGuldur id="lotr:item.bootsDolGuldur"/>
+                <bootsDorwinion id="lotr:item.bootsDorwinion"/>
+                <bootsDorwinionElf id="lotr:item.bootsDorwinionElf"/>
+                <bootsDunlending id="lotr:item.bootsDunlending"/>
+                <bootsDwarven id="lotr:item.bootsDwarven"/>
+                <bootsDwarvenGold id="lotr:item.bootsDwarvenGold"/>
+                <bootsDwarvenMithril id="lotr:item.bootsDwarvenMithril"/>
+                <bootsDwarvenSilver id="lotr:item.bootsDwarvenSilver"/>
+                <bootsElven id="lotr:item.bootsElven"/>
+                <bootsGalvorn id="lotr:item.bootsGalvorn"/>
+                <bootsGemsbok id="lotr:item.bootsGemsbok"/>
+                <bootsGold id="golden_boots"/>
+                <bootsGondolin id="lotr:item.bootsGondolin"/>
+                <bootsGondor id="lotr:item.bootsGondor"/>
+                <bootsGulfHarad id="lotr:item.bootsGulfHarad"/>
+                <bootsGundabadUruk id="lotr:item.bootsGundabadUruk"/>
+                <bootsHalfTroll id="lotr:item.bootsHalfTroll"/>
+                <bootsHaradRobes id="lotr:item.bootsHaradRobes"/>
+                <bootsHarnedor id="lotr:item.bootsHarnedor"/>
+                <bootsHighElven id="lotr:item.bootsHighElven"/>
+                <bootsHithlain id="lotr:item.bootsHithlain"/>
+                <bootsIron id="iron_boots"/>
+                <bootsLamedon id="lotr:item.bootsLamedon"/>
+                <bootsLeather id="leather_boots"/>
+                <bootsLossarnach id="lotr:item.bootsLossarnach"/>
+                <bootsMithril id="lotr:item.bootsMithril"/>
+                <bootsMoredain id="lotr:item.bootsMoredain"/>
+                <bootsMoredainLion id="lotr:item.bootsMoredainLion"/>
+                <bootsMorgul id="lotr:item.bootsMorgul"/>
+                <bootsNearHarad id="lotr:item.bootsNearHarad"/>
+                <bootsNomad id="lotr:item.bootsNomad"/>
+                <bootsOrc id="lotr:item.bootsOrc"/>
+                <bootsPelargir id="lotr:item.bootsPelargir"/>
+                <bootsPinnathGelin id="lotr:item.bootsPinnathGelin"/>
+                <bootsRanger id="lotr:item.bootsRanger"/>
+                <bootsRangerIthilien id="lotr:item.bootsRangerIthilien"/>
+                <bootsRhun id="lotr:item.bootsRhun"/>
+                <bootsRhunGold id="lotr:item.bootsRhunGold"/>
+                <bootsRivendell id="lotr:item.bootsRivendell"/>
+                <bootsRohan id="lotr:item.bootsRohan"/>
+                <bootsRohanMarshal id="lotr:item.bootsRohanMarshal"/>
+                <bootsTauredain id="lotr:item.bootsTauredain"/>
+                <bootsTauredainGold id="lotr:item.bootsTauredainGold"/>
+                <bootsUmbar id="lotr:item.bootsUmbar"/>
+                <bootsUruk id="lotr:item.bootsUruk"/>
+                <bootsUtumno id="lotr:item.bootsUtumno"/>
+                <bootsWarg id="lotr:item.bootsWarg"/>
+                <bootsWoodElven id="lotr:item.bootsWoodElven"/>
+                <bootsWoodElvenScout id="lotr:item.bootsWoodElvenScout"/>
+            </boots>
+            <chestplate>
+                <bodyAngmar id="lotr:item.bodyAngmar"/>
+                <bodyArnor id="lotr:item.bodyArnor"/>
+                <bodyBlackNumenorean id="lotr:item.bodyBlackNumenorean"/>
+                <bodyBlackUruk id="lotr:item.bodyBlackUruk"/>
+                <bodyBlackroot id="lotr:item.bodyBlackroot"/>
+                <bodyBlueDwarven id="lotr:item.bodyBlueDwarven"/>
+                <bodyBone id="lotr:item.bodyBone"/>
+                <bodyBronze id="lotr:item.bodyBronze"/>
+                <bodyCorsair id="lotr:item.bodyCorsair"/>
+                <bodyDale id="lotr:item.bodyDale"/>
+                <bodyDaleGambeson id="lotr:item.bodyDaleGambeson"/>
+                <bodyDolAmroth id="lotr:item.bodyDolAmroth"/>
+                <bodyDolAmrothGambeson id="lotr:item.bodyDolAmrothGambeson"/>
+                <bodyDolGuldur id="lotr:item.bodyDolGuldur"/>
+                <bodyDorwinion id="lotr:item.bodyDorwinion"/>
+                <bodyDorwinionElf id="lotr:item.bodyDorwinionElf"/>
+                <bodyDunlending id="lotr:item.bodyDunlending"/>
+                <bodyDwarven id="lotr:item.bodyDwarven"/>
+                <bodyDwarvenGold id="lotr:item.bodyDwarvenGold"/>
+                <bodyDwarvenMithril id="lotr:item.bodyDwarvenMithril"/>
+                <bodyDwarvenSilver id="lotr:item.bodyDwarvenSilver"/>
+                <bodyElven id="lotr:item.bodyElven"/>
+                <bodyGalvorn id="lotr:item.bodyGalvorn"/>
+                <bodyGemsbok id="lotr:item.bodyGemsbok"/>
+                <bodyGondolin id="lotr:item.bodyGondolin"/>
+                <bodyGondor id="lotr:item.bodyGondor"/>
+                <bodyGondorGambeson id="lotr:item.bodyGondorGambeson"/>
+                <bodyGulfHarad id="lotr:item.bodyGulfHarad"/>
+                <bodyGundabadUruk id="lotr:item.bodyGundabadUruk"/>
+                <bodyHalfTroll id="lotr:item.bodyHalfTroll"/>
+                <bodyHaradRobes id="lotr:item.bodyHaradRobes"/>
+                <bodyHarnedor id="lotr:item.bodyHarnedor"/>
+                <bodyHighElven id="lotr:item.bodyHighElven"/>
+                <bodyHithlain id="lotr:item.bodyHithlain"/>
+                <bodyKaftan id="lotr:item.bodyKaftan"/>
+                <bodyLamedon id="lotr:item.bodyLamedon"/>
+                <bodyLamedonJacket id="lotr:item.bodyLamedonJacket"/>
+                <bodyLebenninGambeson id="lotr:item.bodyLebenninGambeson"/>
+                <bodyLossarnach id="lotr:item.bodyLossarnach"/>
+                <bodyMithril id="lotr:item.bodyMithril"/>
+                <bodyMoredain id="lotr:item.bodyMoredain"/>
+                <bodyMoredainLion id="lotr:item.bodyMoredainLion"/>
+                <bodyMorgul id="lotr:item.bodyMorgul"/>
+                <bodyNearHarad id="lotr:item.bodyNearHarad"/>
+                <bodyNomad id="lotr:item.bodyNomad"/>
+                <bodyOrc id="lotr:item.bodyOrc"/>
+                <bodyPelargir id="lotr:item.bodyPelargir"/>
+                <bodyPinnathGelin id="lotr:item.bodyPinnathGelin"/>
+                <bodyRanger id="lotr:item.bodyRanger"/>
+                <bodyRangerIthilien id="lotr:item.bodyRangerIthilien"/>
+                <bodyRhun id="lotr:item.bodyRhun"/>
+                <bodyRhunGold id="lotr:item.bodyRhunGold"/>
+                <bodyRivendell id="lotr:item.bodyRivendell"/>
+                <bodyRohan id="lotr:item.bodyRohan"/>
+                <bodyRohanMarshal id="lotr:item.bodyRohanMarshal"/>
+                <bodyTauredain id="lotr:item.bodyTauredain"/>
+                <bodyTauredainGold id="lotr:item.bodyTauredainGold"/>
+                <bodyUmbar id="lotr:item.bodyUmbar"/>
+                <bodyUruk id="lotr:item.bodyUruk"/>
+                <bodyUtumno id="lotr:item.bodyUtumno"/>
+                <bodyWarg id="lotr:item.bodyWarg"/>
+                <bodyWoodElven id="lotr:item.bodyWoodElven"/>
+                <bodyWoodElvenScout id="lotr:item.bodyWoodElvenScout"/>
+                <chestplateChain id="chainmail_chestplate"/>
+                <chestplateDiamond id="diamond_chestplate"/>
+                <chestplateGold id="golden_chestplate"/>
+                <chestplateIron id="iron_chestplate"/>
+                <chestplateLeather id="leather_chestplate"/>
+            </chestplate>
+            <helmet>
+                <hatLeather id="lotr:item.leatherHat"/>
+                <hatParty id="lotr:item.partyHat"/>
+                <helmetAngmar id="lotr:item.helmetAngmar"/>
+                <helmetArnor id="lotr:item.helmetArnor"/>
+                <helmetBlackNumenorean id="lotr:item.helmetBlackNumenorean"/>
+                <helmetBlackUruk id="lotr:item.helmetBlackUruk"/>
+                <helmetBlackroot id="lotr:item.helmetBlackroot"/>
+                <helmetBlueDwarven id="lotr:item.helmetBlueDwarven"/>
+                <helmetBone id="lotr:item.helmetBone"/>
+                <helmetBronze id="lotr:item.helmetBronze"/>
+                <helmetChain id="chainmail_helmet"/>
+                <helmetCorsair id="lotr:item.helmetCorsair"/>
+                <helmetDale id="lotr:item.helmetDale"/>
+                <helmetDiamond id="diamond_helmet"/>
+                <helmetDolAmroth id="lotr:item.helmetDolAmroth"/>
+                <helmetDolGuldur id="lotr:item.helmetDolGuldur"/>
+                <helmetDorwinion id="lotr:item.helmetDorwinion"/>
+                <helmetDorwinionElf id="lotr:item.helmetDorwinionElf"/>
+                <helmetDunlending id="lotr:item.helmetDunlending"/>
+                <helmetDwarven id="lotr:item.helmetDwarven"/>
+                <helmetDwarvenGold id="lotr:item.helmetDwarvenGold"/>
+                <helmetDwarvenMithril id="lotr:item.helmetDwarvenMithril"/>
+                <helmetDwarvenSilver id="lotr:item.helmetDwarvenSilver"/>
+                <helmetElven id="lotr:item.helmetElven"/>
+                <helmetGalvorn id="lotr:item.helmetGalvorn"/>
+                <helmetGemsbok id="lotr:item.helmetGemsbok"/>
+                <helmetGold id="golden_helmet"/>
+                <helmetGondolin id="lotr:item.helmetGondolin"/>
+                <helmetGondor id="lotr:item.helmetGondor"/>
+                <helmetGondorWinged id="lotr:item.helmetGondorWinged"/>
+                <helmetGulfHarad id="lotr:item.helmetGulfHarad"/>
+                <helmetGundabadUruk id="lotr:item.helmetGundabadUruk"/>
+                <helmetHalfTroll id="lotr:item.helmetHalfTroll"/>
+                <helmetHaradRobes id="lotr:item.helmetHaradRobes"/>
+                <helmetHarnedor id="lotr:item.helmetHarnedor"/>
+                <helmetHighElven id="lotr:item.helmetHighElven"/>
+                <helmetHithlain id="lotr:item.helmetHithlain"/>
+                <helmetIron id="iron_helmet"/>
+                <helmetLamedon id="lotr:item.helmetLamedon"/>
+                <helmetLeather id="leather_helmet"/>
+                <helmetLossarnach id="lotr:item.helmetLossarnach"/>
+                <helmetMithril id="lotr:item.helmetMithril"/>
+                <helmetMoredain id="lotr:item.helmetMoredain"/>
+                <helmetMoredainLion id="lotr:item.helmetMoredainLion"/>
+                <helmetMorgul id="lotr:item.helmetMorgul"/>
+                <helmetNearHarad id="lotr:item.helmetNearHarad"/>
+                <helmetNearHaradWarlord id="lotr:item.helmetNearHaradWarlord"/>
+                <helmetNomad id="lotr:item.helmetNomad"/>
+                <helmetOrc id="lotr:item.helmetOrc"/>
+                <helmetPelargir id="lotr:item.helmetPelargir"/>
+                <helmetPinnathGelin id="lotr:item.helmetPinnathGelin"/>
+                <helmetRanger id="lotr:item.helmetRanger"/>
+                <helmetRangerIthilien id="lotr:item.helmetRangerIthilien"/>
+                <helmetRhun id="lotr:item.helmetRhun"/>
+                <helmetRhunGold id="lotr:item.helmetRhunGold"/>
+                <helmetRhunWarlord id="lotr:item.helmetRhunWarlord"/>
+                <helmetRivendell id="lotr:item.helmetRivendell"/>
+                <helmetRohan id="lotr:item.helmetRohan"/>
+                <helmetRohanMarshal id="lotr:item.helmetRohanMarshal"/>
+                <helmetTauredain id="lotr:item.helmetTauredain"/>
+                <helmetTauredainChieftain id="lotr:item.helmetTauredainChieftain"/>
+                <helmetTauredainGold id="lotr:item.helmetTauredainGold"/>
+                <helmetUmbar id="lotr:item.helmetUmbar"/>
+                <helmetUruk id="lotr:item.helmetUruk"/>
+                <helmetUrukBerserker id="lotr:item.helmetUrukBerserker"/>
+                <helmetUtumno id="lotr:item.helmetUtumno"/>
+                <helmetWarg id="lotr:item.helmetWarg"/>
+                <helmetWoodElven id="lotr:item.helmetWoodElven"/>
+                <helmetWoodElvenScout id="lotr:item.helmetWoodElvenScout"/>
+            </helmet>
+            <leggings>
+                <leggingsChain id="chainmail_leggings"/>
+                <leggingsDiamond id="diamond_leggings"/>
+                <leggingsGold id="golden_leggings"/>
+                <leggingsIron id="iron_leggings"/>
+                <leggingsLeather id="leather_leggings"/>
+                <legsAngmar id="lotr:item.legsAngmar"/>
+                <legsArnor id="lotr:item.legsArnor"/>
+                <legsBlackNumenorean id="lotr:item.legsBlackNumenorean"/>
+                <legsBlackUruk id="lotr:item.legsBlackUruk"/>
+                <legsBlackroot id="lotr:item.legsBlackroot"/>
+                <legsBlueDwarven id="lotr:item.legsBlueDwarven"/>
+                <legsBone id="lotr:item.legsBone"/>
+                <legsBronze id="lotr:item.legsBronze"/>
+                <legsCorsair id="lotr:item.legsCorsair"/>
+                <legsDale id="lotr:item.legsDale"/>
+                <legsDolAmroth id="lotr:item.legsDolAmroth"/>
+                <legsDolAmrothGambeson id="lotr:item.legsDolAmrothGambeson"/>
+                <legsDolGuldur id="lotr:item.legsDolGuldur"/>
+                <legsDorwinion id="lotr:item.legsDorwinion"/>
+                <legsDorwinionElf id="lotr:item.legsDorwinionElf"/>
+                <legsDunlending id="lotr:item.legsDunlending"/>
+                <legsDwarven id="lotr:item.legsDwarven"/>
+                <legsDwarvenGold id="lotr:item.legsDwarvenGold"/>
+                <legsDwarvenMithril id="lotr:item.legsDwarvenMithril"/>
+                <legsDwarvenSilver id="lotr:item.legsDwarvenSilver"/>
+                <legsElven id="lotr:item.legsElven"/>
+                <legsGalvorn id="lotr:item.legsGalvorn"/>
+                <legsGemsbok id="lotr:item.legsGemsbok"/>
+                <legsGondolin id="lotr:item.legsGondolin"/>
+                <legsGondor id="lotr:item.legsGondor"/>
+                <legsGulfHarad id="lotr:item.legsGulfHarad"/>
+                <legsGundabadUruk id="lotr:item.legsGundabadUruk"/>
+                <legsHalfTroll id="lotr:item.legsHalfTroll"/>
+                <legsHaradRobes id="lotr:item.legsHaradRobes"/>
+                <legsHarnedor id="lotr:item.legsHarnedor"/>
+                <legsHighElven id="lotr:item.legsHighElven"/>
+                <legsHithlain id="lotr:item.legsHithlain"/>
+                <legsKaftan id="lotr:item.legsKaftan"/>
+                <legsLamedon id="lotr:item.legsLamedon"/>
+                <legsLossarnach id="lotr:item.legsLossarnach"/>
+                <legsMithril id="lotr:item.legsMithril"/>
+                <legsMoredain id="lotr:item.legsMoredain"/>
+                <legsMoredainLion id="lotr:item.legsMoredainLion"/>
+                <legsMorgul id="lotr:item.legsMorgul"/>
+                <legsNearHarad id="lotr:item.legsNearHarad"/>
+                <legsNomad id="lotr:item.legsNomad"/>
+                <legsOrc id="lotr:item.legsOrc"/>
+                <legsPelargir id="lotr:item.legsPelargir"/>
+                <legsPinnathGelin id="lotr:item.legsPinnathGelin"/>
+                <legsRanger id="lotr:item.legsRanger"/>
+                <legsRangerIthilien id="lotr:item.legsRangerIthilien"/>
+                <legsRhun id="lotr:item.legsRhun"/>
+                <legsRhunGold id="lotr:item.legsRhunGold"/>
+                <legsRivendell id="lotr:item.legsRivendell"/>
+                <legsRohan id="lotr:item.legsRohan"/>
+                <legsRohanMarshal id="lotr:item.legsRohanMarshal"/>
+                <legsTauredain id="lotr:item.legsTauredain"/>
+                <legsTauredainGold id="lotr:item.legsTauredainGold"/>
+                <legsUmbar id="lotr:item.legsUmbar"/>
+                <legsUruk id="lotr:item.legsUruk"/>
+                <legsUtumno id="lotr:item.legsUtumno"/>
+                <legsWarg id="lotr:item.legsWarg"/>
+                <legsWoodElven id="lotr:item.legsWoodElven"/>
+                <legsWoodElvenScout id="lotr:item.legsWoodElvenScout"/>
+            </leggings>
+        </armor>
+        <tool>
+            <axe>
+                <axeAngmar id="lotr:item.axeAngmar"/>
+                <axeBlueDwarven id="lotr:item.axeBlueDwarven"/>
+                <axeBronze id="lotr:item.axeBronze"/>
+                <axeDiamond id="diamond_axe"/>
+                <axeDolGuldur id="lotr:item.axeDolGuldur"/>
+                <axeDwarven id="lotr:item.axeDwarven"/>
+                <axeElven id="lotr:item.axeElven"/>
+                <axeGold id="golden_axe"/>
+                <axeHighElven id="lotr:item.axeHighElven"/>
+                <axeIron id="iron_axe"/>
+                <axeMallorn id="lotr:item.axeMallorn"/>
+                <axeMithril id="lotr:item.axeMithril"/>
+                <axeOrc id="lotr:item.axeOrc"/>
+                <axeRivendell id="lotr:item.axeRivendell"/>
+                <axeStone id="stone_axe"/>
+                <axeTauredain id="lotr:item.axeTauredain"/>
+                <axeUruk id="lotr:item.axeUruk"/>
+                <axeWood id="wooden_axe"/>
+                <axeWoodElven id="lotr:item.axeWoodElven"/>
+            </axe>
+            <brandingIron id="lotr:item.brandingIron"/>
+            <carrotOnAStick id="carrot_on_a_stick"/>
+            <chisel id="lotr:item.chisel"/>
+            <chiselIthildin id="lotr:item.chiselIthildin"/>
+            <fishingRod id="fishing_rod"/>
+            <hoe>
+                <hoeAngmar id="lotr:item.hoeAngmar"/>
+                <hoeBlueDwarven id="lotr:item.hoeBlueDwarven"/>
+                <hoeBronze id="lotr:item.hoeBronze"/>
+                <hoeDiamond id="diamond_hoe"/>
+                <hoeDolGuldur id="lotr:item.hoeDolGuldur"/>
+                <hoeDwarven id="lotr:item.hoeDwarven"/>
+                <hoeElven id="lotr:item.hoeElven"/>
+                <hoeGold id="golden_hoe"/>
+                <hoeHighElven id="lotr:item.hoeHighElven"/>
+                <hoeIron id="stone_hoe"/>
+                <hoeMallorn id="lotr:item.hoeMallorn"/>
+                <hoeMithril id="lotr:item.hoeMithril"/>
+                <hoeOrc id="lotr:item.hoeOrc"/>
+                <hoeRivendell id="lotr:item.hoeRivendell"/>
+                <hoeStone id="iron_hoe"/>
+                <hoeTauredain id="lotr:item.hoeTauredain"/>
+                <hoeUruk id="lotr:item.hoeUruk"/>
+                <hoeWood id="wooden_hoe"/>
+                <hoeWoodElven id="lotr:item.hoeWoodElven"/>
+            </hoe>
+            <mattock>
+                <mattockBlueDwarven id="lotr:item.mattockBlueDwarven"/>
+                <mattockDwarven id="lotr:item.mattockDwarven"/>
+                <mattockMithril id="lotr:item.mattockMithril"/>
+            </mattock>
+            <pickaxe>
+                <pickAxeUtumno id="lotr:item.utumnoPickaxe"/>
+                <pickaxeAngmar id="lotr:item.pickaxeAngmar"/>
+                <pickaxeBlueDwarven id="lotr:item.pickaxeBlueDwarven"/>
+                <pickaxeBronze id="lotr:item.pickaxeBronze"/>
+                <pickaxeDiamond id="diamond_pickaxe"/>
+                <pickaxeDolGuldur id="lotr:item.pickaxeDolGuldur"/>
+                <pickaxeDwarven id="lotr:item.pickaxeDwarven"/>
+                <pickaxeElven id="lotr:item.pickaxeElven"/>
+                <pickaxeGold id="golden_pickaxe"/>
+                <pickaxeHighElven id="lotr:item.pickaxeHighElven"/>
+                <pickaxeIron id="iron_pickaxe"/>
+                <pickaxeMallorn id="lotr:item.pickaxeMallorn"/>
+                <pickaxeMithril id="lotr:item.pickaxeMithril"/>
+                <pickaxeOrc id="lotr:item.pickaxeOrc"/>
+                <pickaxeRivendell id="lotr:item.pickaxeRivendell"/>
+                <pickaxeStone id="stone_pickaxe"/>
+                <pickaxeTauredain id="lotr:item.pickaxeTauredain"/>
+                <pickaxeUruk id="lotr:item.pickaxeUruk"/>
+                <pickaxeWood id="wooden_pickaxe"/>
+                <pickaxeWoodElven id="lotr:item.pickaxeWoodElven"/>
+            </pickaxe>
+            <shears id="shears"/>
+            <shovel>
+                <shovelAngmar id="lotr:item.shovelAngmar"/>
+                <shovelBlueDwarven id="lotr:item.shovelBlueDwarven"/>
+                <shovelBronze id="lotr:item.shovelBronze"/>
+                <shovelDiamond id="diamond_shovel"/>
+                <shovelDolGuldur id="lotr:item.shovelDolGuldur"/>
+                <shovelDwarven id="lotr:item.shovelDwarven"/>
+                <shovelElven id="lotr:item.shovelElven"/>
+                <shovelGold id="golden_shovel"/>
+                <shovelHighElven id="lotr:item.shovelHighElven"/>
+                <shovelIron id="iron_shovel"/>
+                <shovelMallorn id="lotr:item.shovelMallorn"/>
+                <shovelMithril id="lotr:item.shovelMithril"/>
+                <shovelOrc id="lotr:item.shovelOrc"/>
+                <shovelRivendell id="lotr:item.shovelRivendell"/>
+                <shovelStone id="stone_shovel"/>
+                <shovelTauredain id="lotr:item.shovelTauredain"/>
+                <shovelUruk id="lotr:item.shovelUruk"/>
+                <shovelWood id="wooden_shovel"/>
+                <shovelWoodElven id="lotr:item.shovelWoodElven"/>
+            </shovel>
+        </tool>
+        <weapon>
+            <melee>
+                <balrogWhip id="lotr:item.balrogWhip"/>
+                <battleaxe>
+                    <battleaxeAngmar id="lotr:item.battleaxeAngmar"/>
+                    <battleaxeBlackUruk id="lotr:item.battleaxeBlackUruk"/>
+                    <battleaxeBlueDwarven id="lotr:item.battleaxeBlueDwarven"/>
+                    <battleaxeBronze id="lotr:item.battleaxeBronze"/>
+                    <battleaxeCorsair id="lotr:item.battleaxeCorsair"/>
+                    <battleaxeDale id="lotr:item.battleaxeDale"/>
+                    <battleaxeDolGuldur id="lotr:item.battleaxeDolGuldur"/>
+                    <battleaxeDwarven id="lotr:item.battleaxeDwarven"/>
+                    <battleaxeGundabadUruk id="lotr:item.battleaxeGundabadUruk"/>
+                    <battleaxeHalfTroll id="lotr:item.battleaxeHalfTroll"/>
+                    <battleaxeIron id="lotr:item.battleaxeIron"/>
+                    <battleaxeLossarnach id="lotr:item.battleaxeLossarnach"/>
+                    <battleaxeMithril id="lotr:item.battleaxeMithril"/>
+                    <battleaxeMoredain id="lotr:item.battleaxeMoredain"/>
+                    <battleaxeOrc id="lotr:item.battleaxeOrc"/>
+                    <battleaxeRhun id="lotr:item.battleaxeRhun"/>
+                    <battleaxeRohan id="lotr:item.battleaxeRohan"/>
+                    <battleaxeTauredain id="lotr:item.battleaxeTauredain"/>
+                    <battleaxeUruk id="lotr:item.battleaxeUruk"/>
+                    <battleaxeUtumno id="lotr:item.battleaxeUtumno"/>
+                </battleaxe>
+                <clubMoredain id="lotr:item.clubMoredain"/>
+                <dagger>
+                    <daggerAncientHarad id="lotr:item.daggerAncientHarad"/>
+                    <daggerAngmar id="lotr:item.daggerAngmar"/>
+                    <daggerArnor id="lotr:item.daggerArnor"/>
+                    <daggerBarrow id="lotr:item.daggerBarrow"/>
+                    <daggerBlackNumenorean id="lotr:item.daggerBlackNumenorean"/>
+                    <daggerBlackUruk id="lotr:item.daggerBlackUruk"/>
+                    <daggerBlueDwarven id="lotr:item.daggerBlueDwarven"/>
+                    <daggerBronze id="lotr:item.daggerBronze"/>
+                    <daggerCorsair id="lotr:item.daggerCorsair"/>
+                    <daggerDale id="lotr:item.daggerDale"/>
+                    <daggerDolAmroth id="lotr:item.daggerDolAmroth"/>
+                    <daggerDolGuldur id="lotr:item.daggerDolGuldur"/>
+                    <daggerDorwinionElf id="lotr:item.daggerDorwinionElf"/>
+                    <daggerDwarven id="lotr:item.daggerDwarven"/>
+                    <daggerElven id="lotr:item.daggerElven"/>
+                    <daggerGondor id="lotr:item.daggerGondor"/>
+                    <daggerGundabadUruk id="lotr:item.daggerGundabadUruk"/>
+                    <daggerHalfTroll id="lotr:item.daggerHalfTroll"/>
+                    <daggerHarad id="lotr:item.daggerHarad"/>
+                    <daggerHighElven id="lotr:item.daggerHighElven"/>
+                    <daggerIron id="lotr:item.daggerIron"/>
+                    <daggerMithril id="lotr:item.daggerMithril"/>
+                    <daggerMoredain id="lotr:item.daggerMoredain"/>
+                    <daggerNearHarad id="lotr:item.daggerNearHarad"/>
+                    <daggerOrc id="lotr:item.daggerOrc"/>
+                    <daggerRhun id="lotr:item.daggerRhun"/>
+                    <daggerRivendell id="lotr:item.daggerRivendell"/>
+                    <daggerRohan id="lotr:item.daggerRohan"/>
+                    <daggerTauredain id="lotr:item.daggerTauredain"/>
+                    <daggerUruk id="lotr:item.daggerUruk"/>
+                    <daggerUtumno id="lotr:item.daggerUtumno"/>
+                    <daggerWoodElven id="lotr:item.daggerWoodElven"/>
+                    <poisoned>
+                        <daggerAngmarPoisoned id="lotr:item.daggerAngmarPoisoned"/>
+                        <daggerArnorPoisoned id="lotr:item.daggerArnorPoisoned"/>
+                        <daggerBarrowPoisoned id="lotr:item.daggerBarrowPoisoned"/>
+                        <daggerBlackNumenoreanPoisoned id="lotr:item.daggerBlackNumenoreanPoisoned"/>
+                        <daggerBlackUrukPoisoned id="lotr:item.daggerBlackUrukPoisoned"/>
+                        <daggerBlueDwarvenPoisoned id="lotr:item.daggerBlueDwarvenPoisoned"/>
+                        <daggerBronzePoisoned id="lotr:item.daggerBronzePoisoned"/>
+                        <daggerCorsairPoisoned id="lotr:item.daggerCorsairPoisoned"/>
+                        <daggerDalePoisoned id="lotr:item.daggerDalePoisoned"/>
+                        <daggerDolAmrothPoisoned id="lotr:item.daggerDolAmrothPoisoned"/>
+                        <daggerDolGuldurPoisoned id="lotr:item.daggerDolGuldurPoisoned"/>
+                        <daggerDorwinionElfPoisoned id="lotr:item.daggerDorwinionElfPoisoned"/>
+                        <daggerDwarvenPoisoned id="lotr:item.daggerDwarvenPoisoned"/>
+                        <daggerElvenPoisoned id="lotr:item.daggerElvenPoisoned"/>
+                        <daggerGondorPoisoned id="lotr:item.daggerGondorPoisoned"/>
+                        <daggerGundabadUrukPoisoned id="lotr:item.daggerGundabadUrukPoisoned"/>
+                        <daggerHalfTrollPoisoned id="lotr:item.daggerHalfTrollPoisoned"/>
+                        <daggerHaradPoisoned id="lotr:item.daggerHaradPoisoned"/>
+                        <daggerHighElvenPoisoned id="lotr:item.daggerHighElvenPoisoned"/>
+                        <daggerIronPoisoned id="lotr:item.daggerIronPoisoned"/>
+                        <daggerMithrilPoisoned id="lotr:item.daggerMithrilPoisoned"/>
+                        <daggerMoredainPoisoned id="lotr:item.daggerMoredainPoisoned"/>
+                        <daggerNearHaradPoisoned id="lotr:item.daggerNearHaradPoisoned"/>
+                        <daggerOrcPoisoned id="lotr:item.daggerOrcPoisoned"/>
+                        <daggerRhunPoisoned id="lotr:item.daggerRhunPoisoned"/>
+                        <daggerRivendellPoisoned id="lotr:item.daggerRivendellPoisoned"/>
+                        <daggerRohanPoisoned id="lotr:item.daggerRohanPoisoned"/>
+                        <daggerTauredainPoisoned id="lotr:item.daggerTauredainPoisoned"/>
+                        <daggerUrukPoisoned id="lotr:item.daggerUrukPoisoned"/>
+                        <daggerUtumnoPoisoned id="lotr:item.daggerUtumnoPoisoned"/>
+                        <daggerWoodElvenPoisoned id="lotr:item.daggerWoodElvenPoisoned"/>
+                    </poisoned>
+                    <sting id="lotr:item.sting"/>
+                </dagger>
+                <dunlendingClub id="lotr:item.dunlendingClub"/>
+                <dunlendingTrident id="lotr:item.dunlendingTrident"/>
+                <halberdMithril id="lotr:item.halberdMithril"/>
+                <hammer>
+                    <blacksmithHammer id="lotr:item.blacksmithHammer"/>
+                    <hammerAngmar id="lotr:item.hammerAngmar"/>
+                    <hammerBlackUruk id="lotr:item.hammerBlackUruk"/>
+                    <hammerBlueDwarven id="lotr:item.hammerBlueDwarven"/>
+                    <hammerDolGuldur id="lotr:item.hammerDolGuldur"/>
+                    <hammerDwarven id="lotr:item.hammerDwarven"/>
+                    <hammerGondor id="lotr:item.hammerGondor"/>
+                    <hammerGundabadUruk id="lotr:item.hammerGundabadUruk"/>
+                    <hammerHalfTroll id="lotr:item.hammerHalfTroll"/>
+                    <hammerMithril id="lotr:item.hammerMithril"/>
+                    <hammerOrc id="lotr:item.hammerOrc"/>
+                    <hammerTauredain id="lotr:item.hammerTauredain"/>
+                    <hammerUruk id="lotr:item.hammerUruk"/>
+                    <hammerUtumno id="lotr:item.hammerUtumno"/>
+                </hammer>
+                <lance>
+                    <lanceDolAmroth id="lotr:item.lanceDolAmroth"/>
+                    <lanceGondor id="lotr:item.lanceGondor"/>
+                    <lanceRohan id="lotr:item.lanceRohan"/>
+                </lance>
+                <longspear>
+                    <longspearDolAmroth id="lotr:item.longspearDolAmroth"/>
+                    <longspearElven id="lotr:item.longspearElven"/>
+                    <longspearHighElven id="lotr:item.longspearHighElven"/>
+                    <longspearRivendell id="lotr:item.longspearRivendell"/>
+                    <longspearWoodElven id="lotr:item.longspearWoodElven"/>
+                </longspear>
+                <mace>
+                    <maceBlackNumenorean id="lotr:item.maceBlackNumenorean"/>
+                    <maceHalfTroll id="lotr:item.maceHalfTroll"/>
+                    <maceMallornCharred id="lotr:item.maceMallornCharred"/>
+                    <maceNearHarad id="lotr:item.maceNearHarad"/>
+                    <sauronMace id="lotr:item.sauronMace"/>
+                </mace>
+                <pike>
+                    <pikeBlueDwarven id="lotr:item.pikeBlueDwarven"/>
+                    <pikeDale id="lotr:item.pikeDale"/>
+                    <pikeDolGuldur id="lotr:item.pikeDolGuldur"/>
+                    <pikeDwarven id="lotr:item.pikeDwarven"/>
+                    <pikeGondor id="lotr:item.pikeGondor"/>
+                    <pikeGundabadUruk id="lotr:item.pikeGundabadUruk"/>
+                    <pikeHalfTroll id="lotr:item.pikeHalfTroll"/>
+                    <pikeHarad id="lotr:item.pikeHarad"/>
+                    <pikeIron id="lotr:item.pikeIron"/>
+                    <pikeNearHarad id="lotr:item.pikeNearHarad"/>
+                    <pikeRhun id="lotr:item.pikeRhun"/>
+                    <pikeTauredain id="lotr:item.pikeTauredain"/>
+                    <pikeUruk id="lotr:item.pikeUruk"/>
+                </pike>
+                <poleArm>
+                    <polearmAngmar id="lotr:item.polearmAngmar"/>
+                    <polearmElven id="lotr:item.polearmElven"/>
+                    <polearmHighElven id="lotr:item.polearmHighElven"/>
+                    <polearmOrc id="lotr:item.polearmOrc"/>
+                    <polearmRhun id="lotr:item.polearmRhun"/>
+                    <polearmRivendell id="lotr:item.polearmRivendell"/>
+                    <polearmWoodElven id="lotr:item.polearmWoodElven"/>
+                </poleArm>
+                <poleaxeNearHarad id="lotr:item.poleaxeNearHarad"/>
+                <rollingPin id="lotr:item.rollingPin"/>
+                <staff>
+                    <gandalfStaffGrey id="lotr:item.gandalfStaffGrey"/>
+                    <gandalfStaffWhite id="lotr:item.gandalfStaffWhite"/>
+                    <orcSkullStaff id="lotr:item.orcSkullStaff"/>
+                </staff>
+                <sword>
+                    <bladeMorgul id="lotr:item.morgulBlade"/>
+                    <scimitar>
+                        <scimitarBlackUruk id="lotr:item.scimitarBlackUruk"/>
+                        <scimitarHalfTroll id="lotr:item.scimitarHalfTroll"/>
+                        <scimitarNearHarad id="lotr:item.scimitarNearHarad"/>
+                        <scimitarOrc id="lotr:item.scimitarOrc"/>
+                        <scimitarUruk id="lotr:item.scimitarUruk"/>
+                        <scimitarUrukBerserker id="lotr:item.scimitarUrukBerserker"/>
+                    </scimitar>
+                    <swordAnduril id="lotr:item.anduril"/>
+                    <swordAngmar id="lotr:item.swordAngmar"/>
+                    <swordArnor id="lotr:item.swordArnor"/>
+                    <swordBlackNumenorean id="lotr:item.swordBlackNumenorean"/>
+                    <swordBlueDwarven id="lotr:item.swordBlueDwarven"/>
+                    <swordBronze id="lotr:item.swordBronze"/>
+                    <swordCommand id="lotr:item.commandSword"/>
+                    <swordCorsair id="lotr:item.swordCorsair"/>
+                    <swordDale id="lotr:item.swordDale"/>
+                    <swordDiamond id="diamond_sword"/>
+                    <swordDolAmroth id="lotr:item.swordDolAmroth"/>
+                    <swordDolGuldur id="lotr:item.swordDolGuldur"/>
+                    <swordDorwinionElf id="lotr:item.swordDorwinionElf"/>
+                    <swordDwarven id="lotr:item.swordDwarven"/>
+                    <swordElven id="lotr:item.swordElven"/>
+                    <swordGlamdring id="lotr:item.glamdring"/>
+                    <swordGold id="golden_sword"/>
+                    <swordGondolin id="lotr:item.swordGondolin"/>
+                    <swordGondor id="lotr:item.swordGondor"/>
+                    <swordGulfHarad id="lotr:item.swordGulfHarad"/>
+                    <swordGundabadUruk id="lotr:item.swordGundabadUruk"/>
+                    <swordHarad id="lotr:item.swordHarad"/>
+                    <swordHighElven id="lotr:item.swordHighElven"/>
+                    <swordIron id="iron_sword"/>
+                    <swordMallorn id="lotr:item.swordMallorn"/>
+                    <swordMithril id="lotr:item.swordMithril"/>
+                    <swordMoredain id="lotr:item.swordMoredain"/>
+                    <swordPelargir id="lotr:item.swordPelargir"/>
+                    <swordRhun id="lotr:item.swordRhun"/>
+                    <swordRingil id="lotr:item.ringil"/>
+                    <swordRivendell id="lotr:item.swordRivendell"/>
+                    <swordRohan id="lotr:item.swordRohan"/>
+                    <swordStone id="stone_sword"/>
+                    <swordTauredain id="lotr:item.swordTauredain"/>
+                    <swordUtumno id="lotr:item.swordUtumno"/>
+                    <swordWood id="wooden_sword"/>
+                    <swordWoodElven id="lotr:item.swordWoodElven"/>
+                </sword>
+                <tridentPelargir id="lotr:item.tridentPelargir"/>
+            </melee>
+            <munition>
+                <arrow id="arrow"/>
+                <arrowPoisoned id="lotr:item.arrowPoisoned"/>
+                <crossbowBolt id="lotr:item.crossbowBolt"/>
+                <crossbowBoltPoisoned id="lotr:item.crossbowBoltPoisoned"/>
+                <pebble id="lotr:item.pebble"/>
+                <snowball id="snowball"/>
+                <tauredainDart id="lotr:item.tauredainDart"/>
+                <tauredainDartPoisoned id="lotr:item.tauredainDartPoisoned"/>
+            </munition>
+            <ranged>
+                <bow>
+                    <blackUrukBow id="lotr:item.blackUrukBow"/>
+                    <blackrootBow id="lotr:item.blackrootBow"/>
+                    <bow id="bow"/>
+                    <daleBow id="lotr:item.daleBow"/>
+                    <dorwinionElfBow id="lotr:item.dorwinionElfBow"/>
+                    <elvenBow id="lotr:item.elvenBow"/>
+                    <gondorBow id="lotr:item.gondorBow"/>
+                    <gundabadUrukBow id="lotr:item.gundabadUrukBow"/>
+                    <highElvenBow id="lotr:item.highElvenBow"/>
+                    <mallornBow id="lotr:item.mallornBow"/>
+                    <mirkwoodBow id="lotr:item.mirkwoodBow"/>
+                    <nearHaradBow id="lotr:item.nearHaradBow"/>
+                    <orcBow id="lotr:item.orcBow"/>
+                    <rangerBow id="lotr:item.rangerBow"/>
+                    <rhunBow id="lotr:item.rhunBow"/>
+                    <rivendellBow id="lotr:item.rivendellBow"/>
+                    <rohanBow id="lotr:item.rohanBow"/>
+                    <utumnoBow id="lotr:item.utumnoBow"/>
+                </bow>
+                <crossbow>
+                    <bronzeCrossbow id="lotr:item.bronzeCrossbow"/>
+                    <ironCrossbow id="lotr:item.ironCrossbow"/>
+                    <mithrilCrossbow id="lotr:item.mithrilCrossbow"/>
+                    <urukCrossbow id="lotr:item.urukCrossbow"/>
+                </crossbow>
+                <sling id="lotr:item.sling"/>
+                <tauredainBlowgun id="lotr:item.tauredainBlowgun"/>
+            </ranged>
+            <throwing>
+                <chestnut id="lotr:item.chestnut"/>
+                <plate id="lotr:item.plate"/>
+                <plate id="lotr:tile.plate"/>
+                <spear>
+                    <spearAngmar id="lotr:item.spearAngmar"/>
+                    <spearArnor id="lotr:item.spearArnor"/>
+                    <spearBlackNumenorean id="lotr:item.spearBlackNumenorean"/>
+                    <spearBlackUruk id="lotr:item.spearBlackUruk"/>
+                    <spearBladorthin id="lotr:item.spearBladorthin"/>
+                    <spearBlueDwarven id="lotr:item.spearBlueDwarven"/>
+                    <spearBronze id="lotr:item.spearBronze"/>
+                    <spearCorsair id="lotr:item.spearCorsair"/>
+                    <spearDale id="lotr:item.spearDale"/>
+                    <spearDolGuldur id="lotr:item.spearDolGuldur"/>
+                    <spearDwarven id="lotr:item.spearDwarven"/>
+                    <spearElven id="lotr:item.spearElven"/>
+                    <spearGondor id="lotr:item.spearGondor"/>
+                    <spearGundabadUruk id="lotr:item.spearGundabadUruk"/>
+                    <spearHarad id="lotr:item.spearHarad"/>
+                    <spearHighElven id="lotr:item.spearHighElven"/>
+                    <spearIron id="lotr:item.spearIron"/>
+                    <spearMithril id="lotr:item.spearMithril"/>
+                    <spearMoredain id="lotr:item.spearMoredain"/>
+                    <spearNearHarad id="lotr:item.spearNearHarad"/>
+                    <spearOrc id="lotr:item.spearOrc"/>
+                    <spearRhun id="lotr:item.spearRhun"/>
+                    <spearRivendell id="lotr:item.spearRivendell"/>
+                    <spearRohan id="lotr:item.spearRohan"/>
+                    <spearStone id="lotr:item.spearStone"/>
+                    <spearTauredain id="lotr:item.spearTauredain"/>
+                    <spearUruk id="lotr:item.spearUruk"/>
+                    <spearUtumno id="lotr:item.spearUtumno"/>
+                    <spearWoodElven id="lotr:item.spearWoodElven"/>
+                </spear>
+                <termite id="lotr:item.termite"/>
+                <throwingAxe>
+                    <throwingAxeBlueDwarven id="lotr:item.throwingAxeBlueDwarven"/>
+                    <throwingAxeBronze id="lotr:item.throwingAxeBronze"/>
+                    <throwingAxeDwarven id="lotr:item.throwingAxeDwarven"/>
+                    <throwingAxeIron id="lotr:item.throwingAxeIron"/>
+                    <throwingAxeLossarnach id="lotr:item.throwingAxeLossarnach"/>
+                </throwingAxe>
+            </throwing>
+        </weapon>
+    </equipment>
+    <item>
+        <bucket>
+            <emptyBucket id="bucket"/>
+            <lavaBucket id="lava_bucket"/>
+            <waterBucket id="water_bucket"/>
+        </bucket>
+        <daleCracker id="lotr:item.daleCracker"/>
+        <decoration>
+            <coin id="lotr:item.coin"/>
+            <drinkVessel>
+                <aleHorn id="lotr:item.aleHorn"/>
+                <aleHorn id="lotr:tile.aleHorn"/>
+                <aleHornGold id="lotr:item.aleHornGold"/>
+                <aleHornGold id="lotr:tile.aleHornGold"/>
+                <ceramicMug id="lotr:item.ceramicMug"/>
+                <ceramicMug id="lotr:tile.ceramicMug"/>
+                <clayMug id="lotr:item.clayMug"/>
+                <glassBottle id="lotr:tile.glassBottle"/>
+                <gobletCopper id="lotr:item.gobletCopper"/>
+                <gobletCopper id="lotr:tile.gobletCopper"/>
+                <gobletGold id="lotr:item.gobletGold"/>
+                <gobletGold id="lotr:tile.gobletGold"/>
+                <gobletSilver id="lotr:item.gobletSilver"/>
+                <gobletSilver id="lotr:tile.gobletSilver"/>
+                <gobletWood id="lotr:item.gobletWood"/>
+                <gobletWood id="lotr:tile.gobletWood"/>
+                <mug id="lotr:item.mug"/>
+                <mug id="lotr:tile.mug"/>
+                <skullCup id="lotr:item.skullCup"/>
+                <skullCup id="lotr:tile.skullCup"/>
+                <waterskin id="lotr:item.waterskin"/>
+                <wineGlass id="lotr:item.wineGlass"/>
+                <wineGlass id="lotr:tile.wineGlass"/>
+            </drinkVessel>
+            <featherDyed id="lotr:item.featherDyed"/>
+            <hobbitPipe id="lotr:item.hobbitPipe"/>
+            <itemFrame id="item_frame"/>
+            <musicDisc>
+                <musicDisc11 id="record_11"/>
+                <musicDisc13 id="record_13"/>
+                <musicDiscBlocks id="record_blocks"/>
+                <musicDiscCat id="record_cat"/>
+                <musicDiscChirp id="record_chirp"/>
+                <musicDiscFar id="record_far"/>
+                <musicDiscMall id="record_mall"/>
+                <musicDiscMellohi id="record_mellohi"/>
+                <musicDiscStal id="record_stal"/>
+                <musicDiscStrad id="record_strad"/>
+                <musicDiscWard id="record_ward"/>
+                <musicDiskWait id="record_wait"/>
+            </musicDisc>
+            <painting id="painting"/>
+            <pouch id="lotr:item.pouch"/>
+            <rings>
+                <dwarvenRing id="lotr:item.dwarvenRing"/>
+                <goldRing id="lotr:item.goldRing"/>
+                <hobbitRing id="lotr:item.hobbitRing"/>
+                <mithrilRing id="lotr:item.mithrilRing"/>
+                <silverRing id="lotr:item.silverRing"/>
+            </rings>
+        </decoration>
+        <fireworks id="firework_charge"/>
+        <food>
+            <edibleFood>
+                <almond id="lotr:item.almond"/>
+                <apple>
+                    <appleGolden id="golden_apple"/>
+                    <appleRed id="apple"/>
+                </apple>
+                <bananaBread id="lotr:item.bananaBread"/>
+                <bread id="bread"/>
+                <cakes>
+                    <appleCrumble id="lotr:item.appleCrumble"/>
+                    <appleCrumble id="lotr:tile.appleCrumble"/>
+                    <bananaCake id="lotr:item.bananaCake"/>
+                    <bananaCake id="lotr:tile.bananaCake"/>
+                    <berryPie id="lotr:item.berryPie"/>
+                    <berryPie id="lotr:tile.berryPie"/>
+                    <cherryPie id="lotr:item.cherryPie"/>
+                    <cherryPie id="lotr:tile.cherryPie"/>
+                    <chestnutRoast id="lotr:item.chestnutRoast"/>
+                    <dalishPastry id="lotr:item.dalishPastry"/>
+                    <dalishPastry id="lotr:tile.dalishPastry"/>
+                    <hobbitPancakeMapleSyrup id="lotr:item.hobbitPancakeMapleSyrup"/>
+                    <lemonCake id="lotr:item.lemonCake"/>
+                    <lemonCake id="lotr:tile.lemonCake"/>
+                    <marzipanBlock id="lotr:tile.marzipanBlock"/>
+                </cakes>
+                <carrot>
+                    <carrot id="carrot"/>
+                    <goldenCarrot id="golden_carrot"/>
+                </carrot>
+                <cookedFood>
+                    <bakedPotato id="baked_potato"/>
+                    <camelCooked id="lotr:item.camelCooked"/>
+                    <cookedChicken id="cooked_chicken"/>
+                    <cookedFish damage="0" id="cooked_fished"/>
+                    <cookedPorkchop id="cooked_porkchop"/>
+                    <cookedSalmon damage="1" id="cooked_fished"/>
+                    <cornCooked id="lotr:item.cornCooked"/>
+                    <deerCooked id="lotr:item.deerCooked"/>
+                    <lionCooked id="lotr:item.lionCooked"/>
+                    <muttonCooked id="lotr:item.muttonCooked"/>
+                    <rabbitCooked id="lotr:item.rabbitCooked"/>
+                    <rhinoCooked id="lotr:item.rhinoCooked"/>
+                    <steak id="cooked_beef"/>
+                    <turnipCooked id="lotr:item.turnipCooked"/>
+                    <yamRoast id="lotr:item.yamRoast"/>
+                    <zebraCooked id="lotr:item.zebraCooked"/>
+                </cookedFood>
+                <cookie id="cookie"/>
+                <cornBread id="lotr:item.cornBread"/>
+                <cram id="lotr:item.cram"/>
+                <drinks>
+                    <mugAle id="lotr:item.mugAle"/>
+                    <mugAppleJuice id="lotr:item.mugAppleJuice"/>
+                    <mugAraq id="lotr:item.mugAraq"/>
+                    <mugAthelasBrew id="lotr:item.mugAthelasBrew"/>
+                    <mugBananaBeer id="lotr:item.mugBananaBeer"/>
+                    <mugBlackberryJuice id="lotr:item.mugBlackberryJuice"/>
+                    <mugBlueberryJuice id="lotr:item.mugBlueberryJuice"/>
+                    <mugCactusLiqueur id="lotr:item.mugCactusLiqueur"/>
+                    <mugCarrotWine id="lotr:item.mugCarrotWine"/>
+                    <mugCherryLiqueur id="lotr:item.mugCherryLiqueur"/>
+                    <mugChocolate id="lotr:item.mugChocolate"/>
+                    <mugCider id="lotr:item.mugCider"/>
+                    <mugCornLiquor id="lotr:item.mugCornLiquor"/>
+                    <mugCranberryJuice id="lotr:item.mugCranberryJuice"/>
+                    <mugDwarvenAle id="lotr:item.mugDwarvenAle"/>
+                    <mugDwarvenTonic id="lotr:item.mugDwarvenTonic"/>
+                    <mugElderberryJuice id="lotr:item.mugElderberryJuice"/>
+                    <mugLemonLiqueur id="lotr:item.mugLemonLiqueur"/>
+                    <mugLemonade id="lotr:item.mugLemonade"/>
+                    <mugLimeLiqueur id="lotr:item.mugLimeLiqueur"/>
+                    <mugMangoJuice id="lotr:item.mugMangoJuice"/>
+                    <mugMapleBeer id="lotr:item.mugMapleBeer"/>
+                    <mugMead id="lotr:item.mugMead"/>
+                    <mugMelonLiqueur id="lotr:item.mugMelonLiqueur"/>
+                    <mugMilk id="lotr:item.mugMilk"/>
+                    <mugMiruvor id="lotr:item.mugMiruvor"/>
+                    <mugMorgulDraught id="lotr:item.mugMorgulDraught"/>
+                    <mugOrangeJuice id="lotr:item.mugOrangeJuice"/>
+                    <mugOrcDraught id="lotr:item.mugOrcDraught"/>
+                    <mugPerry id="lotr:item.mugPerry"/>
+                    <mugPlumKvass id="lotr:item.mugPlumKvass"/>
+                    <mugPomegranateJuice id="lotr:item.mugPomegranateJuice"/>
+                    <mugPomegranateWine id="lotr:item.mugPomegranateWine"/>
+                    <mugRaspberryJuice id="lotr:item.mugRaspberryJuice"/>
+                    <mugRedGrapeJuice id="lotr:item.mugRedGrapeJuice"/>
+                    <mugRedWine id="lotr:item.mugRedWine"/>
+                    <mugRum id="lotr:item.mugRum"/>
+                    <mugSourMilk id="lotr:item.mugSourMilk"/>
+                    <mugTauredainCocoa id="lotr:item.mugTauredainCocoa"/>
+                    <mugTauredainCure id="lotr:item.mugTauredainCure"/>
+                    <mugTermiteTequila id="lotr:item.mugTermiteTequila"/>
+                    <mugTorogDraught id="lotr:item.mugTorogDraught"/>
+                    <mugVodka id="lotr:item.mugVodka"/>
+                    <mugWater id="lotr:item.mugWater"/>
+                    <mugWhiteGrapeJuice id="lotr:item.mugWhiteGrapeJuice"/>
+                    <mugWhiteWine id="lotr:item.mugWhiteWine"/>
+                </drinks>
+                <fruits>
+                    <appleGreen id="lotr:item.appleGreen"/>
+                    <banana id="lotr:item.banana"/>
+                    <banana id="lotr:tile.banana"/>
+                    <blackberry id="lotr:item.blackberry"/>
+                    <blueberry id="lotr:item.blueberry"/>
+                    <cherry id="lotr:item.cherry"/>
+                    <cranberry id="lotr:item.cranberry"/>
+                    <date id="lotr:item.date"/>
+                    <date id="lotr:tile.date"/>
+                    <elderberry id="lotr:item.elderberry"/>
+                    <grapeRed id="lotr:item.grapeRed"/>
+                    <grapeWhite id="lotr:item.grapeWhite"/>
+                    <lemon id="lotr:item.lemon"/>
+                    <lime id="lotr:item.lime"/>
+                    <mallornNut id="lotr:item.mallornNut"/>
+                    <mango id="lotr:item.mango"/>
+                    <orange id="lotr:item.orange"/>
+                    <pear id="lotr:item.pear"/>
+                    <plum id="lotr:item.plum"/>
+                    <pomegranate id="lotr:item.pomegranate"/>
+                    <raspberry id="lotr:item.raspberry"/>
+                </fruits>
+                <gammon id="lotr:item.gammon"/>
+                <hobbitPancake id="lotr:item.hobbitPancake"/>
+                <kebab id="lotr:item.kebab"/>
+                <leekSoup id="lotr:item.leekSoup"/>
+                <lembas id="lotr:item.lembas"/>
+                <mapleSyrup id="lotr:item.mapleSyrup"/>
+                <marzipan id="lotr:item.marzipan"/>
+                <marzipanChocolate id="lotr:item.marzipanChocolate"/>
+                <melonSlice id="melon"/>
+                <melonSoup id="lotr:item.melonSoup"/>
+                <mushroomPie id="lotr:item.mushroomPie"/>
+                <mushroomStew id="mushroom_stew"/>
+                <oliveBread id="lotr:item.oliveBread"/>
+                <pumpkinPie id="pumpkin_pie"/>
+                <rabbitStew id="lotr:item.rabbitStew"/>
+                <raisins id="lotr:item.raisins"/>
+                <rawFood>
+                    <camelRaw id="lotr:item.camelRaw"/>
+                    <clownfish damage="2" id="fish"/>
+                    <deerRaw id="lotr:item.deerRaw"/>
+                    <lionRaw id="lotr:item.lionRaw"/>
+                    <manFlesh id="lotr:item.manFlesh"/>
+                    <muttonRaw id="lotr:item.muttonRaw"/>
+                    <potato id="potato"/>
+                    <rabbitRaw id="lotr:item.rabbitRaw"/>
+                    <rawBeef id="beef"/>
+                    <rawChicken id="chicken"/>
+                    <rawFish damage="0" id="fish"/>
+                    <rawPorkchop id="porkchop"/>
+                    <rawSalmon damage="1" id="fish"/>
+                    <rhinoRaw id="lotr:item.rhinoRaw"/>
+                    <yam id="lotr:item.yam"/>
+                    <yam id="lotr:tile.yam"/>
+                    <zebraRaw id="lotr:item.zebraRaw"/>
+                </rawFood>
+                <saltedFlesh id="lotr:item.saltedFlesh"/>
+                <shishKebab id="lotr:item.shishKebab"/>
+                <torogStew id="lotr:item.torogStew"/>
+                <vegetables>
+                    <corn id="lotr:item.corn"/>
+                    <leek id="lotr:item.leek"/>
+                    <leek id="lotr:tile.leek"/>
+                    <lettuce id="lotr:item.lettuce"/>
+                    <lettuce id="lotr:tile.lettuce"/>
+                    <olive id="lotr:item.olive"/>
+                    <turnip id="lotr:item.turnip"/>
+                    <turnip id="lotr:tile.turnip"/>
+                </vegetables>
+            </edibleFood>
+            <poisonedFood>
+                <maggotyBread id="lotr:item.maggotyBread"/>
+                <poisonedPotato id="poisonous_potato"/>
+                <poisonousPotato id="poisonous_potato"/>
+                <pufferfish damage="3" id="fish"/>
+                <rottenFlesh id="rotten_flesh"/>
+                <spiderEye id="spider_eye"/>
+                <wildberry id="lotr:item.wildberry"/>
+            </poisonedFood>
+            <unedibleFood>
+                <cake id="cake"/>
+                <cakeBlock id="cake"/>
+                <kebabBlock id="lotr:tile.kebabBlock"/>
+                <sugar id="sugar"/>
+            </unedibleFood>
+        </food>
+        <gateGear id="lotr:item.gateGear"/>
+        <glassBottle id="glass_bottle"/>
+        <instrument>
+            <clock id="clock"/>
+            <compass id="compass"/>
+            <emptyMap id="map"/>
+            <map id="filled_map"/>
+        </instrument>
+        <ithildin id="lotr:item.ithildin"/>
+        <mechanism id="lotr:item.mechanism"/>
+        <obsidianShard id="lotr:item.obsidianShard"/>
+        <plant>
+            <athelas id="lotr:tile.athelas"/>
+            <berryBush id="lotr:tile.berryBush"/>
+            <blackroot id="lotr:tile.blackroot"/>
+            <cactus id="cactus"/>
+            <carrotBlock id="carrots"/>
+            <clover id="lotr:tile.clover"/>
+            <cocoaPod id="cocoa"/>
+            <coralReef id="lotr:tile.coralReef"/>
+            <cornStalk id="lotr:tile.cornStalk"/>
+            <deadBush id="deadbush"/>
+            <deadMarshPlant id="lotr:tile.deadMarshPlant"/>
+            <dwarfHerb id="lotr:tile.dwarfHerb"/>
+            <fangornPlant id="lotr:tile.fangornPlant"/>
+            <fangornRiverweed id="lotr:tile.fangornRiverweed"/>
+            <flaxPlant id="lotr:tile.flaxPlant"/>
+            <flower>
+                <allium damage="2" id="red_flower"/>
+                <aridGrass id="lotr:tile.aridGrass"/>
+                <asphodel id="lotr:tile.asphodel"/>
+                <blueOrchid damage="1" id="red_flower"/>
+                <bluebell id="lotr:tile.bluebell"/>
+                <dandelion id="yellow_flower"/>
+                <doublePlant id="double_plant">
+                    <!-- 2 is double-height tallgrass, 3 is large fern -->
+                    <doubleFlower id="lotr:tile.doubleFlower"/>
+                    <lilac damage="1" id="double_plant"/>
+                    <peony damage="5" id="double_plant"/>
+                    <roseBush damage="4" id="double_plant"/>
+                    <sunflower damage="0" id="double_plant"/>
+                    <tallGrass id="lotr:tile.tallGrass"/>
+                </doublePlant>
+                <elanor id="lotr:tile.elanor"/>
+                <flowerLightBlue damage="1" id="red_flower"/>
+                <flowerLightGray>
+                    <azureBluet damage="3" id="red_flower"/>
+                    <tulipWhite damage="6" id="red_flower"/>
+                </flowerLightGray>
+                <flowerMagenta damage="2" id="red_flower"/>
+                <flowerOrange damage="5" id="red_flower"/>
+                <flowerPink damage="7" id="red_flower"/>
+                <flowerRed>
+                    <poppy damage="0" id="red_flower"/>
+                    <tulipRed damage="4" id="red_flower"/>
+                </flowerRed>
+                <flowerYellow id="yellow_flower"/>
+                <haradFlower id="lotr:tile.haradFlower"/>
+                <lavender id="lotr:tile.lavender"/>
+                <marigold id="lotr:tile.marigold"/>
+                <morgulFlower id="lotr:tile.morgulFlower"/>
+                <niphredil id="lotr:tile.niphredil"/>
+                <rhunFlower id="lotr:tile.rhunFlower"/>
+                <shireHeather id="lotr:tile.shireHeather"/>
+                <simbelmyne id="lotr:tile.simbelmyne"/>
+                <tulip>
+                    <tulipOrange damage="5" id="red_flower"/>
+                    <tulipPink damage="7" id="red_flower"/>
+                    <tulipRed damage="4" id="red_flower"/>
+                    <tulipWhite damage="6" id="red_flower"/>
+                </tulip>
+            </flower>
+            <grapevine id="lotr:tile.grapevine"/>
+            <grapevineRed id="lotr:tile.grapevineRed"/>
+            <grapevineWhite id="lotr:tile.grapevineWhite"/>
+            <leaves>
+                <fallen>
+                    <fallenLeaves id="lotr:tile.fallenLeaves"/>
+                    <fallenLeavesLOTR id="lotr:tile.fallenLeavesLOTR"/>
+                    <fallenLeavesLOTR2 id="lotr:tile.fallenLeavesLOTR2"/>
+                    <fallenLeavesLOTR3 id="lotr:tile.fallenLeavesLOTR3"/>
+                </fallen>
+                <leabesDarkOak damage="1" id="leaves2"/>
+                <leaves id="lotr:tile.leaves"/>
+                <leaves2 id="lotr:tile.leaves2"/>
+                <leaves3 id="lotr:tile.leaves3"/>
+                <leaves4 id="lotr:tile.leaves4"/>
+                <leaves5 id="lotr:tile.leaves5"/>
+                <leaves6 id="lotr:tile.leaves6"/>
+                <leaves7 id="lotr:tile.leaves7"/>
+                <leaves8 id="lotr:tile.leaves8"/>
+                <leaves9 id="lotr:tile.leaves9"/>
+                <leavesAcacia damage="0" id="leaves2"/>
+                <leavesBirch damage="2" id="leaves"/>
+                <leavesFruit id="lotr:tile.fruitLeaves"/>
+                <leavesJungle damage="3" id="leaves"/>
+                <leavesOak damage="0" id="leaves"/>
+                <leavesOreDict oreDictName="treeLeaves"/>
+                <leavesSpruce damage="1" id="leaves"/>
+            </leaves>
+            <lilyPad id="waterlily"/>
+            <melon id="melon_block"/>
+            <melonStem id="melon_stem"/>
+            <mordorMoss id="lotr:tile.mordorMoss"/>
+            <mordorThorn id="lotr:tile.mordorThorn"/>
+            <mushroom>
+                <morgulShroom id="lotr:tile.morgulShroom"/>
+                <mushroomBrown id="brown_mushroom"/>
+                <mushroomRed id="red_mushroom"/>
+            </mushroom>
+            <netherWart id="nether_wart"/>
+            <netherWart id="nether_wart"/>
+            <pipeweedPlant id="lotr:tile.pipeweedPlant"/>
+            <potatoBlock id="potatoes"/>
+            <pumpkin id="pumpkin"/>
+            <pumpkinStem id="pumpkin_stem"/>
+            <reed id="reeds"/>
+            <sapling>
+                <corruptMallorn id="lotr:tile.corruptMallorn"/>
+                <sapling id="lotr:tile.sapling"/>
+                <sapling2 id="lotr:tile.sapling2"/>
+                <sapling3 id="lotr:tile.sapling3"/>
+                <sapling4 id="lotr:tile.sapling4"/>
+                <sapling5 id="lotr:tile.sapling5"/>
+                <sapling6 id="lotr:tile.sapling6"/>
+                <sapling7 id="lotr:tile.sapling7"/>
+                <sapling8 id="lotr:tile.sapling8"/>
+                <sapling9 id="lotr:tile.sapling9"/>
+                <saplingAcacia damage="4" id="sapling"/>
+                <saplingBirch damage="2" id="sapling"/>
+                <saplingDarkOak damage="5" id="sapling"/>
+                <saplingFruit id="lotr:tile.fruitSapling"/>
+                <saplingJungle damage="3" id="sapling"/>
+                <saplingOak damage="0" id="sapling"/>
+                <saplingOreDict oreDictName="treeSapling"/>
+                <saplingSpruce damage="1" id="sapling"/>
+            </sapling>
+            <seed>
+                <seedsFlax id="lotr:item.flaxSeeds"/>
+                <seedsGrapeRed id="lotr:item.seedsGrapeRed"/>
+                <seedsGrapeWhite id="lotr:item.seedsGrapeWhite"/>
+                <seedsMelon id="melon_seeds"/>
+                <seedsPipeweed id="lotr:item.pipeweedSeeds"/>
+                <seedsPumpkin id="pumpkin_seeds"/>
+                <seedsWheat id="wheat_seeds"/>
+            </seed>
+            <sugarCane id="reeds"/>
+            <tallGrass id="tallgrass"/>
+            <vines id="vine"/>
+            <vinesMirk id="lotr:tile.mirkVines"/>
+            <vinesWillow id="lotr:tile.willowVines"/>
+        </plant>
+        <potion>
+            <bottleEnchanting id="experience_bottle"/>
+            <drinkablePotion>
+                <negativePotion>
+                    <harmingPotion>
+                        <potionHarming damage="8204" id="potion"/>
+                        <potionHarmingEx damage="8268" id="potion"/>
+                        <potionHarmingII damage="8236" id="potion"/>
+                    </harmingPotion>
+                    <poisonPotion>
+                        <potionPoison damage="8196" id="potion"/>
+                        <potionPoisonEx damage="8260" id="potion"/>
+                        <potionPoisonII damage="8228" id="potion"/>
+                    </poisonPotion>
+                    <slownessPotion>
+                        <potionSlowness damage="8202" id="potion"/>
+                        <potionSlownessEx damage="8266" id="potion"/>
+                        <potionSlownessII damage="8234" id="potion"/>
+                    </slownessPotion>
+                    <weaknessPotion>
+                        <potionWeakness damage="8200" id="potion"/>
+                        <potionWeaknessEx damage="8264" id="potion"/>
+                        <potionWeaknessII damage="8232" id="potion"/>
+                    </weaknessPotion>
+                </negativePotion>
+                <neutralPotion>
+                    <awkwardPotion damage="16" id="potion"/>
+                    <mundanePotion damage="8192" id="potion"/>
+                    <mundanePotionExtended damage="64" id="potion"/>
+                    <thickPotion damage="32" id="potion"/>
+                    <waterBottle damage="0" id="potion"/>
+                </neutralPotion>
+                <positivePotion>
+                    <entDraught id="lotr:item.entDraught"/>
+                    <fireResistancePotion>
+                        <potionFireResistance damage="8195" id="potion"/>
+                        <potionFireResistanceEx damage="8259" id="potion"/>
+                        <potionFireResistanceII damage="8227" id="potion"/>
+                    </fireResistancePotion>
+                    <healingPotion>
+                        <potionHealing damage="8197" id="potion"/>
+                        <potionHealingEx damage="8261" id="potion"/>
+                        <potionHealingII damage="8229" id="potion"/>
+                    </healingPotion>
+                    <invisibilityPotion>
+                        <potionInvisibility damage="8238" id="potion"/>
+                        <potionInvisibilityEx damage="8270" id="potion"/>
+                    </invisibilityPotion>
+                    <nightVisionPotion>
+                        <potionNightVision damage="8230" id="potion"/>
+                        <potionNightVisionEx damage="8262" id="potion"/>
+                    </nightVisionPotion>
+                    <regenerationPotion>
+                        <potionRegeneration damage="8193" id="potion"/>
+                        <potionRegenerationEx damage="8257" id="potion"/>
+                        <potionRegenerationII damage="8225" id="potion"/>
+                    </regenerationPotion>
+                    <strengthPotion>
+                        <potionStrength damage="8201" id="potion"/>
+                        <potionStrengthEx damage="8265" id="potion"/>
+                        <potionStrengthII damage="8233" id="potion"/>
+                    </strengthPotion>
+                    <swiftnessPotion>
+                        <potionSwiftness damage="8194" id="potion"/>
+                        <potionSwiftnessEx damage="8258" id="potion"/>
+                        <potionSwiftnessII damage="8226" id="potion"/>
+                    </swiftnessPotion>
+                </positivePotion>
+            </drinkablePotion>
+            <splashPotion>
+                <negativeSplashPotion>
+                    <harmingSplashPotion>
+                        <splashPotionHarming damage="16396" id="potion"/>
+                        <splashPotionHarmingEx damage="16460" id="potion"/>
+                        <splashPotionHarmingII damage="16428" id="potion"/>
+                    </harmingSplashPotion>
+                    <poisonSplashPotion>
+                        <splashPotionPoison damage="16388" id="potion"/>
+                        <splashPotionPoisonEx damage="16452" id="potion"/>
+                        <splashPotionPoisonII damage="16420" id="potion"/>
+                    </poisonSplashPotion>
+                    <slownessSplashPotion>
+                        <splashPotionSlowness damage="16394" id="potion"/>
+                        <splashPotionSlownessEx damage="16458" id="potion"/>
+                        <splashPotionSlownessII damage="16426" id="potion"/>
+                    </slownessSplashPotion>
+                    <weaknessSplashPotion>
+                        <splashPotionWeakness damage="16392" id="potion"/>
+                        <splashPotionWeaknessEx damage="16456" id="potion"/>
+                        <splashPotionWeaknessII damage="16424" id="potion"/>
+                    </weaknessSplashPotion>
+                </negativeSplashPotion>
+                <positiveSplashPotion>
+                    <fireResistanceSplashPotion>
+                        <splashPotionFireResistance damage="16387" id="potion"/>
+                        <splashPotionFireResistanceEx damage="16451" id="potion"/>
+                        <splashPotionFireResistanceII damage="16419" id="potion"/>
+                    </fireResistanceSplashPotion>
+                    <healingSplashPotion>
+                        <splashPotionHealing damage="16389" id="potion"/>
+                        <splashPotionHealingEx damage="16453" id="potion"/>
+                        <splashPotionHealingII damage="16421" id="potion"/>
+                    </healingSplashPotion>
+                    <invisibilitySplashPotion>
+                        <splashPotionInvisibility damage="16430" id="potion"/>
+                        <splashPotionInvisibilityEx damage="16462" id="potion"/>
+                    </invisibilitySplashPotion>
+                    <nightVisionSplashPotion>
+                        <splashPotionNightVision damage="16422" id="potion"/>
+                        <splashPotionNightVisionEx damage="16454" id="potion"/>
+                    </nightVisionSplashPotion>
+                    <regenerationSplashPotion>
+                        <splashPotionRegeneration damage="16385" id="potion"/>
+                        <splashPotionRegenerationEx damage="16449" id="potion"/>
+                        <splashPotionRegenerationII damage="16417" id="potion"/>
+                    </regenerationSplashPotion>
+                    <strengthSplashPotion>
+                        <splashPotionStrength damage="16393" id="potion"/>
+                        <splashPotionStrengthEx damage="16457" id="potion"/>
+                        <splashPotionStrengthII damage="16425" id="potion"/>
+                    </strengthSplashPotion>
+                    <swiftnessSplashPotion>
+                        <splashPotionSwiftness damage="16386" id="potion"/>
+                        <splashPotionSwiftnessEx damage="16450" id="potion"/>
+                        <splashPotionSwiftnessII damage="16418" id="potion"/>
+                    </swiftnessSplashPotion>
+                </positiveSplashPotion>
+                <splashMundanePotion damage="16384" id="potion"/>
+            </splashPotion>
+        </potion>
+        <potionIngredient>
+            <blazePowder id="blaze_powder"/>
+            <fermentedSpiderEye id="fermented_spider_eye"/>
+            <ghastTear id="ghast_tear"/>
+            <glisteringMelon id="speckled_melon"/>
+            <glowstoneDust id="glowstone_dust"/>
+            <magmaCream id="magma_cream"/>
+            <netherWart id="nether_wart"/>
+            <redstone id="redstone"/>
+            <spiderEye id="spider_eye"/>
+            <sugar id="sugar"/>
+        </potionIngredient>
+        <stick id="stick"/>
+        <stickBlackroot id="lotr:item.blackrootStick"/>
+        <stickMallorn id="lotr:item.mallornStick"/>
+        <stickOreDict oreDictName="stickWood"/>
+        <tauredainAmulet id="lotr:item.tauredainAmulet"/>
+        <utility>
+            <animalArmor>
+                <boarArmorBlueDwarven id="lotr:item.boarArmorBlueDwarven"/>
+                <boarArmorDwarven id="lotr:item.boarArmorDwarven"/>
+                <elkArmorWoodElven id="lotr:item.elkArmorWoodElven"/>
+                <horseArmor>
+                    <horseArmorDale id="lotr:item.horseArmorDale"/>
+                    <horseArmorDiamond id="diamond_horse_armor"/>
+                    <horseArmorDiamond id="lotr:item.horseArmorDiamond"/>
+                    <horseArmorDolAmroth id="lotr:item.horseArmorDolAmroth"/>
+                    <horseArmorGaladhrim id="lotr:item.horseArmorGaladhrim"/>
+                    <horseArmorGold id="golden_horse_armor"/>
+                    <horseArmorGold id="lotr:item.horseArmorGold"/>
+                    <horseArmorGondor id="lotr:item.horseArmorGondor"/>
+                    <horseArmorHighElven id="lotr:item.horseArmorHighElven"/>
+                    <horseArmorIron id="iron_horse_armor"/>
+                    <horseArmorIron id="lotr:item.horseArmorIron"/>
+                    <horseArmorLamedon id="lotr:item.horseArmorLamedon"/>
+                    <horseArmorMithril id="lotr:item.horseArmorMithril"/>
+                    <horseArmorMorgul id="lotr:item.horseArmorMorgul"/>
+                    <horseArmorNearHarad id="lotr:item.horseArmorNearHarad"/>
+                    <horseArmorRhunGold id="lotr:item.horseArmorRhunGold"/>
+                    <horseArmorRivendell id="lotr:item.horseArmorRivendell"/>
+                    <horseArmorRohan id="lotr:item.horseArmorRohan"/>
+                    <horseArmorUmbar id="lotr:item.horseArmorUmbar"/>
+                </horseArmor>
+                <rhinoArmorHalfTroll id="lotr:item.rhinoArmorHalfTroll"/>
+                <wargArmor>
+                    <wargArmorAngmar id="lotr:item.wargArmorAngmar"/>
+                    <wargArmorMordor id="lotr:item.wargArmorMordor"/>
+                    <wargArmorUruk id="lotr:item.wargArmorUruk"/>
+                </wargArmor>
+            </animalArmor>
+            <animalLead id="lead"/>
+            <anvil id="anvil"/>
+            <armorStand id="lotr:item.armorStand"/>
+            <armorStand id="lotr:tile.armorStand"/>
+            <banner id="lotr:item.banner"/>
+            <beacon id="beacon"/>
+            <bed>
+                <bed id="bed"/>
+                <dwarvenBed id="lotr:item.dwarvenBed"/>
+                <dwarvenBed id="lotr:tile.dwarvenBed"/>
+                <elvenBed id="lotr:item.elvenBed"/>
+                <elvenBed id="lotr:tile.elvenBed"/>
+                <highElvenBed id="lotr:item.highElvenBed"/>
+                <highElvenBed id="lotr:tile.highElvenBed"/>
+                <lionBed id="lotr:item.lionBed"/>
+                <lionBed id="lotr:tile.lionBed"/>
+                <orcBed id="lotr:item.orcBed"/>
+                <orcBed id="lotr:tile.orcBed"/>
+                <strawBed id="lotr:item.strawBed"/>
+                <strawBed id="lotr:tile.strawBed"/>
+                <wargFurBed id="lotr:item.wargFurBed"/>
+                <wargFurBed id="lotr:tile.wargFurBed"/>
+                <woodElvenBed id="lotr:item.woodElvenBed"/>
+                <woodElvenBed id="lotr:tile.woodElvenBed"/>
+            </bed>
+            <birdCage id="lotr:tile.birdCage"/>
+            <birdCageWood id="lotr:tile.birdCageWood"/>
+            <bowl id="bowl"/>
+            <brewingStand id="brewing_stand"/>
+            <butterflyJar id="lotr:tile.butterflyJar"/>
+            <cauldron id="cauldron"/>
+            <chests>
+                <chest id="chest"/>
+                <chestAncientHarad id="lotr:tile.chestAncientHarad"/>
+                <chestBasket id="lotr:tile.chestBasket"/>
+                <chestLebethron id="lotr:tile.chestLebethron"/>
+                <chestMallorn id="lotr:tile.chestMallorn"/>
+                <chestStone id="lotr:tile.chestStone"/>
+                <enderChest id="ender_chest"/>
+                <spawnerChest id="lotr:tile.spawnerChest"/>
+                <spawnerChestAncientHarad id="lotr:tile.spawnerChestAncientHarad"/>
+                <spawnerChestStone id="lotr:tile.spawnerChestStone"/>
+            </chests>
+            <commandHorn id="lotr:item.commandHorn"/>
+            <commandTable id="lotr:tile.commandTable"/>
+            <conquestHorn id="lotr:item.conquestHorn"/>
+            <craftingTable>
+                <angmarCraftingTable id="lotr:tile.angmarCraftingTable"/>
+                <blueDwarvenCraftingTable id="lotr:tile.blueDwarvenCraftingTable"/>
+                <breeCraftingTable id="lotr:tile.breeCraftingTable"/>
+                <craftingTable id="crafting_table"/>
+                <daleCraftingTable id="lotr:tile.daleCraftingTable"/>
+                <dolAmrothCraftingTable id="lotr:tile.dolAmrothCraftingTable"/>
+                <dolGuldurCraftingTable id="lotr:tile.dolGuldurCraftingTable"/>
+                <dorwinionCraftingTable id="lotr:tile.dorwinionCraftingTable"/>
+                <dunlendingCraftingTable id="lotr:tile.dunlendingCraftingTable"/>
+                <dwarvenCraftingTable id="lotr:tile.dwarvenCraftingTable"/>
+                <elvenCraftingTable id="lotr:tile.elvenCraftingTable"/>
+                <gondorianCraftingTable id="lotr:tile.gondorianCraftingTable"/>
+                <gulfCraftingTable id="lotr:tile.gulfCraftingTable"/>
+                <gundabadCraftingTable id="lotr:tile.gundabadCraftingTable"/>
+                <halfTrollCraftingTable id="lotr:tile.halfTrollCraftingTable"/>
+                <highElvenCraftingTable id="lotr:tile.highElvenCraftingTable"/>
+                <hobbitCraftingTable id="lotr:tile.hobbitCraftingTable"/>
+                <moredainCraftingTable id="lotr:tile.moredainCraftingTable"/>
+                <morgulCraftingTable id="lotr:tile.morgulCraftingTable"/>
+                <nearHaradCraftingTable id="lotr:tile.nearHaradCraftingTable"/>
+                <rangerCraftingTable id="lotr:tile.rangerCraftingTable"/>
+                <rhunCraftingTable id="lotr:tile.rhunCraftingTable"/>
+                <rivendellCraftingTable id="lotr:tile.rivendellCraftingTable"/>
+                <rohirricCraftingTable id="lotr:tile.rohirricCraftingTable"/>
+                <tauredainCraftingTable id="lotr:tile.tauredainCraftingTable"/>
+                <umbarCraftingTable id="lotr:tile.umbarCraftingTable"/>
+                <urukCraftingTable id="lotr:tile.urukCraftingTable"/>
+                <woodElvenCraftingTable id="lotr:tile.woodElvenCraftingTable"/>
+            </craftingTable>
+            <enchantedBook id="enchanted_book"/>
+            <enchantmentTable id="enchanting_table"/>
+            <entJar id="lotr:tile.entJar"/>
+            <eyeOfEnder id="ender_eye"/>
+            <flintAndSteel id="flint_and_steel"/>
+            <forge>
+                <alloyForge id="lotr:tile.alloyForge"/>
+                <dwarvenForge id="lotr:tile.dwarvenForge"/>
+                <elvenForge id="lotr:tile.elvenForge"/>
+                <furnace id="furnace"/>
+                <furnaceBurning id="lit_furnace"/>
+                <orcForge id="lotr:tile.orcForge"/>
+            </forge>
+            <hithlain id="lotr:item.hithlain"/>
+            <hobbitOven id="lotr:tile.hobbitOven"/>
+            <jukebox id="jukebox"/>
+            <millstone id="lotr:tile.millstone"/>
+            <mithrilBook id="lotr:item.mithrilBook"/>
+            <mithrilMail id="lotr:item.mithrilMail"/>
+            <modTemplate id="lotr:item.modTemplate"/>
+            <nameTag id="name_tag"/>
+            <orcBomb id="lotr:tile.orcBomb"/>
+            <readableBooks>
+                <bookAndQuill id="writable_book"/>
+                <redBook id="lotr:item.redBook"/>
+                <writtenBook id="written_book"/>
+            </readableBooks>
+            <rhunFire id="lotr:tile.rhunFire"/>
+            <rhunFireJar id="lotr:tile.rhunFireJar"/>
+            <rhunFirePot id="lotr:item.rhunFirePot"/>
+            <spawnEgg id="lotr:item.spawnEgg"/>
+            <spawnerEgg id="spawn_egg"/>
+            <structureSpawner id="lotr:item.structureSpawner"/>
+            <sulfurMatch id="lotr:item.sulfurMatch"/>
+            <tnt id="tnt"/>
+            <torch>
+                <highElvenTorch id="lotr:tile.highElvenTorch"/>
+                <mallornTorch id="lotr:tile.mallornTorch"/>
+                <mallornTorchBlue id="lotr:tile.mallornTorchBlue"/>
+                <mallornTorchGold id="lotr:tile.mallornTorchGold"/>
+                <mallornTorchGreen id="lotr:tile.mallornTorchGreen"/>
+                <morgulTorch id="lotr:tile.morgulTorch"/>
+                <orcTorch id="lotr:item.orcTorch"/>
+                <orcTorch id="lotr:tile.orcTorch"/>
+                <tauredainDoubleTorch id="lotr:item.tauredainDoubleTorch"/>
+                <tauredainDoubleTorch id="lotr:tile.tauredainDoubleTorch"/>
+                <torch id="torch"/>
+                <woodElvenTorch id="lotr:tile.woodElvenTorch"/>
+            </torch>
+            <tripwire id="tripwire"/>
+            <tripwireHook id="tripwire_hook"/>
+            <unsmeltery id="lotr:tile.unsmeltery"/>
+            <weaponRack id="lotr:tile.weaponRack"/>
+        </utility>
+        <vehicle>
+            <boat id="boat"/>
+            <minecarts>
+                <commandBlockMinecart id="command_block_minecart"/>
+                <hopperMinecart id="hopper_minecart"/>
+                <minecart id="minecart"/>
+                <poweredMinecart id="furnace_minecart"/>
+                <storageMinecart id="chest_minecart"/>
+                <tntMinecart id="tnt_minecart"/>
+            </minecarts>
+            <saddle id="saddle"/>
+        </vehicle>
+    </item>
+    <resources>
+        <dye>
+            <blackDye oreDictName="dyeBlack"/>
+            <blueDye oreDictName="dyeBlue"/>
+            <boneMeal damage="15" id="dye"/>
+            <brownDye oreDictName="dyeBrown"/>
+            <cactusGreen damage="2" id="dye"/>
+            <cocoaBeans damage="3" id="dye"/>
+            <cyanDye oreDictName="dyeCyan"/>
+            <dandelionYellow damage="11" id="dye"/>
+            <dye id="lotr:item.dye"/>
+            <grayDye oreDictName="dyeGray"/>
+            <greenDye oreDictName="dyeGreen"/>
+            <inkSac damage="0" id="dye"/>
+            <lapisLazuli damage="4" id="dye"/>
+            <lapisLazuliDye oreDictName="dyeBlue"/>
+            <lightBlueDye oreDictName="dyeLightBlue"/>
+            <lightGrayDye oreDictName="dyeLightGray"/>
+            <limeDye oreDictName="dyeLime"/>
+            <magentaDye oreDictName="dyeMagenta"/>
+            <orangeDye oreDictName="dyeOrange"/>
+            <pinkDye oreDictName="dyePink"/>
+            <purpleDye oreDictName="dyePurple"/>
+            <redDye oreDictName="dyeRed"/>
+            <roseRed damage="1" id="dye"/>
+            <whiteDye oreDictName="dyeWhite"/>
+            <yellowDye oreDictName="dyeYellow"/>
+        </dye>
+        <farmingResources>
+            <book id="book"/>
+            <bottlePoison id="lotr:item.bottlePoison"/>
+            <driedReeds id="lotr:tile.driedReeds"/>
+            <flax id="lotr:item.flax"/>
+            <flax id="lotr:tile.flax"/>
+            <milk id="milk_bucket"/>
+            <paper id="paper"/>
+            <pipeweed id="lotr:item.pipeweed"/>
+            <pipeweed id="lotr:tile.pipeweed"/>
+            <pipeweedLeaf id="lotr:item.pipeweedLeaf"/>
+            <reeds id="lotr:tile.reeds"/>
+            <sugarCane id="reeds"/>
+            <wheat id="wheat"/>
+        </farmingResources>
+        <huntingResources>
+            <balrogFire id="lotr:item.balrogFire"/>
+            <blazeRod id="blaze_rod"/>
+            <bones>
+                <bone id="bone"/>
+                <dwarfBone id="lotr:item.dwarfBone"/>
+                <elfBone id="lotr:item.elfBone"/>
+                <hobbitBone id="lotr:item.hobbitBone"/>
+                <orcBone id="lotr:item.orcBone"/>
+                <trollBone id="lotr:item.trollBone"/>
+                <wargBone id="lotr:item.wargBone"/>
+            </bones>
+            <bossTrophy id="lotr:item.bossTrophy"/>
+            <bountyTrophy id="lotr:item.bountyTrophy"/>
+            <chill id="lotr:item.chilling"/>
+            <egg id="egg"/>
+            <enderPearl id="ender_pearl"/>
+            <feather id="feather"/>
+            <gemsbokHide id="lotr:item.gemsbokHide"/>
+            <gemsbokHorn id="lotr:item.gemsbokHorn"/>
+            <ghastTear id="ghast_tear"/>
+            <gunpowder id="gunpowder"/>
+            <horn id="lotr:item.horn"/>
+            <huntingTrophy>
+                <bearRug id="lotr:item.bearRug"/>
+                <giraffeRug id="lotr:item.giraffeRug"/>
+                <lionRug id="lotr:item.lionRug"/>
+                <wargskinRug id="lotr:item.wargskinRug"/>
+            </huntingTrophy>
+            <kineArawHorn id="lotr:item.kineArawHorn"/>
+            <leather id="leather"/>
+            <lionFur id="lotr:item.lionFur"/>
+            <netherStar id="nether_star"/>
+            <nugget>
+                <goldNugget id="gold_nugget"/>
+                <ironNugget id="lotr:item.ironNugget"/>
+                <mithrilNugget id="lotr:item.mithrilNugget"/>
+                <silverNugget id="lotr:item.silverNugget"/>
+            </nugget>
+            <rhinoHorn id="lotr:item.rhinoHorn"/>
+            <slimeball id="slime_ball"/>
+            <string id="string"/>
+            <swanFeather id="lotr:item.swanFeather"/>
+            <trollStatue id="lotr:item.trollStatue"/>
+            <trollTotem id="lotr:tile.trollTotem"/>
+            <utumnoKey id="lotr:item.utumnoKey"/>
+            <wargFur id="lotr:item.wargFur"/>
+        </huntingResources>
+        <miningResources>
+            <amber id="lotr:item.amber"/>
+            <amethyst id="lotr:item.amethyst"/>
+            <charCoal damage="1" id="coal"/>
+            <clay id="clay_ball"/>
+            <clayBrick id="brick"/>
+            <clayRed id="lotr:item.redClayBall"/>
+            <coal damage="0" id="coal"/>
+            <crystals>
+                <guldurilCrystal id="lotr:item.guldurilCrystal"/>
+                <naurite id="lotr:item.naurite"/>
+                <quenditeCrystal id="lotr:item.quenditeCrystal"/>
+                <salt id="lotr:item.salt"/>
+                <saltpeter id="lotr:item.saltpeter"/>
+                <sulfur id="lotr:item.sulfur"/>
+            </crystals>
+            <diamond id="diamond"/>
+            <diamond id="lotr:item.diamond"/>
+            <dusts>
+                <brassDustOreDict oreDictName="dustBrass"/>
+                <bronzeDustOreDict oreDictName="dustBronze"/>
+                <copperDustOreDict oreDictName="dustCopper"/>
+                <glowstoneDust id="glowstone_dust"/>
+                <goldDustOreDict oreDictName="dustGold"/>
+                <ironDustOreDict oreDictName="dustIron"/>
+                <leadDustOreDict oreDictName="dustLead"/>
+                <redstoneDust id="redstone"/>
+                <silverDustOreDict oreDictName="dustSilver"/>
+                <tinDustOreDict oreDictName="dustTin"/>
+            </dusts>
+            <emerald id="emerald"/>
+            <emerald id="lotr:item.emerald"/>
+            <flint id="flint"/>
+            <gems>
+                <coral id="lotr:item.coral"/>
+                <opal id="lotr:item.opal"/>
+                <pearl id="lotr:item.pearl"/>
+                <ruby id="lotr:item.ruby"/>
+                <sapphire id="lotr:item.sapphire"/>
+                <topaz id="lotr:item.topaz"/>
+            </gems>
+            <ingots>
+                <blackUrukSteel id="lotr:item.blackUrukSteel"/>
+                <blueDwarfSteel id="lotr:item.blueDwarfSteel"/>
+                <brassOreDict oreDictName="ingotBrass"/>
+                <bronze id="lotr:item.bronze"/>
+                <bronzeOreDict oreDictName="ingotBronze"/>
+                <copper id="lotr:item.copper"/>
+                <copperOreDict oreDictName="ingotCopper"/>
+                <dwarfSteel id="lotr:item.dwarfSteel"/>
+                <elfSteel id="lotr:item.elfSteel"/>
+                <galvorn id="lotr:item.galvorn"/>
+                <gildedIron id="lotr:item.gildedIron"/>
+                <gold id="gold_ingot"/>
+                <goldOreDict oreDictName="ingotGold"/>
+                <iron id="iron_ingot"/>
+                <ironOreDict oreDictName="ingotIron"/>
+                <leadOreDict oreDictName="ingotLead"/>
+                <mithril id="lotr:item.mithril"/>
+                <morgulSteel id="lotr:item.morgulSteel"/>
+                <orcSteel id="lotr:item.orcSteel"/>
+                <silver id="lotr:item.silver"/>
+                <silverOreDict oreDictName="ingotSilver"/>
+                <tin id="lotr:item.tin"/>
+                <tinOreDict oreDictName="ingotTin"/>
+                <urukSteel id="lotr:item.urukSteel"/>
+            </ingots>
+            <netherQuartz id="quartz"/>
+            <ores>
+                <copperOreBlockOreDict oreDictName="oreCopper"/>
+                <goldOreBlock id="gold_ore"/>
+                <goldOreBlockOreDict oreDictName="oreGold"/>
+                <ironOreBlock id="iron_ore"/>
+                <ironOreBlockOreDict oreDictName="oreIron"/>
+                <leadOreBlockOreDict oreDictName="oreLead"/>
+                <silverOreBlockOreDict oreDictName="oreSilver"/>
+                <tinOreBlockOreDict oreDictName="oreTin"/>
+            </ores>
+        </miningResources>
+    </resources>
+    <unobtainable>
+        <bookshelfStorage id="lotr:tile.bookshelfStorage"/>
+        <npcRespawner id="lotr:item.npcRespawner"/>
+        <signCarved id="lotr:tile.signCarved"/>
+        <signCarvedIthildin id="lotr:tile.signCarvedIthildin"/>
+    </unobtainable>
+</stuff>
