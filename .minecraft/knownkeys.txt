@@ -91,3 +91,11 @@ MAtmos
 key.betterfoliage.gui
 Open GUI
 BetterFps
+key.omnilook.toggle
+veinminer.key.enable
+invtweaks.key.sort
+waila.keybind.showadvanced
+Cruise Control Key
+Toggle Exact Alignment
+key.keyNI.desc
+key.carbon_config.key
