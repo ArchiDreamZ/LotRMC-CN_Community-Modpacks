@@ -51,6 +51,56 @@
   },
   {
     "initialBlock": {
+      "blockName": "lotr:tile.lettuce",
+      "meta": 7
+    },
+    "finalBlock": {
+      "blockName": "lotr:tile.lettuce",
+      "meta": 0
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "lotr:tile.flax",
+      "meta": 7
+    },
+    "finalBlock": {
+      "blockName": "lotr:tile.flax",
+      "meta": 0
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "lotr:tile.leek",
+      "meta": 7
+    },
+    "finalBlock": {
+      "blockName": "lotr:tile.leek",
+      "meta": 0
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "lotr:tile.turnip",
+      "meta": 7
+    },
+    "finalBlock": {
+      "blockName": "lotr:tile.turnip",
+      "meta": 0
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "lotr:tile.pipeweed",
+      "meta": 7
+    },
+    "finalBlock": {
+      "blockName": "lotr:tile.pipeweed",
+      "meta": 0
+    }
+  },
+  {
+    "initialBlock": {
       "blockName": "lotr:tile.beetroot",
       "meta": 7
     },
@@ -66,16 +116,6 @@
     },
     "finalBlock": {
       "blockName": "lotr:tile.rice",
-      "meta": 0
-    }
-  },
-  {
-    "initialBlock": {
-      "blockName": "lotr:tile.flax",
-      "meta": 7
-    },
-    "finalBlock": {
-      "blockName": "lotr:tile.flax",
       "meta": 0
     }
   },
