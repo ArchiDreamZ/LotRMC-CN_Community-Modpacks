@@ -12,9 +12,11 @@
 .minecraft/XaeroWorldMap/
 .minecraft/XaeroWaypoints/
 .minecraft/logs/falsepattern_tmp/
+.minecraft/config/time.history
 
 # PCL2启动器相关
 PCL/*.txt
+PCL/LatestLaunch.bat
 .minecraft/PCL.ini
 .minecraft/launcher_profiles.json
 
