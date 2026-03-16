@@ -17,8 +17,8 @@ crosshair_type:0
 crosshair_width:1
 crosshair_height:1
 crosshair_gap:3
-crosshair_thickness:2
-crosshair_rotation:0
+crosshair_thickness:1
+crosshair_rotation:44
 visible_default:true
 visible_hiddenGui:false
 visible_debug:true
@@ -28,11 +28,11 @@ outline_colour:0/0/0/255
 dot_enabled:false
 dot_colour:0/0/0/255
 dynamic_bow_enabled:true
-highlight_hostile_enabled:false
+highlight_hostile_enabled:true
 highlight_hostile_colour:255/0/0/255
-highlight_passive_enabled:false
+highlight_passive_enabled:true
 highlight_passive_colour:0/255/0/255
-highlight_players_enabled:false
+highlight_players_enabled:true
 highlight_players_colour:0/0/255/255
 rainbow_enabled:false
 rainbow_speed:500
