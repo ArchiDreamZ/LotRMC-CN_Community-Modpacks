@@ -15,7 +15,7 @@ difficulty:3
 fancyGraphics:true
 ao:2
 clouds:true
-resourcePacks:["MAtmos-MSI_Conversion-1.1 彼梦修复版.zip","MAtmos-2020-Zen-35-1.2.2.zip","魔戒主题音乐包-LotR Themed Music Pack-彼梦制作.zip","Modernity-format1-v3.8.1 (高版本材质移植).zip","EverOn-魔戒风格GUI材质包-彼梦修复更新版-2026.3.17.zip"]
+resourcePacks:["MAtmos-MSI_Conversion-1.1 彼梦修复版.zip","MAtmos-2020-Zen-35-1.2.2.zip","魔戒主题音乐包-LotR Themed Music Pack-彼梦制作.zip","Modernity-format1-v3.10.2 (高版本材质移植) .zip","EverOn-魔戒风格GUI材质包v2.1-彼梦修复更新-2026.3.18.zip"]
 lastServer:
 lang:zh_CN
 chatVisibility:0
