@@ -99,3 +99,5 @@ Cruise Control Key
 Toggle Exact Alignment
 key.keyNI.desc
 key.carbon_config.key
+asjcore.orthoProjection
+asjcore.noEntityInteract
