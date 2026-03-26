@@ -11,8 +11,10 @@
 .minecraft/config/time.history
 .minecraft/XaeroWorldMap/
 .minecraft/XaeroWaypoints/
+.minecraft/XaeroWaypoints*/
 .minecraft/logs/falsepattern_tmp/
 .minecraft/config/time.history
+.minecraft/coretweaks
 
 # PCL2启动器相关
 PCL/*.txt
@@ -20,3 +22,7 @@ PCL/LatestLaunch.bat
 .minecraft/PCL.ini
 .minecraft/launcher_profiles.json
 
+# 其他
+.minecraft/usernamecache.json
+.minecraft/screenshots
+.minecraft/bettercrashes-stackdeobfuscator-methods.csv
