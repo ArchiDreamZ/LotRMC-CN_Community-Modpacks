@@ -16,10 +16,6 @@ key_key.screenshot:60
 key_key.togglePerspective:63
 key_key.smoothCamera:0
 key_key.sprint:29
-key_key.streamStartStop:0
-key_key.streamPauseUnpause:0
-key_key.streamCommercial:0
-key_key.streamToggleMic:0
 key_key.fullscreen:87
 key_key.hotbar.1:2
 key_key.hotbar.2:3
@@ -50,7 +46,6 @@ key_Reload Default Sound:65
 key_itemscroller.desc.toggledisable:0
 key_itemscroller.desc.recipe:0
 key_smoothfont.key.guiOpen:68
-key_FpsReducer.key.guiOpen:0
 key_WorldEdit Reference:0
 key_±³°üÎïÆ·±à¼­Æ÷:21
 key_Camera left:203
@@ -58,6 +53,7 @@ key_Camera right:205
 key_Camera closer:200
 key_Camera farther:208
 key_Swap shoulder:0
+key_FpsReducer.key.guiOpen:0
 key_invtweaks.key.sort:19
 key_waila.keybind.wailaconfig:82
 key_waila.keybind.wailadisplay:79
@@ -89,7 +85,8 @@ key_key.betterHud.open:66
 key_Cruise Control Key:0
 key_Toggle Exact Alignment:0
 key_MAtmos:65
-key_key.keyNI.desc:0
+key_asjcore.orthoProjection:64
+key_asjcore.noEntityInteract:64
 key_key.betterfoliage.gui:0
 key_Open GUI:34
 key_key.carbon_config.key:0
