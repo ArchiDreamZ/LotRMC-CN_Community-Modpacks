@@ -54,6 +54,7 @@ key_Camera closer:200
 key_Camera farther:208
 key_Swap shoulder:0
 key_FpsReducer.key.guiOpen:0
+key_key.item_search.openMCMOD:199
 key_invtweaks.key.sort:19
 key_waila.keybind.wailaconfig:82
 key_waila.keybind.wailadisplay:79
