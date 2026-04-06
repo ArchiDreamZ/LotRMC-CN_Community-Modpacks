@@ -103,7 +103,6 @@ key_itemscroller.desc.recipe:0
 key_Open sound muffler screen:65
 key_smoothfont.key.guiOpen:68:CONTROL
 key_WorldEdit Reference:0
-key_±³°üÎïÆ·±à¼­Æ÷:21
 key_Camera left:203:CONTROL
 key_Camera right:205:CONTROL
 key_Camera closer:200:CONTROL
