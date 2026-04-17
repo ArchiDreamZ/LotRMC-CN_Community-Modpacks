@@ -10,13 +10,9 @@
 
 # 缓存文件
 .minecraft/config/time.history
-.minecraft/usernamecache.json
-.minecraft/XaeroWorldMap/
-.minecraft/XaeroWaypoints/
-.minecraft/XaeroWaypoints*/
 .minecraft/logs/falsepattern_tmp/
-.minecraft/config/time.history
 .minecraft/coretweaks/
+.minecraft/mcdata/
 
 # PCL2启动器相关
 PCL/*.txt
@@ -24,10 +20,16 @@ PCL/LatestLaunch.bat
 .minecraft/PCL.ini
 .minecraft/launcher_profiles.json
 
-# 其他
+# 个人文件
 .minecraft/usernamecache.json
 .minecraft/screenshots/
-.minecraft/bettercrashes-stackdeobfuscator-methods.csv
-.minecraft/localconfig.cfg
 .minecraft/saves/NEI/
 .minecraft/saves/NBTEdit.dat
+.minecraft/XaeroWorldMap/
+.minecraft/XaeroWaypoints/
+.minecraft/XaeroWaypoints*/
+.minecraft/bettercrashes-stackdeobfuscator-methods.csv
+.minecraft/localconfig.cfg
+.minecraft/ESM/
+.minecraft/lotrmusic/readme.txt
+

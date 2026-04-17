@@ -101,3 +101,5 @@ key.keyNI.desc
 key.carbon_config.key
 asjcore.orthoProjection
 asjcore.noEntityInteract
+key.item_search.openMCMOD
+Open sound muffler screen
