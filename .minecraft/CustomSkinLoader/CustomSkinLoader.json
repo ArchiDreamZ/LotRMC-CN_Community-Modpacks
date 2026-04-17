@@ -1,52 +1,69 @@
 {
-  "version": "14.6",
-  "enable": true,
+  "version": "14.15",
+  "buildNumber": 348,
   "loadlist": [
     {
       "name": "Mojang",
-      "type": "MojangAPI"
+      "type": "MojangAPI",
+      "apiRoot": "https://api.mojang.com/",
+      "sessionRoot": "https://sessionserver.mojang.com/"
     },
     {
-      "name": "LittleSkin China",
+      "name": "LittleSkin",
       "type": "CustomSkinAPI",
       "root": "https://littleskin.cn/csl/"
-    },	
+    },
+    {
+      "name": "BlessingSkin",
+      "type": "CustomSkinAPI",
+      "root": "https://skin.prinzeugen.net/"
+    },
+    {
+      "name": "ElyBy",
+      "type": "ElyByAPI",
+      "root": "http://skinsystem.ely.by/textures/"
+    },
     {
       "name": "SkinMe",
       "type": "UniSkinAPI",
       "root": "http://www.skinme.cc/uniskin/"
     },
     {
-      "name": "BlessingSkin",
-      "type": "CustomSkinAPI",
-      "root": "http://skin.prinzeugen.net/"
-    },
-    {
-      "name": "McSkin",
-      "type": "CustomSkinAPI",
-      "root": "http://www.mcskin.cc/"
-    },
-    {
-      "name": "OneSkin",
-      "type": "CustomSkinAPI",
-      "root": "http://fleey.org/skin/skin_user/skin_json.php/"
+      "name": "TLauncher",
+      "type": "ElyByAPI",
+      "root": "https://auth.tlauncher.org/skin/profile/texture/login/"
     },
     {
       "name": "LocalSkin",
       "type": "Legacy",
       "checkPNG": false,
       "skin": "LocalSkin/skins/{USERNAME}.png",
-      "model": "default",
+      "model": "auto",
       "cape": "LocalSkin/capes/{USERNAME}.png",
       "elytra": "LocalSkin/elytras/{USERNAME}.png"
+    },
+    {
+      "name": "GlitchlessGames",
+      "type": "GlitchlessAPI",
+      "root": "https://games.glitchless.ru/api/minecraft/users/profiles/textures/?nickname\u003d"
+    },
+    {
+      "name": "MinecraftCapes",
+      "type": "MinecraftCapesAPI",
+      "root": "https://minecraftcapes.net/profile/"
     }
   ],
-  "enableSkull": true,
   "enableDynamicSkull": true,
   "enableTransparentSkin": true,
-  "ignoreHttpsCertificate": false,
-  "cacheExpiry": 10,
-  "enableUpdateSkull": false,
+  "forceIgnoreHttpsCertificate": false,
+  "forceLoadAllTextures": false,
+  "enableCape": true,
+  "threadPoolSize": 3,
+  "retryTime": 1,
+  "enableLogStdOut": false,
+  "cacheExpiry": 30,
+  "forceUpdateSkull": false,
   "enableLocalProfileCache": false,
-  "enableCacheAutoClean": false
+  "enableCacheAutoClean": false,
+  "forceDisableCache": false
 }
