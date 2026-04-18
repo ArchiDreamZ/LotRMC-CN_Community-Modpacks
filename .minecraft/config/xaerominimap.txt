@@ -13,8 +13,8 @@ caveZoom:1
 showPlayers:true
 showHostile:true
 showMobs:true
-showItems:false
-showOther:false
+showItems:true
+showOther:true
 showOtherTeam:true
 showTamed:true
 showWaypoints:true
