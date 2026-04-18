@@ -4,16 +4,29 @@
 # Any handlers that are missing from this file will be assigned to 0.
 # Negative numbers are fine.
 # If you delete this file, it will be regenerated with all registered handler IDs.
+campfirebackport.campfireRecipe,0
+campfirebackport.campfireStateChanger,0
+campfirebackport.signalFireBlocks,0
 codechicken.nei.recipe.BrewingRecipeHandler,0
 codechicken.nei.recipe.FireworkRecipeHandler,0
 codechicken.nei.recipe.FuelRecipeHandler,0
 codechicken.nei.recipe.FurnaceRecipeHandler,0
+codechicken.nei.recipe.InformationHandler,0
 codechicken.nei.recipe.ShapedRecipeHandler,0
 codechicken.nei.recipe.ShapelessRecipeHandler,0
 connor135246.campfirebackport.client.compat.nei.NEICampfireRecipeHandler,0
 connor135246.campfirebackport.client.compat.nei.NEICampfireStateChangerHandler,0
-ganymedes01.etfuturum.NEI_EtFuturum_Config$NEI_Recipes_BlastFurnace,0
-ganymedes01.etfuturum.NEI_EtFuturum_Config$NEI_Recipes_Smoker,0
-team.chisel.compat.nei.RecipeHandlerChisel,0
+ganymedes01.etfuturum.compat.nei.BannerPatternHandler,0
+ganymedes01.etfuturum.compat.nei.BlastFurnaceRecipeHandler,0
+ganymedes01.etfuturum.compat.nei.ComposterHandler,0
+ganymedes01.etfuturum.compat.nei.SmokerRecipeHandler,0
+neresources.nei.NEIAdvSeedHandler,0
+neresources.nei.NEIDungeonHandler,0
+neresources.nei.NEIEnchantmentHandler,0
+neresources.nei.NEIMobHandler,0
+neresources.nei.NEIOreHandler,0
+neresources.nei.NEIPlantHandler,0
 tonius.neiintegration.mods.mcforge.RecipeHandlerFluidRegistry,0
 tonius.neiintegration.mods.mcforge.RecipeHandlerOreDictionary,0
+vanilla.craftingTable,0
+vanilla.furnace,0
