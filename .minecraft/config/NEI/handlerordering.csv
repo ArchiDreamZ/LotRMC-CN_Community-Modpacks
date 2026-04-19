@@ -12,6 +12,8 @@ codechicken.nei.recipe.FireworkRecipeHandler,0
 codechicken.nei.recipe.FuelRecipeHandler,0
 codechicken.nei.recipe.FurnaceRecipeHandler,0
 codechicken.nei.recipe.InformationHandler,0
+codechicken.nei.recipe.ProfilerRecipeHandler,0
+codechicken.nei.recipe.RepairRecipeHandler,0
 codechicken.nei.recipe.ShapedRecipeHandler,0
 codechicken.nei.recipe.ShapelessRecipeHandler,0
 connor135246.campfirebackport.client.compat.nei.NEICampfireRecipeHandler,0
