@@ -1,5 +1,7 @@
 # 日志文件
 *.log
+*.log.xz
+*.log.gz
 .minecraft/NBTEdit.log
 .minecraft/CustomSkinLoader/Tweaker.log
 .minecraft/CustomSkinLoader/CustomSkinLoader.log
@@ -14,11 +16,12 @@
 .minecraft/coretweaks/
 .minecraft/mcdata/
 
-# PCL2启动器相关
+# 启动器相关
 PCL/*.txt
 PCL/LatestLaunch.bat
 .minecraft/PCL.ini
 .minecraft/launcher_profiles.json
+.hmcl/hmcl.json
 
 # 个人文件
 .minecraft/usernamecache.json
