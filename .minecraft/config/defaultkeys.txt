@@ -52,7 +52,10 @@ key_Camera left:203
 key_Camera right:205
 key_Camera closer:200
 key_Camera farther:208
+key_Camera up:200
+key_Camera down:208
 key_Swap shoulder:0
+key_Toggle perspective:0
 key_FpsReducer.key.guiOpen:0
 key_key.item_search.openMCMOD:199
 key_invtweaks.key.sort:19
@@ -91,3 +94,4 @@ key_asjcore.noEntityInteract:78
 key_key.betterfoliage.gui:0
 key_Open GUI:34
 key_key.carbon_config.key:0
+key_key.carbon_config.dep:0
