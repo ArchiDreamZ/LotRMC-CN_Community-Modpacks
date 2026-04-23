@@ -28,6 +28,10 @@ PCL/LatestLaunch.bat
 .minecraft/screenshots/
 .minecraft/saves/NEI/
 .minecraft/saves/NBTEdit.dat
+.minecraft/saves/*/playerdata/
+.minecraft/saves/*/NEI/
+.minecraft/saves/*/LOTR/players/
+.minecraft/saves/*/stats/
 .minecraft/XaeroWorldMap/
 .minecraft/XaeroWaypoints/
 .minecraft/XaeroWaypoints*/
