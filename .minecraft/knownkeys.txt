@@ -103,3 +103,8 @@ asjcore.orthoProjection
 asjcore.noEntityInteract
 key.item_search.openMCMOD
 Open sound muffler screen
+打开音效消音器界面
+Camera up
+Camera down
+Toggle perspective
+key.carbon_config.dep
