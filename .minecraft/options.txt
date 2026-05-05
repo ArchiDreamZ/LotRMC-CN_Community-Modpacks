@@ -103,14 +103,6 @@ key_itemscroller.desc.recipe:0
 key_打开音效消音器界面:66
 key_smoothfont.key.guiOpen:68:CONTROL
 key_WorldEdit Reference:0
-key_Camera left:203:CONTROL
-key_Camera right:205:CONTROL
-key_Camera closer:200:CONTROL
-key_Camera farther:208:CONTROL
-key_Camera up:200:ALT
-key_Camera down:208:ALT
-key_Swap shoulder:0
-key_Toggle perspective:0
 key_FpsReducer.key.guiOpen:0
 key_key.item_search.openMCMOD:199
 key_invtweaks.key.sort:19
@@ -141,6 +133,14 @@ key_gui.xaero_display_all_sets:0
 key_gui.xaero_toggle_light_overlay:0
 key_gui.xaero_minimap_settings:49:CONTROL
 key_key.betterHud.open:67:CONTROL
+key_Camera left:203:CONTROL
+key_Camera right:205:CONTROL
+key_Camera closer:200:CONTROL
+key_Camera farther:208:CONTROL
+key_Camera up:200:ALT
+key_Camera down:208:ALT
+key_Swap shoulder:0
+key_Toggle perspective:0
 key_Cruise Control Key:0
 key_Toggle Exact Alignment:0
 key_MAtmos:66:CONTROL
