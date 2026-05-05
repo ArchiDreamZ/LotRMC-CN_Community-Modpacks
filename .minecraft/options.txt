@@ -100,7 +100,6 @@ key_Reload Default Sound:66:SHIFT
 key_itemscroller.desc.toggledisable:0
 key_itemscroller.desc.recipe:0
 key_打开音效消音器界面:66
-key_smoothfont.key.guiOpen:68:CONTROL
 key_WorldEdit Reference:0
 key_FpsReducer.key.guiOpen:0
 key_key.item_search.openMCMOD:199
@@ -146,7 +145,7 @@ key_MAtmos:66:CONTROL
 key_Reload Shaders:0
 key_Toggle Shaders:0
 key_Shaderpack Selection Screen:0
-key_Zoom:0
+key_Zoom:44
 key_asjcore.orthoProjection:210
 key_asjcore.noEntityInteract:78
 key_key.betterfoliage.gui:0
