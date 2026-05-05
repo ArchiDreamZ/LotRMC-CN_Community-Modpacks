@@ -1,5 +1,6 @@
 # 日志文件
 *.log
+*.log.lck
 *.log.xz
 *.log.gz
 .minecraft/NBTEdit.log
