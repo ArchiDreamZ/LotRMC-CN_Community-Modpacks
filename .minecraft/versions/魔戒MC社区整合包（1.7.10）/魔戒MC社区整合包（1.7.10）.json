@@ -1,4 +1,167 @@
 {
+  "arguments": {
+    "game": [
+      "--username",
+      "${auth_player_name}",
+      "--version",
+      "${version_name}",
+      "--gameDir",
+      "${game_directory}",
+      "--assetsDir",
+      "${assets_root}",
+      "--assetIndex",
+      "${assets_index_name}",
+      "--uuid",
+      "${auth_uuid}",
+      "--accessToken",
+      "${auth_access_token}",
+      "--userProperties",
+      "${user_properties}",
+      "--userType",
+      "${user_type}",
+      "--tweakClass",
+      "cpw.mods.fml.common.launcher.FMLTweaker",
+      {
+        "rules": [
+          {
+            "action": "allow",
+            "features": {
+              "is_demo_user": true
+            }
+          }
+        ],
+        "value": "--demo"
+      },
+      {
+        "rules": [
+          {
+            "action": "allow",
+            "features": {
+              "has_custom_resolution": true
+            }
+          }
+        ],
+        "value": [
+          "--width",
+          "${resolution_width}",
+          "--height",
+          "${resolution_height}"
+        ]
+      }
+    ],
+    "jvm": [
+      {
+        "rules": [
+          {
+            "action": "allow",
+            "os": {
+              "name": "windows"
+            }
+          }
+        ],
+        "value": "-XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump"
+      },
+      {
+        "rules": [
+          {
+            "action": "allow",
+            "os": {
+              "arch": "x86"
+            }
+          }
+        ],
+        "value": "-Xss1M"
+      },
+      {
+        "rules": [
+          {
+            "action": "allow",
+            "os": {
+              "name": "osx"
+            }
+          }
+        ],
+        "value": [
+          "-XstartOnFirstThread"
+        ]
+      },
+      "-Djava.library.path=${natives_directory}",
+      "-cp",
+      "${classpath}",
+      "-Dfile.encoding=UTF-8",
+      "-Djava.system.class.loader=com.gtnewhorizons.retrofuturabootstrap.RfbSystemClassLoader",
+      "--enable-native-access",
+      "ALL-UNNAMED",
+      "--add-opens",
+      "java.base/java.io=ALL-UNNAMED",
+      "--add-opens",
+      "java.base/java.lang.invoke=ALL-UNNAMED",
+      "--add-opens",
+      "java.base/java.lang.ref=ALL-UNNAMED",
+      "--add-opens",
+      "java.base/java.lang.reflect=ALL-UNNAMED",
+      "--add-opens",
+      "java.base/java.lang=ALL-UNNAMED",
+      "--add-opens",
+      "java.base/java.net.spi=ALL-UNNAMED",
+      "--add-opens",
+      "java.base/java.net=ALL-UNNAMED",
+      "--add-opens",
+      "java.base/java.nio.channels=ALL-UNNAMED",
+      "--add-opens",
+      "java.base/java.nio.charset=ALL-UNNAMED",
+      "--add-opens",
+      "java.base/java.nio.file=ALL-UNNAMED",
+      "--add-opens",
+      "java.base/java.nio=ALL-UNNAMED",
+      "--add-opens",
+      "java.base/java.text=ALL-UNNAMED",
+      "--add-opens",
+      "java.base/java.time.chrono=ALL-UNNAMED",
+      "--add-opens",
+      "java.base/java.time.format=ALL-UNNAMED",
+      "--add-opens",
+      "java.base/java.time.temporal=ALL-UNNAMED",
+      "--add-opens",
+      "java.base/java.time.zone=ALL-UNNAMED",
+      "--add-opens",
+      "java.base/java.time=ALL-UNNAMED",
+      "--add-opens",
+      "java.base/java.util.concurrent.atomic=ALL-UNNAMED",
+      "--add-opens",
+      "java.base/java.util.concurrent.locks=ALL-UNNAMED",
+      "--add-opens",
+      "java.base/java.util.jar=ALL-UNNAMED",
+      "--add-opens",
+      "java.base/java.util.zip=ALL-UNNAMED",
+      "--add-opens",
+      "java.base/java.util=ALL-UNNAMED",
+      "--add-opens",
+      "java.base/jdk.internal.loader=ALL-UNNAMED",
+      "--add-opens",
+      "java.base/jdk.internal.misc=ALL-UNNAMED",
+      "--add-opens",
+      "java.base/jdk.internal.ref=ALL-UNNAMED",
+      "--add-opens",
+      "java.base/jdk.internal.reflect=ALL-UNNAMED",
+      "--add-opens",
+      "java.base/sun.nio.ch=ALL-UNNAMED",
+      "--add-opens",
+      "java.desktop/com.sun.imageio.plugins.png=ALL-UNNAMED",
+      "--add-opens",
+      "java.desktop/sun.awt.image=ALL-UNNAMED",
+      "--add-opens",
+      "java.desktop/sun.awt=ALL-UNNAMED",
+      "--add-opens",
+      "java.desktop/sun.lwawt.macosx=ALL-UNNAMED",
+      "--add-opens",
+      "java.sql.rowset/javax.sql.rowset.serial=ALL-UNNAMED",
+      "--add-opens",
+      "jdk.dynalink/jdk.dynalink.beans=ALL-UNNAMED",
+      "--add-opens",
+      "jdk.naming.dns/com.sun.jndi.dns=ALL-UNNAMED,java.naming"
+    ]
+  },
   "assetIndex": {
     "id": "1.7.10",
     "sha1": "1863782e33ce7b584fc45b037325a1964e095d3e",
@@ -27,8 +190,8 @@
   },
   "id": "魔戒MC社区整合包（1.7.10）",
   "javaVersion": {
-    "component": "jre-legacy",
-    "majorVersion": 8
+    "component": "java-runtime-epsilon",
+    "majorVersion": 25
   },
   "libraries": [
     {
@@ -52,17 +215,6 @@
         }
       },
       "name": "com.mojang:realms:1.3.5"
-    },
-    {
-      "downloads": {
-        "artifact": {
-          "path": "org/apache/commons/commons-compress/1.8.1/commons-compress-1.8.1.jar",
-          "sha1": "a698750c16740fd5b3871425f4cb3bbaa87f529d",
-          "size": 365552,
-          "url": "https://libraries.minecraft.net/org/apache/commons/commons-compress/1.8.1/commons-compress-1.8.1.jar"
-        }
-      },
-      "name": "org.apache.commons:commons-compress:1.8.1"
     },
     {
       "downloads": {
@@ -210,39 +362,6 @@
     {
       "downloads": {
         "artifact": {
-          "path": "com/google/guava/guava/15.0/guava-15.0.jar",
-          "sha1": "ed727a8d9f247e2050281cb083f1c77b09dcb5cd",
-          "size": 2172168,
-          "url": "https://libraries.minecraft.net/com/google/guava/guava/15.0/guava-15.0.jar"
-        }
-      },
-      "name": "com.google.guava:guava:15.0"
-    },
-    {
-      "downloads": {
-        "artifact": {
-          "path": "org/apache/commons/commons-lang3/3.1/commons-lang3-3.1.jar",
-          "sha1": "905075e6c80f206bbe6cf1e809d2caa69f420c76",
-          "size": 315805,
-          "url": "https://libraries.minecraft.net/org/apache/commons/commons-lang3/3.1/commons-lang3-3.1.jar"
-        }
-      },
-      "name": "org.apache.commons:commons-lang3:3.1"
-    },
-    {
-      "downloads": {
-        "artifact": {
-          "path": "commons-io/commons-io/2.4/commons-io-2.4.jar",
-          "sha1": "b1b6ea3b7e4aa4f492509a4952029cd8e48019ad",
-          "size": 185140,
-          "url": "https://libraries.minecraft.net/commons-io/commons-io/2.4/commons-io-2.4.jar"
-        }
-      },
-      "name": "commons-io:commons-io:2.4"
-    },
-    {
-      "downloads": {
-        "artifact": {
           "path": "commons-codec/commons-codec/1.9/commons-codec-1.9.jar",
           "sha1": "9ce04e34240f674bc72680f8b843b1457383161a",
           "size": 263965,
@@ -276,13 +395,13 @@
     {
       "downloads": {
         "artifact": {
-          "path": "com/google/code/gson/gson/2.2.4/gson-2.2.4.jar",
-          "sha1": "a60a5e993c98c864010053cb901b7eab25306568",
-          "size": 190432,
-          "url": "https://libraries.minecraft.net/com/google/code/gson/gson/2.2.4/gson-2.2.4.jar"
+          "path": "com/google/code/gson/gson/2.10.1/gson-2.10.1.jar",
+          "sha1": "b3add478d4382b78ea20b1671390a858002feb6c",
+          "size": 283367,
+          "url": "https://libraries.minecraft.net/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar"
         }
       },
-      "name": "com.google.code.gson:gson:2.2.4"
+      "name": "com.google.code.gson:gson:2.10.1"
     },
     {
       "downloads": {
@@ -320,59 +439,2234 @@
     {
       "downloads": {
         "artifact": {
-          "path": "org/lwjgl/lwjgl/lwjgl/2.9.1/lwjgl-2.9.1.jar",
-          "sha1": "f58c5aabcef0e41718a564be9f8e412fff8db847",
-          "size": 1014790,
-          "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl/lwjgl/2.9.1/lwjgl-2.9.1.jar"
+          "sha1": "230f45514455a39049439e655932b82878a06937",
+          "size": 1217269,
+          "url": "https://nexus.gtnewhorizons.com/repository/central-sonatype-snapshots/org/lwjgl/lwjgl-freetype/3.4.2-SNAPSHOT/lwjgl-freetype-3.4.2-20260225.192616-2-natives-freebsd.jar"
         }
       },
-      "name": "org.lwjgl.lwjgl:lwjgl:2.9.1"
+      "name": "org.lwjgl:lwjgl-freetype-natives-freebsd:3.4.2-20260225.192616-2",
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "freebsd"
+          }
+        }
+      ]
     },
     {
       "downloads": {
         "artifact": {
-          "path": "org/lwjgl/lwjgl/lwjgl_util/2.9.1/lwjgl_util-2.9.1.jar",
-          "sha1": "290d7ba8a1bd9566f5ddf16ad06f09af5ec9b20e",
-          "size": 173909,
-          "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl/lwjgl_util/2.9.1/lwjgl_util-2.9.1.jar"
+          "sha1": "e029da6a0d0332e204deeda3a800955b2ca53cff",
+          "size": 1075323,
+          "url": "https://nexus.gtnewhorizons.com/repository/central-sonatype-snapshots/org/lwjgl/lwjgl-freetype/3.4.2-SNAPSHOT/lwjgl-freetype-3.4.2-20260225.192616-2-natives-linux-arm32.jar"
         }
       },
-      "name": "org.lwjgl.lwjgl:lwjgl_util:2.9.1"
+      "name": "org.lwjgl:lwjgl-freetype-natives-linux-arm32:3.4.2-20260225.192616-2",
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "linux-arm32"
+          }
+        }
+      ]
     },
     {
       "downloads": {
-        "classifiers": {
-          "natives-linux": {
-            "path": "org/lwjgl/lwjgl/lwjgl-platform/2.9.1/lwjgl-platform-2.9.1-natives-linux.jar",
-            "sha1": "aa9aae879af8eb378e22cfc64db56ec2ca9a44d1",
-            "size": 571424,
-            "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl/lwjgl-platform/2.9.1/lwjgl-platform-2.9.1-natives-linux.jar"
-          },
-          "natives-osx": {
-            "path": "org/lwjgl/lwjgl/lwjgl-platform/2.9.1/lwjgl-platform-2.9.1-natives-osx.jar",
-            "sha1": "2d12c83fdfbc04ecabf02c7bc8cc54d034f0daac",
-            "size": 527196,
-            "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl/lwjgl-platform/2.9.1/lwjgl-platform-2.9.1-natives-osx.jar"
-          },
-          "natives-windows": {
-            "path": "org/lwjgl/lwjgl/lwjgl-platform/2.9.1/lwjgl-platform-2.9.1-natives-windows.jar",
-            "sha1": "4c517eca808522457dd95ee8fc1fbcdbb602efbe",
-            "size": 611334,
-            "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl/lwjgl-platform/2.9.1/lwjgl-platform-2.9.1-natives-windows.jar"
-          }
+        "artifact": {
+          "sha1": "2e9781444b877f019f65a396c80d16a3430b6f65",
+          "size": 1309581,
+          "url": "https://nexus.gtnewhorizons.com/repository/central-sonatype-snapshots/org/lwjgl/lwjgl-freetype/3.4.2-SNAPSHOT/lwjgl-freetype-3.4.2-20260225.192616-2-natives-linux-arm64.jar"
         }
       },
-      "extract": {
-        "exclude": [
-          "META-INF/"
-        ]
+      "name": "org.lwjgl:lwjgl-freetype-natives-linux-arm64:3.4.2-20260225.192616-2",
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "linux-arm64"
+          }
+        }
+      ]
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "e76bda7a31fd02bfd876ca4da1a11660d54da48c",
+          "size": 1571941,
+          "url": "https://nexus.gtnewhorizons.com/repository/central-sonatype-snapshots/org/lwjgl/lwjgl-freetype/3.4.2-SNAPSHOT/lwjgl-freetype-3.4.2-20260225.192616-2-natives-linux-ppc64le.jar"
+        }
       },
-      "name": "org.lwjgl.lwjgl:lwjgl-platform:2.9.1",
-      "natives": {
-        "linux": "natives-linux",
-        "osx": "natives-osx",
-        "windows": "natives-windows"
-      }
+      "name": "org.lwjgl:lwjgl-freetype-natives-linux-ppc64le:3.4.2-20260225.192616-2",
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "linux-ppc64le"
+          }
+        }
+      ]
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "fc569aac1ad8fab1217ddbd4419916a44767bb28",
+          "size": 1390073,
+          "url": "https://nexus.gtnewhorizons.com/repository/central-sonatype-snapshots/org/lwjgl/lwjgl-freetype/3.4.2-SNAPSHOT/lwjgl-freetype-3.4.2-20260225.192616-2-natives-linux.jar"
+        }
+      },
+      "name": "org.lwjgl:lwjgl-freetype-natives-linux:3.4.2-20260225.192616-2",
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "linux"
+          }
+        }
+      ]
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "5b18d79f229db03372905564b90c2ae6b2bb6007",
+          "size": 1071668,
+          "url": "https://nexus.gtnewhorizons.com/repository/central-sonatype-snapshots/org/lwjgl/lwjgl-freetype/3.4.2-SNAPSHOT/lwjgl-freetype-3.4.2-20260225.192616-2-natives-macos-arm64.jar"
+        }
+      },
+      "name": "org.lwjgl:lwjgl-freetype-natives-macos-arm64:3.4.2-20260225.192616-2",
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "osx"
+          }
+        },
+        {
+          "action": "allow",
+          "os": {
+            "name": "osx-arm64"
+          }
+        }
+      ]
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "1ee77f0d333eb14af1238ff4a52340a2a83cca5c",
+          "size": 1181301,
+          "url": "https://nexus.gtnewhorizons.com/repository/central-sonatype-snapshots/org/lwjgl/lwjgl-freetype/3.4.2-SNAPSHOT/lwjgl-freetype-3.4.2-20260225.192616-2-natives-macos.jar"
+        }
+      },
+      "name": "org.lwjgl:lwjgl-freetype-natives-macos:3.4.2-20260225.192616-2",
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "osx"
+          }
+        }
+      ]
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "9578aca84d3d4f021282a2146a541996f834ba3b",
+          "size": 970172,
+          "url": "https://nexus.gtnewhorizons.com/repository/central-sonatype-snapshots/org/lwjgl/lwjgl-freetype/3.4.2-SNAPSHOT/lwjgl-freetype-3.4.2-20260225.192616-2-natives-windows-arm64.jar"
+        }
+      },
+      "name": "org.lwjgl:lwjgl-freetype-natives-windows-arm64:3.4.2-20260225.192616-2",
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "windows"
+          }
+        },
+        {
+          "action": "allow",
+          "os": {
+            "name": "windows-arm64"
+          }
+        }
+      ]
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "5257ced9599eda871471b981c4d9cc60353a937c",
+          "size": 934297,
+          "url": "https://nexus.gtnewhorizons.com/repository/central-sonatype-snapshots/org/lwjgl/lwjgl-freetype/3.4.2-SNAPSHOT/lwjgl-freetype-3.4.2-20260225.192616-2-natives-windows-x86.jar"
+        }
+      },
+      "name": "org.lwjgl:lwjgl-freetype-natives-windows-x86:3.4.2-20260225.192616-2",
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "windows"
+          }
+        }
+      ]
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "86cd881e0ed1b323a759c565f14a6b80fe77de9e",
+          "size": 1086625,
+          "url": "https://nexus.gtnewhorizons.com/repository/central-sonatype-snapshots/org/lwjgl/lwjgl-freetype/3.4.2-SNAPSHOT/lwjgl-freetype-3.4.2-20260225.192616-2-natives-windows.jar"
+        }
+      },
+      "name": "org.lwjgl:lwjgl-freetype-natives-windows:3.4.2-20260225.192616-2",
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "windows"
+          }
+        }
+      ]
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "e40a3d13851c22e87d925a5982b383a12f5899df",
+          "size": 464636,
+          "url": "https://nexus.gtnewhorizons.com/repository/central-sonatype-snapshots/org/lwjgl/lwjgl-freetype/3.4.2-SNAPSHOT/lwjgl-freetype-3.4.2-20260225.192616-2.jar"
+        }
+      },
+      "name": "org.lwjgl:lwjgl-freetype:3.4.2-20260225.192616-2"
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "a278a425bed3a6a0c5ea2a54b5e1406337bf6566",
+          "size": 314469,
+          "url": "https://nexus.gtnewhorizons.com/repository/central-sonatype-snapshots/org/lwjgl/lwjgl-harfbuzz/3.4.2-SNAPSHOT/lwjgl-harfbuzz-3.4.2-20260225.192616-2.jar"
+        }
+      },
+      "name": "org.lwjgl:lwjgl-harfbuzz:3.4.2-20260225.192616-2"
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "f7ac638436b593471d2d9f15ebc22d9105b697cf",
+          "size": 159432,
+          "url": "https://nexus.gtnewhorizons.com/repository/central-sonatype-snapshots/org/lwjgl/lwjgl-jemalloc/3.4.2-SNAPSHOT/lwjgl-jemalloc-3.4.2-20260225.192616-2-natives-freebsd.jar"
+        }
+      },
+      "name": "org.lwjgl:lwjgl-jemalloc-natives-freebsd:3.4.2-20260225.192616-2",
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "freebsd"
+          }
+        }
+      ]
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "6851743aac1bc2791dfc3d091d9636c4798f0d0c",
+          "size": 189089,
+          "url": "https://nexus.gtnewhorizons.com/repository/central-sonatype-snapshots/org/lwjgl/lwjgl-jemalloc/3.4.2-SNAPSHOT/lwjgl-jemalloc-3.4.2-20260225.192616-2-natives-linux-arm32.jar"
+        }
+      },
+      "name": "org.lwjgl:lwjgl-jemalloc-natives-linux-arm32:3.4.2-20260225.192616-2",
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "linux-arm32"
+          }
+        }
+      ]
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "666b587467fe37e70ed401b08febedb4bad52da4",
+          "size": 238743,
+          "url": "https://nexus.gtnewhorizons.com/repository/central-sonatype-snapshots/org/lwjgl/lwjgl-jemalloc/3.4.2-SNAPSHOT/lwjgl-jemalloc-3.4.2-20260225.192616-2-natives-linux-arm64.jar"
+        }
+      },
+      "name": "org.lwjgl:lwjgl-jemalloc-natives-linux-arm64:3.4.2-20260225.192616-2",
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "linux-arm64"
+          }
+        }
+      ]
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "d1091c70f24b21e766aee6e250c59da34f6931e5",
+          "size": 283791,
+          "url": "https://nexus.gtnewhorizons.com/repository/central-sonatype-snapshots/org/lwjgl/lwjgl-jemalloc/3.4.2-SNAPSHOT/lwjgl-jemalloc-3.4.2-20260225.192616-2-natives-linux-ppc64le.jar"
+        }
+      },
+      "name": "org.lwjgl:lwjgl-jemalloc-natives-linux-ppc64le:3.4.2-20260225.192616-2",
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "linux-ppc64le"
+          }
+        }
+      ]
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "bb56532d75bbd8978e064fd8d5f6cb6daef9d573",
+          "size": 226759,
+          "url": "https://nexus.gtnewhorizons.com/repository/central-sonatype-snapshots/org/lwjgl/lwjgl-jemalloc/3.4.2-SNAPSHOT/lwjgl-jemalloc-3.4.2-20260225.192616-2-natives-linux.jar"
+        }
+      },
+      "name": "org.lwjgl:lwjgl-jemalloc-natives-linux:3.4.2-20260225.192616-2",
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "linux"
+          }
+        }
+      ]
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "39727ac147833361e81ece60f29242e89fb5933e",
+          "size": 136467,
+          "url": "https://nexus.gtnewhorizons.com/repository/central-sonatype-snapshots/org/lwjgl/lwjgl-jemalloc/3.4.2-SNAPSHOT/lwjgl-jemalloc-3.4.2-20260225.192616-2-natives-macos-arm64.jar"
+        }
+      },
+      "name": "org.lwjgl:lwjgl-jemalloc-natives-macos-arm64:3.4.2-20260225.192616-2",
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "osx"
+          }
+        },
+        {
+          "action": "allow",
+          "os": {
+            "name": "osx-arm64"
+          }
+        }
+      ]
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "69c05c15a553fdcb630cc69cdaebfdcd7aa5cd44",
+          "size": 145751,
+          "url": "https://nexus.gtnewhorizons.com/repository/central-sonatype-snapshots/org/lwjgl/lwjgl-jemalloc/3.4.2-SNAPSHOT/lwjgl-jemalloc-3.4.2-20260225.192616-2-natives-macos.jar"
+        }
+      },
+      "name": "org.lwjgl:lwjgl-jemalloc-natives-macos:3.4.2-20260225.192616-2",
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "osx"
+          }
+        }
+      ]
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "25eeeb2ee3e0906d2abebdf2af1888d957751717",
+          "size": 158952,
+          "url": "https://nexus.gtnewhorizons.com/repository/central-sonatype-snapshots/org/lwjgl/lwjgl-jemalloc/3.4.2-SNAPSHOT/lwjgl-jemalloc-3.4.2-20260225.192616-2-natives-windows-arm64.jar"
+        }
+      },
+      "name": "org.lwjgl:lwjgl-jemalloc-natives-windows-arm64:3.4.2-20260225.192616-2",
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "windows"
+          }
+        },
+        {
+          "action": "allow",
+          "os": {
+            "name": "windows-arm64"
+          }
+        }
+      ]
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "9e6f636a9a3e29e4c8875d1d3bcde6bef312cab7",
+          "size": 151203,
+          "url": "https://nexus.gtnewhorizons.com/repository/central-sonatype-snapshots/org/lwjgl/lwjgl-jemalloc/3.4.2-SNAPSHOT/lwjgl-jemalloc-3.4.2-20260225.192616-2-natives-windows-x86.jar"
+        }
+      },
+      "name": "org.lwjgl:lwjgl-jemalloc-natives-windows-x86:3.4.2-20260225.192616-2",
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "windows"
+          }
+        }
+      ]
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "34e326fc5bf7492fca61a21fdc72cd1f4b92ce44",
+          "size": 184352,
+          "url": "https://nexus.gtnewhorizons.com/repository/central-sonatype-snapshots/org/lwjgl/lwjgl-jemalloc/3.4.2-SNAPSHOT/lwjgl-jemalloc-3.4.2-20260225.192616-2-natives-windows.jar"
+        }
+      },
+      "name": "org.lwjgl:lwjgl-jemalloc-natives-windows:3.4.2-20260225.192616-2",
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "windows"
+          }
+        }
+      ]
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "9c90c4d259dca34f93029a25795b81227c92e121",
+          "size": 47971,
+          "url": "https://nexus.gtnewhorizons.com/repository/central-sonatype-snapshots/org/lwjgl/lwjgl-jemalloc/3.4.2-SNAPSHOT/lwjgl-jemalloc-3.4.2-20260225.192616-2.jar"
+        }
+      },
+      "name": "org.lwjgl:lwjgl-jemalloc:3.4.2-20260225.192616-2"
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "4f262627cf6284907dc4235fe13cd580cad238e2",
+          "size": 103237,
+          "url": "https://nexus.gtnewhorizons.com/repository/central-sonatype-snapshots/org/lwjgl/lwjgl/3.4.2-SNAPSHOT/lwjgl-3.4.2-20260225.192616-2-natives-freebsd.jar"
+        }
+      },
+      "name": "org.lwjgl:lwjgl-natives-freebsd:3.4.2-20260225.192616-2",
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "freebsd"
+          }
+        }
+      ]
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "df927846d357fd2e0493a56df7df3879595396ec",
+          "size": 94113,
+          "url": "https://nexus.gtnewhorizons.com/repository/central-sonatype-snapshots/org/lwjgl/lwjgl/3.4.2-SNAPSHOT/lwjgl-3.4.2-20260225.192616-2-natives-linux-arm32.jar"
+        }
+      },
+      "name": "org.lwjgl:lwjgl-natives-linux-arm32:3.4.2-20260225.192616-2",
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "linux-arm32"
+          }
+        }
+      ]
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "3687e9729d1d9b897339b22d84a6ce17c09cf7dd",
+          "size": 120958,
+          "url": "https://nexus.gtnewhorizons.com/repository/central-sonatype-snapshots/org/lwjgl/lwjgl/3.4.2-SNAPSHOT/lwjgl-3.4.2-20260225.192616-2-natives-linux-arm64.jar"
+        }
+      },
+      "name": "org.lwjgl:lwjgl-natives-linux-arm64:3.4.2-20260225.192616-2",
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "linux-arm64"
+          }
+        }
+      ]
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "17de7601b6ba0db1964f72c9df20da549ac2237f",
+          "size": 139981,
+          "url": "https://nexus.gtnewhorizons.com/repository/central-sonatype-snapshots/org/lwjgl/lwjgl/3.4.2-SNAPSHOT/lwjgl-3.4.2-20260225.192616-2-natives-linux-ppc64le.jar"
+        }
+      },
+      "name": "org.lwjgl:lwjgl-natives-linux-ppc64le:3.4.2-20260225.192616-2",
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "linux-ppc64le"
+          }
+        }
+      ]
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "64c63e5c50922a4e7ac97d2c203d19c2375656ba",
+          "size": 128621,
+          "url": "https://nexus.gtnewhorizons.com/repository/central-sonatype-snapshots/org/lwjgl/lwjgl/3.4.2-SNAPSHOT/lwjgl-3.4.2-20260225.192616-2-natives-linux.jar"
+        }
+      },
+      "name": "org.lwjgl:lwjgl-natives-linux:3.4.2-20260225.192616-2",
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "linux"
+          }
+        }
+      ]
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "b406a6262007e0b1315da0be9d63b1f72458e223",
+          "size": 52693,
+          "url": "https://nexus.gtnewhorizons.com/repository/central-sonatype-snapshots/org/lwjgl/lwjgl/3.4.2-SNAPSHOT/lwjgl-3.4.2-20260225.192616-2-natives-macos-arm64.jar"
+        }
+      },
+      "name": "org.lwjgl:lwjgl-natives-macos-arm64:3.4.2-20260225.192616-2",
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "osx"
+          }
+        },
+        {
+          "action": "allow",
+          "os": {
+            "name": "osx-arm64"
+          }
+        }
+      ]
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "4ec44e265c97021d8c73ef8b980aade03c2d104c",
+          "size": 77778,
+          "url": "https://nexus.gtnewhorizons.com/repository/central-sonatype-snapshots/org/lwjgl/lwjgl/3.4.2-SNAPSHOT/lwjgl-3.4.2-20260225.192616-2-natives-macos.jar"
+        }
+      },
+      "name": "org.lwjgl:lwjgl-natives-macos:3.4.2-20260225.192616-2",
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "osx"
+          }
+        }
+      ]
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "5c38eca659027b2dbb442710dc40763bd6dd77c3",
+          "size": 148154,
+          "url": "https://nexus.gtnewhorizons.com/repository/central-sonatype-snapshots/org/lwjgl/lwjgl/3.4.2-SNAPSHOT/lwjgl-3.4.2-20260225.192616-2-natives-windows-arm64.jar"
+        }
+      },
+      "name": "org.lwjgl:lwjgl-natives-windows-arm64:3.4.2-20260225.192616-2",
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "windows"
+          }
+        },
+        {
+          "action": "allow",
+          "os": {
+            "name": "windows-arm64"
+          }
+        }
+      ]
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "2913d5a120894e7e2791967d1e5ed1ff607a4847",
+          "size": 149892,
+          "url": "https://nexus.gtnewhorizons.com/repository/central-sonatype-snapshots/org/lwjgl/lwjgl/3.4.2-SNAPSHOT/lwjgl-3.4.2-20260225.192616-2-natives-windows-x86.jar"
+        }
+      },
+      "name": "org.lwjgl:lwjgl-natives-windows-x86:3.4.2-20260225.192616-2",
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "windows"
+          }
+        }
+      ]
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "eb3771723afa44b4b3aec93662af51ec2cc36a64",
+          "size": 177062,
+          "url": "https://nexus.gtnewhorizons.com/repository/central-sonatype-snapshots/org/lwjgl/lwjgl/3.4.2-SNAPSHOT/lwjgl-3.4.2-20260225.192616-2-natives-windows.jar"
+        }
+      },
+      "name": "org.lwjgl:lwjgl-natives-windows:3.4.2-20260225.192616-2",
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "windows"
+          }
+        }
+      ]
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "339e6e26956a0da7246920a45a41ff576134410d",
+          "size": 212804,
+          "url": "https://nexus.gtnewhorizons.com/repository/central-sonatype-snapshots/org/lwjgl/lwjgl-nuklear/3.4.2-SNAPSHOT/lwjgl-nuklear-3.4.2-20260225.192616-2-natives-freebsd.jar"
+        }
+      },
+      "name": "org.lwjgl:lwjgl-nuklear-natives-freebsd:3.4.2-20260225.192616-2",
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "freebsd"
+          }
+        }
+      ]
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "fa614fe475d6e271a6b451ab62e8552c35e3b6ba",
+          "size": 176294,
+          "url": "https://nexus.gtnewhorizons.com/repository/central-sonatype-snapshots/org/lwjgl/lwjgl-nuklear/3.4.2-SNAPSHOT/lwjgl-nuklear-3.4.2-20260225.192616-2-natives-linux-arm32.jar"
+        }
+      },
+      "name": "org.lwjgl:lwjgl-nuklear-natives-linux-arm32:3.4.2-20260225.192616-2",
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "linux-arm32"
+          }
+        }
+      ]
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "7a7db753007fa636fede8a80bf662ffe96e6757e",
+          "size": 217799,
+          "url": "https://nexus.gtnewhorizons.com/repository/central-sonatype-snapshots/org/lwjgl/lwjgl-nuklear/3.4.2-SNAPSHOT/lwjgl-nuklear-3.4.2-20260225.192616-2-natives-linux-arm64.jar"
+        }
+      },
+      "name": "org.lwjgl:lwjgl-nuklear-natives-linux-arm64:3.4.2-20260225.192616-2",
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "linux-arm64"
+          }
+        }
+      ]
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "29a8bc2f0014e343e94d8bb78f5e8893dea5caf8",
+          "size": 264787,
+          "url": "https://nexus.gtnewhorizons.com/repository/central-sonatype-snapshots/org/lwjgl/lwjgl-nuklear/3.4.2-SNAPSHOT/lwjgl-nuklear-3.4.2-20260225.192616-2-natives-linux-ppc64le.jar"
+        }
+      },
+      "name": "org.lwjgl:lwjgl-nuklear-natives-linux-ppc64le:3.4.2-20260225.192616-2",
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "linux-ppc64le"
+          }
+        }
+      ]
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "cf93372e2aebb7cbb4a9037974efa333509b30ee",
+          "size": 220208,
+          "url": "https://nexus.gtnewhorizons.com/repository/central-sonatype-snapshots/org/lwjgl/lwjgl-nuklear/3.4.2-SNAPSHOT/lwjgl-nuklear-3.4.2-20260225.192616-2-natives-linux.jar"
+        }
+      },
+      "name": "org.lwjgl:lwjgl-nuklear-natives-linux:3.4.2-20260225.192616-2",
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "linux"
+          }
+        }
+      ]
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "6772d3907948325e8bfc0221bdb51f7d288a54b4",
+          "size": 154648,
+          "url": "https://nexus.gtnewhorizons.com/repository/central-sonatype-snapshots/org/lwjgl/lwjgl-nuklear/3.4.2-SNAPSHOT/lwjgl-nuklear-3.4.2-20260225.192616-2-natives-macos-arm64.jar"
+        }
+      },
+      "name": "org.lwjgl:lwjgl-nuklear-natives-macos-arm64:3.4.2-20260225.192616-2",
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "osx"
+          }
+        },
+        {
+          "action": "allow",
+          "os": {
+            "name": "osx-arm64"
+          }
+        }
+      ]
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "94494572984f51ba3d0239c62ba7c0ec8ae6718b",
+          "size": 211342,
+          "url": "https://nexus.gtnewhorizons.com/repository/central-sonatype-snapshots/org/lwjgl/lwjgl-nuklear/3.4.2-SNAPSHOT/lwjgl-nuklear-3.4.2-20260225.192616-2-natives-macos.jar"
+        }
+      },
+      "name": "org.lwjgl:lwjgl-nuklear-natives-macos:3.4.2-20260225.192616-2",
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "osx"
+          }
+        }
+      ]
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "d0e1ec12f3f871fe624bf4d31b6cabd5cb0c2f1c",
+          "size": 176100,
+          "url": "https://nexus.gtnewhorizons.com/repository/central-sonatype-snapshots/org/lwjgl/lwjgl-nuklear/3.4.2-SNAPSHOT/lwjgl-nuklear-3.4.2-20260225.192616-2-natives-windows-arm64.jar"
+        }
+      },
+      "name": "org.lwjgl:lwjgl-nuklear-natives-windows-arm64:3.4.2-20260225.192616-2",
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "windows"
+          }
+        },
+        {
+          "action": "allow",
+          "os": {
+            "name": "windows-arm64"
+          }
+        }
+      ]
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "23fcc38cee79f718fa89bb12fa48b68cb676bed4",
+          "size": 182365,
+          "url": "https://nexus.gtnewhorizons.com/repository/central-sonatype-snapshots/org/lwjgl/lwjgl-nuklear/3.4.2-SNAPSHOT/lwjgl-nuklear-3.4.2-20260225.192616-2-natives-windows-x86.jar"
+        }
+      },
+      "name": "org.lwjgl:lwjgl-nuklear-natives-windows-x86:3.4.2-20260225.192616-2",
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "windows"
+          }
+        }
+      ]
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "749b04a1bfb1300dd862d0e08ecdf401d3f37d55",
+          "size": 221160,
+          "url": "https://nexus.gtnewhorizons.com/repository/central-sonatype-snapshots/org/lwjgl/lwjgl-nuklear/3.4.2-SNAPSHOT/lwjgl-nuklear-3.4.2-20260225.192616-2-natives-windows.jar"
+        }
+      },
+      "name": "org.lwjgl:lwjgl-nuklear-natives-windows:3.4.2-20260225.192616-2",
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "windows"
+          }
+        }
+      ]
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "8ca4c9bcb9b04a422305e481e0deffe4f1532352",
+          "size": 498828,
+          "url": "https://nexus.gtnewhorizons.com/repository/central-sonatype-snapshots/org/lwjgl/lwjgl-nuklear/3.4.2-SNAPSHOT/lwjgl-nuklear-3.4.2-20260225.192616-2.jar"
+        }
+      },
+      "name": "org.lwjgl:lwjgl-nuklear:3.4.2-20260225.192616-2"
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "472a2f604de9894e75f22140f1061c69ecd29d00",
+          "size": 830104,
+          "url": "https://nexus.gtnewhorizons.com/repository/central-sonatype-snapshots/org/lwjgl/lwjgl-openal/3.4.2-SNAPSHOT/lwjgl-openal-3.4.2-20260225.192616-2-natives-freebsd.jar"
+        }
+      },
+      "name": "org.lwjgl:lwjgl-openal-natives-freebsd:3.4.2-20260225.192616-2",
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "freebsd"
+          }
+        }
+      ]
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "47b89783d62c33da8537d7643c614df5c5096eea",
+          "size": 776408,
+          "url": "https://nexus.gtnewhorizons.com/repository/central-sonatype-snapshots/org/lwjgl/lwjgl-openal/3.4.2-SNAPSHOT/lwjgl-openal-3.4.2-20260225.192616-2-natives-linux-arm32.jar"
+        }
+      },
+      "name": "org.lwjgl:lwjgl-openal-natives-linux-arm32:3.4.2-20260225.192616-2",
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "linux-arm32"
+          }
+        }
+      ]
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "6f75a38a0c5d5f8b4051b189048e44a95b4dd106",
+          "size": 839910,
+          "url": "https://nexus.gtnewhorizons.com/repository/central-sonatype-snapshots/org/lwjgl/lwjgl-openal/3.4.2-SNAPSHOT/lwjgl-openal-3.4.2-20260225.192616-2-natives-linux-arm64.jar"
+        }
+      },
+      "name": "org.lwjgl:lwjgl-openal-natives-linux-arm64:3.4.2-20260225.192616-2",
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "linux-arm64"
+          }
+        }
+      ]
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "59f8c4d7bef24436c00f40fafb47faec60e3ae76",
+          "size": 945578,
+          "url": "https://nexus.gtnewhorizons.com/repository/central-sonatype-snapshots/org/lwjgl/lwjgl-openal/3.4.2-SNAPSHOT/lwjgl-openal-3.4.2-20260225.192616-2-natives-linux-ppc64le.jar"
+        }
+      },
+      "name": "org.lwjgl:lwjgl-openal-natives-linux-ppc64le:3.4.2-20260225.192616-2",
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "linux-ppc64le"
+          }
+        }
+      ]
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "fb2b854d83463855b6fb3f03e0b3ba4cf1f3fce7",
+          "size": 976459,
+          "url": "https://nexus.gtnewhorizons.com/repository/central-sonatype-snapshots/org/lwjgl/lwjgl-openal/3.4.2-SNAPSHOT/lwjgl-openal-3.4.2-20260225.192616-2-natives-linux.jar"
+        }
+      },
+      "name": "org.lwjgl:lwjgl-openal-natives-linux:3.4.2-20260225.192616-2",
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "linux"
+          }
+        }
+      ]
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "fb4f001245104b689d9224b2422020bb038579a4",
+          "size": 613152,
+          "url": "https://nexus.gtnewhorizons.com/repository/central-sonatype-snapshots/org/lwjgl/lwjgl-openal/3.4.2-SNAPSHOT/lwjgl-openal-3.4.2-20260225.192616-2-natives-macos-arm64.jar"
+        }
+      },
+      "name": "org.lwjgl:lwjgl-openal-natives-macos-arm64:3.4.2-20260225.192616-2",
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "osx"
+          }
+        },
+        {
+          "action": "allow",
+          "os": {
+            "name": "osx-arm64"
+          }
+        }
+      ]
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "69257c7e8a7e6550c77ea86e720eb7adf94fb8fd",
+          "size": 663521,
+          "url": "https://nexus.gtnewhorizons.com/repository/central-sonatype-snapshots/org/lwjgl/lwjgl-openal/3.4.2-SNAPSHOT/lwjgl-openal-3.4.2-20260225.192616-2-natives-macos.jar"
+        }
+      },
+      "name": "org.lwjgl:lwjgl-openal-natives-macos:3.4.2-20260225.192616-2",
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "osx"
+          }
+        }
+      ]
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "682d079812f4ffdec2ef580c3963134d8b2c7894",
+          "size": 885212,
+          "url": "https://nexus.gtnewhorizons.com/repository/central-sonatype-snapshots/org/lwjgl/lwjgl-openal/3.4.2-SNAPSHOT/lwjgl-openal-3.4.2-20260225.192616-2-natives-windows-arm64.jar"
+        }
+      },
+      "name": "org.lwjgl:lwjgl-openal-natives-windows-arm64:3.4.2-20260225.192616-2",
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "windows"
+          }
+        },
+        {
+          "action": "allow",
+          "os": {
+            "name": "windows-arm64"
+          }
+        }
+      ]
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "ea8e062551c1dbc438d30fce6640f168736210e0",
+          "size": 906811,
+          "url": "https://nexus.gtnewhorizons.com/repository/central-sonatype-snapshots/org/lwjgl/lwjgl-openal/3.4.2-SNAPSHOT/lwjgl-openal-3.4.2-20260225.192616-2-natives-windows-x86.jar"
+        }
+      },
+      "name": "org.lwjgl:lwjgl-openal-natives-windows-x86:3.4.2-20260225.192616-2",
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "windows"
+          }
+        }
+      ]
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "6d1507557dc2159e1fcaec5a8ad092f22d5311f4",
+          "size": 978837,
+          "url": "https://nexus.gtnewhorizons.com/repository/central-sonatype-snapshots/org/lwjgl/lwjgl-openal/3.4.2-SNAPSHOT/lwjgl-openal-3.4.2-20260225.192616-2-natives-windows.jar"
+        }
+      },
+      "name": "org.lwjgl:lwjgl-openal-natives-windows:3.4.2-20260225.192616-2",
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "windows"
+          }
+        }
+      ]
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "fd617c8e5a04ef087108296c28b08f0431ba3547",
+          "size": 153956,
+          "url": "https://nexus.gtnewhorizons.com/repository/central-sonatype-snapshots/org/lwjgl/lwjgl-openal/3.4.2-SNAPSHOT/lwjgl-openal-3.4.2-20260225.192616-2.jar"
+        }
+      },
+      "name": "org.lwjgl:lwjgl-openal:3.4.2-20260225.192616-2"
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "107a5d760a5c5050b070eff7b969c0e7d44a4e14",
+          "size": 83029,
+          "url": "https://nexus.gtnewhorizons.com/repository/central-sonatype-snapshots/org/lwjgl/lwjgl-opengl/3.4.2-SNAPSHOT/lwjgl-opengl-3.4.2-20260225.192616-2-natives-freebsd.jar"
+        }
+      },
+      "name": "org.lwjgl:lwjgl-opengl-natives-freebsd:3.4.2-20260225.192616-2",
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "freebsd"
+          }
+        }
+      ]
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "46e51ede0885a4151c4f349cedc2ae83579779e2",
+          "size": 59352,
+          "url": "https://nexus.gtnewhorizons.com/repository/central-sonatype-snapshots/org/lwjgl/lwjgl-opengl/3.4.2-SNAPSHOT/lwjgl-opengl-3.4.2-20260225.192616-2-natives-linux-arm32.jar"
+        }
+      },
+      "name": "org.lwjgl:lwjgl-opengl-natives-linux-arm32:3.4.2-20260225.192616-2",
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "linux-arm32"
+          }
+        }
+      ]
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "d99a012c20a10a73687f4d6edfe4a5502ed55e80",
+          "size": 80866,
+          "url": "https://nexus.gtnewhorizons.com/repository/central-sonatype-snapshots/org/lwjgl/lwjgl-opengl/3.4.2-SNAPSHOT/lwjgl-opengl-3.4.2-20260225.192616-2-natives-linux-arm64.jar"
+        }
+      },
+      "name": "org.lwjgl:lwjgl-opengl-natives-linux-arm64:3.4.2-20260225.192616-2",
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "linux-arm64"
+          }
+        }
+      ]
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "fc7b6b10a882970c879d5da762add2ca50168109",
+          "size": 87961,
+          "url": "https://nexus.gtnewhorizons.com/repository/central-sonatype-snapshots/org/lwjgl/lwjgl-opengl/3.4.2-SNAPSHOT/lwjgl-opengl-3.4.2-20260225.192616-2-natives-linux-ppc64le.jar"
+        }
+      },
+      "name": "org.lwjgl:lwjgl-opengl-natives-linux-ppc64le:3.4.2-20260225.192616-2",
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "linux-ppc64le"
+          }
+        }
+      ]
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "b48b547a960ff89a52d18b42fba1569363d34ec7",
+          "size": 82261,
+          "url": "https://nexus.gtnewhorizons.com/repository/central-sonatype-snapshots/org/lwjgl/lwjgl-opengl/3.4.2-SNAPSHOT/lwjgl-opengl-3.4.2-20260225.192616-2-natives-linux.jar"
+        }
+      },
+      "name": "org.lwjgl:lwjgl-opengl-natives-linux:3.4.2-20260225.192616-2",
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "linux"
+          }
+        }
+      ]
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "60fb1f04c62f05d08028422a92cbda39123afca9",
+          "size": 43564,
+          "url": "https://nexus.gtnewhorizons.com/repository/central-sonatype-snapshots/org/lwjgl/lwjgl-opengl/3.4.2-SNAPSHOT/lwjgl-opengl-3.4.2-20260225.192616-2-natives-macos-arm64.jar"
+        }
+      },
+      "name": "org.lwjgl:lwjgl-opengl-natives-macos-arm64:3.4.2-20260225.192616-2",
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "osx"
+          }
+        },
+        {
+          "action": "allow",
+          "os": {
+            "name": "osx-arm64"
+          }
+        }
+      ]
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "2c792c68a92796dc2fa3bb42895a1e496b8ab2a3",
+          "size": 55008,
+          "url": "https://nexus.gtnewhorizons.com/repository/central-sonatype-snapshots/org/lwjgl/lwjgl-opengl/3.4.2-SNAPSHOT/lwjgl-opengl-3.4.2-20260225.192616-2-natives-macos.jar"
+        }
+      },
+      "name": "org.lwjgl:lwjgl-opengl-natives-macos:3.4.2-20260225.192616-2",
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "osx"
+          }
+        }
+      ]
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "e8fc5eebeb04f3ce45a7a0bfc5d74b4446f47902",
+          "size": 84854,
+          "url": "https://nexus.gtnewhorizons.com/repository/central-sonatype-snapshots/org/lwjgl/lwjgl-opengl/3.4.2-SNAPSHOT/lwjgl-opengl-3.4.2-20260225.192616-2-natives-windows-arm64.jar"
+        }
+      },
+      "name": "org.lwjgl:lwjgl-opengl-natives-windows-arm64:3.4.2-20260225.192616-2",
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "windows"
+          }
+        },
+        {
+          "action": "allow",
+          "os": {
+            "name": "windows-arm64"
+          }
+        }
+      ]
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "e6a10286ddecd5ab8c0cb6c1f76a3bfd4126fbef",
+          "size": 90667,
+          "url": "https://nexus.gtnewhorizons.com/repository/central-sonatype-snapshots/org/lwjgl/lwjgl-opengl/3.4.2-SNAPSHOT/lwjgl-opengl-3.4.2-20260225.192616-2-natives-windows-x86.jar"
+        }
+      },
+      "name": "org.lwjgl:lwjgl-opengl-natives-windows-x86:3.4.2-20260225.192616-2",
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "windows"
+          }
+        }
+      ]
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "eae79ee7cc28fe715bc68055d9427e0428b79f23",
+          "size": 98302,
+          "url": "https://nexus.gtnewhorizons.com/repository/central-sonatype-snapshots/org/lwjgl/lwjgl-opengl/3.4.2-SNAPSHOT/lwjgl-opengl-3.4.2-20260225.192616-2-natives-windows.jar"
+        }
+      },
+      "name": "org.lwjgl:lwjgl-opengl-natives-windows:3.4.2-20260225.192616-2",
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "windows"
+          }
+        }
+      ]
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "d70b752b15f634488850fabda9cefb00a4c7951f",
+          "size": 953689,
+          "url": "https://nexus.gtnewhorizons.com/repository/central-sonatype-snapshots/org/lwjgl/lwjgl-opengl/3.4.2-SNAPSHOT/lwjgl-opengl-3.4.2-20260225.192616-2.jar"
+        }
+      },
+      "name": "org.lwjgl:lwjgl-opengl:3.4.2-20260225.192616-2"
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "cb05d873c7d8e804ecea9a6e0729ced16e7f2a86",
+          "size": 1241975,
+          "url": "https://nexus.gtnewhorizons.com/repository/central-sonatype-snapshots/org/lwjgl/lwjgl-sdl/3.4.2-SNAPSHOT/lwjgl-sdl-3.4.2-20260225.192616-2-natives-freebsd.jar"
+        }
+      },
+      "name": "org.lwjgl:lwjgl-sdl-natives-freebsd:3.4.2-20260225.192616-2",
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "freebsd"
+          }
+        }
+      ]
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "298b7029aa750a5bf40177e0f212229dec2b3916",
+          "size": 1166881,
+          "url": "https://nexus.gtnewhorizons.com/repository/central-sonatype-snapshots/org/lwjgl/lwjgl-sdl/3.4.2-SNAPSHOT/lwjgl-sdl-3.4.2-20260225.192616-2-natives-linux-arm32.jar"
+        }
+      },
+      "name": "org.lwjgl:lwjgl-sdl-natives-linux-arm32:3.4.2-20260225.192616-2",
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "linux-arm32"
+          }
+        }
+      ]
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "8316c91ba3f8f31a4feddd5221d408564109a863",
+          "size": 1434655,
+          "url": "https://nexus.gtnewhorizons.com/repository/central-sonatype-snapshots/org/lwjgl/lwjgl-sdl/3.4.2-SNAPSHOT/lwjgl-sdl-3.4.2-20260225.192616-2-natives-linux-arm64.jar"
+        }
+      },
+      "name": "org.lwjgl:lwjgl-sdl-natives-linux-arm64:3.4.2-20260225.192616-2",
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "linux-arm64"
+          }
+        }
+      ]
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "f104a6820034144f1a28d2e6aaabff959ec3193b",
+          "size": 1508460,
+          "url": "https://nexus.gtnewhorizons.com/repository/central-sonatype-snapshots/org/lwjgl/lwjgl-sdl/3.4.2-SNAPSHOT/lwjgl-sdl-3.4.2-20260225.192616-2-natives-linux-ppc64le.jar"
+        }
+      },
+      "name": "org.lwjgl:lwjgl-sdl-natives-linux-ppc64le:3.4.2-20260225.192616-2",
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "linux-ppc64le"
+          }
+        }
+      ]
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "4daabbd9c713de43f87e7124cb022694a07b421b",
+          "size": 1636102,
+          "url": "https://nexus.gtnewhorizons.com/repository/central-sonatype-snapshots/org/lwjgl/lwjgl-sdl/3.4.2-SNAPSHOT/lwjgl-sdl-3.4.2-20260225.192616-2-natives-linux.jar"
+        }
+      },
+      "name": "org.lwjgl:lwjgl-sdl-natives-linux:3.4.2-20260225.192616-2",
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "linux"
+          }
+        }
+      ]
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "00453f1bc6742fb2cfadd868bb5e5c30ced909c7",
+          "size": 963488,
+          "url": "https://nexus.gtnewhorizons.com/repository/central-sonatype-snapshots/org/lwjgl/lwjgl-sdl/3.4.2-SNAPSHOT/lwjgl-sdl-3.4.2-20260225.192616-2-natives-macos-arm64.jar"
+        }
+      },
+      "name": "org.lwjgl:lwjgl-sdl-natives-macos-arm64:3.4.2-20260225.192616-2",
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "osx"
+          }
+        },
+        {
+          "action": "allow",
+          "os": {
+            "name": "osx-arm64"
+          }
+        }
+      ]
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "ebc1137f64e08e66408b9b90703a8948ece2339e",
+          "size": 1104648,
+          "url": "https://nexus.gtnewhorizons.com/repository/central-sonatype-snapshots/org/lwjgl/lwjgl-sdl/3.4.2-SNAPSHOT/lwjgl-sdl-3.4.2-20260225.192616-2-natives-macos.jar"
+        }
+      },
+      "name": "org.lwjgl:lwjgl-sdl-natives-macos:3.4.2-20260225.192616-2",
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "osx"
+          }
+        }
+      ]
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "7b08e3301a2486719f7a1ea36caa14d4e237c406",
+          "size": 1092338,
+          "url": "https://nexus.gtnewhorizons.com/repository/central-sonatype-snapshots/org/lwjgl/lwjgl-sdl/3.4.2-SNAPSHOT/lwjgl-sdl-3.4.2-20260225.192616-2-natives-windows-arm64.jar"
+        }
+      },
+      "name": "org.lwjgl:lwjgl-sdl-natives-windows-arm64:3.4.2-20260225.192616-2",
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "windows"
+          }
+        },
+        {
+          "action": "allow",
+          "os": {
+            "name": "windows-arm64"
+          }
+        }
+      ]
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "6b4a2808988670a11c37aa4495b4b0fdfed92fd4",
+          "size": 1063526,
+          "url": "https://nexus.gtnewhorizons.com/repository/central-sonatype-snapshots/org/lwjgl/lwjgl-sdl/3.4.2-SNAPSHOT/lwjgl-sdl-3.4.2-20260225.192616-2-natives-windows-x86.jar"
+        }
+      },
+      "name": "org.lwjgl:lwjgl-sdl-natives-windows-x86:3.4.2-20260225.192616-2",
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "windows"
+          }
+        }
+      ]
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "f172a71d7cd5510881c62aa6052953f5c548b473",
+          "size": 1229215,
+          "url": "https://nexus.gtnewhorizons.com/repository/central-sonatype-snapshots/org/lwjgl/lwjgl-sdl/3.4.2-SNAPSHOT/lwjgl-sdl-3.4.2-20260225.192616-2-natives-windows.jar"
+        }
+      },
+      "name": "org.lwjgl:lwjgl-sdl-natives-windows:3.4.2-20260225.192616-2",
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "windows"
+          }
+        }
+      ]
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "135a98e32b6fce957e9c876c64e312fa324bafa1",
+          "size": 983774,
+          "url": "https://nexus.gtnewhorizons.com/repository/central-sonatype-snapshots/org/lwjgl/lwjgl-sdl/3.4.2-SNAPSHOT/lwjgl-sdl-3.4.2-20260225.192616-2.jar"
+        }
+      },
+      "name": "org.lwjgl:lwjgl-sdl:3.4.2-20260225.192616-2"
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "aeadc9dcf17bc4e053af5f544a65dc6fbe35d305",
+          "size": 52938,
+          "url": "https://nexus.gtnewhorizons.com/repository/central-sonatype-snapshots/org/lwjgl/lwjgl-spng/3.4.2-SNAPSHOT/lwjgl-spng-3.4.2-20260225.192616-2-natives-freebsd.jar"
+        }
+      },
+      "name": "org.lwjgl:lwjgl-spng-natives-freebsd:3.4.2-20260225.192616-2",
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "freebsd"
+          }
+        }
+      ]
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "d4a1832ba88085ea973cc533305f06829a022679",
+          "size": 46356,
+          "url": "https://nexus.gtnewhorizons.com/repository/central-sonatype-snapshots/org/lwjgl/lwjgl-spng/3.4.2-SNAPSHOT/lwjgl-spng-3.4.2-20260225.192616-2-natives-linux-arm32.jar"
+        }
+      },
+      "name": "org.lwjgl:lwjgl-spng-natives-linux-arm32:3.4.2-20260225.192616-2",
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "linux-arm32"
+          }
+        }
+      ]
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "0fc2af4357509daaf3266d366fe35af5d8e45f32",
+          "size": 58047,
+          "url": "https://nexus.gtnewhorizons.com/repository/central-sonatype-snapshots/org/lwjgl/lwjgl-spng/3.4.2-SNAPSHOT/lwjgl-spng-3.4.2-20260225.192616-2-natives-linux-arm64.jar"
+        }
+      },
+      "name": "org.lwjgl:lwjgl-spng-natives-linux-arm64:3.4.2-20260225.192616-2",
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "linux-arm64"
+          }
+        }
+      ]
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "bdbe16293c791b0ffaf70042252810895cdc5ff7",
+          "size": 69846,
+          "url": "https://nexus.gtnewhorizons.com/repository/central-sonatype-snapshots/org/lwjgl/lwjgl-spng/3.4.2-SNAPSHOT/lwjgl-spng-3.4.2-20260225.192616-2-natives-linux-ppc64le.jar"
+        }
+      },
+      "name": "org.lwjgl:lwjgl-spng-natives-linux-ppc64le:3.4.2-20260225.192616-2",
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "linux-ppc64le"
+          }
+        }
+      ]
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "d3fc4ce18bee8df33de59e07c201ecd0a609b510",
+          "size": 64391,
+          "url": "https://nexus.gtnewhorizons.com/repository/central-sonatype-snapshots/org/lwjgl/lwjgl-spng/3.4.2-SNAPSHOT/lwjgl-spng-3.4.2-20260225.192616-2-natives-linux.jar"
+        }
+      },
+      "name": "org.lwjgl:lwjgl-spng-natives-linux:3.4.2-20260225.192616-2",
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "linux"
+          }
+        }
+      ]
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "72491eca2ab9660c04772e1de6d9ed7dbfba03d1",
+          "size": 73574,
+          "url": "https://nexus.gtnewhorizons.com/repository/central-sonatype-snapshots/org/lwjgl/lwjgl-spng/3.4.2-SNAPSHOT/lwjgl-spng-3.4.2-20260225.192616-2-natives-macos-arm64.jar"
+        }
+      },
+      "name": "org.lwjgl:lwjgl-spng-natives-macos-arm64:3.4.2-20260225.192616-2",
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "osx"
+          }
+        },
+        {
+          "action": "allow",
+          "os": {
+            "name": "osx-arm64"
+          }
+        }
+      ]
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "0faa1facb86a7200cf65ba4d3be16d1623d84d31",
+          "size": 80416,
+          "url": "https://nexus.gtnewhorizons.com/repository/central-sonatype-snapshots/org/lwjgl/lwjgl-spng/3.4.2-SNAPSHOT/lwjgl-spng-3.4.2-20260225.192616-2-natives-macos.jar"
+        }
+      },
+      "name": "org.lwjgl:lwjgl-spng-natives-macos:3.4.2-20260225.192616-2",
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "osx"
+          }
+        }
+      ]
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "9ce051e1188850a8af6b3445ce2e45803a500cf4",
+          "size": 94763,
+          "url": "https://nexus.gtnewhorizons.com/repository/central-sonatype-snapshots/org/lwjgl/lwjgl-spng/3.4.2-SNAPSHOT/lwjgl-spng-3.4.2-20260225.192616-2-natives-windows-arm64.jar"
+        }
+      },
+      "name": "org.lwjgl:lwjgl-spng-natives-windows-arm64:3.4.2-20260225.192616-2",
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "windows"
+          }
+        },
+        {
+          "action": "allow",
+          "os": {
+            "name": "windows-arm64"
+          }
+        }
+      ]
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "6a6688a61ea7460c1ba79ecd585aa76d62162b38",
+          "size": 100573,
+          "url": "https://nexus.gtnewhorizons.com/repository/central-sonatype-snapshots/org/lwjgl/lwjgl-spng/3.4.2-SNAPSHOT/lwjgl-spng-3.4.2-20260225.192616-2-natives-windows-x86.jar"
+        }
+      },
+      "name": "org.lwjgl:lwjgl-spng-natives-windows-x86:3.4.2-20260225.192616-2",
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "windows"
+          }
+        }
+      ]
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "34f8bd03abd7029dcc32428e49407599b5797a74",
+          "size": 108833,
+          "url": "https://nexus.gtnewhorizons.com/repository/central-sonatype-snapshots/org/lwjgl/lwjgl-spng/3.4.2-SNAPSHOT/lwjgl-spng-3.4.2-20260225.192616-2-natives-windows.jar"
+        }
+      },
+      "name": "org.lwjgl:lwjgl-spng-natives-windows:3.4.2-20260225.192616-2",
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "windows"
+          }
+        }
+      ]
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "0015905d6c8af167e53882f852555a8bd4adb904",
+          "size": 120725,
+          "url": "https://nexus.gtnewhorizons.com/repository/central-sonatype-snapshots/org/lwjgl/lwjgl-spng/3.4.2-SNAPSHOT/lwjgl-spng-3.4.2-20260225.192616-2.jar"
+        }
+      },
+      "name": "org.lwjgl:lwjgl-spng:3.4.2-20260225.192616-2"
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "ae2961b3d47fe8e23490a7249accf5abb44110d4",
+          "size": 224834,
+          "url": "https://nexus.gtnewhorizons.com/repository/central-sonatype-snapshots/org/lwjgl/lwjgl-stb/3.4.2-SNAPSHOT/lwjgl-stb-3.4.2-20260225.192616-2-natives-freebsd.jar"
+        }
+      },
+      "name": "org.lwjgl:lwjgl-stb-natives-freebsd:3.4.2-20260225.192616-2",
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "freebsd"
+          }
+        }
+      ]
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "0e77fabf5bc7eda2a7549a40ceb3f83b44a427bc",
+          "size": 197304,
+          "url": "https://nexus.gtnewhorizons.com/repository/central-sonatype-snapshots/org/lwjgl/lwjgl-stb/3.4.2-SNAPSHOT/lwjgl-stb-3.4.2-20260225.192616-2-natives-linux-arm32.jar"
+        }
+      },
+      "name": "org.lwjgl:lwjgl-stb-natives-linux-arm32:3.4.2-20260225.192616-2",
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "linux-arm32"
+          }
+        }
+      ]
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "2bf32b42ea6421b9ae54548e5691c215161063a8",
+          "size": 259130,
+          "url": "https://nexus.gtnewhorizons.com/repository/central-sonatype-snapshots/org/lwjgl/lwjgl-stb/3.4.2-SNAPSHOT/lwjgl-stb-3.4.2-20260225.192616-2-natives-linux-arm64.jar"
+        }
+      },
+      "name": "org.lwjgl:lwjgl-stb-natives-linux-arm64:3.4.2-20260225.192616-2",
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "linux-arm64"
+          }
+        }
+      ]
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "67815c645110db4812f09ade911883a4cc5470cb",
+          "size": 336042,
+          "url": "https://nexus.gtnewhorizons.com/repository/central-sonatype-snapshots/org/lwjgl/lwjgl-stb/3.4.2-SNAPSHOT/lwjgl-stb-3.4.2-20260225.192616-2-natives-linux-ppc64le.jar"
+        }
+      },
+      "name": "org.lwjgl:lwjgl-stb-natives-linux-ppc64le:3.4.2-20260225.192616-2",
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "linux-ppc64le"
+          }
+        }
+      ]
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "9be4cd30fb14a6cbec4c1890cb354f59e098e0e7",
+          "size": 285937,
+          "url": "https://nexus.gtnewhorizons.com/repository/central-sonatype-snapshots/org/lwjgl/lwjgl-stb/3.4.2-SNAPSHOT/lwjgl-stb-3.4.2-20260225.192616-2-natives-linux.jar"
+        }
+      },
+      "name": "org.lwjgl:lwjgl-stb-natives-linux:3.4.2-20260225.192616-2",
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "linux"
+          }
+        }
+      ]
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "efaa3003001ffbc14a17ce3ca3da9c944ed93ad9",
+          "size": 185556,
+          "url": "https://nexus.gtnewhorizons.com/repository/central-sonatype-snapshots/org/lwjgl/lwjgl-stb/3.4.2-SNAPSHOT/lwjgl-stb-3.4.2-20260225.192616-2-natives-macos-arm64.jar"
+        }
+      },
+      "name": "org.lwjgl:lwjgl-stb-natives-macos-arm64:3.4.2-20260225.192616-2",
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "osx"
+          }
+        },
+        {
+          "action": "allow",
+          "os": {
+            "name": "osx-arm64"
+          }
+        }
+      ]
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "481d83c8290942b675b8a26470111ec001e7b97f",
+          "size": 217627,
+          "url": "https://nexus.gtnewhorizons.com/repository/central-sonatype-snapshots/org/lwjgl/lwjgl-stb/3.4.2-SNAPSHOT/lwjgl-stb-3.4.2-20260225.192616-2-natives-macos.jar"
+        }
+      },
+      "name": "org.lwjgl:lwjgl-stb-natives-macos:3.4.2-20260225.192616-2",
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "osx"
+          }
+        }
+      ]
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "a0bb045577f8ab96b7c1b7dfe80b3870c7a67c28",
+          "size": 241143,
+          "url": "https://nexus.gtnewhorizons.com/repository/central-sonatype-snapshots/org/lwjgl/lwjgl-stb/3.4.2-SNAPSHOT/lwjgl-stb-3.4.2-20260225.192616-2-natives-windows-arm64.jar"
+        }
+      },
+      "name": "org.lwjgl:lwjgl-stb-natives-windows-arm64:3.4.2-20260225.192616-2",
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "windows"
+          }
+        },
+        {
+          "action": "allow",
+          "os": {
+            "name": "windows-arm64"
+          }
+        }
+      ]
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "6d344b873aaec0120d047a265cc6303498a80bdf",
+          "size": 254298,
+          "url": "https://nexus.gtnewhorizons.com/repository/central-sonatype-snapshots/org/lwjgl/lwjgl-stb/3.4.2-SNAPSHOT/lwjgl-stb-3.4.2-20260225.192616-2-natives-windows-x86.jar"
+        }
+      },
+      "name": "org.lwjgl:lwjgl-stb-natives-windows-x86:3.4.2-20260225.192616-2",
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "windows"
+          }
+        }
+      ]
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "1a14adc959c367d4e670fac8e5b28875cdb820a2",
+          "size": 293115,
+          "url": "https://nexus.gtnewhorizons.com/repository/central-sonatype-snapshots/org/lwjgl/lwjgl-stb/3.4.2-SNAPSHOT/lwjgl-stb-3.4.2-20260225.192616-2-natives-windows.jar"
+        }
+      },
+      "name": "org.lwjgl:lwjgl-stb-natives-windows:3.4.2-20260225.192616-2",
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "windows"
+          }
+        }
+      ]
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "851993bcb36a177c1e5c3b05e18725a214c508ce",
+          "size": 143008,
+          "url": "https://nexus.gtnewhorizons.com/repository/central-sonatype-snapshots/org/lwjgl/lwjgl-stb/3.4.2-SNAPSHOT/lwjgl-stb-3.4.2-20260225.192616-2.jar"
+        }
+      },
+      "name": "org.lwjgl:lwjgl-stb:3.4.2-20260225.192616-2"
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "b432fc34219275b898511d227a1c380333e0c0c0",
+          "size": 40483,
+          "url": "https://nexus.gtnewhorizons.com/repository/central-sonatype-snapshots/org/lwjgl/lwjgl-tinyfd/3.4.2-SNAPSHOT/lwjgl-tinyfd-3.4.2-20260225.192616-2-natives-freebsd.jar"
+        }
+      },
+      "name": "org.lwjgl:lwjgl-tinyfd-natives-freebsd:3.4.2-20260225.192616-2",
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "freebsd"
+          }
+        }
+      ]
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "ccbce0033d39b2cf0a29c2b9f9ca23643b93f165",
+          "size": 49914,
+          "url": "https://nexus.gtnewhorizons.com/repository/central-sonatype-snapshots/org/lwjgl/lwjgl-tinyfd/3.4.2-SNAPSHOT/lwjgl-tinyfd-3.4.2-20260225.192616-2-natives-linux-arm32.jar"
+        }
+      },
+      "name": "org.lwjgl:lwjgl-tinyfd-natives-linux-arm32:3.4.2-20260225.192616-2",
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "linux-arm32"
+          }
+        }
+      ]
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "148b927bfbf0732edc83699e3b60af335a099e74",
+          "size": 45445,
+          "url": "https://nexus.gtnewhorizons.com/repository/central-sonatype-snapshots/org/lwjgl/lwjgl-tinyfd/3.4.2-SNAPSHOT/lwjgl-tinyfd-3.4.2-20260225.192616-2-natives-linux-arm64.jar"
+        }
+      },
+      "name": "org.lwjgl:lwjgl-tinyfd-natives-linux-arm64:3.4.2-20260225.192616-2",
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "linux-arm64"
+          }
+        }
+      ]
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "d75a4ce8323a3b01c9dbd98343255d4694918ac5",
+          "size": 56670,
+          "url": "https://nexus.gtnewhorizons.com/repository/central-sonatype-snapshots/org/lwjgl/lwjgl-tinyfd/3.4.2-SNAPSHOT/lwjgl-tinyfd-3.4.2-20260225.192616-2-natives-linux-ppc64le.jar"
+        }
+      },
+      "name": "org.lwjgl:lwjgl-tinyfd-natives-linux-ppc64le:3.4.2-20260225.192616-2",
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "linux-ppc64le"
+          }
+        }
+      ]
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "2839f5615288a56e3731f657c74c97015861004a",
+          "size": 45117,
+          "url": "https://nexus.gtnewhorizons.com/repository/central-sonatype-snapshots/org/lwjgl/lwjgl-tinyfd/3.4.2-SNAPSHOT/lwjgl-tinyfd-3.4.2-20260225.192616-2-natives-linux.jar"
+        }
+      },
+      "name": "org.lwjgl:lwjgl-tinyfd-natives-linux:3.4.2-20260225.192616-2",
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "linux"
+          }
+        }
+      ]
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "1481cfa74dba1f49594b6b10f09545476c1efd9b",
+          "size": 34376,
+          "url": "https://nexus.gtnewhorizons.com/repository/central-sonatype-snapshots/org/lwjgl/lwjgl-tinyfd/3.4.2-SNAPSHOT/lwjgl-tinyfd-3.4.2-20260225.192616-2-natives-macos-arm64.jar"
+        }
+      },
+      "name": "org.lwjgl:lwjgl-tinyfd-natives-macos-arm64:3.4.2-20260225.192616-2",
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "osx"
+          }
+        },
+        {
+          "action": "allow",
+          "os": {
+            "name": "osx-arm64"
+          }
+        }
+      ]
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "aa0627f39504e7b2c6a141d267808b83573fb6e2",
+          "size": 37165,
+          "url": "https://nexus.gtnewhorizons.com/repository/central-sonatype-snapshots/org/lwjgl/lwjgl-tinyfd/3.4.2-SNAPSHOT/lwjgl-tinyfd-3.4.2-20260225.192616-2-natives-macos.jar"
+        }
+      },
+      "name": "org.lwjgl:lwjgl-tinyfd-natives-macos:3.4.2-20260225.192616-2",
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "osx"
+          }
+        }
+      ]
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "89a9ea7643b147dff248837d81200f6cd9649b35",
+          "size": 114079,
+          "url": "https://nexus.gtnewhorizons.com/repository/central-sonatype-snapshots/org/lwjgl/lwjgl-tinyfd/3.4.2-SNAPSHOT/lwjgl-tinyfd-3.4.2-20260225.192616-2-natives-windows-arm64.jar"
+        }
+      },
+      "name": "org.lwjgl:lwjgl-tinyfd-natives-windows-arm64:3.4.2-20260225.192616-2",
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "windows"
+          }
+        },
+        {
+          "action": "allow",
+          "os": {
+            "name": "windows-arm64"
+          }
+        }
+      ]
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "aa0cd4e9a8b07b17e5a6529b85dfc433a0ea8198",
+          "size": 113402,
+          "url": "https://nexus.gtnewhorizons.com/repository/central-sonatype-snapshots/org/lwjgl/lwjgl-tinyfd/3.4.2-SNAPSHOT/lwjgl-tinyfd-3.4.2-20260225.192616-2-natives-windows-x86.jar"
+        }
+      },
+      "name": "org.lwjgl:lwjgl-tinyfd-natives-windows-x86:3.4.2-20260225.192616-2",
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "windows"
+          }
+        }
+      ]
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "3bf0588674f91d34b6379aa3795dfe0ec10a95cc",
+          "size": 131206,
+          "url": "https://nexus.gtnewhorizons.com/repository/central-sonatype-snapshots/org/lwjgl/lwjgl-tinyfd/3.4.2-SNAPSHOT/lwjgl-tinyfd-3.4.2-20260225.192616-2-natives-windows.jar"
+        }
+      },
+      "name": "org.lwjgl:lwjgl-tinyfd-natives-windows:3.4.2-20260225.192616-2",
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "windows"
+          }
+        }
+      ]
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "d424d00c8ca1f2c6535c7e6d7a17263588d0d4d2",
+          "size": 15943,
+          "url": "https://nexus.gtnewhorizons.com/repository/central-sonatype-snapshots/org/lwjgl/lwjgl-tinyfd/3.4.2-SNAPSHOT/lwjgl-tinyfd-3.4.2-20260225.192616-2.jar"
+        }
+      },
+      "name": "org.lwjgl:lwjgl-tinyfd:3.4.2-20260225.192616-2"
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "6de979586c9cde00fabbf02e5686986d1b9ea3eb",
+          "size": 290619,
+          "url": "https://nexus.gtnewhorizons.com/repository/central-sonatype-snapshots/org/lwjgl/lwjgl-zstd/3.4.2-SNAPSHOT/lwjgl-zstd-3.4.2-20260225.192616-2-natives-freebsd.jar"
+        }
+      },
+      "name": "org.lwjgl:lwjgl-zstd-natives-freebsd:3.4.2-20260225.192616-2",
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "freebsd"
+          }
+        }
+      ]
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "b708629301a71dd7fc284577aa5650456a5c5c1d",
+          "size": 278183,
+          "url": "https://nexus.gtnewhorizons.com/repository/central-sonatype-snapshots/org/lwjgl/lwjgl-zstd/3.4.2-SNAPSHOT/lwjgl-zstd-3.4.2-20260225.192616-2-natives-linux-arm32.jar"
+        }
+      },
+      "name": "org.lwjgl:lwjgl-zstd-natives-linux-arm32:3.4.2-20260225.192616-2",
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "linux-arm32"
+          }
+        }
+      ]
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "a12b8986261ada38cb0f9225d601031fa9a7bc6e",
+          "size": 311494,
+          "url": "https://nexus.gtnewhorizons.com/repository/central-sonatype-snapshots/org/lwjgl/lwjgl-zstd/3.4.2-SNAPSHOT/lwjgl-zstd-3.4.2-20260225.192616-2-natives-linux-arm64.jar"
+        }
+      },
+      "name": "org.lwjgl:lwjgl-zstd-natives-linux-arm64:3.4.2-20260225.192616-2",
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "linux-arm64"
+          }
+        }
+      ]
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "e7c6f77436386f9ed894351d1481e7c75cd7b843",
+          "size": 386548,
+          "url": "https://nexus.gtnewhorizons.com/repository/central-sonatype-snapshots/org/lwjgl/lwjgl-zstd/3.4.2-SNAPSHOT/lwjgl-zstd-3.4.2-20260225.192616-2-natives-linux-ppc64le.jar"
+        }
+      },
+      "name": "org.lwjgl:lwjgl-zstd-natives-linux-ppc64le:3.4.2-20260225.192616-2",
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "linux-ppc64le"
+          }
+        }
+      ]
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "9e7c479614987508e726452795c3c1effc989cf6",
+          "size": 348832,
+          "url": "https://nexus.gtnewhorizons.com/repository/central-sonatype-snapshots/org/lwjgl/lwjgl-zstd/3.4.2-SNAPSHOT/lwjgl-zstd-3.4.2-20260225.192616-2-natives-linux.jar"
+        }
+      },
+      "name": "org.lwjgl:lwjgl-zstd-natives-linux:3.4.2-20260225.192616-2",
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "linux"
+          }
+        }
+      ]
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "7ac5a1ac8872fb39766a89ad9794a550b9bcebbe",
+          "size": 254914,
+          "url": "https://nexus.gtnewhorizons.com/repository/central-sonatype-snapshots/org/lwjgl/lwjgl-zstd/3.4.2-SNAPSHOT/lwjgl-zstd-3.4.2-20260225.192616-2-natives-macos-arm64.jar"
+        }
+      },
+      "name": "org.lwjgl:lwjgl-zstd-natives-macos-arm64:3.4.2-20260225.192616-2",
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "osx"
+          }
+        },
+        {
+          "action": "allow",
+          "os": {
+            "name": "osx-arm64"
+          }
+        }
+      ]
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "517476e82fefe8da5d0428a4d136f73e81a1d07f",
+          "size": 337235,
+          "url": "https://nexus.gtnewhorizons.com/repository/central-sonatype-snapshots/org/lwjgl/lwjgl-zstd/3.4.2-SNAPSHOT/lwjgl-zstd-3.4.2-20260225.192616-2-natives-macos.jar"
+        }
+      },
+      "name": "org.lwjgl:lwjgl-zstd-natives-macos:3.4.2-20260225.192616-2",
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "osx"
+          }
+        }
+      ]
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "d6f7b289e10d3cdb9dc319d55668959009950f17",
+          "size": 236939,
+          "url": "https://nexus.gtnewhorizons.com/repository/central-sonatype-snapshots/org/lwjgl/lwjgl-zstd/3.4.2-SNAPSHOT/lwjgl-zstd-3.4.2-20260225.192616-2-natives-windows-arm64.jar"
+        }
+      },
+      "name": "org.lwjgl:lwjgl-zstd-natives-windows-arm64:3.4.2-20260225.192616-2",
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "windows"
+          }
+        },
+        {
+          "action": "allow",
+          "os": {
+            "name": "windows-arm64"
+          }
+        }
+      ]
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "c8ad10e0e264810690060dab2c7756f7dd92a00b",
+          "size": 229031,
+          "url": "https://nexus.gtnewhorizons.com/repository/central-sonatype-snapshots/org/lwjgl/lwjgl-zstd/3.4.2-SNAPSHOT/lwjgl-zstd-3.4.2-20260225.192616-2-natives-windows-x86.jar"
+        }
+      },
+      "name": "org.lwjgl:lwjgl-zstd-natives-windows-x86:3.4.2-20260225.192616-2",
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "windows"
+          }
+        }
+      ]
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "1d1318f63b59556efba829d101f4edd686fcc838",
+          "size": 261819,
+          "url": "https://nexus.gtnewhorizons.com/repository/central-sonatype-snapshots/org/lwjgl/lwjgl-zstd/3.4.2-SNAPSHOT/lwjgl-zstd-3.4.2-20260225.192616-2-natives-windows.jar"
+        }
+      },
+      "name": "org.lwjgl:lwjgl-zstd-natives-windows:3.4.2-20260225.192616-2",
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "windows"
+          }
+        }
+      ]
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "43c7c36441187422c1980600631343809a6a3cbb",
+          "size": 88635,
+          "url": "https://nexus.gtnewhorizons.com/repository/central-sonatype-snapshots/org/lwjgl/lwjgl-zstd/3.4.2-SNAPSHOT/lwjgl-zstd-3.4.2-20260225.192616-2.jar"
+        }
+      },
+      "name": "org.lwjgl:lwjgl-zstd:3.4.2-20260225.192616-2"
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "1b189ec6d6dee2726a4233eba8e3a1b33fb20a6f",
+          "size": 1159943,
+          "url": "https://nexus.gtnewhorizons.com/repository/central-sonatype-snapshots/org/lwjgl/lwjgl/3.4.2-SNAPSHOT/lwjgl-3.4.2-20260225.192616-2.jar"
+        }
+      },
+      "name": "org.lwjgl:lwjgl:3.4.2-20260225.192616-2"
     },
     {
       "downloads": {
@@ -502,134 +2796,64 @@
       ]
     },
     {
-      "name": "net.minecraftforge:forge:1.7.10-10.13.4.1614-1.7.10",
+      "name": "com.github.GTNewHorizons:lwjgl3ify:3.0.15:forgePatches",
+      "url": "https://nexus.gtnewhorizons.com/repository/public/"
+    },
+    {
+      "name": "net.minecraftforge:forge:1.7.10-10.13.4.1614-1.7.10:universal",
       "url": "https://maven.minecraftforge.net/"
     },
     {
-      "name": "net.minecraft:launchwrapper:1.12",
-      "serverreq": true
-    },
-    {
-      "name": "org.ow2.asm:asm-all:5.0.3",
-      "serverreq": true
-    },
-    {
       "name": "com.typesafe.akka:akka-actor_2.11:2.3.3",
-      "url": "https://maven.minecraftforge.net/",
-      "checksums": [
-        "ed62e9fc709ca0f2ff1a3220daa8b70a2870078e",
-        "25a86ccfdb6f6dfe08971f4825d0a01be83a6f2e"
-      ],
-      "serverreq": true,
-      "clientreq": true
+      "url": "https://maven.minecraftforge.net/"
     },
     {
       "name": "com.typesafe:config:1.2.1",
-      "url": "https://maven.minecraftforge.net/",
-      "checksums": [
-        "f771f71fdae3df231bcd54d5ca2d57f0bf93f467",
-        "7d7bc36df0989d72f2d5d057309675777acc528b"
-      ],
-      "serverreq": true,
-      "clientreq": true
+      "url": "https://maven.minecraftforge.net/"
     },
     {
       "name": "org.scala-lang:scala-actors-migration_2.11:1.1.0",
-      "url": "https://maven.minecraftforge.net/",
-      "checksums": [
-        "dfa8bc42b181d5b9f1a5dd147f8ae308b893eb6f",
-        "8c9aaeeb68487ca519411a14068e1b4d69739207"
-      ],
-      "serverreq": true,
-      "clientreq": true
+      "url": "https://maven.minecraftforge.net/"
     },
     {
       "name": "org.scala-lang:scala-compiler:2.11.1",
-      "url": "https://maven.minecraftforge.net/",
-      "checksums": [
-        "56ea2e6c025e0821f28d73ca271218b8dd04926a",
-        "1444992390544ba3780867a13ff696a89d7d1639"
-      ],
-      "serverreq": true,
-      "clientreq": true
+      "url": "https://maven.minecraftforge.net/"
     },
     {
       "name": "org.scala-lang.plugins:scala-continuations-library_2.11:1.0.2",
-      "url": "https://maven.minecraftforge.net/",
-      "serverreq": true,
-      "clientreq": true
+      "url": "https://maven.minecraftforge.net/"
     },
     {
       "name": "org.scala-lang.plugins:scala-continuations-plugin_2.11.1:1.0.2",
-      "url": "https://maven.minecraftforge.net/",
-      "serverreq": true,
-      "clientreq": true
+      "url": "https://maven.minecraftforge.net/"
     },
     {
       "name": "org.scala-lang:scala-library:2.11.1",
-      "url": "https://maven.minecraftforge.net/",
-      "checksums": [
-        "0e11da23da3eabab9f4777b9220e60d44c1aab6a",
-        "1e4df76e835201c6eabd43adca89ab11f225f134"
-      ],
-      "serverreq": true,
-      "clientreq": true
+      "url": "https://maven.minecraftforge.net/"
     },
     {
       "name": "org.scala-lang:scala-parser-combinators_2.11:1.0.1",
-      "url": "https://maven.minecraftforge.net/",
-      "checksums": [
-        "f05d7345bf5a58924f2837c6c1f4d73a938e1ff0",
-        "a1cbbcbde1dcc614f4253ed1aa0b320bc78d8f1d"
-      ],
-      "serverreq": true,
-      "clientreq": true
+      "url": "https://maven.minecraftforge.net/"
     },
     {
       "name": "org.scala-lang:scala-reflect:2.11.1",
-      "url": "https://maven.minecraftforge.net/",
-      "checksums": [
-        "6580347e61cc7f8e802941e7fde40fa83b8badeb",
-        "91ce0f0be20f4a536321724b4b3bbc6530ddcd88"
-      ],
-      "serverreq": true,
-      "clientreq": true
+      "url": "https://maven.minecraftforge.net/"
     },
     {
       "name": "org.scala-lang:scala-swing_2.11:1.0.1",
-      "url": "https://maven.minecraftforge.net/",
-      "checksums": [
-        "b1cdd92bd47b1e1837139c1c53020e86bb9112ae",
-        "d77152691dcf5bbdb00529af37aa7d3d887b3e63"
-      ],
-      "serverreq": true,
-      "clientreq": true
+      "url": "https://maven.minecraftforge.net/"
     },
     {
       "name": "org.scala-lang:scala-xml_2.11:1.0.2",
-      "url": "https://maven.minecraftforge.net/",
-      "checksums": [
-        "7a80ec00aec122fba7cd4e0d4cdd87ff7e4cb6d0",
-        "62736b01689d56b6d09a0164b7ef9da2b0b9633d"
-      ],
-      "serverreq": true,
-      "clientreq": true
+      "url": "https://maven.minecraftforge.net/"
     },
     {
       "name": "lzma:lzma:0.0.1",
-      "serverreq": true
-    },
-    {
-      "name": "net.sf.jopt-simple:jopt-simple:4.5",
-      "serverreq": true
+      "url": "https://libraries.minecraft.net/"
     },
     {
       "name": "com.google.guava:guava:17.0",
-      "serverreq": true
-    },
-    {
-      "name": "org.apache.commons:commons-lang3:3.3.2",
-      "serverreq": true
+      "url": "https://libraries.minecraft.net/"
     }
   ],
   "logging": {
@@ -644,11 +2868,9 @@
       "type": "log4j2-xml"
     }
   },
-  "mainClass": "net.minecraft.launchwrapper.Launch",
-  "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userProperties ${user_properties} --userType ${user_type} --tweakClass cpw.mods.fml.common.launcher.FMLTweaker",
-  "minimumLauncherVersion": 14,
-  "releaseTime": "2014-05-15T01:29:23+08:00",
-  "time": "2014-05-15T01:29:23+08:00",
-  "type": "release",
-  "clientVersion": "1.7.10"
+  "mainClass": "com.gtnewhorizons.retrofuturabootstrap.MainStartOnFirstThread",
+  "minimumLauncherVersion": 21,
+  "releaseTime": "2026-03-06T01:37:17+08:00",
+  "time": "2026-03-06T01:37:17+08:00",
+  "type": "release"
 }

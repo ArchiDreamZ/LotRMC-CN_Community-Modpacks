@@ -15,7 +15,7 @@ difficulty:3
 fancyGraphics:true
 ao:1
 clouds:true
-resourcePacks:["MAtmos-MSI_Conversion-1.1 ±ËÃÎĞŞ¸´°æ.zip","MAtmos-2020-Zen-35-1.2.2.zip","Ä§½äÖ÷ÌâÒôÀÖ°ü-LotR Themed Music Pack-±ËÃÎÖÆ×÷.zip","Modernity-format1-v3.10.2 (¸ß°æ±¾²ÄÖÊÒÆÖ²) .zip","EverOn-Ä§½ä·ç¸ñGUI²ÄÖÊ°üv2.3-±ËÃÎĞŞ¸´¸üĞÂ-2026.4.6.zip"]
+resourcePacks:["MAtmos-MSI_Conversion-1.1 å½¼æ¢¦ä¿®å¤ç‰ˆ.zip","MAtmos-2020-Zen-35-1.2.2.zip","é­”æˆ’ä¸»é¢˜éŸ³ä¹åŒ…-LotR Themed Music Pack-å½¼æ¢¦åˆ¶ä½œ.zip","Modernity-format1-v3.10.2 (é«˜ç‰ˆæœ¬æè´¨ç§»æ¤) .zip","EverOn-é­”æˆ’é£æ ¼GUIæè´¨åŒ…v2.3-å½¼æ¢¦ä¿®å¤æ›´æ–°-2026.4.6.zip"]
 lastServer:
 lang:zh_CN
 chatVisibility:0
@@ -81,7 +81,6 @@ key_key.hotbar.6:7
 key_key.hotbar.7:8
 key_key.hotbar.8:9
 key_key.hotbar.9:10
-key_of.key.zoom:44
 key_Menu:38
 key_Map Teleport:50
 key_Fast Travel:33
@@ -100,9 +99,16 @@ key_veinminer.key.enable:58
 key_Reload Default Sound:66:SHIFT
 key_itemscroller.desc.toggledisable:0
 key_itemscroller.desc.recipe:0
-key_´ò¿ªÒôĞ§ÏûÒôÆ÷½çÃæ:66
-key_smoothfont.key.guiOpen:68:CONTROL
+key_æ‰“å¼€éŸ³æ•ˆæ¶ˆéŸ³å™¨ç•Œé¢:0
 key_WorldEdit Reference:0
+key_Camera left:203:CONTROL
+key_Camera right:205:CONTROL
+key_Camera closer:200:CONTROL
+key_Camera farther:208:CONTROL
+key_Camera up:200:ALT
+key_Camera down:208:ALT
+key_Swap shoulder:0
+key_Toggle perspective:0
 key_FpsReducer.key.guiOpen:0
 key_key.item_search.openMCMOD:199
 key_invtweaks.key.sort:19
@@ -133,23 +139,20 @@ key_gui.xaero_display_all_sets:0
 key_gui.xaero_toggle_light_overlay:0
 key_gui.xaero_minimap_settings:49:CONTROL
 key_key.betterHud.open:67:CONTROL
-key_Camera left:203:CONTROL
-key_Camera right:205:CONTROL
-key_Camera closer:200:CONTROL
-key_Camera farther:208:CONTROL
-key_Camera up:200:ALT
-key_Camera down:208:ALT
-key_Swap shoulder:0
-key_Toggle perspective:0
 key_Cruise Control Key:0
 key_Toggle Exact Alignment:0
 key_MAtmos:66:CONTROL
+key_Reload Shaders:0
+key_Toggle Shaders:0
+key_Shaderpack Selection Screen:0
+key_Zoom:0
 key_asjcore.orthoProjection:210
 key_asjcore.noEntityInteract:78
 key_key.betterfoliage.gui:0
 key_Open GUI:34:CONTROL
 key_key.carbon_config.key:0
 key_key.carbon_config.dep:0
+key_key.fastBlockPlacing.desc:0
 soundCategory_master:1.0
 soundCategory_music:0.5
 soundCategory_record:1.0

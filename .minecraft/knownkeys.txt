@@ -55,7 +55,7 @@ FpsReducer.key.guiOpen
 WorldEdit Reference
 com.github.hexosse.wecuife.keys.toggle
 com.github.hexosse.wecuife.keys.clear
-±³°üÎïÆ·±à¼­Æ÷
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ·ï¿½à¼­ï¿½ï¿½
 Camera left
 Camera right
 Camera closer
@@ -103,7 +103,7 @@ asjcore.orthoProjection
 asjcore.noEntityInteract
 key.item_search.openMCMOD
 Open sound muffler screen
-´ò¿ªÒôĞ§ÏûÒôÆ÷½çÃæ
+ï¿½ï¿½ï¿½ï¿½Ğ§ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 Camera up
 Camera down
 Toggle perspective

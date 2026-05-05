@@ -1,12 +1,12 @@
 On LOTR Music Packs
 
-¡°Ä§½äMC¹Ù·½ÖĞÎÄÉçÇø¡±ÊÇÃæÏòMCÄ§½äÍæ¼ÒµÄÖĞÎÄ¹Ù·½½»Á÷Èº£¬ÊÇÒ»¸öÊôÓÚÄ§½äÍæ¼ÒÃÇ¹²ÓĞµÄ½»Á÷ÉçÇø£¬
-Èë×¤ÓĞ¹úÄÚËùÓĞÄ§½ä´óĞÍ·şÎñÆ÷£¬²¢µÚÒ»Ê±¼äÍ¬²½¹ú¼Ê×îĞÂ×ÊÔ´Óë×ÊÑ¶¡£
-ÉçÇøÕûºÏÁËËùÓĞµÄÄ§½äMC×ÊÔ´£¬°üÀ¨¹Ù·½È«ºº»¯Ä§½äÄ£×é¡¢¸½ÊôÄ£×é¡¢µÚÈı·½ÖØÖÆ°æ¡¢×îĞÂÄ§½äÕûºÏ°ü¡¢ÊÖ»ú¶Ë¡¢´óĞÍ½¨Öş°ü¡¢µçÓ°¾çÇé°ü¡¢Ä§½ä×ÊÔ´°üµÈÓÎÏ·×ÊÔ´£»
-ÒÔ¼°Ä§½äMC±ÚÖ½¡¢¸ßÇåµØÍ¼²áµÈÆäËûÄ§½ä×ÊÔ´¡£
-Í¬Ê±£¬»¶Ó­²ÎÓëºº»¯¡¢ÕûºÏ¡¢wiki±à¼­¡¢×ÊÔ´·ÖÏíµÈ¡£
+â€œé­”æˆ’MCå®˜æ–¹ä¸­æ–‡ç¤¾åŒºâ€æ˜¯é¢å‘MCé­”æˆ’ç©å®¶çš„ä¸­æ–‡å®˜æ–¹äº¤æµç¾¤ï¼Œæ˜¯ä¸€ä¸ªå±äºé­”æˆ’ç©å®¶ä»¬å…±æœ‰çš„äº¤æµç¤¾åŒºï¼Œ
+å…¥é©»æœ‰å›½å†…æ‰€æœ‰é­”æˆ’å¤§å‹æœåŠ¡å™¨ï¼Œå¹¶ç¬¬ä¸€æ—¶é—´åŒæ­¥å›½é™…æœ€æ–°èµ„æºä¸èµ„è®¯ã€‚
+ç¤¾åŒºæ•´åˆäº†æ‰€æœ‰çš„é­”æˆ’MCèµ„æºï¼ŒåŒ…æ‹¬å®˜æ–¹å…¨æ±‰åŒ–é­”æˆ’æ¨¡ç»„ã€é™„å±æ¨¡ç»„ã€ç¬¬ä¸‰æ–¹é‡åˆ¶ç‰ˆã€æœ€æ–°é­”æˆ’æ•´åˆåŒ…ã€æ‰‹æœºç«¯ã€å¤§å‹å»ºç­‘åŒ…ã€ç”µå½±å‰§æƒ…åŒ…ã€é­”æˆ’èµ„æºåŒ…ç­‰æ¸¸æˆèµ„æºï¼›
+ä»¥åŠé­”æˆ’MCå£çº¸ã€é«˜æ¸…åœ°å›¾å†Œç­‰å…¶ä»–é­”æˆ’èµ„æºã€‚
+åŒæ—¶ï¼Œæ¬¢è¿å‚ä¸æ±‰åŒ–ã€æ•´åˆã€wikiç¼–è¾‘ã€èµ„æºåˆ†äº«ç­‰ã€‚
 
-ÈººÅ£º973932359
+ç¾¤å·ï¼š973932359
 
 WARNING! This file is recreated at runtime.
 Any edits will not be saved!
@@ -20,7 +20,7 @@ Music packs are a means to gather pieces of music and have them play in-game in 
 Packs are created in the form of .zip files.
 Within the .zip file, tracks must be placed the directory "assets/lotrmusic".
 All tracks need to be in .ogg format, and their filenames must only contain standard ASCII characters.
-(That means no ¨¢, ?, ?, etc.)
+(That means no Ã¡, ?, ?, etc.)
 However, titles in the .json file (see below) can contain non-standard characters.
 
 As far as I know, there is no hard limit to the track length, or the number of tracks.
@@ -110,4 +110,4 @@ cave
 
 ***
 
-Nam¨¢ri?, lindimaitar!
+NamÃ¡ri?, lindimaitar!
