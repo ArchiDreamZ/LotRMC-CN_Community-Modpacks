@@ -1,6 +1,6 @@
 # Better HUD configuration file
 # Any removed or corrupted properties will be reverted to default.
-# 2023-06-05 20:49:26.848
+# 2026-05-06 03:18:23.365
 armorBars:
 	enabled:false
 	posMode:0
@@ -110,7 +110,7 @@ foodHealthStats:
 	blue:255.0
 	saturation:false
 fpsCount:
-	enabled:false
+	enabled:true
 	posMode:0
 	position:topLeft
 	position2:5,5
