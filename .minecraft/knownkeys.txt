@@ -112,3 +112,5 @@ Reload Shaders
 Toggle Shaders
 Shaderpack Selection Screen
 Zoom
+打开音效消音器界面
+key.fastBlockPlacing.desc
