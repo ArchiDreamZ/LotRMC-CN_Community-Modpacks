@@ -1,5 +1,10 @@
 # 魔戒MC社区整合包
-该整合包为纯魔戒玩法，基础精制整合，将游戏体验改善到极致，入坑或重温的不二之选。
+>想要入坑魔戒模组但不知如何开始？想玩经典魔戒模组但同时还想要高版本体验？
+>
+>当最畅销的游戏遇上最经典的奇幻文学，喜欢魔幻题材就通过这款整合包踏上中土大陆吧！
+
+## 整合包简介
+该整合包是我的世界1.7.10版本魔戒模组的精制整合包，纯魔戒主题，没有纷杂的模组，只专注于将魔戒游戏体验改善到极致，入坑或重温的不二之选。
 
 你可以将该整合包作为底料，在其之上修改模组来做出自己想玩的整合。
 
@@ -7,33 +12,41 @@
 - 添加了2026年最适合玩家的辅助模组，并经过配置绝对适合你。（所有的UI都经过调整以达到最舒适的状态）
 - 为魔戒添加了更多模组的联动与兼容，例如兼容魔戒的连锁砍树、背包整理、右键收割（通过编辑配置文件添加了魔戒兼容）
 - 添加了大量便于游戏的机制，例如双开门、耕地防踩踏、船不会撞坏、穿草攻击、模组目录等（大量为了玩家更方便的小机制）
-- 进行了更多优化与修复。（整合包用4G运存也能流畅运行）
+- 进行了更多优化与修复，并支持使用现代的Java25以获得底层的优化。（整合包用4G运存也能流畅运行）
 - 进行了新时代的美化，让1.7看起来就像是高版本。（替换了启动加载动画与原版物品材质，移植高版本物品、机制、动画等）
 - 进行了现代化的游戏操作改善，例如无边框全屏、将难记的按键改成了好记的快捷键、添加低耗能模式等。
 - 制作了魔戒风格的烘托游戏氛围的BGM纯音乐包。（浓郁的魔戒与凯尔特风味轻音乐）
 - 组织汉化所有未汉化的模组。（汉化也发在了B站专栏里）
 - 整理所有优质中低配光影，并进行魔戒兼容性修复。（解决魔戒开光影的各种问题）
-- 添加适合魔戒风格的HUD与GUI材质包，EverOn材质包，并进行修复更新。（让MC的GUI界面具有魔戒红皮书的风味）
+- 添加魔戒红皮书风格的HUD与GUI材质包——EverOn材质包，并进行修复更新。（让MC的GUI界面具有魔戒红皮书的风味）
 - 自带出生点霍比屯新手村，将霍比屯融进了中洲并手工修整区块边缘。（弗罗多和比尔博家那个村）
 
 最终带来2026年最好的魔戒体验。
 
-## 下载
-可以在中文社区群文件中下载稳定版本，也可以在本Github页面直接下载最新内测版本。
+## 整合包分支说明
+本整合包分为3个分支：①主版本、②Java17+版分支、③FCL手机版分支
 
-整合包“内测版”位于仓库代码区中，点击绿色按钮“<>Code”，然后点击“Download ZIP”，即可下载。如图：
+- **主版本**：使用Java8，优化模组以Angelica为主
+- **Java17+版本**：使用Java17以上，优化模组以Angelica为主（由于使用现代Java，例如Java25，因此优化最好）
+- **FCL手机版**：使用Java8，优化模组以OptiFine为主（由于手机FCL启动器不支持使用Angelica，因此只能用OptiFine）
 
-![301752342-a6334d2f-fa23-437f-bb9d-9b45cf2933ab](https://github.com/ArchiDreamZ/LotRMC-CN_Community-Modpacks/assets/89504984/01285f66-534b-41f5-89d1-aa397c380515)
+三个分支都可在下方下载，建议使用Java17+版本，若有问题再使用主版本。
 
-或者直接点这里快速访问：[Download ZIP (最新内测版整合包下载)](https://github.com/ArchiDreamZ/LotRMC-CN_Community-Modpacks/archive/refs/heads/Archi.zip)
+# 下载
+可以在右侧 [Release](https://github.com/ArchiDreamZ/LotRMC-CN_Community-Modpacks/releases) 中或者中文社区群文件中下载稳定版本，也可以在本Github的代码区中直接下载最新内测版本。
 
-若由于网络原因，导致只有几kb/s，可以尝试[加速地址](https://gh-proxy.org/https://github.com/ArchiDreamZ/LotRMC-CN_Community-Modpacks/archive/refs/heads/Archi.zip)。
+### 内测版
+整合包“内测版”位于仓库代码区中，选择好要下载的Branch后，点击绿色按钮“<>Code”，然后点击“Download ZIP”，即可下载。
 
-## 整合包说明
+或者直接点这里快速访问：[主版本](https://github.com/ArchiDreamZ/LotRMC-CN_Community-Modpacks/archive/refs/heads/Archi.zip)、[Java17+版本](https://github.com/ArchiDreamZ/LotRMC-CN_Community-Modpacks/archive/refs/heads/Angelica+Java25.zip)
+
+若由于网络原因，导致只有几kb/s，可以尝试：[主版本-加速地址](https://gh-proxy.org/https://github.com/ArchiDreamZ/LotRMC-CN_Community-Modpacks/archive/refs/heads/Archi.zip)、[Java17+版本-加速地址](https://gh-proxy.org/https://github.com/ArchiDreamZ/LotRMC-CN_Community-Modpacks/archive/refs/heads/Angelica+Java25.zip)
+
+## 整合包重要说明
 ### 魔戒Mod使用
 整合包里默认放置的是重置版Mod，若想游玩其他魔戒版本，只替换魔戒Mod与魔戒NEI即可。
 
-该整合包也可以配合剧情地图使用，但需要把重置版Mod与重置版NEI都换成传承版的，因为剧情地图是用传承版做的。
+该整合包也可以配合魔戒剧情地图使用，但需要把重置版Mod与重置版NEI都换成传承版的，因为剧情地图是用传承版做的。
 
 ### 存档
 整合包里的内置存档是专为重置版Mod准备的，里面还制作了一个霍比屯新手村。
@@ -53,12 +66,12 @@ MC的低版本会默认用你的核显，如果你有独立显卡需要手动设
 
 在“视频设置→光影设置”的界面就能看到你MC用的是你哪张显卡，如果你有独显而看到它用的是你的核显，那么你需要按照社区群公告《[魔戒常见问题汇总](https://docs.qq.com/doc/DVnluenVleG51ampR)》来设置（按照花屏闪屏那一项来改显卡）。
 
-### 检查你的Java8的版本！！
-很多人用的都是十年前的Java8版本，太旧的Java8会导致崩溃！例如jre-8u51。
+### 检查你的Java版本！！
+整合包分为了Java8的版本和Java17+的版本，启动时一定要看好Java版本否则会启动时崩溃！
 
-所以要下载新版的Java8，例如目前最新版是jre-8u481。
+并且Java8的版本也要注意！很多人用的都是十年前的Java8版本，太旧的Java8也会导致崩溃！例如jre-8u51。所以要下载新版的Java8！
 
-可以在社区群文件下载，或者直接在[Java官网下载](https://www.java.com/zh-cn/download/manual.jsp)。
+可以在社区群文件下载，或者直接在Java官网下载最新版：[Java8](https://www.java.com/zh-cn/download/manual.jsp)、[Java21](https://download.oracle.com/java/21/latest/jdk-21_windows-x64_bin.exe)、[Java25](https://download.oracle.com/java/25/latest/jdk-25_windows-x64_bin.exe)。
 
 ### 如何区分“服务端需装”的Mod？
 如果你要用这个包开服务器，那你就得判断哪些Mod是要必须放进服务端的、哪些Mod可选放服务端、哪些Mod不能放服务端。
@@ -75,3 +88,11 @@ MC的低版本会默认用你的核显，如果你有独立显卡需要手动设
 基本就是模组冲突，如果你遇到了，你需要详细地把稳定复现的条件在社区群里告诉彼梦，需要让彼梦也能准确复现，这样彼梦就能找出问题。没法复现就不会解决。
 
 如果你能自己用排除法，排除出是哪俩模组的问题，那就再好不过了。
+
+### 当前整合包已知BUG：
+当前整合包内有一些已知的模组BUG，正在等待模组作者修复：
+
+- 更好的延迟显示(Older Ping Display)模组会在局域网联机时，房主按Tab就会游戏崩溃，联机暂时只能删除该模组。
+- 万用皮肤补丁兼容层与魔戒模组不完全兼容，导致中洲地图界面的玩家头衔显示乱码。
+- 越肩视角与魔戒模组不完全兼容，导致越肩视角攻击生物时的实际准星仍在第一人称位置。
+- 进入服务器后，若输入e4mc-Retro模组的指令则会导致客户端崩溃，玩服务器暂时只能删除该模组。
