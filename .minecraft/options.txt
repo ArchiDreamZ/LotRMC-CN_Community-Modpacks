@@ -100,6 +100,7 @@ key_Reload Default Sound:66:SHIFT
 key_itemscroller.desc.toggledisable:0
 key_itemscroller.desc.recipe:0
 key_打开音效消音器界面:66
+key_smoothfont.key.guiOpen:199
 key_WorldEdit Reference:0
 key_FpsReducer.key.guiOpen:0
 key_key.item_search.openMCMOD:199

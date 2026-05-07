@@ -108,3 +108,7 @@ Camera up
 Camera down
 Toggle perspective
 key.carbon_config.dep
+Reload Shaders
+Toggle Shaders
+Shaderpack Selection Screen
+Zoom
